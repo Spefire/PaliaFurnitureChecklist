@@ -1,0 +1,28 @@
+// Dialog
+.mat-mdc-dialog-container {
+  --mdc-dialog-container-color: var(--spe-black-color) !important;
+  --mdc-dialog-supporting-text-color: var(--spe-white-color) !important;
+  --mdc-dialog-supporting-text-font: var(--spe-font);
+  --mdc-dialog-supporting-text-size: var(--spe-font-size-m);
+  --mdc-dialog-supporting-text-line-height: var(--spe-line-height-m);
+}
+
+.mat-mdc-dialog-component-host > h3 {
+  padding: var(--spe-spacing-200) !important;
+  border-bottom: var(--spe-border-white) !important;
+}
+
+.mdc-dialog__surface {
+  border: var(--spe-border);
+  border-radius: var(--spe-radius-m) !important;
+}
+
+.mdc-dialog__content {
+  padding: var(--spe-spacing-200) !important;
+}
+
+.mat-mdc-dialog-actions {
+  justify-content: center !important;
+  padding: var(--spe-spacing-200) !important;
+  border-top: var(--spe-border-white) !important;
+}

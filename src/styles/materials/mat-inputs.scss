@@ -1,0 +1,36 @@
+// Inputs...
+.mat-mdc-form-field-required-marker {
+  margin-left: var(--spe-spacing-50);
+  color: var(--spe-red-color);
+}
+
+.mdc-text-field {
+  border-radius: var(--spe-spacing-100) !important;
+  border: var(--spe-border);
+}
+
+.mdc-text-field--filled {
+  background: var(--spe-black-color) !important;
+}
+
+.mdc-text-field--disabled {
+  border-color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.mdc-line-ripple {
+  display: none !important;
+}
+
+// Textarea
+.mat-mdc-form-field-textarea-control {
+  min-height: 10rem;
+}
+
+// Select...
+.mdc-menu-surface {
+  border-radius: var(--spe-radius-m) !important;
+}
+
+.mat-mdc-option {
+  min-height: 36px !important;
+}

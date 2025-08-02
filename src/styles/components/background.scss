@@ -1,0 +1,27 @@
+@use 'mixins';
+
+.background {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: var(--spe-gradient), url('../../assets/background_desktop.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    content: '';
+
+    @include mixins.tablet-only {
+      background-image: var(--spe-gradient), url('../../assets/background_tablet.png');
+    }
+
+    @include mixins.mobile-only {
+      background-image: var(--spe-gradient), url('../../assets/background_mobile.png');
+    }
+  }
+}

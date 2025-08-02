@@ -1,0 +1,52 @@
+@use 'mixins';
+
+// Table...
+.mat-mdc-table {
+  --mat-table-header-headline-font: var(--spe-font);
+  --mat-table-row-item-label-text-font: var(--spe-font);
+  border: var(--spe-border) !important;
+  border-radius: var(--spe-radius-m) !important;
+  background: var(--spe-background-black-dark) !important;
+}
+
+.mat-mdc-table tbody,
+.mat-mdc-table tfoot,
+.mat-mdc-table thead,
+.mat-mdc-cell,
+.mat-mdc-footer-cell,
+.mat-mdc-header-row,
+.mat-mdc-row,
+.mat-mdc-footer-row,
+.mat-mdc-table .mat-mdc-header-cell {
+  background: none !important;
+}
+
+.mdc-data-table__cell,
+.mdc-data-table__header-cell {
+  padding: var(--spe-spacing-100) var(--spe-spacing-200) !important;
+
+  @include mixins.mobile-only {
+    padding: var(--spe-spacing-100) !important;
+  }
+}
+
+.mat-mdc-header-cell {
+  text-transform: uppercase !important;
+  color: var(--spe-yellow-color) !important;
+  font-weight: 600 !important;
+}
+
+.mdc-table-container {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.mat-mdc-header-cell,
+.mat-mdc-cell,
+.mat-mdc-footer-cell {
+  &.mod-borderLeft {
+    border-left-color: var(--mat-table-row-item-outline-color, var(--mat-sys-outline, rgba(0, 0, 0, 0.12)));
+    border-left-width: var(--mat-table-row-item-outline-width, 1px);
+    border-left-style: solid;
+  }
+}

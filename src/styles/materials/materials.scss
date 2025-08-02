@@ -1,0 +1,91 @@
+// http://mcg.mbitson.com/#!?primary=%231e7293&secondary=%23f1e179&themename=arlenor-palette
+// https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+@use '@angular/material' as mat;
+
+@forward './mat-buttons.scss';
+@forward './mat-dialog.scss';
+@forward './mat-inputs.scss';
+@forward './mat-others.scss';
+@forward './mat-slider.scss';
+@forward './mat-table.scss';
+
+@include mat.elevation-classes();
+@include mat.app-background();
+
+$palette-primary: (
+  50: #fffde5,
+  100: #fff9bf,
+  200: #fef694,
+  300: #fdf166,
+  400: #fdf166,
+  500: #fdec00,
+  600: #fdd900,
+  700: #fdc000,
+  800: #fda600,
+  900: #fd7a00,
+  A100: #fff9bf,
+  A200: #fef694,
+  A400: #fdf166,
+  A700: #fdc000,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #000000,
+    500: #000000,
+    600: #000000,
+    700: #000000,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #000000,
+    A700: #000000,
+  ),
+);
+
+$palette-secondary: (
+  50: #fbe1ed,
+  100: #f5b5d2,
+  200: #f083b3,
+  300: #eb4b95,
+  400: #e8017c,
+  500: #e60063,
+  600: #d50061,
+  700: #bf005c,
+  800: #aa0058,
+  900: #840050,
+  A100: #f5b5d2,
+  A200: #f083b3,
+  A400: #e8017c,
+  A700: #bf005c,
+  contrast: (
+    50: #000000,
+    100: #000000,
+    200: #000000,
+    300: #000000,
+    400: #ffffff,
+    500: #ffffff,
+    600: #ffffff,
+    700: #ffffff,
+    800: #ffffff,
+    900: #ffffff,
+    A100: #000000,
+    A200: #000000,
+    A400: #ffffff,
+    A700: #ffffff,
+  ),
+);
+
+$dark-theme: mat.m2-define-dark-theme(
+  (
+    color: (
+      primary: mat.m2-define-palette($palette-primary),
+      accent: mat.m2-define-palette($palette-secondary),
+    ),
+  )
+);
+
+@include mat.all-component-themes($dark-theme);

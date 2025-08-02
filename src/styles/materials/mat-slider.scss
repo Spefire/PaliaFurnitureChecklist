@@ -1,0 +1,19 @@
+@use 'mixins';
+
+// Slider...
+.mat-mdc-slider {
+  min-width: auto !important;
+  width: calc(100% - 2 * var(--spe-spacing-200)) !important;
+  margin-left: var(--spe-spacing-200) !important;
+  margin-right: var(--spe-spacing-200) !important;
+
+  @include mixins.tablet-only {
+    width: calc(100% - 2 * var(--spe-spacing-100)) !important;
+    margin-left: var(--spe-spacing-100) !important;
+    margin-right: var(--spe-spacing-100) !important;
+  }
+}
+
+.mat-ripple {
+  display: none;
+}

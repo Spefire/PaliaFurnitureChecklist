@@ -1,0 +1,144 @@
+@use 'mixins';
+
+:root {
+  --spe-spacing-800: 4rem;
+  --spe-spacing-600: 3rem;
+  --spe-spacing-400: 2rem;
+  --spe-spacing-300: 1.5rem;
+  --spe-spacing-200: 1rem;
+  --spe-spacing-100: 0.5rem;
+  --spe-spacing-50: 0.25rem;
+
+  --spe-radius-s: 0.5rem;
+  --spe-radius-m: 1rem;
+  --spe-radius-l: 2rem;
+
+  --spe-block-padding: var(--spe-spacing-800);
+  --spe-inline-padding: var(--spe-spacing-600);
+
+  @include mixins.tablet-only {
+    --spe-block-padding: var(--spe-spacing-600);
+    --spe-inline-padding: var(--spe-spacing-400);
+  }
+
+  @include mixins.mobile-only {
+    --spe-block-padding: var(--spe-spacing-400);
+    --spe-inline-padding: var(--spe-spacing-200);
+  }
+}
+
+.u-gap0 {
+  gap: 0 !important;
+}
+
+.u-gap100 {
+  gap: var(--spe-spacing-100) !important;
+}
+
+.u-gap200 {
+  gap: var(--spe-spacing-200) !important;
+}
+
+.u-gap400 {
+  gap: var(--spe-spacing-400) !important;
+}
+
+.u-margin0 {
+  margin: 0 !important;
+}
+
+.u-marginAuto {
+  margin: auto !important;
+}
+
+.u-marginTop0 {
+  margin-top: 0 !important;
+}
+
+.u-marginTop100 {
+  margin-top: var(--spe-spacing-100) !important;
+}
+
+.u-marginTop200 {
+  margin-top: var(--spe-spacing-200) !important;
+}
+
+.u-marginTop400 {
+  margin-top: var(--spe-spacing-400) !important;
+}
+
+.u-marginTopAuto {
+  margin-top: auto !important;
+}
+
+.u-marginBottom0 {
+  margin-bottom: 0 !important;
+}
+
+.u-marginBottom50 {
+  margin-bottom: var(--spe-spacing-50) !important;
+}
+
+.u-marginBottom100 {
+  margin-bottom: var(--spe-spacing-100) !important;
+}
+
+.u-marginBottom200 {
+  margin-bottom: var(--spe-spacing-200) !important;
+}
+
+.u-marginBottom400 {
+  margin-bottom: var(--spe-spacing-400) !important;
+}
+
+.u-marginBottomAuto {
+  margin-bottom: auto !important;
+}
+
+.u-marginRight0 {
+  margin-right: 0 !important;
+}
+
+.u-marginRight50 {
+  margin-right: var(--spe-spacing-50) !important;
+}
+
+.u-marginRight100 {
+  margin-right: var(--spe-spacing-100) !important;
+}
+
+.u-marginRight200 {
+  margin-right: var(--spe-spacing-200) !important;
+}
+
+.u-marginRight400 {
+  margin-right: var(--spe-spacing-400) !important;
+}
+
+.u-marginRightAuto {
+  margin-right: auto !important;
+}
+
+.u-marginLeft0 {
+  margin-left: 0 !important;
+}
+
+.u-marginLeft50 {
+  margin-left: var(--spe-spacing-50) !important;
+}
+
+.u-marginLeft100 {
+  margin-left: var(--spe-spacing-100) !important;
+}
+
+.u-marginLeft200 {
+  margin-left: var(--spe-spacing-200) !important;
+}
+
+.u-marginLeft400 {
+  margin-left: var(--spe-spacing-400) !important;
+}
+
+.u-marginLeftAuto {
+  margin-left: auto !important;
+}

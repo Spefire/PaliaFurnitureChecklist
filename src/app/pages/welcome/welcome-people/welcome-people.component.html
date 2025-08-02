@@ -1,0 +1,46 @@
+<div class="welcome-people mod-more">
+  <div class="u-width50">
+    <card heading="Exposants" [isSubMain]="true" [isCenter]="true">
+      <div class="welcome-people-grid">
+        @for (i of [].constructor(11); track $index) {
+          <img src="assets/exhibitors/{{ $index % 5 }}.png" alt="" />
+        }
+        <p class="welcome-people-item">Et bien + encore !</p>
+      </div>
+      <p>
+        Découvrez une grande variété d'exposants présents sur le salon : boutiques, créateurs, éditeurs, associations…
+        L'endroit idéal pour faire des trouvailles uniques et repartir les bras chargés.
+      </p>
+    </card>
+    <div class="u-flexRow u-alignCenter u-justifyCenter u-marginTop200">
+      <a mat-flat-button color="accent" routerLink="/contact">S'incrire</a>
+      <a mat-flat-button color="primary" routerLink="/exposants">
+        <span class="hide-on-mobile">Découvrir tous les exposants</span>
+        <span class="show-on-mobile">Découvrir</span>
+        <i class="icon-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+  <div class="u-width50">
+    <card heading="Artistes" [isSubMain]="true" [isCenter]="true">
+      <div class="welcome-people-grid">
+        @for (i of [].constructor(11); track $index) {
+          <img src="assets/artists/{{ $index % 5 }}.png" alt="" />
+        }
+        <p class="welcome-people-item">Et bien + encore !</p>
+      </div>
+      <p>
+        Parcourez notre village d'artistes et rencontrez près de 220 artistes talentueux ! Illustrateurs, auteurs et
+        créateurs partagent leurs œuvres, vendent leurs créations et échangent avec vous.
+      </p>
+    </card>
+    <div class="u-flexRow u-alignCenter u-justifyCenter u-marginTop200">
+      <a mat-flat-button color="accent" routerLink="/contact">S'incrire</a>
+      <a mat-flat-button color="primary" routerLink="/artistes">
+        <span class="hide-on-mobile">Découvrir tous les artistes</span>
+        <span class="show-on-mobile">Découvrir</span>
+        <i class="icon-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>

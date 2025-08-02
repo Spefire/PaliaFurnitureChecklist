@@ -1,0 +1,10 @@
+.link {
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover,
+  &.active-link {
+    color: var(--spe-yellow-color);
+  }
+}

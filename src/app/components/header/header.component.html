@@ -1,0 +1,63 @@
+<header>
+  <div class="u-flexRow u-justifyBetween u-width100">
+    <a class="link" routerLink="/">
+      <img class="header-logo" src="assets/logo.png" alt="Logo" />
+    </a>
+    <a
+      class="header-action-link"
+      mat-flat-button
+      color="primary"
+      href="https://boutique.exponantes.com/Accueil-Boutique/trk/A2Psite"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Billetterie ouverte
+      <i class="icon-external-link"></i>
+    </a>
+    <div class="header-action-menu">
+      <button class="link" mat-icon-button aria-label="Menu dépliant" (click)="openMenu()">
+        <i class="icon-menu"></i>
+      </button>
+    </div>
+    <nav *ngIf="showSubmenu" class="header-mobile-menu">
+      <div class="header-close-menu">
+        <button class="link" mat-icon-button aria-label="Menu dépliant" (click)="closeMenu()">
+          <i class="icon-cross"></i>
+        </button>
+      </div>
+      <a class="link" routerLink="/" (click)="closeMenu()">
+        <img class="header-mobile-logo" src="assets/logo.png" alt="Logo" />
+      </a>
+      <p class="u-h3">15 au 16 Novembre 2025<br />à Exponantes</p>
+      <a
+        mat-flat-button
+        color="primary"
+        href="https://boutique.exponantes.com/Accueil-Boutique/trk/A2Psite"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Billetterie ouverte
+        <i class="icon-external-link"></i>
+      </a>
+      <div class="header-mobile-divider"></div>
+      <a
+        class="link"
+        routerLink="/contact"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="activeOptions"
+        (click)="closeMenu()"
+      >
+        {{ pages.contact }}
+      </a>
+      <a
+        class="link"
+        routerLink="/mentions-legales"
+        routerLinkActive="active-link"
+        [routerLinkActiveOptions]="activeOptions"
+        (click)="closeMenu()"
+      >
+        {{ pages.legacy }}
+      </a>
+    </nav>
+  </div>
+</header>
