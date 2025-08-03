@@ -1,17 +1,16 @@
 <header>
   <div class="u-flexRow u-justifyBetween u-width100">
     <a class="link" routerLink="/">
-      <img class="header-logo" src="assets/logo.png" alt="Logo" />
+      <img class="header-logo" src="assets/logo_placeholder.png" alt="Logo" />
     </a>
-    <a
-      class="header-action-link"
-      mat-flat-button
-      color="primary"
-      href="https://boutique.exponantes.com/Accueil-Boutique/trk/A2Psite"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Billetterie ouverte
+    @for (section of sections; track section.title) {
+      <a class="link" (click)="scrollToSection(section.id)">
+        <span>{{ section.icon }}</span>
+        <span>{{ section.title }}</span>
+      </a>
+    }
+    <a class="header-action-link" mat-flat-button color="primary" href="#section-hot">
+      Me contacter
       <i class="icon-external-link"></i>
     </a>
     <div class="header-action-menu">
@@ -26,17 +25,11 @@
         </button>
       </div>
       <a class="link" routerLink="/" (click)="closeMenu()">
-        <img class="header-mobile-logo" src="assets/logo.png" alt="Logo" />
+        <img class="header-mobile-logo" src="assets/logo_placeholder.png" alt="Logo" />
       </a>
-      <p class="u-h3">15 au 16 Novembre 2025<br />à Exponantes</p>
-      <a
-        mat-flat-button
-        color="primary"
-        href="https://boutique.exponantes.com/Accueil-Boutique/trk/A2Psite"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Billetterie ouverte
+      <p class="u-h3">Guide personnel<br />pour éviter les malentendus</p>
+      <a mat-flat-button color="primary" href="#section-hot">
+        Section + Hot 🔥
         <i class="icon-external-link"></i>
       </a>
       <div class="header-mobile-divider"></div>

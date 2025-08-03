@@ -20,6 +20,15 @@ export class HeaderComponent {
   public pages = PageTitles;
   public showSubmenu = false;
 
+  public sections = [
+    { id: 'musiques-jeux-films', title: 'Mes Passions', icon: '🎵' },
+    { id: 'galerie', title: 'Galerie Photo', icon: '📸' },
+    { id: 'en-couple', title: 'En Couple', icon: '💕' },
+    { id: 'qualites-defauts', title: 'Qualités & Défauts', icon: '👤' },
+    { id: 'ce-que-je-recherche', title: 'Ce Que Je Recherche', icon: '🔍' },
+    { id: 'section-hot', title: 'Section + Hot', icon: '🔥' },
+  ];
+
   public activeOptions: IsActiveMatchOptions = {
     paths: 'exact',
     matrixParams: 'exact',
@@ -28,6 +37,13 @@ export class HeaderComponent {
   };
 
   constructor(@Inject(PLATFORM_ID) private _platformId: object) {}
+
+  public scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
 
   public openMenu() {
     this.showSubmenu = true;

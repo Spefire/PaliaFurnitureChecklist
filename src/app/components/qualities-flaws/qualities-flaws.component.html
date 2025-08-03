@@ -1,0 +1,53 @@
+<section id="qualites-defauts" class="section">
+  <div class="container">
+    <h2 class="section-title">👤 Mes Qualités et Mes Défauts</h2>
+    <p class="section-subtitle">Honnêteté totale - personne n'est parfait !</p>
+
+    <div class="qualities-section">
+      <h3 class="section-subtitle">⭐ Mes Qualités</h3>
+      <div class="traits-grid">
+        <mat-card
+          *ngFor="let quality of qualities"
+          class="trait-card quality-card"
+          [style.--trait-color]="quality.color"
+        >
+          <mat-card-content>
+            <div class="trait-icon">
+              {{ quality.icon }}
+            </div>
+            <h4>{{ quality.title }}</h4>
+            <p>{{ quality.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="flaws-section">
+      <h3 class="section-subtitle">⚠️ Mes Défauts (oui, j'en ai !)</h3>
+      <div class="traits-grid">
+        <mat-card *ngFor="let flaw of flaws" class="trait-card flaw-card" [style.--trait-color]="flaw.color">
+          <mat-card-content>
+            <div class="trait-icon">
+              {{ flaw.icon }}
+            </div>
+            <h4>{{ flaw.title }}</h4>
+            <p>{{ flaw.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="honesty-note">
+      <mat-card class="note-card">
+        <mat-card-content>
+          <h3>🤝 Pourquoi cette honnêteté ?</h3>
+          <p>
+            Je préfère être transparent dès le début plutôt que de créer des attentes irréalistes. Mes défauts font
+            partie de qui je suis, et je travaille dessus. L'important c'est qu'on s'accepte mutuellement avec nos
+            imperfections ! 💪
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

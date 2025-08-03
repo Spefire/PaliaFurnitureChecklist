@@ -1,0 +1,47 @@
+<section id="en-couple" class="section">
+  <div class="container">
+    <h2 class="section-title">💕 Comment Je Suis en Couple</h2>
+    <p class="section-subtitle">Un aperçu honnête de ma façon d'aimer</p>
+
+    <div class="traits-grid">
+      <mat-card *ngFor="let trait of relationshipTraits" class="trait-card" [style.--trait-color]="trait.color">
+        <mat-card-content>
+          <div class="trait-icon">
+            {{ trait.icon }}
+          </div>
+          <h3>{{ trait.title }}</h3>
+          <p>{{ trait.description }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div class="info-sections">
+      <div class="info-section">
+        <h3>✅ Ce que j'apporte</h3>
+        <ul>
+          <li *ngFor="let item of whatIBring">{{ item }}</li>
+        </ul>
+      </div>
+
+      <div class="info-section">
+        <h3>❌ Mes deal-breakers</h3>
+        <ul>
+          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="relationship-note">
+      <mat-card class="note-card">
+        <mat-card-content>
+          <h3>💭 Une petite note personnelle</h3>
+          <p>
+            J'ai appris de mes expériences passées que la communication et l'honnêteté sont la base de toute relation
+            saine. Je ne veux plus perdre de temps avec des relations qui ne correspondent pas à mes valeurs et mes
+            attentes. C'est pour ça que j'ai créé ce site - pour être transparent dès le début ! 😊
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

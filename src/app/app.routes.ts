@@ -5,7 +5,7 @@ import { PageTitles } from '@src/models/pages.model';
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () => import('./pages/welcome/welcome.page').then(m => m.WelcomePage),
+    loadComponent: () => import('./pages/main/main.page').then(m => m.MainPage),
     title: PageTitles.app,
   },
   {

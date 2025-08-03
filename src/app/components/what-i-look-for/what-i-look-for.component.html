@@ -1,0 +1,55 @@
+<section id="ce-que-je-recherche" class="section">
+  <div class="container">
+    <h2 class="section-title">🔍 Ce Que Je Recherche</h2>
+    <p class="section-subtitle">Mes critères pour une relation épanouie</p>
+
+    <div class="important-traits">
+      <h3 class="section-subtitle">⭐ Ce qui est important pour moi</h3>
+      <div class="traits-grid">
+        <mat-card *ngFor="let trait of importantTraits" class="trait-card">
+          <mat-card-content>
+            <div class="trait-header">
+              <div class="trait-icon">
+                {{ trait.icon }}
+              </div>
+              <span class="priority-badge" [class]="getPriorityClass(trait.priority)">
+                {{ trait.priority }}
+              </span>
+            </div>
+            <h4>{{ trait.title }}</h4>
+            <p>{{ trait.description }}</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <div class="criteria-sections">
+      <div class="criteria-section">
+        <h3>❌ Mes deal-breakers absolus</h3>
+        <ul>
+          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
+        </ul>
+      </div>
+
+      <div class="criteria-section">
+        <h3>💝 Bonus sympas (mais pas obligatoires)</h3>
+        <ul>
+          <li *ngFor="let item of niceToHave">{{ item }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="realistic-note">
+      <mat-card class="note-card">
+        <mat-card-content>
+          <h3>💭 Une note réaliste</h3>
+          <p>
+            Je sais que personne ne cochera toutes les cases, et c'est normal ! L'important c'est qu'on soit compatibles
+            sur l'essentiel et qu'on ait envie de grandir ensemble. Les différences peuvent aussi être source
+            d'enrichissement mutuel ! 🌱
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>

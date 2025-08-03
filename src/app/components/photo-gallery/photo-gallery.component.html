@@ -1,0 +1,30 @@
+<section id="galerie" class="section">
+  <div class="container">
+    <h2 class="section-title">📸 Galerie Photo</h2>
+    <p class="section-subtitle">Quelques clichés de ma vie quotidienne</p>
+
+    <div class="gallery-grid">
+      <div *ngFor="let photo of photos" class="photo-item" (click)="openPhoto(photo)">
+        <img [src]="photo.src" [alt]="photo.alt" loading="lazy" />
+        <div class="photo-overlay">
+          <div class="photo-info">
+            <span class="category">{{ photo.category }}</span>
+            <p class="description">{{ photo.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal pour afficher la photo en grand -->
+  <div *ngIf="selectedPhoto" class="photo-modal" (click)="closePhoto()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <button class="close-btn" (click)="closePhoto()">❌</button>
+      <img [src]="selectedPhoto.src" [alt]="selectedPhoto.alt" />
+      <div class="modal-info">
+        <span class="category">{{ selectedPhoto.category }}</span>
+        <p class="description">{{ selectedPhoto.description }}</p>
+      </div>
+    </div>
+  </div>
+</section>

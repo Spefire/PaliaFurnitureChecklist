@@ -1,0 +1,56 @@
+<section id="musiques-jeux-films" class="section">
+  <div class="container">
+    <h2 class="section-title">🎵 Mes Passions Culturelles</h2>
+    <p class="section-subtitle">Un petit aperçu de ce qui me fait vibrer</p>
+
+    <div class="categories-grid">
+      <!-- Musiques -->
+      <mat-card class="category-card">
+        <mat-card-header>
+          <mat-card-title> 🎧 Musiques </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="favorites-list">
+            <div *ngFor="let music of musicFavorites" class="favorite-item">
+              <h4>{{ music.title }}</h4>
+              <p class="genre">{{ music.genre }}</p>
+              <p class="why">{{ music.why }}</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Jeux -->
+      <mat-card class="category-card">
+        <mat-card-header>
+          <mat-card-title> 🎮 Jeux Vidéo </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="favorites-list">
+            <div *ngFor="let game of gameFavorites" class="favorite-item">
+              <h4>{{ game.title }}</h4>
+              <p class="genre">{{ game.genre }}</p>
+              <p class="why">{{ game.why }}</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Films -->
+      <mat-card class="category-card">
+        <mat-card-header>
+          <mat-card-title> 🎬 Films </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="favorites-list">
+            <div *ngFor="let movie of movieFavorites" class="favorite-item">
+              <h4>{{ movie.title }}</h4>
+              <p class="genre">{{ movie.genre }}</p>
+              <p class="why">{{ movie.why }}</p>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</section>
