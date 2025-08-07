@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/atp/browser",
+            "outputPath": "dist/pdv-nicholas/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -99,7 +99,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/atp/server",
+            "outputPath": "dist/pdv-nicholas/server",
             "main": "src/server.ts",
             "tsConfig": "tsconfig.server.json",
             "buildOptimizer": false,

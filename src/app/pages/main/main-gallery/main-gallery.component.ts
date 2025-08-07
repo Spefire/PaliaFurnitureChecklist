@@ -3,59 +3,66 @@ import { Component } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 
 @Component({
-  selector: 'app-photo-gallery',
+  selector: 'main-gallery',
   standalone: true,
   imports: [CommonModule, MatCardModule],
-  templateUrl: './photo-gallery.component.html',
-  styleUrls: ['./photo-gallery.component.scss'],
+  templateUrl: './main-gallery.component.html',
+  styleUrls: ['./main-gallery.component.scss'],
 })
-export class PhotoGalleryComponent {
-  photos = [
+export class MainGalleryComponent {
+  public photos: Photo[] = [
     {
-      src: 'assets/perso1.png',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 1',
       description: 'Un moment de détente',
       category: 'Loisirs',
     },
     {
-      src: 'assets/perso2.png',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 2',
       description: 'En voyage quelque part',
       category: 'Voyages',
     },
     {
-      src: 'assets/perso3.png',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 3',
       description: 'Avec des amis',
       category: 'Social',
     },
     {
-      src: 'assets/guests/0.jpg',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 4',
       description: 'Un bon moment',
       category: 'Loisirs',
     },
     {
-      src: 'assets/guests/1.jpg',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 5',
       description: 'En pleine nature',
       category: 'Nature',
     },
     {
-      src: 'assets/guests/2.jpg',
+      src: 'assets/gallery/me-0.png',
       alt: 'Photo de moi 6',
       description: 'Un sourire authentique',
       category: 'Portrait',
     },
   ];
 
-  selectedPhoto: any = null;
+  public selectedPhoto: Photo = null;
 
-  openPhoto(photo: any) {
+  public openPhoto(photo: Photo) {
     this.selectedPhoto = photo;
   }
 
-  closePhoto() {
+  public closePhoto() {
     this.selectedPhoto = null;
   }
+}
+
+class Photo {
+  public src: string;
+  public alt: string;
+  public description: string;
+  public category: string;
 }
