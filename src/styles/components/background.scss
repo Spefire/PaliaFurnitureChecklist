@@ -10,18 +10,10 @@
     right: 0;
     bottom: 0;
     z-index: -1;
-    background-image: var(--spe-gradient), url('../../assets/background_placeholder.jpg');
+    background-image: url('../../assets/background.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     content: '';
-
-    @include mixins.tablet-only {
-      background-image: var(--spe-gradient), url('../../assets/background_placeholder.jpg');
-    }
-
-    @include mixins.mobile-only {
-      background-image: var(--spe-gradient), url('../../assets/background_placeholder.jpg');
-    }
   }
 }

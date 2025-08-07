@@ -36,7 +36,7 @@
   justify-content: center;
   width: 100%;
   padding: var(--spe-block-padding) var(--spe-inline-padding);
-  background: var(--spe-primary-color);
+  background: var(--spe-blue-color);
 
   .welcome-news-image {
     max-height: 20rem;
@@ -195,7 +195,7 @@
   gap: var(--spe-spacing-600);
   width: 100%;
   padding: var(--spe-block-padding) var(--spe-inline-padding);
-  background: var(--spe-primary-color);
+  background: var(--spe-blue-color);
 
   &::after {
     right: 0;
@@ -293,6 +293,6 @@
     z-index: -1;
     background-position: center;
     background-size: cover;
-    background-image: url('../../../assets/background_desktop.png');
+    background-image: url('../../../assets/background.jpg');
   }
 }

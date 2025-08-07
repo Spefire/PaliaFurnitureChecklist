@@ -1,7 +1,8 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
+import { MainHeaderComponent } from '@src/pages/main/main-header/main-header.component';
 import { WelcomeNewsComponent } from '@src/pages/welcome/welcome-news/welcome-news.component';
+import { SharedModule } from '@src/shared.module';
 
 import { HotSectionComponent } from '../../components/hot-section/hot-section.component';
 import { MusicGamesMoviesComponent } from '../../components/music-games-movies/music-games-movies.component';
@@ -14,7 +15,8 @@ import { WhatILookForComponent } from '../../components/what-i-look-for/what-i-l
   selector: 'app-main-page',
   standalone: true,
   imports: [
-    CommonModule,
+    SharedModule,
+    MainHeaderComponent,
     MusicGamesMoviesComponent,
     PhotoGalleryComponent,
     RelationshipStyleComponent,

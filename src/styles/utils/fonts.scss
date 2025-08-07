@@ -2,6 +2,7 @@
 
 :root {
   --spe-font: 'Montserrat', Helvetica, sans-serif;
+  --spe-font-title: 'Quicksand', Helvetica, sans-serif;
 
   --spe-font-size-xxl: 3.2rem;
   --spe-line-height-xxl: 3.8rem;
@@ -68,38 +69,10 @@
   color: var(--spe-red-color);
 }
 
-.u-textOrange {
-  color: var(--spe-orange-color);
-}
-
 .u-textYellow {
   color: var(--spe-yellow-color);
 }
 
-.u-textGreen {
-  color: var(--spe-green-color);
-}
-
-.u-textTurquoise {
-  color: var(--spe-turquoise-color);
-}
-
-.u-textCyan {
-  color: var(--spe-cyan-color);
-}
-
-.u-textOcean {
-  color: var(--spe-ocean-color);
-}
-
 .u-textBlue {
   color: var(--spe-blue-color);
-}
-
-.u-textViolet {
-  color: var(--spe-violet-color);
-}
-
-.u-textPink {
-  color: var(--spe-pink-color);
 }

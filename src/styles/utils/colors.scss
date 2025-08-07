@@ -2,30 +2,14 @@
 
 $white: #f8f8f8;
 $black: #040404;
-$primary: #008fcc;
+$blue: #3fb6cf;
 $yellow: #fded00;
-$pink: #e8017e;
-$purple: #302681;
-
-$gradient: linear-gradient(
-  0deg,
-  rgba($primary, 0.75),
-  rgba($primary, 0.5),
-  rgba($primary, 0.25),
-  rgba($primary, 0.25),
-  rgba($primary, 0.25),
-  rgba($primary, 0.25),
-  rgba($primary, 0.25),
-  rgba($primary, 0.5)
-);
+$red: #cf4e3f;
 
 :root {
   --spe-white-color: #{$white};
   --spe-black-color: #{$black};
-  --spe-primary-color: #{$primary};
+  --spe-blue-color: #{$blue};
   --spe-yellow-color: #{$yellow};
-  --spe-pink-color: #{$pink};
-  --spe-purple-color: #{$purple};
-
-  --spe-gradient: #{$gradient};
+  --spe-red-color: #{$red};
 }
