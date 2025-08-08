@@ -1,11 +1,11 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
+
+import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-gallery',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
+  imports: [SharedModule],
   templateUrl: './main-gallery.component.html',
   styleUrls: ['./main-gallery.component.scss'],
 })
@@ -13,39 +13,39 @@ export class MainGalleryComponent {
   public photos: Photo[] = [
     {
       src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 1',
-      description: 'Un moment de détente',
-      category: 'Loisirs',
+      alt: 'Photo de moi n°1',
+      description: `Découverte d'une passion des bretelles`,
+      category: 'Vie quotidienne',
     },
     {
-      src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 2',
-      description: 'En voyage quelque part',
-      category: 'Voyages',
+      src: 'assets/gallery/me-1.png',
+      alt: 'Photo de moi n°2',
+      description: 'Paré pour une randonnée en montagne',
+      category: 'Voyage',
     },
     {
-      src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 3',
-      description: 'Avec des amis',
-      category: 'Social',
+      src: 'assets/gallery/me-2.png',
+      alt: 'Photo de moi n°3',
+      description: 'Sieste du weekend...',
+      category: 'Vie quotidienne',
     },
     {
-      src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 4',
-      description: 'Un bon moment',
-      category: 'Loisirs',
+      src: 'assets/gallery/me-3.png',
+      alt: 'Photo de moi n°4',
+      description: 'Rapide séjour à Paris donc "photo Eiffel" obligée !',
+      category: 'Voyage',
     },
     {
-      src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 5',
-      description: 'En pleine nature',
-      category: 'Nature',
+      src: 'assets/gallery/me-4.png',
+      alt: 'Photo de moi n°5',
+      description: 'Avant la séance, encore frais...',
+      category: 'Sport',
     },
     {
-      src: 'assets/gallery/me-0.png',
-      alt: 'Photo de moi 6',
-      description: 'Un sourire authentique',
-      category: 'Portrait',
+      src: 'assets/gallery/me-5.png',
+      alt: 'Photo de moi n°6',
+      description: 'Moi qui te juge.',
+      category: 'Vie quotidienne',
     },
   ];
 
