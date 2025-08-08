@@ -51,16 +51,16 @@ export class MainHobbiesComponent {
 
   public gameFavorites: Hobby[] = [
     {
-      title: 'Clair Obscur',
+      title: 'Clair Obscur : Expédition 33',
       genre: 'RPG narratif',
       why: 'Une immersion totale portée par une écriture riche et des visuels marquants.',
       src: 'assets/hobbies/game_01.png',
     },
     {
-      title: 'Crime Scene Cleaner',
-      genre: 'Simulation / Puzzle',
-      why: 'Original et satisfaisant, avec une approche ludique du nettoyage post-crime.',
-      src: 'assets/hobbies/game_02.png',
+      title: 'Genshin Impact',
+      genre: 'Gatcha / Action-RPG',
+      why: 'Un univers avec un lore immense et soigné, mêlant exploration libre et personnages intéressants.',
+      src: 'assets/hobbies/game_07.png',
     },
     {
       title: 'Zero Escape (Series)',
@@ -69,7 +69,13 @@ export class MainHobbiesComponent {
       src: 'assets/hobbies/game_03.png',
     },
     {
-      title: 'Amnesias (Series)',
+      title: 'Crime Scene Cleaner',
+      genre: 'Simulation / Puzzle',
+      why: 'Original et satisfaisant, avec une approche ludique du nettoyage post-crime.',
+      src: 'assets/hobbies/game_02.png',
+    },
+    {
+      title: 'Amnesia (Series)',
       genre: 'Horreur psychologique',
       why: 'Une atmosphère oppressante et des choix narratifs marquants.',
       src: 'assets/hobbies/game_04.png',
@@ -79,12 +85,6 @@ export class MainHobbiesComponent {
       genre: 'Puzzle coopératif',
       why: 'Une expérience unique où la communication est la clé.',
       src: 'assets/hobbies/game_05.png',
-    },
-    {
-      title: 'Life is Strange',
-      genre: 'Aventure narrative',
-      why: 'Un récit émotionnel fort, où chaque choix compte et laisse une trace.',
-      src: 'assets/hobbies/game_06.png',
     },
   ];
 
