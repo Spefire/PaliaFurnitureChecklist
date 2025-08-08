@@ -16,6 +16,12 @@
     color: var(--spe-white-color);
     background-color: var(--spe-blue-color);
   }
+
+  &.is-small {
+    .section-container {
+      width: 50%;
+    }
+  }
 }
 
 .section-container {
@@ -24,8 +30,12 @@
   align-items: center;
   justify-content: center;
   gap: var(--spe-spacing-200);
-  width: 50%;
+  width: 65%;
   margin: auto;
+
+  @include mixins.tablet-only {
+    width: 80%;
+  }
 
   @include mixins.mobile-only {
     width: 100%;
