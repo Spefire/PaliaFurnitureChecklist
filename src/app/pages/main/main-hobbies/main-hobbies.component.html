@@ -2,48 +2,48 @@
   <div class="section-container">
     <h2 class="section-title">✨​ Passions, Hobbies</h2>
     <p class="section-subtitle">Un petit aperçu de ce qui me fait vibrer, ou titile mon imaginaire !</p>
-    <div class="category-card">
+    <div class="hobbies-card">
       <h3>🎧 Musiques</h3>
       <p>
         J'écoute un peu de tout : mais principalement ce qui peut être chanté, évacuer mes émotions, me redonner
         confiance, ou faire du sport. Et en dehors de cette rapide liste... tout ce qui est "sassy bitch".<br />
         J'ai un peu de mal avec les musiques françaises, et une culture musicale à déploirer !
       </p>
-      <div class="favorites-list">
-        <div *ngFor="let music of musicFavorites" class="favorite-item">
-          <img class="favorite-img" [src]="music.src" alt="" />
+      <div class="hobbies-grid">
+        <div *ngFor="let music of musicFavorites" class="hobby-item">
+          <img class="hobby-img" [src]="music.src" alt="" />
           <h4 class="u-textYellow">{{ music.title }}</h4>
           <p class="u-textItalic u-textS">{{ music.genre }}</p>
           <p class="u-textS">{{ music.why }}</p>
         </div>
       </div>
     </div>
-    <div class="category-card">
+    <div class="hobbies-card">
       <h3>🎮 Jeux Vidéo</h3>
       <p>
         J'adore les jeux coopératifs, horreur (tant que c'est pas des screamers) pour jouer avec mes potes. Mais j'ai
         quelques coups de coeur sur des jeux indés. Je me suis limité dans cette liste mais y a aussi Final Fantasy X,
         Life Is Strange, Dead by Daylight...
       </p>
-      <div class="favorites-list">
-        <div *ngFor="let game of gameFavorites" class="favorite-item">
-          <img class="favorite-img" [src]="game.src" alt="" />
+      <div class="hobbies-grid">
+        <div *ngFor="let game of gameFavorites" class="hobby-item">
+          <img class="hobby-img" [src]="game.src" alt="" />
           <h4 class="u-textYellow">{{ game.title }}</h4>
           <p class="u-textItalic u-textS">{{ game.genre }}</p>
           <p class="u-textS">{{ game.why }}</p>
         </div>
       </div>
     </div>
-    <div class="category-card">
+    <div class="hobbies-card">
       <h3>🎬 Séries</h3>
       <p>
         Je suis + séries que films, fan de lore fantastique, d'horreur, médical, d'enquête... un peu d'animes également.
         Très fleur bleue en général. Comme pour la musique, j'ai un peu de mal avec ce qui est français, et une culture
         cinématographique de même à déploirer !
       </p>
-      <div class="favorites-list">
-        <div *ngFor="let movie of movieFavorites" class="favorite-item">
-          <img class="favorite-img" [src]="movie.src" alt="" />
+      <div class="hobbies-grid">
+        <div *ngFor="let movie of movieFavorites" class="hobby-item">
+          <img class="hobby-img" [src]="movie.src" alt="" />
           <h4 class="u-textYellow">{{ movie.title }}</h4>
           <p class="u-textItalic u-textS">{{ movie.genre }}</p>
           <p class="u-textS">{{ movie.why }}</p>

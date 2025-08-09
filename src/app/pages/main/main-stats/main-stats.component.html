@@ -5,8 +5,8 @@
     <div class="stats-card">
       <h3>✅ Aspects positifs</h3>
       <div class="stats-grid">
-        @for (quality of qualities; track quality.icon) {
-          <div class="stat-card" [style.--trait-color]="quality.color">
+        @for (quality of qualities; track $index) {
+          <div class="stat-item" [style.--trait-color]="quality.color">
             <div class="stat-icon">
               {{ quality.icon }}
             </div>
@@ -21,8 +21,8 @@
     <div class="stats-card">
       <h3>❌ Aspects négatifs</h3>
       <div class="stats-grid">
-        @for (flaw of flaws; track flaw.icon) {
-          <div class="stat-card" [style.--trait-color]="flaw.color">
+        @for (flaw of flaws; track $index) {
+          <div class="stat-item" [style.--trait-color]="flaw.color">
             <div class="stat-icon">
               {{ flaw.icon }}
             </div>

@@ -4,7 +4,7 @@
   display: contents;
 }
 
-.category-card {
+.hobbies-card {
   display: flex;
   flex-direction: column;
   gap: var(--spe-spacing-200);
@@ -22,7 +22,7 @@
   }
 }
 
-.favorites-list {
+.hobbies-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--spe-spacing-200);
@@ -31,7 +31,7 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .favorite-item {
+  .hobby-item {
     display: flex;
     flex-direction: column;
     gap: var(--spe-spacing-50);
@@ -40,13 +40,13 @@
     border-radius: var(--spe-radius-s);
     border-left: var(--spe-spacing-50) solid var(--spe-yellow-color);
 
-    .favorite-img {
+    .hobby-img {
       height: 8rem;
       width: 8rem;
       border-radius: var(--spe-radius-s);
     }
 
-    .favorite-genre {
+    .hobby-genre {
       font-style: italic;
     }
   }

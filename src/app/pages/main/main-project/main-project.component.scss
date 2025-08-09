@@ -4,15 +4,22 @@
   display: contents;
 }
 
-.mainProject {
+.project {
   position: relative;
 
-  .mainProject-image {
+  .project-image {
     max-height: 12rem;
     width: auto;
+    border-radius: var(--spe-radius-s);
 
     @include mixins.tablet-only {
       max-height: 8rem;
+      margin-right: auto;
+    }
+
+    @include mixins.mobile-only {
+      max-height: none;
+      max-width: 100%;
       margin-right: auto;
     }
   }

@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 
+import { NoteComponent } from '@src/components/note/note.component';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-gallery',
   standalone: true,
-  imports: [SharedModule],
+  imports: [SharedModule, NoteComponent],
   templateUrl: './main-gallery.component.html',
   styleUrls: ['./main-gallery.component.scss'],
 })

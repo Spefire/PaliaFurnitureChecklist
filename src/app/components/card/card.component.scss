@@ -14,11 +14,19 @@
 
   &:has(.card-heading) {
     margin-top: calc(var(--spe-spacing-300) + var(--spe-line-height-l));
+
+    @include mixins.mobile-only {
+      margin-top: 0;
+    }
   }
 
   &.mod-main {
     &:has(.card-heading) {
       margin-top: calc(var(--spe-spacing-300) + var(--spe-line-height-xxl));
+
+      @include mixins.mobile-only {
+        margin-top: 0;
+      }
     }
   }
 
@@ -50,6 +58,16 @@
     border-top-left-radius: var(--spe-radius-m);
     border-top-right-radius: var(--spe-radius-m);
     background: var(--spe-white-color);
+
+    @include mixins.mobile-only {
+      position: relative;
+      padding: var(--spe-spacing-200) 0;
+      transform: translate(0, calc(-50% + var(--spe-spacing-200)));
+
+      &::before {
+        transform: skew(-30deg) translate(0, calc(-50% + 0.15rem)) !important;
+      }
+    }
 
     &::before {
       position: absolute;

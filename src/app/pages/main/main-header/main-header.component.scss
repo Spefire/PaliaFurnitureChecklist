@@ -4,10 +4,10 @@
   display: contents;
 }
 
-.mainHeader {
+.header {
   min-height: 100vh;
 
-  .mainHeader-titles {
+  .header-titles {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
     text-align: center;
   }
 
-  .mainHeader-image {
+  .header-image {
     max-width: 16rem;
 
     @include mixins.tablet-only {
@@ -28,7 +28,7 @@
     }
   }
 
-  .mainHeader-buttons {
+  .header-buttons {
     display: flex;
     align-items: center;
     gap: var(--spe-spacing-200);

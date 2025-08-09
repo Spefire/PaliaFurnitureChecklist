@@ -34,11 +34,11 @@
   margin: auto;
 
   @include mixins.tablet-only {
-    width: 80%;
+    width: 80% !important;
   }
 
   @include mixins.mobile-only {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
