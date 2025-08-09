@@ -21,7 +21,11 @@ export class ObserveSectionDirective implements AfterViewInit, OnDestroy {
           });
         }
       },
-      { threshold: 0.5 }
+      {
+        root: null,
+        rootMargin: '-45% 0px -45% 0px',
+        threshold: 0.01,
+      }
     );
 
     this._observer.observe(this._el);
