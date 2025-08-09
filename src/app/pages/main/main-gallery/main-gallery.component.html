@@ -1,7 +1,7 @@
 <section class="section is-red" appObserveSection id="galerie">
   <div class="section-container">
     <h2 class="section-title">📸 Galerie Photo</h2>
-    <p class="section-subtitle">Pour que tu vois à quoi je ressemble... càd un nounours.</p>
+    <p class="section-subtitle">Pour que tu vois à quoi je ressemble quand même.</p>
     <div class="gallery-grid">
       <div *ngFor="let photo of photos" class="gallery-item" (click)="openPhoto(photo)">
         <img [src]="photo.src" [alt]="photo.alt" loading="lazy" />
@@ -14,9 +14,9 @@
       </div>
     </div>
 
-    <app-note heading="Pourquoi ce site ?">
-      En tant que gay, je suis fatigué des applications (Grindr, Tinder...), je voulais trouver un moyen original de me
-      présenter plus en détails... et en même tant d'utiliser ma passion pour la création de site web !
+    <app-note icon="🐻" heading="Petites précisions" [isDark]="true">
+      Je suis un nounours avec du ventre, musclé mais avec du surplus... et un peu poilu.<br />
+      Je ne m'accepte pas encore trop : j'aimerais faire + de sport, donc si tu me motives, chaud partant !
     </app-note>
   </div>
 

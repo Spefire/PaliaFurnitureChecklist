@@ -7,5 +7,9 @@
   padding: var(--spe-spacing-200);
   border-radius: var(--spe-radius-m);
   border-left: 0.5rem solid var(--spe-yellow-color);
-  background-color: rgba(#f8f8f8, 0.75);
+  background-color: rgba(#f8f8f8, 0.5);
+
+  &.is-dark {
+    background-color: rgba(#040404, 0.25);
+  }
 }

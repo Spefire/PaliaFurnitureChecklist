@@ -9,5 +9,7 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './note.component.scss',
 })
 export class NoteComponent {
+  public readonly icon = input<string>();
   public readonly heading = input<string>();
+  public readonly isDark = input<boolean>();
 }

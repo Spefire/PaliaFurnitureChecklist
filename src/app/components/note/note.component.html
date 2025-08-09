@@ -1,5 +1,5 @@
-<p class="note">
-  <span class="u-h4">💡 {{ heading() }}</span>
+<p class="note" [class.is-dark]="isDark()">
+  <span class="u-h4">{{ icon() }} {{ heading() }}</span>
   <span class="u-textS">
     <ng-content></ng-content>
   </span>
