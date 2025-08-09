@@ -1,0 +1,38 @@
+<section class="section is-blue" id="qualites-defauts">
+  <div class="section-container">
+    <h2 class="section-title">👤 Ma Personnalité</h2>
+    <p class="section-subtitle">En essayant d'être le plus exhaustif, et objectif ?</p>
+    <div class="stats-card">
+      <h3>✅ Aspects positifs</h3>
+      <div class="stats-grid">
+        @for (quality of qualities; track quality.icon) {
+          <div class="stat-card" [style.--trait-color]="quality.color">
+            <div class="stat-icon">
+              {{ quality.icon }}
+            </div>
+            <div>
+              <h4>{{ quality.title }}</h4>
+              <p>{{ quality.description }}</p>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+    <div class="stats-card">
+      <h3>❌ Aspects négatifs</h3>
+      <div class="stats-grid">
+        @for (flaw of flaws; track flaw.icon) {
+          <div class="stat-card" [style.--trait-color]="flaw.color">
+            <div class="stat-icon">
+              {{ flaw.icon }}
+            </div>
+            <div>
+              <h4>{{ flaw.title }}</h4>
+              <p>{{ flaw.description }}</p>
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>
