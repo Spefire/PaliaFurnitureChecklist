@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
+
+import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 
 @Component({
   selector: 'main-stats',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
+  imports: [CommonModule, ObserveSectionDirective],
   templateUrl: './main-stats.component.html',
   styleUrls: ['./main-stats.component.scss'],
 })
