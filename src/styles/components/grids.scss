@@ -26,6 +26,10 @@
       grid-template-columns: repeat(3, 1fr);
     }
 
+    &.is-big {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
     @include mixins.mobile-only {
       grid-template-columns: repeat(1, 1fr) !important;
     }

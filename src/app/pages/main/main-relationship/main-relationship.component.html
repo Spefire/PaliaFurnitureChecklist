@@ -1,0 +1,26 @@
+<section class="section is-small is-red" appObserveSection id="couple">
+  <div class="section-container">
+    <h2 class="section-title">💕 Comment je suis en couple</h2>
+    <p class="section-subtitle">Un aperçu de ma façon d'aimer</p>
+
+    <div class="list">
+      <h3>Les 5 langages de l'amour et moi</h3>
+      <div class="list-grid is-big">
+        <div *ngFor="let language of relationshipLanguages" class="list-item language-item">
+          <div class="trait-icon">
+            {{ language.icon }}
+          </div>
+          <h4>{{ language.title }}</h4>
+          <p>{{ language.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <app-note icon="💥​​" heading="Comment je gère les conflits" [isDark]="true">
+      En couple, je préfère désamorcer rapidement les tensions plutôt que de les laisser traîner. J’ai d'abord besoin
+      d’un peu de recul avant de discuter, mais je reviens toujours pour en parler calmement et chercher une solution
+      ensemble.<br />
+      Finir par des câlins et ne jamais dormir fâchés !
+    </app-note>
+  </div>
+</section>

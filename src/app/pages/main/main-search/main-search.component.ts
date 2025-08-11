@@ -1,20 +1,22 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { MatCardModule } from '@angular/material/card';
+
+import { NoteComponent } from '@src/components/note/note.component';
+import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { SharedModule } from '@src/shared.module';
 
 @Component({
-  selector: 'app-what-i-look-for',
+  selector: 'main-search',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
-  templateUrl: './what-i-look-for.component.html',
-  styleUrls: ['./what-i-look-for.component.scss'],
+  imports: [SharedModule, NoteComponent, ObserveSectionDirective],
+  templateUrl: './main-search.component.html',
+  styleUrls: ['./main-search.component.scss'],
 })
-export class WhatILookForComponent {
-  importantTraits = [
+export class MainSearchComponent {
+  public importantTraits = [
     {
       icon: '💬',
       title: 'Communication ouverte',
-      description: "Quelqu'un qui sait exprimer ses sentiments et écouter les miens.",
+      description: `Quelqu'un qui sait exprimer ses sentiments et écouter les miens.`,
       priority: 'Essentiel',
     },
     {
@@ -26,7 +28,7 @@ export class WhatILookForComponent {
     {
       icon: '🎯',
       title: 'Ambition personnelle',
-      description: "Quelqu'un qui a des projets, des rêves et qui travaille pour les réaliser.",
+      description: `Quelqu'un qui a des projets, des rêves et qui travaille pour les réaliser.`,
       priority: 'Important',
     },
     {
@@ -37,8 +39,8 @@ export class WhatILookForComponent {
     },
     {
       icon: '🗺️',
-      title: "Goût pour l'aventure",
-      description: "Quelqu'un qui aime découvrir de nouvelles choses et sortir de sa zone de confort.",
+      title: `Goût pour l'aventure`,
+      description: `Quelqu'un qui aime découvrir de nouvelles choses et sortir de sa zone de confort.`,
       priority: 'Important',
     },
     {
@@ -49,29 +51,29 @@ export class WhatILookForComponent {
     },
   ];
 
-  dealBreakers = [
+  public dealBreakers = [
     'Le manque de respect envers les autres',
-    "L'infidélité ou le flirt avec d'autres",
+    `L'infidélité ou le flirt avec d'autres`,
     'Le refus de communiquer sur les problèmes',
-    "L'absence totale d'ambition ou de projets",
-    "L'incompatibilité sur les valeurs fondamentales (famille, travail, etc.)",
-    "Le manque d'hygiène personnelle",
-    "L'addiction à des substances (drogues, alcool excessif)",
+    `L'absence totale d'ambition ou de projets`,
+    `L'incompatibilité sur les valeurs fondamentales (famille, travail, etc.)`,
+    `Le manque d'hygiène personnelle`,
+    `L'addiction à des substances (drogues, alcool excessif)`,
     'Le refus de faire des compromis',
   ];
 
-  niceToHave = [
+  public niceToHave = [
     'Une passion commune (musique, cinéma, sport, etc.)',
-    "Un bon sens de l'humour",
-    "L'amour des animaux",
+    `Un bon sens de l'humour`,
+    `L'amour des animaux`,
     'Un goût pour la cuisine',
-    "L'envie de voyager",
+    `L'envie de voyager`,
     'Une certaine indépendance financière',
     'De bonnes relations avec sa famille',
     'Un style vestimentaire qui me plaît',
   ];
 
-  getPriorityClass(priority: string): string {
+  public getPriorityClass(priority: string): string {
     switch (priority) {
       case 'Essentiel':
         return 'priority-essential';

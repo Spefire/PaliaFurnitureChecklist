@@ -1,0 +1,13 @@
+@use 'mixins';
+
+:host {
+  display: contents;
+}
+
+.language-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spe-spacing-50);
+  padding: var(--spe-spacing-100);
+  border-left: var(--spe-spacing-50) solid var(--spe-yellow-color);
+}

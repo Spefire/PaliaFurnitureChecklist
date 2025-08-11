@@ -1,0 +1,54 @@
+<section class="section is-blue" appObserveSection id="recherche">
+  <div class="section-container">
+    <h2 class="section-title">🔍 Ce que je recherche</h2>
+    <p class="section-subtitle">Mes critères pour une relation épanouie</p>
+
+    <div class="list">
+      <h3>⭐ Ce qui est important pour moi</h3>
+      <div class="list-grid">
+        <div *ngFor="let trait of importantTraits" class="list-item trait-card">
+          <div class="trait-header">
+            <div class="trait-icon">
+              {{ trait.icon }}
+            </div>
+            <span class="priority-badge" [class]="getPriorityClass(trait.priority)">
+              {{ trait.priority }}
+            </span>
+          </div>
+          <h4>{{ trait.title }}</h4>
+          <p>{{ trait.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    <app-note icon="👬​" heading="Relation libre" [isDark]="true">
+      J'ai envie d'une relation libre : être libre de pouvoir admirer, embrasser ou plus avec une autre personne que mon
+      homme.
+      <br />
+      Mais, je ne suis pas en recherche de sexe pour autant : je veux juste ne pas rater une occassion / un bon moment
+      avec quelqu'un si elle se présente. <br />J'espère qu'il en sera de même avec mon homme !
+    </app-note>
+
+    <div class="criteria-sections">
+      <div class="criteria-section">
+        <h3>❌ Mes deal-breakers absolus</h3>
+        <ul>
+          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
+        </ul>
+      </div>
+
+      <div class="criteria-section">
+        <h3>💝 Bonus sympas (mais pas obligatoires)</h3>
+        <ul>
+          <li *ngFor="let item of niceToHave">{{ item }}</li>
+        </ul>
+      </div>
+    </div>
+
+    <app-note icon="💭​" heading="Note légère" [isDark]="true">
+      Je sais que personne ne cochera toutes les cases, et c'est normal !
+      <br />L'important c'est qu'on soit compatibles sur l'essentiel pour qu'on ait envie de grandir ensemble. Je garde
+      en tête que les différences peuvent aussi être source d'enrichissement mutuel !
+    </app-note>
+  </div>
+</section>
