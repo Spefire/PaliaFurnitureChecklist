@@ -15,7 +15,7 @@ export class MainStatsComponent {
     {
       icon: '😶',
       title: 'Empathique',
-      description: `Je ressens facilement les émotions des autres, une vraie éponge.`,
+      description: `Je ressens facilement les émotions des autres, et j'ai une très bonne intuition quand quelque chose cloche. Mais je peux aussi être une vraie éponge.`,
       color: '#fded00',
     },
     {
@@ -27,7 +27,7 @@ export class MainStatsComponent {
     {
       icon: '📅',
       title: 'Organisé',
-      description: `J'aime quand les choses sont bien structurées et planifiées, sinon je stresse.`,
+      description: `J'aime quand les choses sont bien structurées, planifiées (et t'as vu toutes ses listes ?)... sinon je stresse.`,
       color: '#fded00',
     },
     {
@@ -45,7 +45,7 @@ export class MainStatsComponent {
     {
       icon: '💭',
       title: 'Transparence',
-      description: `Je suis dit ce que je ressens, et j'ai globalement aucun sujet tabou.`,
+      description: `Je dis généralement ce que je ressens, je suis très expressif et je n'ai globalement aucun sujet tabou.`,
       color: '#fded00',
     },
   ];
@@ -72,13 +72,13 @@ export class MainStatsComponent {
     {
       icon: '🎯',
       title: 'Besoin fort d’attention',
-      description: `J’ai tendance à vouloir être au centre de l’attention des gens que j’aime, à rayonner.`,
+      description: `J’ai tendance à vouloir être au centre de l’attention des gens que j’aime, j'adore rayonner.`,
       color: '#cf4e3f',
     },
     {
       icon: '🔒',
       title: 'Routine sécurisante',
-      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort.`,
+      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort. Je voyage peu du coup.`,
       color: '#cf4e3f',
     },
     {
