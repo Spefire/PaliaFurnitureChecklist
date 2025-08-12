@@ -1,0 +1,39 @@
+@use 'mixins';
+
+:host {
+  display: contents;
+}
+
+.topic-item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spe-spacing-50);
+  padding: var(--spe-spacing-100);
+  border-left: var(--spe-spacing-50) solid var(--spe-red-color);
+}
+
+.topic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.topic-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-badge {
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
