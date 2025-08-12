@@ -22,7 +22,7 @@ export class MainSearchComponent {
     {
       src: 'assets/search/key_02.png',
       title: `Clé de l'Attirance physique`,
-      description: `Je craque généralement sur les loutres, les minets, un peu barbus et poilus, sveltes ou maigres... et un coup de coeur sur les yeux bleus.`,
+      description: `Je craque généralement sur les loutres, minets, un peu barbus et poilus, sveltes ou maigres... mais je peux craquer pour un profil qui ne coche pas ces cases.`,
       color: '#c9744e',
     },
     {
@@ -53,17 +53,18 @@ export class MainSearchComponent {
   ];
 
   public dealBreakers = [
-    `Ne pas vouloir vivre sur Nantes sur le long terme`,
+    `Ne pas vouloir vivre sur Nantes (sur le long terme)`,
     `L'absence totale d'ambition ou de projets professionnels`,
-    `L'envie de bouger / de voyager en permanence`,
-    `Être une star du microcosme gay / avoir un fan club de mecs`,
-    `Être matérialiste / acheter sans compter, sans réfléchir`,
+    `L'envie de bouger / de voyager en permanence (avec moi)`,
+    `Être une star d'un microsystème gay / avoir un fan club de mecs`,
+    `Être matérialiste sur les vêtements / objets de luxe, acheter sans réfléchir`,
+    `Fumer (désolé, je n'aime pas l'odeur...)`,
   ];
 
   public niceToHave = [
-    `Aimer chanter, danser ou dessiner, s'exprimer artistiquement 📷​`,
+    `Aimer chanter, danser, dessiner, s'exprimer artistiquement 📷​`,
     `Avoir un ou plusieurs chats 😻​`,
-    `Aimer les émissions où l'on peut juger : 4 mariages 1 lune de miel, Eurovision 📺​`,
+    `Aimer les émissions où l'on peut juger : 4 mariages pour 1 lune de miel, Eurovision 📺​`,
     'Un goût pour la cuisine : je suis gourmand 🤭',
     `Être un signe de Feu 🔥​ (Lion, Bélier, Sagittaire) ou d'Air 🌬️​ (Balance, Gémeaux, Verseau)`,
   ];
