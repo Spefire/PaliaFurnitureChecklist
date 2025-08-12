@@ -36,6 +36,14 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: var(--spe-spacing-400);
+
+  @include mixins.tablet-only {
+    gap: var(--spe-spacing-200);
+  }
+
+  @include mixins.mobile-only {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 .criteria-section {
@@ -58,6 +66,14 @@
     padding: 0;
     list-style: none;
 
+    &.is-red li:before {
+      color: var(--spe-red-color);
+    }
+
+    &.is-yellow li:before {
+      color: var(--spe-yellow-color);
+    }
+
     li {
       position: relative;
       padding: var(--spe-spacing-100) 0;
@@ -69,7 +85,6 @@
         position: absolute;
         left: 0;
         font-weight: bold;
-        color: var(--spe-red-color);
       }
 
       &:last-child {

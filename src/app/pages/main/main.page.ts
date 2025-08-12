@@ -23,6 +23,5 @@ import { SharedModule } from '@src/shared.module';
     MainSearchComponent,
   ],
   templateUrl: './main.page.html',
-  styleUrls: ['./main.page.scss'],
 })
 export class MainPage {}

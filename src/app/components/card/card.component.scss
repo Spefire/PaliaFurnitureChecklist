@@ -88,4 +88,17 @@
     text-align: left;
     color: var(--spe-red-color);
   }
+
+  .card-content {
+    display: flex;
+    gap: var(--spe-spacing-400);
+
+    @include mixins.tablet-only {
+      gap: var(--spe-spacing-200);
+    }
+
+    @include mixins.mobile-only {
+      flex-direction: column;
+    }
+  }
 }

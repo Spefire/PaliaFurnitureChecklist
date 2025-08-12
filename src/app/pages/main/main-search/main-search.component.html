@@ -24,16 +24,16 @@
 
     <div class="criteria-sections">
       <div class="criteria-section">
-        <h3>❌ Mes deal-breakers absolus</h3>
-        <ul>
-          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
+        <h3>⭐ Bonus sympas (mais pas obligatoires)</h3>
+        <ul class="is-yellow">
+          <li *ngFor="let item of niceToHave">{{ item }}</li>
         </ul>
       </div>
 
       <div class="criteria-section">
-        <h3>⭐ Bonus sympas (mais pas obligatoires)</h3>
-        <ul>
-          <li *ngFor="let item of niceToHave">{{ item }}</li>
+        <h3>❌ Mes deal-breakers absolus</h3>
+        <ul class="is-red">
+          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
         </ul>
       </div>
     </div>
