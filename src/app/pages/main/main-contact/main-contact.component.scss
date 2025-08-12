@@ -1,0 +1,17 @@
+@use 'mixins';
+
+:host {
+  display: contents;
+}
+
+.contact {
+  .contact-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--spe-spacing-200);
+
+    @include mixins.mobile-only {
+      flex-direction: column;
+    }
+  }
+}

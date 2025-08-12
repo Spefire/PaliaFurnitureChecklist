@@ -36,10 +36,18 @@
       text-align: center;
       transform: translate(-50%, calc(-100% + var(--spe-spacing-200)));
 
+      @include mixins.mobile-only {
+        transform: translate(-50%, calc(-50% + var(--spe-spacing-200))) !important;
+      }
+
       &::before {
         left: 50%;
         width: calc(85% - var(--spe-spacing-300) * 2);
         transform: skew(-30deg) translate(-50%, calc(-50% + 0.15rem));
+
+        @include mixins.mobile-only {
+          transform: skew(-30deg) translate(-50%, calc(-50% + 0.15rem)) !important;
+        }
       }
     }
 

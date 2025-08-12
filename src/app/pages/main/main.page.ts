@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+import { MainContactComponent } from '@src/pages/main/main-contact/main-contact.component';
 import { MainGalleryComponent } from '@src/pages/main/main-gallery/main-gallery.component';
 import { MainHeaderComponent } from '@src/pages/main/main-header/main-header.component';
 import { MainHobbiesComponent } from '@src/pages/main/main-hobbies/main-hobbies.component';
@@ -21,6 +22,7 @@ import { SharedModule } from '@src/shared.module';
     MainStatsComponent,
     MainRelationshipComponent,
     MainSearchComponent,
+    MainContactComponent,
   ],
   templateUrl: './main.page.html',
 })
