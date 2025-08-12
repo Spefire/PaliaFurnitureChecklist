@@ -20,7 +20,7 @@ export class MainRelationshipComponent {
     {
       icon: '⭐​⭐​⭐​',
       title: 'Les services rendus',
-      description: `Quand j'aime, je veux aider le plus posssible avec mes compétences. Faire ton site web, te dessiner, cuisiner un bon repas (quand j'arrive à cuisiner), masser...`,
+      description: `Quand j'aime, je veux aider le plus possible avec mes compétences. Faire ton site web, te dessiner, cuisiner un bon repas (à tes risques et périls), masser...`,
     },
     {
       icon: '⭐⭐​​',
