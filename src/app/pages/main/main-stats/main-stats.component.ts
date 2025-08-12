@@ -1,12 +1,13 @@
-import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
+import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-stats',
   standalone: true,
-  imports: [CommonModule, ObserveSectionDirective],
+  imports: [SharedModule, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-stats.component.html',
   styleUrls: ['./main-stats.component.scss'],
 })
@@ -72,7 +73,7 @@ export class MainStatsComponent {
     {
       icon: '🎯',
       title: 'Besoin fort d’attention',
-      description: `J’ai tendance à vouloir être au centre de l’attention des gens que j’aime, j'adore rayonner.`,
+      description: `J’ai tendance à vouloir être au centre de l’attention des gens que j’aime (seulement) : j'adore rayonner.`,
       color: '#cf4e3f',
     },
     {

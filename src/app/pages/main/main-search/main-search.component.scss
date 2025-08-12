@@ -4,95 +4,72 @@
   display: contents;
 }
 
-.trait-header {
+.trait-item {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 1.5rem;
+  gap: var(--spe-spacing-100);
+  padding: var(--spe-spacing-100);
+  border-left: var(--spe-spacing-50) solid var(--trait-color);
+}
+
+.trait-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spe-spacing-50);
 }
 
 .trait-icon {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  height: 6rem;
+  width: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  mat-icon {
-    font-size: 1.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    color: white;
-  }
-}
-
-.priority-badge {
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.8rem;
-  font-weight: bold;
-
-  &.priority-essential {
-    background: #ff4444;
-    color: white;
-  }
-
-  &.priority-very-important {
-    background: #ff8800;
-    color: white;
-  }
-
-  &.priority-important {
-    background: #ffaa00;
-    color: white;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
   }
 }
 
 .criteria-sections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem;
-  margin-bottom: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spe-spacing-400);
 }
 
 .criteria-section {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 2rem;
-  border-radius: 15px;
-  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spe-spacing-100);
+  padding: var(--spe-spacing-200);
+  color: var(--spe-black-color);
+  border-radius: var(--spe-radius-m);
+  background-color: var(--spe-white-color);
 
   h3 {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    margin: 0 0 1.5rem 0;
-    font-size: 1.3rem;
-    color: white;
-
-    mat-icon {
-      color: #ffd700;
-    }
+    gap: var(--spe-spacing-200);
   }
 
   ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 
     li {
-      padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
       position: relative;
-      padding-left: 1.5rem;
+      padding: var(--spe-spacing-100) 0;
+      padding-left: var(--spe-spacing-200);
+      border-bottom: 0.1rem solid rgba(#040404, 0.2);
 
       &:before {
         content: '•';
         position: absolute;
         left: 0;
-        color: #ffd700;
         font-weight: bold;
+        color: var(--spe-red-color);
       }
 
       &:last-child {

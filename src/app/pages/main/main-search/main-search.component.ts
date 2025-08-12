@@ -14,75 +14,57 @@ import { SharedModule } from '@src/shared.module';
 export class MainSearchComponent {
   public importantTraits = [
     {
-      icon: '💬',
-      title: 'Communication ouverte',
-      description: `Quelqu'un qui sait exprimer ses sentiments et écouter les miens.`,
-      priority: 'Essentiel',
+      src: 'assets/search/key_01.png',
+      title: `Clé du Sentiment`,
+      description: `Une clé qu'on ne contrôle pas et qui parle d'elle-même : on a beau avoir des critères, le coeur parle en premier !`,
+      color: '#aa2b34',
     },
     {
-      icon: '😊',
-      title: 'Humeur positive',
-      description: 'Une personne qui voit le bon côté des choses et qui me fait rire.',
-      priority: 'Très important',
+      src: 'assets/search/key_02.png',
+      title: `Clé de l'Attirance physique`,
+      description: `Je craque généralement sur les loutres, les minets, un peu barbus et poilus, sveltes ou maigres... et un coup de coeur sur les yeux bleus.`,
+      color: '#c9744e',
     },
     {
-      icon: '🎯',
-      title: 'Ambition personnelle',
-      description: `Quelqu'un qui a des projets, des rêves et qui travaille pour les réaliser.`,
-      priority: 'Important',
+      src: 'assets/search/key_03.png',
+      title: `Clé de l'Admiration`,
+      description: `Les projets, l'ambition, sa créativité... sont plusieurs choses qui me mettent des étoiles dans les yeux.
+      Partager le quotidien et l'univers de l'autre en est devenue une clé.`,
+      color: '#dfb354',
     },
     {
-      icon: '💕',
-      title: 'Affection naturelle',
-      description: 'Une personne qui aime les câlins, les bisous et les moments de tendresse.',
-      priority: 'Essentiel',
+      src: 'assets/search/key_04.png',
+      title: `Clé de la Confiance et de la Communication`,
+      description: `Celle des meilleures conversations, des mots qui donnent envie de se confier. Sans communication, aucune relation n'est possible.`,
+      color: '#3d8758',
     },
     {
-      icon: '🗺️',
-      title: `Goût pour l'aventure`,
-      description: `Quelqu'un qui aime découvrir de nouvelles choses et sortir de sa zone de confort.`,
-      priority: 'Important',
+      src: 'assets/search/key_05.png',
+      title: `Clé de l'Équilibre et de la Liberté`,
+      description: `Le besoin d'être moi, que tu sois toi, et qu'on soit nous. Chacun notre espace, faire ce qu'il nous plait, mais aussi nous retrouver.`,
+      color: '#257784',
     },
     {
-      icon: '📚',
-      title: 'Curiosité intellectuelle',
-      description: 'Une personne qui aime apprendre, discuter et partager ses découvertes.',
-      priority: 'Très important',
+      src: 'assets/search/key_06.png',
+      title: `Clé de la Sécurité`,
+      description: `Le fait de pouvoir être soi-même et le besoin d'espérer un avenir ensemble, surtout si on est en relation à distance.`,
+      color: '#384981',
     },
   ];
 
   public dealBreakers = [
-    'Le manque de respect envers les autres',
-    `L'infidélité ou le flirt avec d'autres`,
-    'Le refus de communiquer sur les problèmes',
-    `L'absence totale d'ambition ou de projets`,
-    `L'incompatibilité sur les valeurs fondamentales (famille, travail, etc.)`,
-    `Le manque d'hygiène personnelle`,
-    `L'addiction à des substances (drogues, alcool excessif)`,
-    'Le refus de faire des compromis',
+    `Ne pas vouloir vivre sur Nantes sur le long terme`,
+    `L'absence totale d'ambition ou de projets professionnels`,
+    `L'envie de bouger / de voyager en permanence`,
+    `Être une star du microcosme gay / avoir un fan club de mecs`,
+    `Être matérialiste / acheter sans compter, sans réfléchir`,
   ];
 
   public niceToHave = [
-    'Une passion commune (musique, cinéma, sport, etc.)',
-    `Un bon sens de l'humour`,
-    `L'amour des animaux`,
-    'Un goût pour la cuisine',
-    `L'envie de voyager`,
-    'Une certaine indépendance financière',
-    'De bonnes relations avec sa famille',
-    'Un style vestimentaire qui me plaît',
+    `Aimer chanter, danser ou dessiner, s'exprimer artistiquement 📷​`,
+    `Avoir un ou plusieurs chats 😻​`,
+    `Aimer les émissions où l'on peut juger : 4 mariages 1 lune de miel, Eurovision 📺​`,
+    'Un goût pour la cuisine : je suis gourmand 🤭',
+    `Être un signe de Feu 🔥​ (Lion, Bélier, Sagittaire) ou d'Air 🌬️​ (Balance, Gémeaux, Verseau)`,
   ];
-
-  public getPriorityClass(priority: string): string {
-    switch (priority) {
-      case 'Essentiel':
-        return 'priority-essential';
-      case 'Très important':
-        return 'priority-very-important';
-      case 'Important':
-        return 'priority-important';
-      default:
-        return 'priority-important';
-    }
-  }
 }

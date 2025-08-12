@@ -6,15 +6,15 @@
   gap: var(--spe-spacing-200);
   padding: var(--spe-spacing-200);
   border-radius: var(--spe-radius-m);
-  border: 0.1rem solid rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.1);
+  border: 0.1rem solid rgba(#f8f8f8, 0.2);
+  background: rgba(#f8f8f8, 0.1);
   transition:
     transform 0.5s ease,
     box-shadow 0.5s ease;
 
   &:hover {
     transform: translateY(-0.25rem);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.5rem 1rem rgba(#040404, 0.2);
   }
 
   .list-grid {
@@ -36,7 +36,7 @@
 
     .list-item {
       border-radius: var(--spe-radius-s);
-      background: rgba(0, 0, 0, 0.1);
+      background: rgba(#040404, 0.2);
     }
   }
 }

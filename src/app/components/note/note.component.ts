@@ -12,4 +12,5 @@ export class NoteComponent {
   public readonly icon = input<string>();
   public readonly heading = input<string>();
   public readonly isDark = input<boolean>();
+  public readonly isSmall = input<boolean>();
 }
