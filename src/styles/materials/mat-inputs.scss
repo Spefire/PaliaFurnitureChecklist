@@ -4,17 +4,21 @@
   color: var(--spe-red-color);
 }
 
+.mat-mdc-floating-label {
+  --mdc-filled-text-field-focus-label-text-color: var(--spe-black-color) !important;
+}
+
 .mdc-text-field {
   border-radius: var(--spe-spacing-100) !important;
   border: var(--spe-border);
 }
 
 .mdc-text-field--filled {
-  background: var(--spe-black-color) !important;
+  background: var(--spe-white-color) !important;
 }
 
 .mdc-text-field--disabled {
-  border-color: rgba(255, 255, 255, 0.38) !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
 }
 
 .mdc-line-ripple {

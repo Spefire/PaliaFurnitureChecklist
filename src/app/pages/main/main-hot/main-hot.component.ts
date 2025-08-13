@@ -11,9 +11,14 @@ import { SharedModule } from '@src/shared.module';
 })
 export class MainHotComponent {
   public isRevealed = false;
-  public isRevealedExtra = false;
-  public isRevealedVeryExtra = false;
+  public isRevealedHot = false;
+  public isRevealedVeryHot = false;
   public showPhoto = false;
+
+  public readonly HOT_PASSWORD = 'BOUH';
+  public readonly VERY_HOT_PASSWORD = 'BAH';
+  public passwordHot = '';
+  public passwordVeryHot = '';
 
   public hotTopics = [
     {
@@ -69,16 +74,26 @@ export class MainHotComponent {
 
   public boundaries = ['Insultes, surnoms dévalorisants, rabaissements...', 'Anulingus', 'Uro, scato, ...', 'Et à discuter sur le reste ?'];
 
+  public checkPassword(level: 'safe' | 'hot' | 'very') {
+    if (level === 'safe') {
+      this.isRevealed = true;
+    } else if (level === 'hot' && this.passwordHot === this.HOT_PASSWORD) {
+      this.isRevealedHot = true;
+    } else if (level === 'very' && this.passwordVeryHot === this.VERY_HOT_PASSWORD) {
+      this.isRevealedVeryHot = true;
+    }
+  }
+
   public revealContent() {
     this.isRevealed = true;
   }
 
-  public revealExtraContent() {
-    this.isRevealedExtra = true;
+  public revealHotContent() {
+    this.isRevealedHot = true;
   }
 
-  public revealVeryExtraContent() {
-    this.isRevealedVeryExtra = true;
+  public revealVeryHotContent() {
+    this.isRevealedVeryHot = true;
   }
 
   public openPhoto() {

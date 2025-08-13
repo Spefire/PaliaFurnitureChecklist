@@ -10,7 +10,7 @@
           Cette section contient des informations plus intimes sur mes préférences et attentes sexuelles.<br />
           Cliquez seulement si vous êtes prêt(e) à en savoir plus !
         </p>
-        <button mat-flat-button color="warn" (click)="revealContent()">Révéler le contenu</button>
+        <button mat-flat-button color="warn" (click)="checkPassword('safe')">Révéler le contenu</button>
       </div>
     } @else {
       <div class="list">
@@ -40,14 +40,34 @@
         </div>
       </div>
 
-      @if (!isRevealedExtra) {
+      @if (!isRevealedHot) {
         <div class="list">
           <h3>⚠️ Contenu ultra-sensible</h3>
           <p>
             Cette section contient des informations encore plus + intimes et une photo.<br />
             Cliquez seulement si vous êtes prêt(e) à en savoir plus !
           </p>
-          <button mat-flat-button color="warn" (click)="revealExtraContent()">Révéler le contenu</button>
+          <form>
+            <mat-form-field>
+              <mat-label>Mot de passe</mat-label>
+              <input
+                matInput
+                type="password"
+                [(ngModel)]="passwordHot"
+                [ngModelOptions]="{ standalone: true }"
+                (keyup.enter)="checkPassword('hot')"
+              />
+            </mat-form-field>
+            <button
+              class="u-marginTop100"
+              mat-flat-button
+              color="warn"
+              (click)="checkPassword('hot')"
+              [disabled]="passwordHot !== HOT_PASSWORD"
+            >
+              Révéler le contenu
+            </button>
+          </form>
         </div>
       } @else {
         <div class="list">
@@ -61,8 +81,28 @@
                 </li>
               </ul>
               <h4>Sexe</h4>
-              @if (!isRevealedVeryExtra) {
-                <button mat-flat-button color="warn" (click)="revealVeryExtraContent()">Révéler le contenu</button>
+              @if (!isRevealedVeryHot) {
+                <form>
+                  <mat-form-field>
+                    <mat-label>Mot de passe</mat-label>
+                    <input
+                      matInput
+                      type="password"
+                      [(ngModel)]="passwordVeryHot"
+                      [ngModelOptions]="{ standalone: true }"
+                      (keyup.enter)="checkPassword('very')"
+                    />
+                  </mat-form-field>
+                  <button
+                    class="u-marginTop100"
+                    mat-flat-button
+                    color="warn"
+                    (click)="checkPassword('very')"
+                    [disabled]="passwordVeryHot !== VERY_HOT_PASSWORD"
+                  >
+                    Révéler le contenu
+                  </button>
+                </form>
               } @else {
                 <ul>
                   <li *ngFor="let stat of otherStats">

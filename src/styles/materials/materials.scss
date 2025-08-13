@@ -79,7 +79,7 @@ $palette-secondary: (
   ),
 );
 
-$dark-theme: mat.m2-define-dark-theme(
+$light-theme: mat.m2-define-light-theme(
   (
     color: (
       primary: mat.m2-define-palette($palette-primary),
@@ -88,4 +88,4 @@ $dark-theme: mat.m2-define-dark-theme(
   )
 );
 
-@include mat.all-component-themes($dark-theme);
+@include mat.all-component-themes($light-theme);
