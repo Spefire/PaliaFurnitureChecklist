@@ -1,0 +1,24 @@
+@use 'mixins';
+
+.legacy {
+  min-height: 100vh;
+
+  .legacy-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spe-spacing-100);
+    text-align: center;
+  }
+
+  .legacy-buttons {
+    display: flex;
+    align-items: center;
+    gap: var(--spe-spacing-200);
+
+    @include mixins.mobile-only {
+      flex-direction: column;
+    }
+  }
+}

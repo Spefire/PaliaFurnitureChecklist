@@ -1,5 +1,53 @@
-<div class="page-top background">
-  <card [heading]="pages.legacy" [isMain]="true">
-    <p>Section en cours de construction...</p>
-  </card>
-</div>
+<section class="legacy section is-small background" appObserveSection id="intro">
+  <div class="section-container">
+    <div class="legacy-titles">
+      <h1>Mentions légales</h1>
+    </div>
+
+    <card heading="Éditeur du site" [isCenter]="true">
+      <p>
+        Ce site est édité à titre personnel par [Ton Nom ou Pseudo], domicilié à [Ville, Pays]. Contact : [ton email ou
+        formulaire de contact].
+      </p>
+    </card>
+
+    <card heading="Hébergement" [isCenter]="true">
+      <p>
+        Le site est hébergé par Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis. Site web :
+        https://vercel.com
+      </p>
+    </card>
+
+    <card heading="Propriété intellectuelle" [isCenter]="true">
+      <p>
+        L’ensemble des contenus présents sur ce site (textes, photographies, images, graphismes, logos, etc.) sont, sauf
+        mention contraire, la propriété exclusive de [Ton Nom ou Pseudo].
+      </p>
+    </card>
+
+    <card heading="Utilisation des contenus" [isCenter]="true">
+      <p>
+        Toute reproduction, copie, modification, diffusion ou exploitation, totale ou partielle, des contenus de ce
+        site, y compris les photographies, sans autorisation écrite préalable, est strictement interdite.
+      </p>
+    </card>
+
+    <card heading="Responsabilité" [isCenter]="true">
+      <p>
+        Les informations présentées sur ce site sont fournies à titre informatif et reflètent uniquement l’opinion de
+        leur auteur.
+      </p>
+    </card>
+
+    <card heading="Protection de la vie privée" [isCenter]="true">
+      <p>Ce site ne collecte pas de données personnelles.</p>
+    </card>
+
+    <div class="legacy-buttons">
+      <a href="./" mat-flat-button color="primary">
+        <i class="icon-arrow-left"></i>
+        Revenir à la page principale
+      </a>
+    </div>
+  </div>
+</section>
