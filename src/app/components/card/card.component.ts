@@ -1,10 +1,9 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrl: './card.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CardComponent {
   public readonly heading = input<string>();

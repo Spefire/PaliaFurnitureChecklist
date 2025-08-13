@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 import { SharedModule } from '@src/shared.module';
@@ -8,7 +8,6 @@ import { SharedModule } from '@src/shared.module';
   imports: [SharedModule, ObserveSectionDirective],
   templateUrl: './main-hot.component.html',
   styleUrl: './main-hot.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainHotComponent {
   public isRevealed = false;

@@ -16,6 +16,7 @@ export class ObserveSectionDirective implements AfterViewInit, OnDestroy {
         if (!e.isIntersecting || !this._el.id) return;
         const path = this._location.path().split('#')[0];
         this._location.replaceState(path + '#' + this._el.id);
+        window.dispatchEvent(new CustomEvent('section-fragment-change'));
       },
       {
         root: null,

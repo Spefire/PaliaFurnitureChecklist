@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
+import { NavigationComponent } from '@src/components/navigation/navigation.component';
 import { MainContactComponent } from '@src/pages/main/main-contact/main-contact.component';
 import { MainGalleryComponent } from '@src/pages/main/main-gallery/main-gallery.component';
 import { MainHeaderComponent } from '@src/pages/main/main-header/main-header.component';
@@ -24,8 +25,8 @@ import { SharedModule } from '@src/shared.module';
     MainSearchComponent,
     MainContactComponent,
     MainHotComponent,
+    NavigationComponent,
   ],
   templateUrl: './main.page.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainPage {}

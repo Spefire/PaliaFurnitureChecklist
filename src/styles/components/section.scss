@@ -20,6 +20,14 @@
   &.is-small {
     .section-container {
       width: 50%;
+
+      @include mixins.tablet-only {
+        width: 70%;
+      }
+
+      @include mixins.mobile-only {
+        width: 100%;
+      }
     }
   }
 }
@@ -34,11 +42,11 @@
   margin: auto;
 
   @include mixins.tablet-only {
-    width: 80% !important;
+    width: 80%;
   }
 
   @include mixins.mobile-only {
-    width: 100% !important;
+    width: 100%;
   }
 }
 

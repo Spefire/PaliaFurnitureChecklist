@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { CardComponent } from '@src/components/card/card.component';
 import { SharedModule } from '@src/shared.module';
@@ -8,6 +8,5 @@ import { SharedModule } from '@src/shared.module';
   imports: [SharedModule, CardComponent],
   templateUrl: './legacy.page.html',
   styleUrl: './legacy.page.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LegacyPage {}

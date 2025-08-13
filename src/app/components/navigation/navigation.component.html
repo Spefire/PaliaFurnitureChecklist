@@ -1,0 +1,14 @@
+<nav class="navigation">
+  @if (!hasNoPrev()) {
+    <a mat-flat-button color="primary" [attr.href]="getHash('prev')">
+      <span class="navigation-text">{{ getLabel('prev') }}</span>
+      <i class="icon-arrow-up"></i>
+    </a>
+  }
+  @if (!hasNoNext()) {
+    <a mat-flat-button color="primary" [attr.href]="getHash('next')">
+      <span class="navigation-text">{{ getLabel('next') }}</span>
+      <i class="icon-arrow-down"></i>
+    </a>
+  }
+</nav>

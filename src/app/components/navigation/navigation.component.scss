@@ -1,0 +1,26 @@
+@use 'mixins';
+
+:host {
+  display: contents;
+}
+
+.navigation {
+  position: fixed;
+  right: var(--spe-spacing-200);
+  bottom: var(--spe-spacing-400);
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--spe-spacing-300);
+
+  @include mixins.mobile-only {
+    right: var(--spe-spacing-100);
+    bottom: var(--spe-spacing-200);
+    gap: var(--spe-spacing-200);
+
+    .navigation-text {
+      display: none;
+    }
+  }
+}
