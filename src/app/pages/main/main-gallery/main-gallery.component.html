@@ -4,12 +4,10 @@
     <p class="section-subtitle">Pour que tu vois à quoi je ressemble quand même.</p>
     <div class="gallery-grid">
       <div *ngFor="let photo of photos" class="gallery-item" (click)="openPhoto(photo)">
-        <img [src]="photo.src" [alt]="photo.alt" loading="lazy" />
+        <img [src]="photo.src" [alt]="photo.alt" />
         <div class="gallery-item-overlay">
-          <div>
-            <span class="gallery-item-category">{{ photo.category }}</span>
-            <p>{{ photo.description }}</p>
-          </div>
+          <span class="gallery-item-category">{{ photo.category }}</span>
+          <p>{{ photo.description }}</p>
         </div>
       </div>
     </div>
@@ -21,7 +19,7 @@
   </div>
 
   @if (selectedPhoto) {
-    <div class="modal-photo" (click)="closePhoto()">
+    <div class="modal" (click)="closePhoto()">
       <div class="modal-content" (click)="$event.stopPropagation()">
         <button class="modal-close" mat-icon-button (click)="closePhoto()">
           <i class="icon-cross"></i>

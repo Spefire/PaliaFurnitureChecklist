@@ -1,11 +1,11 @@
-<section class="section is-red" appObserveSection id="sexe">
+<section class="section is-small is-red" appObserveSection id="sexe">
   <div class="section-container">
     <h2 class="section-title">🔥 Section + Hot 🔥</h2>
     <p class="section-subtitle">Contenu sensible - à révéler avec précaution</p>
 
     @if (!isRevealed) {
       <div class="list">
-        <h3>⚠️ Contenu sensible</h3>
+        <h3>⚠️ Contenu un peu sensible</h3>
         <p>
           Cette section contient des informations plus intimes sur mes préférences et attentes sexuelles.<br />
           Cliquez seulement si vous êtes prêt(e) à en savoir plus !
@@ -17,27 +17,98 @@
         <h3>🔥 Mes préférences intimes</h3>
         <div class="list-grid">
           <div *ngFor="let topic of hotTopics" class="list-item topic-item">
-            <div class="topic-header">
-              <div class="topic-icon">
-                {{ topic.icon }}
-              </div>
-              <span class="topic-badge">{{ topic.category }}</span>
+            <div class="topic-icon">
+              {{ topic.icon }}
             </div>
-            <h4>{{ topic.title }}</h4>
-            <p>{{ topic.description }}</p>
+            <div>
+              <h4>{{ topic.title }}</h4>
+              <p>{{ topic.description }}</p>
+            </div>
           </div>
         </div>
+        <div class="u-flexRow u-justifyCenter">
+          <a
+            mat-flat-button
+            color="primary"
+            href="https://www.instagram.com/penseesdungay"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="icon-instagram"></i>
+            Instagram hot
+          </a>
+        </div>
       </div>
-      <div class="criteria-section">
-        <h3>🛡️ Mes limites et principes</h3>
-        <ul>
-          <li *ngFor="let boundary of boundaries">{{ boundary }}</li>
-        </ul>
-      </div>
-      <app-note icon="💭" heading="Note importante" [isDark]="true">
-        Ces préférences sont personnelles et peuvent évoluer selon la personne et la relation. L'important c'est d'en
-        discuter ouvertement et de respecter les limites de chacun ! Pas de tabous, que de l'honnêteté ! 😊
-      </app-note>
+
+      @if (!isRevealedExtra) {
+        <div class="list">
+          <h3>⚠️ Contenu ultra-sensible</h3>
+          <p>
+            Cette section contient des informations encore plus + intimes et une photo.<br />
+            Cliquez seulement si vous êtes prêt(e) à en savoir plus !
+          </p>
+          <button mat-raised-button color="warn" (click)="revealExtraContent()">Révéler le contenu</button>
+        </div>
+      } @else {
+        <div class="list">
+          <h3>🔞​ Données sexuelles</h3>
+          <div class="list-grid">
+            <div class="list-item data-item">
+              <h4>Corps</h4>
+              <ul>
+                <li *ngFor="let stat of stats">
+                  {{ stat.key }} : <b>{{ stat.value }}</b>
+                </li>
+              </ul>
+              <h4>Sexe</h4>
+              @if (!isRevealedVeryExtra) {
+                <button mat-raised-button color="warn" (click)="revealVeryExtraContent()">Révéler le contenu</button>
+              } @else {
+                <ul>
+                  <li *ngFor="let stat of otherStats">
+                    {{ stat.key }} : <b>{{ stat.value }}</b>
+                  </li>
+                </ul>
+              }
+              <h4>Autres infos</h4>
+              <p>
+                Je suis long à atteindre l'orgasme, ça ne veut pas dire que je ne prends pas mon pied. Si je ne finis
+                pas, c'est "pas grave" de mon côté !
+              </p>
+            </div>
+            <div class="list-item hot-item" (click)="openPhoto()">
+              <img src="assets/gallery/me-hot.png" alt="" />
+              <div class="hot-item-overlay">
+                <p>Un p'tit aperçu...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="criteria-sections">
+          <div class="criteria-section">
+            <h3>👍​ Ce qui est OK avec moi</h3>
+            <ul>
+              <li *ngFor="let like of likes">{{ like }}</li>
+            </ul>
+          </div>
+          <div class="criteria-section">
+            <h3>❌ Ce qui ne me tente pas</h3>
+            <ul>
+              <li *ngFor="let boundary of boundaries">{{ boundary }}</li>
+            </ul>
+          </div>
+        </div>
+      }
     }
   </div>
+  @if (showPhoto) {
+    <div class="modal" (click)="closePhoto()">
+      <div class="modal-content" (click)="$event.stopPropagation()">
+        <button class="modal-close" mat-icon-button (click)="closePhoto()">
+          <i class="icon-cross"></i>
+        </button>
+        <img src="assets/gallery/me-hot.png" alt="" />
+      </div>
+    </div>
+  }
 </section>
