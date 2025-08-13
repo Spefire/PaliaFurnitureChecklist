@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 
+import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-relationship',
   standalone: true,
-  imports: [SharedModule, ObserveSectionDirective],
+  imports: [SharedModule, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-relationship.component.html',
   styleUrls: ['./main-relationship.component.scss'],
 })

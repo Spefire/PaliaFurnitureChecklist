@@ -46,7 +46,7 @@ export class MainStatsComponent {
     {
       icon: '💭',
       title: 'Transparence',
-      description: `Je dis généralement ce que je ressens, je suis très expressif et je n'ai globalement aucun sujet tabou.`,
+      description: `J'essaie de dire généralement ce que je ressens, mon visage est très expressif sinon xD, et je n'ai globalement aucun sujet tabou.`,
       color: '#fded00',
     },
   ];
