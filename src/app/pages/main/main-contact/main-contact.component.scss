@@ -14,4 +14,16 @@
       flex-direction: column;
     }
   }
+
+  .contact-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--spe-spacing-200);
+    margin-top: var(--spe-spacing-400);
+
+    @include mixins.mobile-only {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
 }

@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 import { SharedModule } from '@src/shared.module';
 
@@ -7,6 +7,7 @@ import { SharedModule } from '@src/shared.module';
   imports: [SharedModule],
   templateUrl: './note.component.html',
   styleUrl: './note.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class NoteComponent {
   public readonly icon = input<string>();

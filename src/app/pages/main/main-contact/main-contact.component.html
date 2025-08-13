@@ -1,11 +1,16 @@
 <section class="contact section is-small background" appObserveSection id="contact">
   <div class="section-container u-marginTop400 u-marginBottom400">
-    <card heading="💬​ Contactes-moi" subtitle="Si t'as survécu à la lecture !" [isSubMain]="true" [isCenter]="true">
+    <app-card
+      heading="💬​ Contactes-moi"
+      subtitle="Si t'as survécu à la lecture !"
+      [isSubMain]="true"
+      [isCenter]="true"
+    >
       <p>
         Et si ce que tu as lu t’a donné envie de discuter, de partager une idée ou juste de dire un "Salut", n'hésites
         pas à me contacter sur un des réseaux...
       </p>
-    </card>
+    </app-card>
     <div class="contact-buttons">
       <a
         mat-flat-button
@@ -21,6 +26,11 @@
         <i class="icon-discord"></i>
         #spefire
       </a>
+    </div>
+    <div class="contact-footer">
+      <p>Site créé en 2025 par Spefire</p>
+      <span>•</span>
+      <a href="./mentions-legales"> Mentions légales </a>
     </div>
   </div>
 </section>

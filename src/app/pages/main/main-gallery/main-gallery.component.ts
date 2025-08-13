@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -6,10 +6,10 @@ import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-gallery',
-  standalone: true,
   imports: [SharedModule, ObserveSectionDirective, NoteComponent],
   templateUrl: './main-gallery.component.html',
-  styleUrls: ['./main-gallery.component.scss'],
+  styleUrl: './main-gallery.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainGalleryComponent {
   public photos: Photo[] = [

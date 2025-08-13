@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -6,10 +6,10 @@ import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-stats',
-  standalone: true,
   imports: [SharedModule, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-stats.component.html',
-  styleUrls: ['./main-stats.component.scss'],
+  styleUrl: './main-stats.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainStatsComponent {
   public qualities = [

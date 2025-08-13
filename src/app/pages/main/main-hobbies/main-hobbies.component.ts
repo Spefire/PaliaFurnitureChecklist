@@ -1,14 +1,14 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-hobbies',
-  standalone: true,
   imports: [SharedModule, ObserveSectionDirective],
   templateUrl: './main-hobbies.component.html',
-  styleUrls: ['./main-hobbies.component.scss'],
+  styleUrl: './main-hobbies.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainHobbiesComponent {
   public musicFavorites: Hobby[] = [

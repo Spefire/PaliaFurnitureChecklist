@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -6,10 +6,10 @@ import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-search',
-  standalone: true,
   imports: [SharedModule, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-search.component.html',
-  styleUrls: ['./main-search.component.scss'],
+  styleUrl: './main-search.component.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainSearchComponent {
   public importantTraits = [

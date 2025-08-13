@@ -6,12 +6,12 @@ export const routes: Routes = [
   {
     path: '',
     loadComponent: () => import('./pages/main/main.page').then(m => m.MainPage),
-    title: PageTitles.app,
+    title: PageTitles.welcome + ' | ' + PageTitles.app,
   },
   {
     path: 'mentions-legales',
     loadComponent: () => import('./pages/legacy/legacy.page').then(m => m.LegacyPage),
-    title: PageTitles.legacy + ' - ' + PageTitles.app,
+    title: PageTitles.legacy + ' | ' + PageTitles.app,
   },
   {
     path: '**',

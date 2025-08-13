@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 
 import { MainContactComponent } from '@src/pages/main/main-contact/main-contact.component';
 import { MainGalleryComponent } from '@src/pages/main/main-gallery/main-gallery.component';
@@ -12,8 +12,7 @@ import { MainStatsComponent } from '@src/pages/main/main-stats/main-stats.compon
 import { SharedModule } from '@src/shared.module';
 
 @Component({
-  selector: 'app-main-page',
-  standalone: true,
+  selector: 'main-page',
   imports: [
     SharedModule,
     MainHeaderComponent,
@@ -27,5 +26,6 @@ import { SharedModule } from '@src/shared.module';
     MainHotComponent,
   ],
   templateUrl: './main.page.html',
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MainPage {}
