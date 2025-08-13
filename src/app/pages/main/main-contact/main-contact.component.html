@@ -1,17 +1,23 @@
-<section class="contact section is-small background" appObserveSection id="contact">
+<section class="contact section is-small background" [class.is-max]="isTest()" appObserveSection id="contact">
   <div class="section-container u-marginTop400 u-marginBottom400">
-    <app-card
-      heading="💬​ Contactes-moi"
-      subtitle="Si t'as survécu à la lecture !"
-      [isSubMain]="true"
-      [isCenter]="true"
-    >
+    @if (!isTest()) {
+      <app-card heading="Résultat du test" subtitle="Description du résultat" [isCenter]="true">
+        <p>Description du résultat</p>
+      </app-card>
+      <div class="buttons">
+        <button mat-flat-button color="warn" (click)="previous()">
+          <i class="icon-spinner"></i>
+          Réinitialiser le test
+        </button>
+      </div>
+    }
+    <app-card heading="💬​ Contactes-moi" subtitle="Si t'as survécu à la lecture !" [isCenter]="true">
       <p>
         Et si ce que tu as lu t’a donné envie de discuter, de partager une idée ou juste de dire un "Salut", n'hésites
         pas à me contacter sur un des réseaux...
       </p>
     </app-card>
-    <div class="contact-buttons">
+    <div class="buttons">
       <a
         mat-flat-button
         color="primary"
@@ -22,7 +28,7 @@
         <i class="icon-instagram"></i>
         Instagram perso
       </a>
-      <a mat-flat-button href="https://discord.com" disabled>
+      <a mat-flat-button href="https://discord.com">
         <i class="icon-discord"></i>
         #spefire
       </a>

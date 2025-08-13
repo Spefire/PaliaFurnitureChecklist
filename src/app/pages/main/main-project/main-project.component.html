@@ -1,4 +1,4 @@
-<section class="project section is-small is-red" appObserveSection id="projets">
+<section class="project section is-small is-red" [class.is-max]="isTest()" appObserveSection id="projets">
   <div class="section-container">
     <h2 class="section-title">🚀​ Travail et projets personnels</h2>
     <p class="section-subtitle">Sur quoi je travaille le jour et la nuit, héhé.</p>
@@ -76,5 +76,17 @@
         </div>
       </div>
     </app-card>
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
+    }
   </div>
 </section>

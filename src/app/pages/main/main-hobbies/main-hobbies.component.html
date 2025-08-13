@@ -1,4 +1,4 @@
-<section class="section is-blue" appObserveSection id="passions">
+<section class="section is-blue" [class.is-max]="isTest()" appObserveSection id="passions">
   <div class="section-container">
     <h2 class="section-title">✨​ Passions, Hobbies</h2>
     <p class="section-subtitle">Un petit aperçu de ce qui me fait vibrer, ou titile mon imaginaire !</p>
@@ -57,5 +57,18 @@
         la cardio...
       </p>
     </div>
+
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
+    }
   </div>
 </section>

@@ -29,4 +29,20 @@ import { SharedModule } from '@src/shared.module';
   ],
   templateUrl: './main.page.html',
 })
-export class MainPage {}
+export class MainPage {
+  public isTest = false;
+  public test = 0;
+
+  public choice(isTest: boolean) {
+    this.isTest = isTest;
+    if (this.isTest) this.test++;
+  }
+
+  public previous() {
+    this.test--;
+  }
+
+  public next() {
+    this.test++;
+  }
+}

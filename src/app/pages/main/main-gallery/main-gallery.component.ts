@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -11,6 +11,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-gallery.component.scss',
 })
 export class MainGalleryComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public photos: Photo[] = [
     {
       src: 'assets/gallery/me-0.jpg',
@@ -58,6 +62,14 @@ export class MainGalleryComponent {
 
   public closePhoto() {
     this.selectedPhoto = null;
+  }
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
   }
 }
 

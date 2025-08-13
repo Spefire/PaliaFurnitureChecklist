@@ -1,10 +1,30 @@
-<main-header></main-header>
-<main-gallery></main-gallery>
-<main-hobbies></main-hobbies>
-<main-project></main-project>
-<main-stats></main-stats>
-<main-relationship></main-relationship>
-<main-search></main-search>
-<main-hot></main-hot>
-<main-contact></main-contact>
-<app-navigation></app-navigation>
+@if (!isTest) {
+  <main-header (outChoice)="choice($event)"></main-header>
+}
+@if (!isTest || test === 1) {
+  <main-gallery [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-gallery>
+}
+@if (!isTest || test === 2) {
+  <main-hobbies [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-hobbies>
+}
+@if (!isTest || test === 3) {
+  <main-project [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-project>
+}
+@if (!isTest || test === 4) {
+  <main-stats [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-stats>
+}
+@if (!isTest || test === 5) {
+  <main-relationship [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-relationship>
+}
+@if (!isTest || test === 6) {
+  <main-search [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-search>
+}
+@if (!isTest || test === 7) {
+  <main-hot [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-hot>
+}
+@if (!isTest || test === 8) {
+  <main-contact [isTest]="isTest" (outPrevious)="previous()"></main-contact>
+}
+@if (!isTest) {
+  <app-navigation></app-navigation>
+}

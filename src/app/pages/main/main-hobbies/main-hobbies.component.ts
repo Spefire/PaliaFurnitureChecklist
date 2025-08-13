@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 import { SharedModule } from '@src/shared.module';
@@ -10,6 +10,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-hobbies.component.scss',
 })
 export class MainHobbiesComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public musicFavorites: Hobby[] = [
     {
       title: 'Woodkid',
@@ -126,6 +130,14 @@ export class MainHobbiesComponent {
       src: 'assets/hobbies/movie_06.jpg',
     },
   ];
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
+  }
 }
 
 class Hobby {

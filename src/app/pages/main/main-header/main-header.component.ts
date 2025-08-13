@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, output } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -10,4 +10,10 @@ import { SharedModule } from '@src/shared.module';
   templateUrl: './main-header.component.html',
   styleUrl: './main-header.component.scss',
 })
-export class MainHeaderComponent {}
+export class MainHeaderComponent {
+  public readonly outChoice = output<boolean>();
+
+  public test() {
+    this.outChoice.emit(true);
+  }
+}

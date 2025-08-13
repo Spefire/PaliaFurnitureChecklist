@@ -1,4 +1,4 @@
-<section class="section is-blue" appObserveSection id="personnalite">
+<section class="section is-blue" [class.is-max]="isTest()" appObserveSection id="personnalite">
   <div class="section-container">
     <h2 class="section-title">🧔 Ma Personnalité</h2>
     <p class="section-subtitle">En essayant d'être le plus exhaustif, et objectif ?</p>
@@ -25,6 +25,7 @@
         }
       </div>
     </div>
+
     <div class="list">
       <h3>❌ Aspects que tu pourrais ne pas aimer</h3>
       <div class="list-grid">
@@ -41,5 +42,18 @@
         }
       </div>
     </div>
+
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
+    }
   </div>
 </section>

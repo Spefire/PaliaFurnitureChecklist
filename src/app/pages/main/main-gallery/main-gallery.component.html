@@ -1,4 +1,4 @@
-<section class="section is-red" appObserveSection id="galerie">
+<section class="section is-red" [class.is-max]="isTest()" appObserveSection id="galerie">
   <div class="section-container">
     <h2 class="section-title">📸 Galerie Photo</h2>
     <p class="section-subtitle">Pour que tu vois à quoi je ressemble quand même.</p>
@@ -16,6 +16,19 @@
       Je suis un nounours avec du ventre, musclé mais avec du surplus... et un peu poilu.<br />
       Je ne m'accepte pas encore trop : j'aimerais faire + de sport, donc si tu me motives, chaud partant !
     </app-note>
+
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
+    }
   </div>
 
   @if (selectedPhoto) {

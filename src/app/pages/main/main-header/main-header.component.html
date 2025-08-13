@@ -1,4 +1,4 @@
-<section class="header section is-small background" appObserveSection id="intro">
+<section class="header section is-small is-max background" appObserveSection id="intro">
   <header class="section-container">
     <div class="header-titles">
       <img class="header-image" src="assets/logo.png" alt="" />
@@ -13,19 +13,22 @@
       En tant que gay, je suis fatigué des applications (Grindr, Tinder...), je voulais trouver un moyen original de me
       présenter plus en détails... et en même tant d'utiliser ma passion pour la création de site web !
     </app-note>
-    <div class="header-buttons">
+    <div class="buttons">
       <a href="#galerie" mat-flat-button color="primary">
         Me découvrir
         <i class="icon-chevron-down"></i>
       </a>
+      <p><b>OU</b></p>
+      <button mat-flat-button color="primary" (click)="test()">
+        Tester ta compatibilité
+        <i class="icon-star-full"></i>
+      </button>
+    </div>
+    <div class="buttons">
       <a href="#contact" mat-flat-button color="primary">
         Me contacter
         <i class="icon-bubble"></i>
       </a>
-      <!--button mat-flat-button color="primary">
-        Tester ta compatibilité
-        <i class="icon-star-full"></i>
-      </button-->
     </div>
   </header>
 </section>

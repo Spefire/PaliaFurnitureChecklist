@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -11,6 +11,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-relationship.component.scss',
 })
 export class MainRelationshipComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public relationshipLanguages = [
     {
       icon: '❤️​❤️​❤️​❤️​❤️​',
@@ -38,4 +42,12 @@ export class MainRelationshipComponent {
       description: `Pas mon point fort... je n'aime pas qu'on m'en fasse (je me sens redevable) et je ne sais pas souvent pas quoi offrir quand c'est matériel. Mais si tu aimes des univers et les goodies, je peux avoir quelques d'idées !`,
     },
   ];
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
+  }
 }

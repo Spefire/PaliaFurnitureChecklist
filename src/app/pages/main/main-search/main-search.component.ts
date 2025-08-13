@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -11,6 +11,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-search.component.scss',
 })
 export class MainSearchComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public importantTraits = [
     {
       src: 'assets/search/key_01.png',
@@ -67,4 +71,12 @@ export class MainSearchComponent {
     'Un goût pour la cuisine : je suis gourmand 🤭',
     `Être un signe de Feu 🔥​ (Lion, Bélier, Sagittaire) ou d'Air 🌬️​ (Balance, Gémeaux, Verseau)`,
   ];
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
+  }
 }

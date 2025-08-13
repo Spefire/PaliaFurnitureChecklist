@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
 import { SharedModule } from '@src/shared.module';
@@ -10,6 +10,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-hot.component.scss',
 })
 export class MainHotComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public isRevealed = false;
   public isRevealedHot = false;
   public isRevealedVeryHot = false;
@@ -102,5 +106,13 @@ export class MainHotComponent {
 
   public closePhoto() {
     this.showPhoto = false;
+  }
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
   }
 }

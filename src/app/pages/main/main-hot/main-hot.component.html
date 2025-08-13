@@ -1,4 +1,4 @@
-<section class="section is-small is-red" appObserveSection id="sexe">
+<section class="section is-small is-red" [class.is-max]="isTest()" appObserveSection id="sexe">
   <div class="section-container">
     <h2 class="section-title">🔥 Section + Hot 🔥</h2>
     <p class="section-subtitle">Contenu à révéler avec précaution</p>
@@ -39,7 +39,6 @@
           </a>
         </div>
       </div>
-
       @if (!isRevealedHot) {
         <div class="list">
           <h3>⚠️ Contenu ultra-sensible</h3>
@@ -139,6 +138,19 @@
           </div>
         </div>
       }
+    }
+
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
     }
   </div>
   @if (showPhoto) {

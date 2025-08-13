@@ -1,4 +1,4 @@
-<section class="section is-blue" appObserveSection id="recherche">
+<section class="section is-blue" [class.is-max]="isTest()" appObserveSection id="recherche">
   <div class="section-container">
     <h2 class="section-title">🔍 Ce que je recherche</h2>
     <p class="section-subtitle">Mes critères pour une relation épanouie</p>
@@ -29,7 +29,6 @@
           <li *ngFor="let item of niceToHave">{{ item }}</li>
         </ul>
       </div>
-
       <div class="criteria-section">
         <h3>❌ Possibles deal-breakers</h3>
         <ul class="is-red">
@@ -37,5 +36,18 @@
         </ul>
       </div>
     </div>
+
+    @if (isTest()) {
+      <div class="buttons">
+        <button mat-flat-button (click)="previous()">
+          <i class="icon-arrow-left"></i>
+          Précédent
+        </button>
+        <button mat-flat-button color="primary" (click)="next()">
+          Suivant
+          <i class="icon-arrow-right"></i>
+        </button>
+      </div>
+    }
   </div>
 </section>

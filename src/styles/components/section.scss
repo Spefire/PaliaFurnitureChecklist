@@ -17,6 +17,10 @@
     background-color: var(--spe-blue-color);
   }
 
+  &.is-max {
+    min-height: 100vh;
+  }
+
   &.is-small {
     .section-container {
       width: 50%;

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input, output } from '@angular/core';
 
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
@@ -11,6 +11,10 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-stats.component.scss',
 })
 export class MainStatsComponent {
+  public readonly isTest = input.required<boolean>();
+  public readonly outPrevious = output();
+  public readonly outNext = output();
+
   public qualities = [
     {
       icon: '😶',
@@ -88,4 +92,12 @@ export class MainStatsComponent {
       color: '#cf4e3f',
     },
   ];
+
+  public previous() {
+    this.outPrevious.emit();
+  }
+
+  public next() {
+    this.outNext.emit();
+  }
 }
