@@ -2,8 +2,32 @@
   <div class="section-container u-marginTop400 u-marginBottom400">
     @if (isTest()) {
       <app-card [heading]="tier.title" [subtitle]="tier.subtitle" [isCenter]="true">
-        <p>{{ tier.description }}</p>
         <p class="contact-score">{{ score }}%</p>
+        <div class="u-flexColumn">
+          <p>{{ tier.description }}</p>
+          @if (tier.showContact) {
+            <p>
+              Et si ce que tu as lu t’a donné envie de discuter, de partager une idée ou juste de dire un "Salut",
+              n'hésites pas à me contacter sur un des réseaux...
+            </p>
+            <div class="buttons">
+              <a
+                mat-flat-button
+                color="primary"
+                href="https://www.instagram.com/nicholas.spef"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="icon-instagram"></i>
+                Instagram perso
+              </a>
+              <a mat-flat-button href="https://discord.com">
+                <i class="icon-discord"></i>
+                #spefire
+              </a>
+            </div>
+          }
+        </div>
       </app-card>
       <div class="buttons">
         <button mat-flat-button (click)="previous()">

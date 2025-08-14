@@ -25,6 +25,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 0,
       max: 25,
+      showContact: false,
       title: '🙈​ Zéro affinité',
       subtitle: 'On n’a pas grand-chose en commun désolé...',
       description: 'Nos univers semblent très éloignés, et c’est ok ! On se retrouvera sans doute autour d’un café mais plus entre connaissances qu’en amis.',
@@ -32,6 +33,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 25,
       max: 50,
+      showContact: false,
       title: '🌱 Germes d’amitié',
       subtitle: 'Il y a une base...',
       description:
@@ -40,6 +42,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 50,
       max: 75,
+      showContact: false,
       title: '🌈 Bonne vibe',
       subtitle: 'On pourrait bien s’entendre !',
       description:
@@ -48,6 +51,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 75,
       max: 101, // 100 inclus
+      showContact: true,
       title: '🔥 Âmes complices',
       subtitle: 'On se capte direct !',
       description:
@@ -59,6 +63,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 50,
       max: 75,
+      showContact: true,
       title: '💞 Potentiel amoureux',
       subtitle: 'Les bases sont là !',
       description: 'On a suffisamment de points communs et de compatibilité pour imaginer quelque chose... à voir si la chimie opère en vrai 👀​',
@@ -66,6 +71,7 @@ export class MainContactComponent implements OnInit {
     {
       min: 75,
       max: 101, // 100 inclus
+      showContact: true,
       title: '💍 Match parfait',
       subtitle: 'On pourrait écrire une belle histoire !',
       description: 'Valeurs, goûts, envies... tout semble aligné ! Si l’attirance est là, on a toutes les chances pour une relation épanouissante 😉',
@@ -89,7 +95,7 @@ export class MainContactComponent implements OnInit {
 
   private _calculate() {
     const listPbs = [];
-    this.score = 100;
+    this.score = 0;
     this.tier = this._getTier(listPbs.length > 0 || this.score < 50, this.score);
   }
 
@@ -103,6 +109,7 @@ export class MainContactComponent implements OnInit {
 interface CompatibilityTier {
   min: number; // Inclus
   max: number; // Exclus
+  showContact: boolean;
   title: string;
   subtitle: string;
   description: string;
