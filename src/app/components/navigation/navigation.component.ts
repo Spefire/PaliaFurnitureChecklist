@@ -18,6 +18,7 @@ export class NavigationComponent implements OnInit {
   }
 
   public readonly isTest = input.required<boolean>();
+  public readonly needHide = input.required<boolean>();
   public readonly outReset = output();
 
   public sections: { id: string; label: string }[] = [

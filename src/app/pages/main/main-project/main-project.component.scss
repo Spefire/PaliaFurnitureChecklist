@@ -6,14 +6,14 @@
 
 .project {
   &::after {
-    background-size: 15vw;
-    background-position: bottom left;
+    background-size: 13.5vw;
+    background-position: 5% 92.5%;
     background-image: url('../../../../assets/illus/deco_03.png');
   }
 
   &::before {
-    background-size: 15vw;
-    background-position: top right;
+    background-size: 12vw;
+    background-position: 95% 15%;
     background-image: url('../../../../assets/illus/deco_08.png');
   }
 

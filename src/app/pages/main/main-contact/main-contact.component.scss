@@ -5,6 +5,27 @@
 }
 
 .contact {
+  .contact-score {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    transform: rotate(25deg);
+
+    &:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%;
+      background-color: var(--spe-yellow-color);
+      transform: translate(-50%, -50%);
+      content: '';
+    }
+  }
+
   .contact-footer {
     display: flex;
     align-items: center;

@@ -7,13 +7,13 @@
 .hobbies {
   &::after {
     background-size: 15vw;
-    background-position: top left;
+    background-position: 0% 2.5%;
     background-image: url('../../../../assets/illus/deco_11.png');
   }
 
   &::before {
     background-size: 15vw;
-    background-position: center right;
+    background-position: 100% 50%;
     background-image: url('../../../../assets/illus/deco_12.png');
   }
 
@@ -26,8 +26,8 @@
     z-index: 0;
     background-repeat: no-repeat;
     pointer-events: none;
-    background-size: 15vw;
-    background-position: bottom left;
+    background-size: 13.5vw;
+    background-position: 2.5% 97.5%;
     background-image: url('../../../../assets/illus/deco_06.png');
 
     @include mixins.tablet-only {

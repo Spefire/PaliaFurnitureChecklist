@@ -1,10 +1,12 @@
 @if (isTest()) {
-  <nav class="navigation-test">
-    <button mat-flat-button color="warn" (click)="reset()">
-      <i class="icon-spinner"></i>
-      <span class="navigation-text">Annuler le test</span>
-    </button>
-  </nav>
+  @if (!needHide()) {
+    <nav class="navigation-test">
+      <button mat-flat-button color="warn" (click)="reset()">
+        <i class="icon-spinner"></i>
+        <span class="navigation-text">Annuler le test</span>
+      </button>
+    </nav>
+  }
 } @else {
   <nav class="navigation-section">
     @if (!hasNoPrev()) {
