@@ -5,6 +5,18 @@
 }
 
 .project {
+  &::after {
+    background-size: 15vw;
+    background-position: bottom left;
+    background-image: url('../../../../assets/illus/deco_03.png');
+  }
+
+  &::before {
+    background-size: 15vw;
+    background-position: top right;
+    background-image: url('../../../../assets/illus/deco_08.png');
+  }
+
   .project-image {
     max-height: 12rem;
     width: auto;
@@ -21,33 +33,4 @@
       margin-right: auto;
     }
   }
-  /*
-  position: relative;
-
-  &::after {
-    background-position: bottom right;
-    background-image: url('../../../../assets/perso1.png');
-  }
-
-  &::before {
-    background-position: center left;
-    background-image: url('../../../../assets/perso2.png');
-  }
-
-  &::before,
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-size: 25vw;
-    background-repeat: no-repeat;
-
-    @include mixins.tablet-only {
-      display: none;
-    }
-  }
-  */
 }

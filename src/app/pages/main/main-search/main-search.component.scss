@@ -4,6 +4,20 @@
   display: contents;
 }
 
+.search {
+  &::after {
+    background-size: 15vw;
+    background-position: 0% 30%;
+    background-image: url('../../../../assets/illus/deco_11.png');
+  }
+
+  &::before {
+    background-size: 15vw;
+    background-position: 100% 70%;
+    background-image: url('../../../../assets/illus/deco_12.png');
+  }
+}
+
 .trait-item {
   display: flex;
   gap: var(--spe-spacing-100);

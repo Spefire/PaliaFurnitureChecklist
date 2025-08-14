@@ -4,6 +4,19 @@
   display: contents;
 }
 
+.hot {
+  &::after {
+    background-position: bottom left;
+    background-image: url('../../../../assets/illus/deco_04.png');
+    transform: scaleY(-1);
+  }
+
+  &::before {
+    background-position: bottom right;
+    background-image: url('../../../../assets/illus/deco_05.png');
+  }
+}
+
 .topic-item {
   display: flex;
   align-items: center;

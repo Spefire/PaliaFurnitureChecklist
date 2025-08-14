@@ -1,6 +1,6 @@
 <section class="contact section is-small background" [class.is-max]="isTest()" appObserveSection id="contact">
   <div class="section-container u-marginTop400 u-marginBottom400">
-    @if (!isTest()) {
+    @if (isTest()) {
       <app-card heading="Résultat du test" subtitle="Description du résultat" [isCenter]="true">
         <p>Description du résultat</p>
       </app-card>

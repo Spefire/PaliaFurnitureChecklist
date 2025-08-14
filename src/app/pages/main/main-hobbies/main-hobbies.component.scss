@@ -4,6 +4,38 @@
   display: contents;
 }
 
+.hobbies {
+  &::after {
+    background-size: 15vw;
+    background-position: top left;
+    background-image: url('../../../../assets/illus/deco_11.png');
+  }
+
+  &::before {
+    background-size: 15vw;
+    background-position: center right;
+    background-image: url('../../../../assets/illus/deco_12.png');
+  }
+
+  .hobbies-illu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    background-size: 15vw;
+    background-position: bottom left;
+    background-image: url('../../../../assets/illus/deco_06.png');
+
+    @include mixins.tablet-only {
+      display: none;
+    }
+  }
+}
+
 .hobby-item {
   display: flex;
   flex-direction: column;
