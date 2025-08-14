@@ -4,7 +4,23 @@
   display: contents;
 }
 
-.navigation {
+.navigation-test {
+  position: fixed;
+  top: var(--spe-spacing-400);
+  left: var(--spe-spacing-200);
+  z-index: 100;
+
+  @include mixins.mobile-only {
+    top: var(--spe-spacing-200);
+    left: var(--spe-spacing-100);
+
+    .navigation-text {
+      display: none;
+    }
+  }
+}
+
+.navigation-section {
   position: fixed;
   right: var(--spe-spacing-200);
   bottom: var(--spe-spacing-400);

@@ -10,6 +10,7 @@ import { MainProjectComponent } from '@src/pages/main/main-project/main-project.
 import { MainRelationshipComponent } from '@src/pages/main/main-relationship/main-relationship.component';
 import { MainSearchComponent } from '@src/pages/main/main-search/main-search.component';
 import { MainStatsComponent } from '@src/pages/main/main-stats/main-stats.component';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
@@ -30,19 +31,30 @@ import { SharedModule } from '@src/shared.module';
   templateUrl: './main.page.html',
 })
 export class MainPage {
-  public isTest = false;
-  public test = 0;
+  public get currentStep() {
+    return this._testService.state.currentStep;
+  }
+  public get isTest() {
+    return this._testService.state.isTest;
+  }
+
+  constructor(private _testService: TestService) {}
 
   public choice(isTest: boolean) {
-    this.isTest = isTest;
-    if (this.isTest) this.test++;
+    if (isTest) {
+      this._testService.hardReset();
+      this._testService.setIsTest(true);
+      this._testService.goToStep(1);
+    } else {
+      this._testService.hardReset();
+    }
   }
 
   public previous() {
-    this.test--;
+    this._testService.prevStep();
   }
 
   public next() {
-    this.test++;
+    this._testService.nextStep();
   }
 }

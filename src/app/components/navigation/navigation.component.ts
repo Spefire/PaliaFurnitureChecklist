@@ -1,5 +1,5 @@
 import { Location } from '@angular/common';
-import { Component, HostListener, OnInit } from '@angular/core';
+import { Component, HostListener, input, OnInit, output } from '@angular/core';
 
 import { SharedModule } from '@src/shared.module';
 
@@ -16,6 +16,9 @@ export class NavigationComponent implements OnInit {
   public onHashChange() {
     this._updateActiveFromUrl();
   }
+
+  public readonly isTest = input.required<boolean>();
+  public readonly outReset = output();
 
   public sections: { id: string; label: string }[] = [
     { id: 'intro', label: 'Introduction' },
@@ -43,6 +46,10 @@ export class NavigationComponent implements OnInit {
 
   public hasNoNext() {
     return this.sections.findIndex(s => s.id === this.activeId) === this.sections.length - 1;
+  }
+
+  public reset() {
+    this.outReset.emit();
   }
 
   public getLabel(direction: 'prev' | 'next') {

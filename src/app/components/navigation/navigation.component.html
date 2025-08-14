@@ -1,14 +1,23 @@
-<nav class="navigation">
-  @if (!hasNoPrev()) {
-    <a mat-flat-button color="primary" [attr.href]="getHash('prev')">
-      <span class="navigation-text">{{ getLabel('prev') }}</span>
-      <i class="icon-arrow-up"></i>
-    </a>
-  }
-  @if (!hasNoNext()) {
-    <a mat-flat-button color="primary" [attr.href]="getHash('next')">
-      <span class="navigation-text">{{ getLabel('next') }}</span>
-      <i class="icon-arrow-down"></i>
-    </a>
-  }
-</nav>
+@if (isTest()) {
+  <nav class="navigation-test">
+    <button mat-flat-button color="warn" (click)="reset()">
+      <i class="icon-spinner"></i>
+      <span class="navigation-text">Annuler le test</span>
+    </button>
+  </nav>
+} @else {
+  <nav class="navigation-section">
+    @if (!hasNoPrev()) {
+      <a mat-flat-button color="primary" [attr.href]="getHash('prev')">
+        <span class="navigation-text">{{ getLabel('prev') }}</span>
+        <i class="icon-arrow-up"></i>
+      </a>
+    }
+    @if (!hasNoNext()) {
+      <a mat-flat-button color="primary" [attr.href]="getHash('next')">
+        <span class="navigation-text">{{ getLabel('next') }}</span>
+        <i class="icon-arrow-down"></i>
+      </a>
+    }
+  </nav>
+}

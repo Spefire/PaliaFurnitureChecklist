@@ -11,9 +11,9 @@ import { SharedModule } from '@src/shared.module';
   styleUrl: './main-header.component.scss',
 })
 export class MainHeaderComponent {
-  public readonly outChoice = output<boolean>();
+  public readonly outChoice = output();
 
   public test() {
-    this.outChoice.emit(true);
+    this.outChoice.emit();
   }
 }
