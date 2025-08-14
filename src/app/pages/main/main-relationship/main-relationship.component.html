@@ -23,6 +23,34 @@
     </app-note>
 
     @if (isTest()) {
+      <app-card heading="✍️ Te concernant">
+        <form class="u-width100 u-flexColumn u-gap200">
+          <mat-form-field>
+            <mat-label>Ton premier langage d'amour</mat-label>
+            <mat-select [(ngModel)]="item.first" [ngModelOptions]="{ standalone: true }">
+              @for (language of relationshipLanguages; track language.title) {
+                <mat-option [value]="language.value">{{ language.title }}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field>
+            <mat-label>Ton second langage d'amour</mat-label>
+            <mat-select [(ngModel)]="item.second" [ngModelOptions]="{ standalone: true }">
+              @for (language of relationshipLanguages; track language.title) {
+                <mat-option [value]="language.value">{{ language.title }}</mat-option>
+              }
+            </mat-select>
+          </mat-form-field>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Tes relations passées</mat-label>
+            <mat-radio-group [(ngModel)]="item.relations" [ngModelOptions]="{ standalone: true }" color="warn">
+              @for (number of relationshipNumber; track number.label) {
+                <mat-radio-button [value]="number.value">{{ number.label }}</mat-radio-button>
+              }
+            </mat-radio-group>
+          </div>
+        </form>
+      </app-card>
       <div class="buttons">
         <button mat-flat-button (click)="previous()">
           <i class="icon-arrow-left"></i>

@@ -122,6 +122,11 @@ export class TestService {
           flaw05: null,
           flaw06: null,
         },
+        couple: {
+          first: null,
+          second: null,
+          relations: null,
+        },
       },
     };
   }

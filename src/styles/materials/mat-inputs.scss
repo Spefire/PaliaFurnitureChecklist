@@ -10,7 +10,7 @@
 
 .mdc-text-field {
   border-radius: var(--spe-spacing-100) !important;
-  border: var(--spe-border);
+  border: 0.1rem solid rgba(0, 0, 0, 0.5) !important;
 }
 
 .mdc-text-field--filled {
@@ -37,4 +37,10 @@
 
 .mat-mdc-option {
   min-height: 36px !important;
+}
+
+// Radios
+.mat-mdc-radio-group {
+  display: flex;
+  flex-direction: column;
 }

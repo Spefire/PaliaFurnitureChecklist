@@ -50,12 +50,18 @@ export interface AnswersPersonnalite {
   flaw06: boolean | null;
 }
 
+export interface AnswersCouple {
+  first: number;
+  second: number;
+  relations: number;
+}
+
 export interface TestAnswers {
   galerie?: AnswersGalerie;
   passions?: AnswersPassions;
   projets?: AnswersProjets;
   personnalite?: AnswersPersonnalite;
-  couple?: unknown;
+  couple?: AnswersCouple;
   recherche?: unknown;
   sexe?: unknown;
 }
