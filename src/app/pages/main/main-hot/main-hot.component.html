@@ -157,7 +157,7 @@
             <form class="u-width100 u-flexColumn u-gap200">
               <div class="u-flexColumn u-gap100">
                 <mat-label>Ton rôle préféré au lit ?</mat-label>
-                <mat-radio-group [(ngModel)]="item.isVersa" [ngModelOptions]="{ standalone: true }" color="warn">
+                <mat-radio-group [(ngModel)]="item.role" [ngModelOptions]="{ standalone: true }" color="warn">
                   @for (role of roleList; track role.label) {
                     <mat-radio-button [value]="role.value">{{ role.label }}</mat-radio-button>
                   }
@@ -165,7 +165,7 @@
               </div>
               <mat-form-field>
                 <mat-label>Le sexe pour toi, c'est... ?</mat-label>
-                <mat-select [(ngModel)]="item.needPenetration" [ngModelOptions]="{ standalone: true }">
+                <mat-select [(ngModel)]="item.penetration" [ngModelOptions]="{ standalone: true }">
                   @for (penetration of penetrationList; track penetration.label) {
                     <mat-option [value]="penetration.value">{{ penetration.label }}</mat-option>
                   }
@@ -173,7 +173,7 @@
               </mat-form-field>
               <mat-form-field>
                 <mat-label>L’orgasme est-il un impératif pour toi ?</mat-label>
-                <mat-select [(ngModel)]="item.needOrgasm" [ngModelOptions]="{ standalone: true }">
+                <mat-select [(ngModel)]="item.orgasm" [ngModelOptions]="{ standalone: true }">
                   @for (orgasm of orgasmList; track orgasm.label) {
                     <mat-option [value]="orgasm.value">{{ orgasm.label }}</mat-option>
                   }

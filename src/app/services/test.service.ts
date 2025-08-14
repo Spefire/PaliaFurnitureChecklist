@@ -118,9 +118,9 @@ export class TestService {
           flaw06: null,
         },
         couple: {
-          first: 0,
-          second: 0,
-          relations: 0,
+          first: null,
+          second: null,
+          relations: null,
         },
         recherche: {
           bonus01: null,
@@ -141,9 +141,9 @@ export class TestService {
           physical: 5,
         },
         sexe: {
-          isVersa: null,
-          needOrgasm: null,
-          needPenetration: null,
+          role: null,
+          penetration: null,
+          orgasm: null,
           physical: 0,
           sexe: 0,
         },
