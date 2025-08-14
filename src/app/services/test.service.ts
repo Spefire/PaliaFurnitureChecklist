@@ -101,6 +101,12 @@ export class TestService {
           movie06: null,
           others: 1,
         },
+        projets: {
+          isDev: false,
+          isRP: false,
+          wantRP: false,
+          isArt: false,
+        },
       },
     };
   }

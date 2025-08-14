@@ -142,7 +142,7 @@ export class MainHobbiesComponent implements OnInit {
   constructor(private _testService: TestService) {}
 
   public ngOnInit() {
-    this.item = this._testService.getAnswer('passions') as AnswersPassions;
+    this.item = this._testService.getAnswer('passions');
     this.musics = [this.item.music01, this.item.music02, this.item.music03, this.item.music04, this.item.music05, this.item.music06];
     this.games = [this.item.game01, this.item.game02, this.item.game03, this.item.game04, this.item.game05, this.item.game06];
     this.movies = [this.item.movie01, this.item.movie02, this.item.movie03, this.item.movie04, this.item.movie05, this.item.movie06];

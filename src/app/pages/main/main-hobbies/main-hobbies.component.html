@@ -16,16 +16,18 @@
             <h4 class="u-textYellow">{{ music.title }}</h4>
             <p class="u-textItalic u-textS">{{ music.genre }}</p>
             <p class="u-textS">{{ music.why }}</p>
-            <mat-button-toggle-group
-              name="music0{{ $index }}"
-              [hideSingleSelectionIndicator]="true"
-              [(ngModel)]="musics[$index]"
-              [ngModelOptions]="{ standalone: true }"
-            >
-              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
-              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
-              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
-            </mat-button-toggle-group>
+            @if (isTest()) {
+              <mat-button-toggle-group
+                name="music0{{ $index }}"
+                [hideSingleSelectionIndicator]="true"
+                [(ngModel)]="musics[$index]"
+                [ngModelOptions]="{ standalone: true }"
+              >
+                <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+                <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+                <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+              </mat-button-toggle-group>
+            }
           </div>
         }
       </div>
@@ -44,16 +46,18 @@
             <h4 class="u-textYellow">{{ game.title }}</h4>
             <p class="u-textItalic u-textS">{{ game.genre }}</p>
             <p class="u-textS">{{ game.why }}</p>
-            <mat-button-toggle-group
-              name="game0{{ $index }}"
-              [hideSingleSelectionIndicator]="true"
-              [(ngModel)]="games[$index]"
-              [ngModelOptions]="{ standalone: true }"
-            >
-              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
-              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
-              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
-            </mat-button-toggle-group>
+            @if (isTest()) {
+              <mat-button-toggle-group
+                name="game0{{ $index }}"
+                [hideSingleSelectionIndicator]="true"
+                [(ngModel)]="games[$index]"
+                [ngModelOptions]="{ standalone: true }"
+              >
+                <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+                <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+                <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+              </mat-button-toggle-group>
+            }
           </div>
         }
       </div>
@@ -72,25 +76,27 @@
             <h4 class="u-textYellow">{{ movie.title }}</h4>
             <p class="u-textItalic u-textS">{{ movie.genre }}</p>
             <p class="u-textS">{{ movie.why }}</p>
-            <mat-button-toggle-group
-              name="movie0{{ $index }}"
-              [hideSingleSelectionIndicator]="true"
-              [(ngModel)]="movies[$index]"
-              [ngModelOptions]="{ standalone: true }"
-            >
-              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
-              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
-              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
-            </mat-button-toggle-group>
+            @if (isTest()) {
+              <mat-button-toggle-group
+                name="movie0{{ $index }}"
+                [hideSingleSelectionIndicator]="true"
+                [(ngModel)]="movies[$index]"
+                [ngModelOptions]="{ standalone: true }"
+              >
+                <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+                <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+                <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+              </mat-button-toggle-group>
+            }
           </div>
         }
       </div>
     </div>
     <div class="list">
-      <h3>🌷 Et plein d'autres choses !</h3>
+      <h3>🎲🌷 Et plein d'autres choses !</h3>
       <p>
-        Le jardinage et les plantes, les Legos, les potions décoratives, un peu de cuisine (quand j'ai pas la flemme),
-        la cardio...
+        Le jardinage et les plantes, le Jeu de Rôles, les Legos, les potions décoratives, un peu de cuisine (quand j'ai
+        pas la flemme), la cardio...
       </p>
     </div>
 

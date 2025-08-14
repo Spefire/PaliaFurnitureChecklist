@@ -63,7 +63,7 @@ export class MainGalleryComponent implements OnInit {
   constructor(private _testService: TestService) {}
 
   public ngOnInit() {
-    this.item = this._testService.getAnswer('galerie') as AnswersGalerie;
+    this.item = this._testService.getAnswer('galerie');
   }
 
   public openPhoto(photo: Photo) {

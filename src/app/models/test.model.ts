@@ -27,10 +27,17 @@ export interface AnswersPassions {
   others: number;
 }
 
+export interface AnswersProjets {
+  isDev: boolean;
+  isRP: boolean;
+  wantRP: boolean;
+  isArt: boolean;
+}
+
 export interface TestAnswers {
   galerie?: AnswersGalerie;
   passions?: AnswersPassions;
-  projets?: unknown;
+  projets?: AnswersProjets;
   personnalite?: unknown;
   couple?: unknown;
   recherche?: unknown;
