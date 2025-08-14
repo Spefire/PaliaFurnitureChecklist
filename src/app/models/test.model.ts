@@ -75,6 +75,14 @@ export interface AnswersRecherche {
   physical: number;
 }
 
+export interface AnswersSexe {
+  isVersa: boolean;
+  needPenetration: boolean;
+  needOrgasm: boolean;
+  physical: number;
+  sexe: number;
+}
+
 export interface TestAnswers {
   galerie: AnswersGalerie;
   passions: AnswersPassions;
@@ -82,7 +90,7 @@ export interface TestAnswers {
   personnalite: AnswersPersonnalite;
   couple: AnswersCouple;
   recherche: AnswersRecherche;
-  sexe?: unknown;
+  sexe: AnswersSexe;
 }
 
 export interface TestState {

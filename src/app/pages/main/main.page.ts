@@ -5,7 +5,7 @@ import { MainContactComponent } from '@src/pages/main/main-contact/main-contact.
 import { MainGalleryComponent } from '@src/pages/main/main-gallery/main-gallery.component';
 import { MainHeaderComponent } from '@src/pages/main/main-header/main-header.component';
 import { MainHobbiesComponent } from '@src/pages/main/main-hobbies/main-hobbies.component';
-import { MainHotComponent } from '@src/pages/main/main-hot/main-hot.component';
+import { HOT_PASSWORD, MainHotComponent, VERY_HOT_PASSWORD } from '@src/pages/main/main-hot/main-hot.component';
 import { MainProjectComponent } from '@src/pages/main/main-project/main-project.component';
 import { MainRelationshipComponent } from '@src/pages/main/main-relationship/main-relationship.component';
 import { MainSearchComponent } from '@src/pages/main/main-search/main-search.component';
@@ -38,7 +38,10 @@ export class MainPage {
     return this._testService.state.isTest;
   }
 
-  constructor(private _testService: TestService) {}
+  constructor(private _testService: TestService) {
+    console.warn(HOT_PASSWORD);
+    console.warn(VERY_HOT_PASSWORD);
+  }
 
   public choice(isTest: boolean) {
     if (isTest) {

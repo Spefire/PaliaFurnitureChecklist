@@ -1,28 +1,55 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 
+import { CardComponent } from '@src/components/card/card.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { AnswersSexe } from '@src/models/test.model';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
+
+export const HOT_PASSWORD = 'BOUH';
+export const VERY_HOT_PASSWORD = 'BAH';
 
 @Component({
   selector: 'main-hot',
-  imports: [SharedModule, ObserveSectionDirective],
+  imports: [SharedModule, CardComponent, ObserveSectionDirective],
   templateUrl: './main-hot.component.html',
   styleUrl: './main-hot.component.scss',
 })
-export class MainHotComponent {
+export class MainHotComponent implements OnInit {
   public readonly isTest = input.required<boolean>();
   public readonly outPrevious = output();
   public readonly outNext = output();
+
+  public item: AnswersSexe;
 
   public isRevealed = false;
   public isRevealedHot = false;
   public isRevealedVeryHot = false;
   public showPhoto = false;
 
-  public readonly HOT_PASSWORD = 'BOUH';
-  public readonly VERY_HOT_PASSWORD = 'BAH';
   public passwordHot = '';
   public passwordVeryHot = '';
+  public readonly HOT_PASSWORD = HOT_PASSWORD;
+  public readonly VERY_HOT_PASSWORD = VERY_HOT_PASSWORD;
+
+  public roleList = [
+    { label: `Je n'aime la pénétration`, value: -2 },
+    { label: 'Je préfère donner (actif)', value: 0 },
+    { label: 'Je préfère recevoir (passif)', value: 1 },
+    { label: 'Je suis versatile (avec ou sans préférence)', value: 3 },
+  ];
+
+  public penetrationList = [
+    { label: 'Pénétration anale indispensable', value: -1 },
+    { label: 'Pénétration anale le plus souvent', value: 0 },
+    { label: `Pas besoin de pénétration, selon l'envie du moment`, value: 2 },
+  ];
+
+  public orgasmList = [
+    { label: `Oui, faut qu'on finisse tous les deux`, value: 0 },
+    { label: 'Oui, j’ai besoin forcément de finir', value: 1 },
+    { label: 'Non, je peux apprécier même sans final', value: 3 },
+  ];
 
   public hotTopics = [
     {
@@ -76,14 +103,20 @@ export class MainHotComponent {
     'Shibari (à tester !)',
   ];
 
-  public boundaries = ['Insultes, surnoms dévalorisants, rabaissements...', 'Anulingus', 'Uro, scato, ...', 'Et à discuter sur le reste ?'];
+  public boundaries = ['Insultes, surnoms dévalorisants, rabaissements', 'Anulingus', 'Furry', 'Uro, scato, ...', 'Et à discuter sur le reste ?'];
+
+  constructor(private _testService: TestService) {}
+
+  public ngOnInit() {
+    this.item = this._testService.getAnswer('sexe');
+  }
 
   public checkPassword(level: 'safe' | 'hot' | 'very') {
     if (level === 'safe') {
       this.isRevealed = true;
-    } else if (level === 'hot' && this.passwordHot === this.HOT_PASSWORD) {
+    } else if (level === 'hot' && this.passwordHot === HOT_PASSWORD) {
       this.isRevealedHot = true;
-    } else if (level === 'very' && this.passwordVeryHot === this.VERY_HOT_PASSWORD) {
+    } else if (level === 'very' && this.passwordVeryHot === VERY_HOT_PASSWORD) {
       this.isRevealedVeryHot = true;
     }
   }
@@ -113,6 +146,7 @@ export class MainHotComponent {
   }
 
   public next() {
+    this._testService.setAnswer('sexe', this.item);
     this.outNext.emit();
   }
 }

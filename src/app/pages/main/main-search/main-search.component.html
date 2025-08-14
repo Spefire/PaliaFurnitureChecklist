@@ -64,9 +64,7 @@
     @if (isTest()) {
       <app-card heading="✍️ Te concernant">
         <form class="u-width100 u-flexColumn u-gap200">
-          <p class="u-textBold u-marginBottom100">
-            Tu peux checker les bonus (ou deal-breakers) que tu remplis ci-dessus ⬆️
-          </p>
+          <p class="u-textBold">Tu peux checker les bonus (ou deal-breakers) que tu remplis ci-dessus ⬆️</p>
           <mat-slide-toggle [(ngModel)]="item.canFree" [ngModelOptions]="{ standalone: true }" color="primary">
             Tu es en accord avec la relation libre
           </mat-slide-toggle>
@@ -76,10 +74,12 @@
           <mat-slide-toggle [(ngModel)]="item.distance" [ngModelOptions]="{ standalone: true }" color="primary">
             Tu peux gérer une relation à distance sur le court/moyen terme si besoin
           </mat-slide-toggle>
-          <mat-label>Tu penses que je pourrais te plaire physiquement à quel point ?</mat-label>
-          <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
-            <input matSliderThumb [(ngModel)]="item.physical" [ngModelOptions]="{ standalone: true }" #slider />
-          </mat-slider>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Selon ce que j'ai mis au-dessus, tu pourrais me plaire physiquement à quel point ?</mat-label>
+            <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.physical" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </div>
         </form>
       </app-card>
       <div class="buttons">

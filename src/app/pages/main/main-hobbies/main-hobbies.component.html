@@ -102,31 +102,39 @@
 
     @if (isTest()) {
       <app-card heading="✍️ Ton avis">
-        <form class="u-width100">
-          <p class="u-textBold u-marginBottom100">
-            Tu peux également indiquer ton avis sur certains de mes goûts ci-dessus ⬆️
-          </p>
-          <ul class="u-marginBottom200">
-            <li>❌ : C'est pas OK pour toi / tu n'aimes pas</li>
-            <li>❔ : Pas d'avis</li>
-            <li>✔️ : C'est OK pour toi / t'aimes bien</li>
-          </ul>
-          <mat-label>Tu te vois t'enjailler / chanter / écouter ma musique ?</mat-label>
-          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
-            <input matSliderThumb [(ngModel)]="item.musics" [ngModelOptions]="{ standalone: true }" #slider />
-          </mat-slider>
-          <mat-label>Tu te vois jouer avec moi ?</mat-label>
-          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
-            <input matSliderThumb [(ngModel)]="item.games" [ngModelOptions]="{ standalone: true }" #slider />
-          </mat-slider>
-          <mat-label>Tu te vois mater des séries avec moi ?</mat-label>
-          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
-            <input matSliderThumb [(ngModel)]="item.movies" [ngModelOptions]="{ standalone: true }" #slider />
-          </mat-slider>
-          <mat-label>Tu penses qu'on a d'autres passions en commun ?</mat-label>
-          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
-            <input matSliderThumb [(ngModel)]="item.others" [ngModelOptions]="{ standalone: true }" #slider />
-          </mat-slider>
+        <form class="u-width100 u-flexColumn u-gap200">
+          <div class="u-flexColumn u-gap100">
+            <p class="u-textBold">Tu peux également indiquer ton avis sur certains de mes goûts ci-dessus ⬆️</p>
+            <ul>
+              <li>❌ : C'est pas OK pour toi / tu n'aimes pas</li>
+              <li>❔ : Pas d'avis</li>
+              <li>✔️ : C'est OK pour toi / t'aimes bien</li>
+            </ul>
+          </div>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Tu te vois t'enjailler / chanter / écouter ma musique ?</mat-label>
+            <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.musics" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </div>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Tu te vois jouer avec moi ?</mat-label>
+            <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.games" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </div>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Tu te vois mater des séries avec moi ?</mat-label>
+            <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.movies" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </div>
+          <div class="u-flexColumn u-gap100">
+            <mat-label>Tu penses qu'on a d'autres passions en commun ?</mat-label>
+            <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.others" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </div>
         </form>
       </app-card>
       <div class="buttons">

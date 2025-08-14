@@ -39,6 +39,16 @@
           </a>
         </div>
       </div>
+      @if (isTest() && !isRevealedHot) {
+        <app-card heading="✍️ Ton avis">
+          <form class="u-width100 u-flexColumn u-gap100">
+            <mat-label>Tu penses qu'on serait sexuellement compatible à quel point ?</mat-label>
+            <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+              <input matSliderThumb [(ngModel)]="item.sexe" [ngModelOptions]="{ standalone: true }" #slider />
+            </mat-slider>
+          </form>
+        </app-card>
+      }
       @if (!isRevealedHot) {
         <div class="list">
           <h3>⚠️ Contenu ultra-sensible</h3>
@@ -125,18 +135,65 @@
         </div>
         <div class="criteria-sections">
           <div class="criteria-section">
-            <h3>👍​ Ce qui est OK avec moi</h3>
-            <ul>
-              <li *ngFor="let like of likes">{{ like }}</li>
+            <h3>👍​ Ce qui est OK pour moi</h3>
+            <ul class="is-yellow">
+              @for (item of likes; track $index) {
+                <li>{{ item }}</li>
+              }
             </ul>
           </div>
           <div class="criteria-section">
             <h3>❌ Ce qui ne me tente pas</h3>
-            <ul>
-              <li *ngFor="let boundary of boundaries">{{ boundary }}</li>
+            <ul class="is-red">
+              @for (item of boundaries; track $index) {
+                <li>{{ item }}</li>
+              }
             </ul>
           </div>
         </div>
+
+        @if (isTest()) {
+          <app-card heading="✍️ Ton avis et te concernant">
+            <form class="u-width100 u-flexColumn u-gap200">
+              <div class="u-flexColumn u-gap100">
+                <mat-label>Ton rôle préféré au lit ?</mat-label>
+                <mat-radio-group [(ngModel)]="item.isVersa" [ngModelOptions]="{ standalone: true }" color="warn">
+                  @for (role of roleList; track role.label) {
+                    <mat-radio-button [value]="role.value">{{ role.label }}</mat-radio-button>
+                  }
+                </mat-radio-group>
+              </div>
+              <mat-form-field>
+                <mat-label>Le sexe pour toi, c'est... ?</mat-label>
+                <mat-select [(ngModel)]="item.needPenetration" [ngModelOptions]="{ standalone: true }">
+                  @for (penetration of penetrationList; track penetration.label) {
+                    <mat-option [value]="penetration.value">{{ penetration.label }}</mat-option>
+                  }
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field>
+                <mat-label>L’orgasme est-il un impératif pour toi ?</mat-label>
+                <mat-select [(ngModel)]="item.needOrgasm" [ngModelOptions]="{ standalone: true }">
+                  @for (orgasm of orgasmList; track orgasm.label) {
+                    <mat-option [value]="orgasm.value">{{ orgasm.label }}</mat-option>
+                  }
+                </mat-select>
+              </mat-form-field>
+              <div class="u-flexColumn u-gap100">
+                <mat-label>À seconde vue, je te plais physiquement à quel point ?</mat-label>
+                <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+                  <input matSliderThumb [(ngModel)]="item.physical" [ngModelOptions]="{ standalone: true }" #slider />
+                </mat-slider>
+              </div>
+              <div class="u-flexColumn u-gap100">
+                <mat-label>Tu penses qu'on serait sexuellement compatible à quel point ?</mat-label>
+                <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+                  <input matSliderThumb [(ngModel)]="item.sexe" [ngModelOptions]="{ standalone: true }" #slider />
+                </mat-slider>
+              </div>
+            </form>
+          </app-card>
+        }
       }
     }
 
