@@ -18,11 +18,15 @@
     </app-note>
 
     @if (isTest()) {
+      <app-card heading="✍️ Ton avis">
+        <form class="u-width100">
+          <mat-label>Je te plais physiquement à quel point ?</mat-label>
+          <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.value" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+        </form>
+      </app-card>
       <div class="buttons">
-        <button mat-flat-button (click)="previous()">
-          <i class="icon-arrow-left"></i>
-          Précédent
-        </button>
         <button mat-flat-button color="primary" (click)="next()">
           Suivant
           <i class="icon-arrow-right"></i>

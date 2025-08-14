@@ -2,7 +2,7 @@
   <main-header (outChoice)="choice(true)"></main-header>
 }
 @if (!isTest || currentStep === 1) {
-  <main-gallery [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-gallery>
+  <main-gallery [isTest]="isTest" (outNext)="next()"></main-gallery>
 }
 @if (!isTest || currentStep === 2) {
   <main-hobbies [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-hobbies>

@@ -36,3 +36,8 @@
     border-color: var(--mdc-outlined-button-label-text-color, inherit) !important;
   }
 }
+
+// Toggle
+.mat-button-toggle-checked {
+  --mat-standard-button-toggle-selected-state-background-color: var(--spe-yellow-color) !important;
+}

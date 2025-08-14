@@ -1,18 +1,26 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 
+import { CardComponent } from '@src/components/card/card.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { AnswersPassions } from '@src/models/test.model';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-hobbies',
-  imports: [SharedModule, ObserveSectionDirective],
+  imports: [SharedModule, ObserveSectionDirective, CardComponent],
   templateUrl: './main-hobbies.component.html',
   styleUrl: './main-hobbies.component.scss',
 })
-export class MainHobbiesComponent {
+export class MainHobbiesComponent implements OnInit {
   public readonly isTest = input.required<boolean>();
   public readonly outPrevious = output();
   public readonly outNext = output();
+
+  public item: AnswersPassions;
+  public musics: (boolean | null)[];
+  public games: (boolean | null)[];
+  public movies: (boolean | null)[];
 
   public musicFavorites: Hobby[] = [
     {
@@ -131,11 +139,39 @@ export class MainHobbiesComponent {
     },
   ];
 
+  constructor(private _testService: TestService) {}
+
+  public ngOnInit() {
+    this.item = this._testService.getAnswer('passions') as AnswersPassions;
+    this.musics = [this.item.music01, this.item.music02, this.item.music03, this.item.music04, this.item.music05, this.item.music06];
+    this.games = [this.item.game01, this.item.game02, this.item.game03, this.item.game04, this.item.game05, this.item.game06];
+    this.movies = [this.item.movie01, this.item.movie02, this.item.movie03, this.item.movie04, this.item.movie05, this.item.movie06];
+  }
+
   public previous() {
     this.outPrevious.emit();
   }
 
   public next() {
+    this.item.music01 = this.musics[0];
+    this.item.music02 = this.musics[1];
+    this.item.music03 = this.musics[2];
+    this.item.music04 = this.musics[3];
+    this.item.music05 = this.musics[4];
+    this.item.music06 = this.musics[5];
+    this.item.game01 = this.games[0];
+    this.item.game02 = this.games[1];
+    this.item.game03 = this.games[2];
+    this.item.game04 = this.games[3];
+    this.item.game05 = this.games[4];
+    this.item.game06 = this.games[5];
+    this.item.movie01 = this.movies[0];
+    this.item.movie02 = this.movies[1];
+    this.item.movie03 = this.movies[2];
+    this.item.movie04 = this.movies[3];
+    this.item.movie05 = this.movies[4];
+    this.item.movie06 = this.movies[5];
+    this._testService.setAnswer('passions', this.item);
     this.outNext.emit();
   }
 }

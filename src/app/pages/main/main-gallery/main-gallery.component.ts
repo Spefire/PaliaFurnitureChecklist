@@ -1,19 +1,23 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 
+import { CardComponent } from '@src/components/card/card.component';
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { AnswersGalerie } from '@src/models/test.model';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-gallery',
-  imports: [SharedModule, ObserveSectionDirective, NoteComponent],
+  imports: [SharedModule, ObserveSectionDirective, CardComponent, NoteComponent],
   templateUrl: './main-gallery.component.html',
   styleUrl: './main-gallery.component.scss',
 })
-export class MainGalleryComponent {
+export class MainGalleryComponent implements OnInit {
   public readonly isTest = input.required<boolean>();
-  public readonly outPrevious = output();
   public readonly outNext = output();
+
+  public item: AnswersGalerie;
 
   public photos: Photo[] = [
     {
@@ -56,6 +60,12 @@ export class MainGalleryComponent {
 
   public selectedPhoto: Photo = null;
 
+  constructor(private _testService: TestService) {}
+
+  public ngOnInit() {
+    this.item = this._testService.getAnswer('galerie') as AnswersGalerie;
+  }
+
   public openPhoto(photo: Photo) {
     this.selectedPhoto = photo;
   }
@@ -64,11 +74,8 @@ export class MainGalleryComponent {
     this.selectedPhoto = null;
   }
 
-  public previous() {
-    this.outPrevious.emit();
-  }
-
   public next() {
+    this._testService.setAnswer('galerie', this.item);
     this.outNext.emit();
   }
 }

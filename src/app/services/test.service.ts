@@ -75,7 +75,33 @@ export class TestService {
     return {
       isTest: false,
       currentStep: 0,
-      answers: {},
+      answers: {
+        galerie: { value: 5 },
+        passions: {
+          musics: 1,
+          music01: null,
+          music02: null,
+          music03: null,
+          music04: null,
+          music05: null,
+          music06: null,
+          games: 1,
+          game01: null,
+          game02: null,
+          game03: null,
+          game04: null,
+          game05: null,
+          game06: null,
+          movies: 1,
+          movie01: null,
+          movie02: null,
+          movie03: null,
+          movie04: null,
+          movie05: null,
+          movie06: null,
+          others: 1,
+        },
+      },
     };
   }
 

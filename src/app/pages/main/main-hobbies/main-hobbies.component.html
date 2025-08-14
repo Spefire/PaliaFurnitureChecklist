@@ -10,12 +10,24 @@
         J'ai un peu de mal avec les musiques françaises, et une culture musicale à déploirer !
       </p>
       <div class="list-grid is-small">
-        <div *ngFor="let music of musicFavorites" class="list-item hobby-item">
-          <img class="hobby-img" [src]="music.src" alt="" />
-          <h4 class="u-textYellow">{{ music.title }}</h4>
-          <p class="u-textItalic u-textS">{{ music.genre }}</p>
-          <p class="u-textS">{{ music.why }}</p>
-        </div>
+        @for (music of musicFavorites; track music.title) {
+          <div class="list-item hobby-item">
+            <img class="hobby-img" [src]="music.src" alt="" />
+            <h4 class="u-textYellow">{{ music.title }}</h4>
+            <p class="u-textItalic u-textS">{{ music.genre }}</p>
+            <p class="u-textS">{{ music.why }}</p>
+            <mat-button-toggle-group
+              name="music0{{ $index }}"
+              [hideSingleSelectionIndicator]="true"
+              [(ngModel)]="musics[$index]"
+              [ngModelOptions]="{ standalone: true }"
+            >
+              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+            </mat-button-toggle-group>
+          </div>
+        }
       </div>
     </div>
     <div class="list">
@@ -26,12 +38,24 @@
         Life Is Strange, Dead by Daylight...
       </p>
       <div class="list-grid is-small">
-        <div *ngFor="let game of gameFavorites" class="list-item hobby-item">
-          <img class="hobby-img" [src]="game.src" alt="" />
-          <h4 class="u-textYellow">{{ game.title }}</h4>
-          <p class="u-textItalic u-textS">{{ game.genre }}</p>
-          <p class="u-textS">{{ game.why }}</p>
-        </div>
+        @for (game of gameFavorites; track game.title) {
+          <div class="list-item hobby-item">
+            <img class="hobby-img" [src]="game.src" alt="" />
+            <h4 class="u-textYellow">{{ game.title }}</h4>
+            <p class="u-textItalic u-textS">{{ game.genre }}</p>
+            <p class="u-textS">{{ game.why }}</p>
+            <mat-button-toggle-group
+              name="game0{{ $index }}"
+              [hideSingleSelectionIndicator]="true"
+              [(ngModel)]="games[$index]"
+              [ngModelOptions]="{ standalone: true }"
+            >
+              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+            </mat-button-toggle-group>
+          </div>
+        }
       </div>
     </div>
     <div class="list">
@@ -42,12 +66,24 @@
         cinématographique de même à déploirer !
       </p>
       <div class="list-grid is-small">
-        <div *ngFor="let movie of movieFavorites" class="list-item hobby-item">
-          <img class="hobby-img" [src]="movie.src" alt="" />
-          <h4 class="u-textYellow">{{ movie.title }}</h4>
-          <p class="u-textItalic u-textS">{{ movie.genre }}</p>
-          <p class="u-textS">{{ movie.why }}</p>
-        </div>
+        @for (movie of movieFavorites; track movie.title) {
+          <div class="list-item hobby-item">
+            <img class="hobby-img" [src]="movie.src" alt="" />
+            <h4 class="u-textYellow">{{ movie.title }}</h4>
+            <p class="u-textItalic u-textS">{{ movie.genre }}</p>
+            <p class="u-textS">{{ movie.why }}</p>
+            <mat-button-toggle-group
+              name="movie0{{ $index }}"
+              [hideSingleSelectionIndicator]="true"
+              [(ngModel)]="movies[$index]"
+              [ngModelOptions]="{ standalone: true }"
+            >
+              <mat-button-toggle [value]="false">❌​</mat-button-toggle>
+              <mat-button-toggle [value]="null">❔​</mat-button-toggle>
+              <mat-button-toggle [value]="true">✔️​</mat-button-toggle>
+            </mat-button-toggle-group>
+          </div>
+        }
       </div>
     </div>
     <div class="list">
@@ -59,6 +95,29 @@
     </div>
 
     @if (isTest()) {
+      <app-card heading="✍️ Ton avis">
+        <form class="u-width100">
+          <p class="u-textBold u-marginBottom200">
+            Tu peux également indiquer ton avis sur certains de mes goûts ci-dessus ⬆️
+          </p>
+          <mat-label>Tu te vois t'enjailler / chanter / écouter ma musique ?</mat-label>
+          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.musics" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+          <mat-label>Tu te vois jouer avec moi ?</mat-label>
+          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.games" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+          <mat-label>Tu te vois mater des séries avec moi ?</mat-label>
+          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.movies" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+          <mat-label>Tu penses qu'on a d'autres passions en commun ?</mat-label>
+          <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.others" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+        </form>
+      </app-card>
       <div class="buttons">
         <button mat-flat-button (click)="previous()">
           <i class="icon-arrow-left"></i>

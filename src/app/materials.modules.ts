@@ -2,6 +2,7 @@ import { STEPPER_GLOBAL_OPTIONS } from '@angular/cdk/stepper';
 import { NgModule } from '@angular/core';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatButtonModule } from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatOptionModule } from '@angular/material/core';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -22,6 +23,7 @@ import { MatTreeModule } from '@angular/material/tree';
   imports: [
     MatAutocompleteModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatCheckboxModule,
     MatDialogModule,
     MatExpansionModule,
@@ -40,6 +42,7 @@ import { MatTreeModule } from '@angular/material/tree';
   exports: [
     MatAutocompleteModule,
     MatButtonModule,
+    MatButtonToggleModule,
     MatCheckboxModule,
     MatDialogModule,
     MatExpansionModule,
