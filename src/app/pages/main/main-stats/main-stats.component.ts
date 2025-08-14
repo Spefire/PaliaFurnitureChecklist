@@ -1,21 +1,28 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 
+import { CardComponent } from '@src/components/card/card.component';
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { AnswersPersonnalite } from '@src/models/test.model';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-stats',
-  imports: [SharedModule, NoteComponent, ObserveSectionDirective],
+  imports: [SharedModule, CardComponent, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-stats.component.html',
   styleUrl: './main-stats.component.scss',
 })
-export class MainStatsComponent {
+export class MainStatsComponent implements OnInit {
   public readonly isTest = input.required<boolean>();
   public readonly outPrevious = output();
   public readonly outNext = output();
 
-  public qualities = [
+  public item: AnswersPersonnalite;
+  public qualities: (boolean | null)[];
+  public flaws: (boolean | null)[];
+
+  public qualityList = [
     {
       icon: '😶',
       title: 'Empathique',
@@ -54,7 +61,7 @@ export class MainStatsComponent {
     },
   ];
 
-  public flaws = [
+  public flawList = [
     {
       icon: '😖',
       title: 'Anxieux',
@@ -93,11 +100,32 @@ export class MainStatsComponent {
     },
   ];
 
+  constructor(private _testService: TestService) {}
+
+  public ngOnInit() {
+    this.item = this._testService.getAnswer('personnalite');
+    this.qualities = [this.item.quality01, this.item.quality02, this.item.quality03, this.item.quality04, this.item.quality05, this.item.quality06];
+    this.flaws = [this.item.flaw01, this.item.flaw02, this.item.flaw03, this.item.flaw04, this.item.flaw05, this.item.flaw06];
+  }
+
   public previous() {
     this.outPrevious.emit();
   }
 
   public next() {
+    this.item.flaw01 = this.flaws[0];
+    this.item.flaw02 = this.flaws[1];
+    this.item.flaw03 = this.flaws[2];
+    this.item.flaw04 = this.flaws[3];
+    this.item.flaw05 = this.flaws[4];
+    this.item.flaw06 = this.flaws[5];
+    this.item.quality01 = this.qualities[0];
+    this.item.quality02 = this.qualities[1];
+    this.item.quality03 = this.qualities[2];
+    this.item.quality04 = this.qualities[3];
+    this.item.quality05 = this.qualities[4];
+    this.item.quality06 = this.qualities[5];
+    this._testService.setAnswer('personnalite', this.item);
     this.outNext.emit();
   }
 }

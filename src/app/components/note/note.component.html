@@ -1,6 +1,6 @@
-<p class="note" [class.is-dark]="isDark()">
-  <span [class.u-h3]="!isSmall()" [class.u-h4]="isSmall()">{{ icon() }} {{ heading() }}</span>
-  <span [class.u-textS]="isSmall()">
+<div class="note" [class.is-dark]="isDark()">
+  <p [class.u-h3]="!isSmall()" [class.u-h4]="isSmall()">{{ icon() }} {{ heading() }}</p>
+  <div [class.u-textS]="isSmall()">
     <ng-content></ng-content>
-  </span>
-</p>
+  </div>
+</div>

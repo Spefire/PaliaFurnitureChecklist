@@ -103,9 +103,14 @@
     @if (isTest()) {
       <app-card heading="✍️ Ton avis">
         <form class="u-width100">
-          <p class="u-textBold u-marginBottom200">
+          <p class="u-textBold u-marginBottom100">
             Tu peux également indiquer ton avis sur certains de mes goûts ci-dessus ⬆️
           </p>
+          <ul class="u-marginBottom200">
+            <li>❌ : C'est pas OK pour toi / tu n'aimes pas</li>
+            <li>❔ : Pas d'avis</li>
+            <li>✔️ : C'est OK pour toi / t'aimes bien</li>
+          </ul>
           <mat-label>Tu te vois t'enjailler / chanter / écouter ma musique ?</mat-label>
           <mat-slider [min]="0" [max]="5" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
             <input matSliderThumb [(ngModel)]="item.musics" [ngModelOptions]="{ standalone: true }" #slider />

@@ -107,6 +107,21 @@ export class TestService {
           wantRP: false,
           isArt: false,
         },
+        personnalite: {
+          astro: null,
+          quality01: null,
+          quality02: null,
+          quality03: null,
+          quality04: null,
+          quality05: null,
+          quality06: null,
+          flaw01: null,
+          flaw02: null,
+          flaw03: null,
+          flaw04: null,
+          flaw05: null,
+          flaw06: null,
+        },
       },
     };
   }

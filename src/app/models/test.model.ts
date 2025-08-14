@@ -34,11 +34,27 @@ export interface AnswersProjets {
   isArt: boolean;
 }
 
+export interface AnswersPersonnalite {
+  astro: boolean | null;
+  quality01: boolean | null;
+  quality02: boolean | null;
+  quality03: boolean | null;
+  quality04: boolean | null;
+  quality05: boolean | null;
+  quality06: boolean | null;
+  flaw01: boolean | null;
+  flaw02: boolean | null;
+  flaw03: boolean | null;
+  flaw04: boolean | null;
+  flaw05: boolean | null;
+  flaw06: boolean | null;
+}
+
 export interface TestAnswers {
   galerie?: AnswersGalerie;
   passions?: AnswersPassions;
   projets?: AnswersProjets;
-  personnalite?: unknown;
+  personnalite?: AnswersPersonnalite;
   couple?: unknown;
   recherche?: unknown;
   sexe?: unknown;
