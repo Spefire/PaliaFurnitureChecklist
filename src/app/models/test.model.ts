@@ -76,9 +76,9 @@ export interface AnswersRecherche {
 }
 
 export interface AnswersSexe {
-  isVersa: boolean;
-  needPenetration: boolean;
-  needOrgasm: boolean;
+  isVersa: number;
+  needPenetration: number;
+  needOrgasm: number;
   physical: number;
   sexe: number;
 }

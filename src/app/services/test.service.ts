@@ -141,9 +141,9 @@ export class TestService {
           physical: 5,
         },
         sexe: {
-          isVersa: false,
-          needOrgasm: false,
-          needPenetration: false,
+          isVersa: null,
+          needOrgasm: null,
+          needPenetration: null,
           physical: 0,
           sexe: 0,
         },

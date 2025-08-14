@@ -33,7 +33,7 @@ export class MainHotComponent implements OnInit {
   public readonly VERY_HOT_PASSWORD = VERY_HOT_PASSWORD;
 
   public roleList = [
-    { label: `Je n'aime la pénétration`, value: -2 },
+    { label: `Je n'aime la pénétration`, value: -1 },
     { label: 'Je préfère donner (actif)', value: 0 },
     { label: 'Je préfère recevoir (passif)', value: 1 },
     { label: 'Je suis versatile (avec ou sans préférence)', value: 3 },
@@ -42,7 +42,7 @@ export class MainHotComponent implements OnInit {
   public penetrationList = [
     { label: 'Pénétration anale indispensable', value: -1 },
     { label: 'Pénétration anale le plus souvent', value: 0 },
-    { label: `Pas besoin de pénétration, selon l'envie du moment`, value: 2 },
+    { label: `Pas besoin de pénétration, selon l'envie du moment`, value: 3 },
   ];
 
   public orgasmList = [
