@@ -36,6 +36,7 @@
 }
 
 .mat-mdc-option {
+  --mat-option-selected-state-label-text-color: var(--spe-red-color) !important;
   min-height: 36px !important;
 }
 

@@ -29,6 +29,16 @@
     gap: var(--spe-spacing-200);
   }
 
+  .criteria-check {
+    position: relative;
+    padding-bottom: var(--spe-spacing-100);
+    border-bottom: 0.1rem solid rgba(#040404, 0.2);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
   ul {
     margin: 0;
     padding: 0;

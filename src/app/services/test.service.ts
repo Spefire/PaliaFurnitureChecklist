@@ -54,11 +54,6 @@ export class TestService {
     return this.state.answers[section];
   }
 
-  public resetAnswers() {
-    this._commit({ ...this.state, answers: {} });
-    window.scrollTo(0, 0);
-  }
-
   public hardReset() {
     const fresh = this._freshState();
     this._commit(fresh);
@@ -123,9 +118,27 @@ export class TestService {
           flaw06: null,
         },
         couple: {
-          first: null,
-          second: null,
-          relations: null,
+          first: 0,
+          second: 0,
+          relations: 0,
+        },
+        recherche: {
+          bonus01: null,
+          bonus02: null,
+          bonus03: null,
+          bonus04: null,
+          bonus05: null,
+          bonus06: null,
+          malus01: null,
+          malus02: null,
+          malus03: null,
+          malus04: null,
+          malus05: null,
+          malus06: null,
+          canFree: false,
+          hasFree: false,
+          distance: false,
+          physical: 5,
         },
       },
     };

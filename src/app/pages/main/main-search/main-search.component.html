@@ -25,19 +25,63 @@
     <div class="criteria-sections">
       <div class="criteria-section">
         <h3>⭐ Bonus sympas</h3>
-        <ul class="is-yellow">
-          <li *ngFor="let item of niceToHave">{{ item }}</li>
-        </ul>
+        @if (isTest()) {
+          @for (item of niceToHave; track $index) {
+            <div class="criteria-check">
+              <mat-checkbox [(ngModel)]="bonus[$index]" [ngModelOptions]="{ standalone: true }" color="primary">
+                {{ item }}
+              </mat-checkbox>
+            </div>
+          }
+        } @else {
+          <ul class="is-yellow">
+            @for (item of niceToHave; track $index) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        }
       </div>
       <div class="criteria-section">
         <h3>❌ Possibles deal-breakers</h3>
-        <ul class="is-red">
-          <li *ngFor="let breaker of dealBreakers">{{ breaker }}</li>
-        </ul>
+        @if (isTest()) {
+          @for (item of dealBreakers; track $index) {
+            <div class="criteria-check">
+              <mat-checkbox [(ngModel)]="malus[$index]" [ngModelOptions]="{ standalone: true }" color="warn">
+                {{ item }}
+              </mat-checkbox>
+            </div>
+          }
+        } @else {
+          <ul class="is-red">
+            @for (item of dealBreakers; track $index) {
+              <li>{{ item }}</li>
+            }
+          </ul>
+        }
       </div>
     </div>
 
     @if (isTest()) {
+      <app-card heading="✍️ Te concernant">
+        <form class="u-width100 u-flexColumn u-gap200">
+          <p class="u-textBold u-marginBottom100">
+            Tu peux checker les bonus (ou deal-breakers) que tu remplis ci-dessus ⬆️
+          </p>
+          <mat-slide-toggle [(ngModel)]="item.canFree" [ngModelOptions]="{ standalone: true }" color="primary">
+            Tu es en accord avec la relation libre
+          </mat-slide-toggle>
+          <mat-slide-toggle [(ngModel)]="item.hasFree" [ngModelOptions]="{ standalone: true }" color="primary">
+            Tu as déjà eu une relation ouverte, ou libre, ou poly-amoureuse
+          </mat-slide-toggle>
+          <mat-slide-toggle [(ngModel)]="item.distance" [ngModelOptions]="{ standalone: true }" color="primary">
+            Tu peux gérer une relation à distance sur le court/moyen terme si besoin
+          </mat-slide-toggle>
+          <mat-label>Tu penses que je pourrais te plaire physiquement à quel point ?</mat-label>
+          <mat-slider [min]="0" [max]="10" [step]="1" [discrete]="true" [showTickMarks]="true" color="warn">
+            <input matSliderThumb [(ngModel)]="item.physical" [ngModelOptions]="{ standalone: true }" #slider />
+          </mat-slider>
+        </form>
+      </app-card>
       <div class="buttons">
         <button mat-flat-button (click)="previous()">
           <i class="icon-arrow-left"></i>

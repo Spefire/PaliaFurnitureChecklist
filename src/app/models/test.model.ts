@@ -56,13 +56,32 @@ export interface AnswersCouple {
   relations: number;
 }
 
+export interface AnswersRecherche {
+  bonus01: boolean | null;
+  bonus02: boolean | null;
+  bonus03: boolean | null;
+  bonus04: boolean | null;
+  bonus05: boolean | null;
+  bonus06: boolean | null;
+  malus01: boolean | null;
+  malus02: boolean | null;
+  malus03: boolean | null;
+  malus04: boolean | null;
+  malus05: boolean | null;
+  malus06: boolean | null;
+  canFree: boolean;
+  hasFree: boolean;
+  distance: boolean;
+  physical: number;
+}
+
 export interface TestAnswers {
-  galerie?: AnswersGalerie;
-  passions?: AnswersPassions;
-  projets?: AnswersProjets;
-  personnalite?: AnswersPersonnalite;
-  couple?: AnswersCouple;
-  recherche?: unknown;
+  galerie: AnswersGalerie;
+  passions: AnswersPassions;
+  projets: AnswersProjets;
+  personnalite: AnswersPersonnalite;
+  couple: AnswersCouple;
+  recherche: AnswersRecherche;
   sexe?: unknown;
 }
 

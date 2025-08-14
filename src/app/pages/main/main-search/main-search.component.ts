@@ -1,19 +1,24 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 
+import { CardComponent } from '@src/components/card/card.component';
 import { NoteComponent } from '@src/components/note/note.component';
 import { ObserveSectionDirective } from '@src/directives/observe-section.directive';
+import { AnswersRecherche } from '@src/models/test.model';
+import { TestService } from '@src/services/test.service';
 import { SharedModule } from '@src/shared.module';
 
 @Component({
   selector: 'main-search',
-  imports: [SharedModule, NoteComponent, ObserveSectionDirective],
+  imports: [SharedModule, CardComponent, NoteComponent, ObserveSectionDirective],
   templateUrl: './main-search.component.html',
   styleUrl: './main-search.component.scss',
 })
-export class MainSearchComponent {
+export class MainSearchComponent implements OnInit {
   public readonly isTest = input.required<boolean>();
   public readonly outPrevious = output();
   public readonly outNext = output();
+
+  public item: AnswersRecherche;
 
   public importantTraits = [
     {
@@ -55,28 +60,53 @@ export class MainSearchComponent {
     },
   ];
 
+  public bonus: boolean[] = [];
+  public malus: boolean[] = [];
+
   public dealBreakers = [
     `Ne pas vouloir vivre sur Nantes (sur le long terme)`,
     `L'absence totale d'ambition ou de projets professionnels`,
     `L'envie de bouger / de voyager en permanence (avec moi)`,
     `Être une star d'un microsystème gay / avoir un fan club de mecs`,
     `Être matérialiste sur les vêtements / objets de luxe, acheter sans réfléchir`,
-    `Fumer (désolé, je n'aime pas l'odeur...)`,
+    `Fumer (désolé, je n'aime vraiment pas l'odeur...)`,
   ];
 
   public niceToHave = [
     `Aimer chanter, danser, dessiner, s'exprimer artistiquement 📷​`,
     `Avoir un ou plusieurs chats 😻​`,
     `Aimer les émissions où l'on peut juger : 4 mariages pour 1 lune de miel, Eurovision 📺​`,
-    'Un goût pour la cuisine : je suis gourmand 🤭',
+    'Un goût pour la bouffe : je suis gourmand de mon côté 🤭',
     `Être un signe de Feu 🔥​ (Lion, Bélier, Sagittaire) ou d'Air 🌬️​ (Balance, Gémeaux, Verseau)`,
+    `Être sensibilisé à la psychologie (bipolarité, dépression, anxiété...)`,
   ];
+
+  constructor(private _testService: TestService) {}
+
+  public ngOnInit() {
+    this.item = this._testService.getAnswer('recherche');
+    this.bonus = [this.item.bonus01, this.item.bonus02, this.item.bonus03, this.item.bonus04, this.item.bonus05, this.item.bonus06];
+    this.malus = [this.item.malus01, this.item.malus02, this.item.malus03, this.item.malus04, this.item.malus05, this.item.malus06];
+  }
 
   public previous() {
     this.outPrevious.emit();
   }
 
   public next() {
+    this.item.bonus01 = this.bonus[0];
+    this.item.bonus02 = this.bonus[1];
+    this.item.bonus03 = this.bonus[2];
+    this.item.bonus04 = this.bonus[3];
+    this.item.bonus05 = this.bonus[4];
+    this.item.bonus06 = this.bonus[5];
+    this.item.malus01 = this.malus[0];
+    this.item.malus02 = this.malus[1];
+    this.item.malus03 = this.malus[2];
+    this.item.malus04 = this.malus[3];
+    this.item.malus05 = this.malus[4];
+    this.item.malus06 = this.malus[5];
+    this._testService.setAnswer('recherche', this.item);
     this.outNext.emit();
   }
 }
