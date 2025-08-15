@@ -24,7 +24,7 @@ export class MainContactComponent implements OnInit {
   public friendsTiers: CompatibilityTier[] = [
     {
       min: 0,
-      max: 20,
+      max: 15,
       isLover: false,
       showContact: false,
       title: '💥 Incompatibilité totale',
@@ -33,37 +33,36 @@ export class MainContactComponent implements OnInit {
         'Nos visions, envies, et possiblement valeurs semblent aller dans des directions opposées. Cela va rendre toute entente durable très improbable 🙁',
     },
     {
-      min: 20,
-      max: 40,
+      min: 15,
+      max: 35,
       isLover: false,
       showContact: false,
-      title: '🙈​ Zéro affinité',
+      title: `🙈​ Peu d'affinité`,
       subtitle: 'On n’a pas grand-chose en commun désolé...',
-      description:
-        'Nos univers semblent très éloignés, et c’est ok ! On se retrouvera sans doute autour d’un café mais plus entre connaissances qu’en amis 😅​',
+      description: 'Nos univers semblent éloignés, et c’est ok ! On se retrouvera sans doute autour d’un café mais plus entre connaissances qu’en amis 😅​',
     },
     {
-      min: 40,
+      min: 35,
       max: 60,
       isLover: false,
       showContact: false,
       title: '🌱 Germes d’amitié',
-      subtitle: 'Il y a une base...',
+      subtitle: 'Il y a une base !',
       description:
-        'Quelques points communs nous rapprochent, mais nos modes de vie ou centres d’intérêt pourraient être trop différents pour une vraie complicité ? À voir 😮​',
+        'Quelques points communs nous rapprochent, mais peut-être que nos modes de vie ou centres d’intérêt pourraient être trop différents pour une vraie complicité ? À voir 😮​',
     },
     {
       min: 60,
-      max: 80,
+      max: 75,
       isLover: false,
       showContact: true,
       title: '🌈 Bonne vibe',
       subtitle: 'On pourrait bien s’entendre !',
       description:
-        'On partage déjà pas mal de goûts et de visions : de quoi passer de bons moments ensemble. Ce n’est pas parfait, mais l’amitié peut évoluer naturellement 😊',
+        'On partage déjà pas mal de goûts et de visions : de quoi passer de bons moments ensemble. Ce n’est pas parfait, mais l’amitié peut évoluer 😊',
     },
     {
-      min: 80,
+      min: 75,
       max: 101, // 100 inclus
       isLover: false,
       showContact: true,
@@ -77,7 +76,7 @@ export class MainContactComponent implements OnInit {
   public loversTiers: CompatibilityTier[] = [
     {
       min: 60,
-      max: 80,
+      max: 75,
       isLover: true,
       showContact: true,
       title: '💞 Potentiel amoureux',
@@ -85,7 +84,7 @@ export class MainContactComponent implements OnInit {
       description: 'On a suffisamment de points communs et de compatibilité pour imaginer quelque chose... à voir si la chimie opère en vrai 👀​',
     },
     {
-      min: 80,
+      min: 75,
       max: 101, // 100 inclus
       isLover: true,
       showContact: true,

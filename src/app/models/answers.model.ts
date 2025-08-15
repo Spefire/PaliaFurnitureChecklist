@@ -75,8 +75,8 @@ export const neutralAnswers: TestAnswers = {
     role: null,
     penetration: null,
     orgasm: null,
-    physical: 0,
-    sexe: 0,
+    physical: 5,
+    sexe: 5,
   },
 };
 
