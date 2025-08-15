@@ -1,6 +1,6 @@
 import { TestAnswers } from '@src/models/test.model';
 
-// Neutral score (+9)
+// Neutral score (+15)
 export const neutralAnswers: TestAnswers = {
   galerie: { value: 5 },
   passions: {
@@ -41,12 +41,16 @@ export const neutralAnswers: TestAnswers = {
     quality04: null,
     quality05: null,
     quality06: null,
+    quality07: null,
+    quality08: null,
     flaw01: null,
     flaw02: null,
     flaw03: null,
     flaw04: null,
     flaw05: null,
     flaw06: null,
+    flaw07: null,
+    flaw08: null,
   },
   couple: {
     first: null,
@@ -80,7 +84,7 @@ export const neutralAnswers: TestAnswers = {
   },
 };
 
-// Min score (-62)
+// Min score (-70)
 export const minAnswers: TestAnswers = {
   galerie: { value: 0 },
   passions: {
@@ -121,12 +125,16 @@ export const minAnswers: TestAnswers = {
     quality04: false,
     quality05: false,
     quality06: false,
+    quality07: false,
+    quality08: false,
     flaw01: false,
     flaw02: false,
     flaw03: false,
     flaw04: false,
     flaw05: false,
     flaw06: false,
+    flaw07: false,
+    flaw08: false,
   },
   couple: {
     first: -1,
@@ -160,7 +168,7 @@ export const minAnswers: TestAnswers = {
   },
 };
 
-// Max score (+118)
+// Max score (+122)
 export const maxAnswers: TestAnswers = {
   galerie: { value: 10 },
   passions: {
@@ -201,12 +209,16 @@ export const maxAnswers: TestAnswers = {
     quality04: true,
     quality05: true,
     quality06: true,
+    quality07: true,
+    quality08: true,
     flaw01: true,
     flaw02: true,
     flaw03: true,
     flaw04: true,
     flaw05: true,
     flaw06: true,
+    flaw07: true,
+    flaw08: true,
   },
   couple: {
     first: 5,

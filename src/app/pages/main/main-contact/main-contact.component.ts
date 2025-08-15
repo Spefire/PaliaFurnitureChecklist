@@ -53,7 +53,7 @@ export class MainContactComponent implements OnInit {
     },
     {
       min: 60,
-      max: 75,
+      max: 80,
       isLover: false,
       showContact: true,
       title: '🌈 Bonne vibe',
@@ -62,7 +62,7 @@ export class MainContactComponent implements OnInit {
         'On partage déjà pas mal de goûts et de visions : de quoi passer de bons moments ensemble. Ce n’est pas parfait, mais l’amitié peut évoluer 😊',
     },
     {
-      min: 75,
+      min: 80,
       max: 101, // 100 inclus
       isLover: false,
       showContact: true,
@@ -76,7 +76,7 @@ export class MainContactComponent implements OnInit {
   public loversTiers: CompatibilityTier[] = [
     {
       min: 60,
-      max: 75,
+      max: 80,
       isLover: true,
       showContact: true,
       title: '💞 Potentiel amoureux',
@@ -84,7 +84,7 @@ export class MainContactComponent implements OnInit {
       description: 'On a suffisamment de points communs et de compatibilité pour imaginer quelque chose... à voir si la chimie opère en vrai 👀​',
     },
     {
-      min: 75,
+      min: 80,
       max: 101, // 100 inclus
       isLover: true,
       showContact: true,
@@ -154,12 +154,16 @@ export class MainContactComponent implements OnInit {
     this.score += answers.personnalite.quality04 === true ? bonusPerso : answers.personnalite.quality04 === false ? malusPerso : 0;
     this.score += answers.personnalite.quality05 === true ? bonusPerso : answers.personnalite.quality05 === false ? malusPerso : 0;
     this.score += answers.personnalite.quality06 === true ? bonusPerso : answers.personnalite.quality06 === false ? malusPerso : 0;
+    this.score += answers.personnalite.quality07 === true ? bonusPerso : answers.personnalite.quality07 === false ? malusPerso : 0;
+    this.score += answers.personnalite.quality08 === true ? bonusPerso : answers.personnalite.quality08 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw01 === true ? bonusPerso : answers.personnalite.flaw01 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw02 === true ? bonusPerso : answers.personnalite.flaw02 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw03 === true ? bonusPerso : answers.personnalite.flaw03 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw04 === true ? bonusPerso : answers.personnalite.flaw04 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw05 === true ? bonusPerso : answers.personnalite.flaw05 === false ? malusPerso : 0;
     this.score += answers.personnalite.flaw06 === true ? bonusPerso : answers.personnalite.flaw06 === false ? malusPerso : 0;
+    this.score += answers.personnalite.flaw07 === true ? bonusPerso : answers.personnalite.flaw07 === false ? malusPerso : 0;
+    this.score += answers.personnalite.flaw08 === true ? bonusPerso : answers.personnalite.flaw08 === false ? malusPerso : 0;
     // Couple
     if (answers.couple.first !== null) this.score += answers.couple.first; // Entre -1 et 5
     if (answers.couple.second !== null) this.score += answers.couple.second; // Entre -1 et 5
@@ -205,7 +209,7 @@ export class MainContactComponent implements OnInit {
     return Math.round((v / 10) * 5);
   }
 
-  private _normalizeScore(score: number, min = -62, max = 118): number {
+  private _normalizeScore(score: number, min = -70, max = 122): number {
     const clamped = Math.max(min, Math.min(max, score));
     return Math.round(((clamped - min) / (max - min)) * 100);
   }

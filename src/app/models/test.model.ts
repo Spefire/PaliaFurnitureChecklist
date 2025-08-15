@@ -42,12 +42,16 @@ export interface AnswersPersonnalite {
   quality04: boolean | null;
   quality05: boolean | null;
   quality06: boolean | null;
+  quality07: boolean | null;
+  quality08: boolean | null;
   flaw01: boolean | null;
   flaw02: boolean | null;
   flaw03: boolean | null;
   flaw04: boolean | null;
   flaw05: boolean | null;
   flaw06: boolean | null;
+  flaw07: boolean | null;
+  flaw08: boolean | null;
 }
 
 export interface AnswersCouple {

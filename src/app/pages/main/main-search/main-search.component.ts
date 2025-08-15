@@ -69,7 +69,7 @@ export class MainSearchComponent implements OnInit {
     `L'envie de bouger / de voyager en permanence (avec moi)`,
     `Être une star d'un microsystème gay / avoir un fan club de mecs`,
     `Être matérialiste sur les vêtements / objets de luxe, acheter sans réfléchir`,
-    `Fumer (désolé, je n'aime vraiment pas l'odeur...)`,
+    `Fumer (désolé, je n'aime pas l'odeur sur la personne après...)`,
   ];
 
   public niceToHave = [

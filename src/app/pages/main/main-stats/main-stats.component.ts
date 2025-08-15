@@ -30,6 +30,12 @@ export class MainStatsComponent implements OnInit {
       color: '#fded00',
     },
     {
+      icon: '✨',
+      title: 'Spirituel',
+      description: `Je ne crois pas forcément en l'astrologie ni en une religion, mais je garde l’idée qu’une force ou un hasard guidé relie les choses et les gens.`,
+      color: '#fded00',
+    },
+    {
       icon: '💡',
       title: 'Créatif',
       description: `J'ai des idées plein la tête, des tas de projets à faire, que ce soit dans mon travail ou dans mes loisirs.`,
@@ -57,6 +63,12 @@ export class MainStatsComponent implements OnInit {
       icon: '💭',
       title: 'Transparence',
       description: `J'essaie de dire généralement ce que je ressens, mon visage est très expressif sinon xD, et je n'ai globalement aucun sujet tabou.`,
+      color: '#fded00',
+    },
+    {
+      icon: '🚭',
+      title: 'Non-fumeur',
+      description: `Je bois de l'alcool en soirée, mais je ne fume pas : ma principale addiction c'est la bouffe mdr.`,
       color: '#fded00',
     },
   ];
@@ -87,9 +99,15 @@ export class MainStatsComponent implements OnInit {
       color: '#cf4e3f',
     },
     {
+      icon: '💻',
+      title: 'Sédentaire',
+      description: `J'adore chiller, je joue / suis beaucoup avec des potes en ligne / en vocal. Je reste un peu trop dans mon appart...`,
+      color: '#cf4e3f',
+    },
+    {
       icon: '🔒',
-      title: 'Très casanier',
-      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort (dont mon appart mdr). Je sors et voyage peu.`,
+      title: 'Routine sécuritaire',
+      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort. Je voyage peu du coup.`,
       color: '#cf4e3f',
     },
     {
@@ -98,14 +116,38 @@ export class MainStatsComponent implements OnInit {
       description: `J’adore travailler (très souvent sur mon PC...) et j'ai du mal à décrocher d'une activité : j'ai peur de l'ennui.`,
       color: '#cf4e3f',
     },
+    {
+      icon: '😓​',
+      title: 'Enfants',
+      description: `Je n'envisage pas du tout d'avoir d'enfant, possiblement adopter mais là encore, j'y suis pas du tout prêt.`,
+      color: '#cf4e3f',
+    },
   ];
 
   constructor(private _testService: TestService) {}
 
   public ngOnInit() {
     this.item = this._testService.getAnswer('personnalite');
-    this.qualities = [this.item.quality01, this.item.quality02, this.item.quality03, this.item.quality04, this.item.quality05, this.item.quality06];
-    this.flaws = [this.item.flaw01, this.item.flaw02, this.item.flaw03, this.item.flaw04, this.item.flaw05, this.item.flaw06];
+    this.qualities = [
+      this.item.quality01,
+      this.item.quality02,
+      this.item.quality03,
+      this.item.quality04,
+      this.item.quality05,
+      this.item.quality06,
+      this.item.quality07,
+      this.item.quality08,
+    ];
+    this.flaws = [
+      this.item.flaw01,
+      this.item.flaw02,
+      this.item.flaw03,
+      this.item.flaw04,
+      this.item.flaw05,
+      this.item.flaw06,
+      this.item.flaw07,
+      this.item.flaw08,
+    ];
   }
 
   public previous() {

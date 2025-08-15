@@ -14,15 +14,24 @@
       présenter plus en détails... et en même tant d'utiliser ma passion pour la création de site web !
     </app-note>
     <div class="buttons">
-      <a href="#galerie" mat-flat-button color="primary">
-        Me découvrir
-        <i class="icon-chevron-down"></i>
-      </a>
-      <p><b>OU</b></p>
-      <button mat-flat-button color="primary" (click)="test()">
-        Tester ta compatibilité
-        <i class="icon-star-full"></i>
-      </button>
+      <div class="header-button">
+        <p class="u-textS">Version sans question</p>
+        <a href="#galerie" mat-flat-button color="primary">
+          Me découvrir
+          <i class="icon-chevron-down"></i>
+        </a>
+      </div>
+      <div class="header-button hide-on-mobile">
+        <p class="u-textS">&nbsp;</p>
+        <p><b>OU</b></p>
+      </div>
+      <div class="header-button">
+        <p class="u-textS">Version avec questions</p>
+        <button mat-flat-button color="primary" (click)="test()">
+          Tester ta compatibilité
+          <i class="icon-star-full"></i>
+        </button>
+      </div>
     </div>
     <div class="buttons">
       <a href="#contact" mat-flat-button color="primary">
