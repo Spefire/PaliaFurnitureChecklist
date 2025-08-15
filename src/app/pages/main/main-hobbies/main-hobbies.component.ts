@@ -44,7 +44,7 @@ export class MainHobbiesComponent implements OnInit {
     {
       title: 'League of Legends (Arcane, K/DA...)',
       genre: 'Pop / Soundtrack',
-      why: 'En dehors des univers, des énergies, styles et visuels marquants !',
+      why: `En dehors du jeu, j'adore leur univers, avec des énergies, styles et visuels marquants !`,
       src: 'assets/hobbies/music_04.jpg',
     },
     {
@@ -71,7 +71,7 @@ export class MainHobbiesComponent implements OnInit {
     {
       title: 'Genshin Impact',
       genre: 'Gatcha / Action-RPG',
-      why: 'Un univers avec un lore IMMENSE et soigné, mêlant exploration libre et gameplay intéressant.',
+      why: 'Un univers avec un lore IMMENSE avec exploration libre (keurkeur sur Furina).',
       src: 'assets/hobbies/game_07.jpg',
     },
     {
