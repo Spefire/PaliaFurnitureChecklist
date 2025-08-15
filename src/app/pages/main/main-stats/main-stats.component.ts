@@ -88,8 +88,8 @@ export class MainStatsComponent implements OnInit {
     },
     {
       icon: '🔒',
-      title: 'Routine sécurisante',
-      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort. Je voyage peu du coup.`,
+      title: 'Très casanier',
+      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort (dont mon appart mdr). Je sors et voyage peu.`,
       color: '#cf4e3f',
     },
     {
