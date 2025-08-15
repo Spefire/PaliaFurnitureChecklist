@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 
+import { neutralAnswers } from '@src/models/answers.model';
 import { TestAnswers, TestState } from '@src/models/test.model';
 
 import { BehaviorSubject } from 'rxjs';
@@ -70,84 +71,7 @@ export class TestService {
     return {
       isTest: false,
       currentStep: 0,
-      answers: {
-        galerie: { value: 5 },
-        passions: {
-          musics: 1,
-          music01: null,
-          music02: null,
-          music03: null,
-          music04: null,
-          music05: null,
-          music06: null,
-          games: 1,
-          game01: null,
-          game02: null,
-          game03: null,
-          game04: null,
-          game05: null,
-          game06: null,
-          movies: 1,
-          movie01: null,
-          movie02: null,
-          movie03: null,
-          movie04: null,
-          movie05: null,
-          movie06: null,
-          others: 1,
-        },
-        projets: {
-          isDev: false,
-          isRP: false,
-          wantRP: false,
-          isArt: false,
-        },
-        personnalite: {
-          astro: null,
-          quality01: null,
-          quality02: null,
-          quality03: null,
-          quality04: null,
-          quality05: null,
-          quality06: null,
-          flaw01: null,
-          flaw02: null,
-          flaw03: null,
-          flaw04: null,
-          flaw05: null,
-          flaw06: null,
-        },
-        couple: {
-          first: null,
-          second: null,
-          relations: null,
-        },
-        recherche: {
-          bonus01: null,
-          bonus02: null,
-          bonus03: null,
-          bonus04: null,
-          bonus05: null,
-          bonus06: null,
-          malus01: null,
-          malus02: null,
-          malus03: null,
-          malus04: null,
-          malus05: null,
-          malus06: null,
-          canFree: false,
-          hasFree: false,
-          distance: false,
-          physical: 5,
-        },
-        sexe: {
-          role: null,
-          penetration: null,
-          orgasm: null,
-          physical: 0,
-          sexe: 0,
-        },
-      },
+      answers: neutralAnswers,
     };
   }
 

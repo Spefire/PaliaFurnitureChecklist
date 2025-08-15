@@ -23,6 +23,6 @@
   <main-hot [isTest]="isTest" (outPrevious)="previous()" (outNext)="next()"></main-hot>
 }
 @if (!isTest || currentStep === 8) {
-  <main-contact [isTest]="isTest" (outPrevious)="previous()"></main-contact>
+  <main-contact [isTest]="isTest" (outPrevious)="previous()" (outReset)="choice(false)"></main-contact>
 }
 <app-navigation [isTest]="isTest" [needHide]="currentStep === 8" (outReset)="choice(false)"></app-navigation>

@@ -5,6 +5,9 @@
         <p class="contact-score">{{ score }}%</p>
         <div class="u-flexColumn">
           <p>{{ tier.description }}</p>
+          @if (tier.showContact && !tier.isLover) {
+            <p>Dommage que tu ne sembles pas en accord avec la relation libre 😥​</p>
+          }
           @if (tier.showContact) {
             <p>
               Et si ce que tu as lu t’a donné envie de discuter, de partager une idée ou juste de dire un "Salut",

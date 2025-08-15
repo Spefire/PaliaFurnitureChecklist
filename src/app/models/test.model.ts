@@ -51,9 +51,9 @@ export interface AnswersPersonnalite {
 }
 
 export interface AnswersCouple {
-  first: number;
-  second: number;
-  relations: number;
+  first: number | null;
+  second: number | null;
+  relations: number | null;
 }
 
 export interface AnswersRecherche {
