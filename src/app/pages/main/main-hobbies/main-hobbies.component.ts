@@ -75,10 +75,10 @@ export class MainHobbiesComponent implements OnInit {
       src: 'assets/hobbies/game_07.jpg',
     },
     {
-      title: 'Zero Escape (Series)',
-      genre: 'Visual novel / Puzzle',
-      why: 'Un mélange entre choix cornéliens et escape-games qui tient en haleine jusqu’à la fin.',
-      src: 'assets/hobbies/game_03.jpg',
+      title: 'Dead by Daylight',
+      genre: 'Survival horror PvP',
+      why: `Un super jeu d'équipe entre potes : entre frustrations et moments de fiertés !`,
+      src: 'assets/hobbies/game_08.jpg',
     },
     {
       title: 'Crime Scene Cleaner',
@@ -97,6 +97,24 @@ export class MainHobbiesComponent implements OnInit {
       genre: 'Puzzle coopératif',
       why: 'Idéal pour tester la communication à deux, à travers des escape-games / énigmes.',
       src: 'assets/hobbies/game_05.jpg',
+    },
+    {
+      title: 'Life Is Strange (Series)',
+      genre: 'Aventure narrative',
+      why: 'Des histoires touchantes où chaque choix change le destin. À refaire plusieurs fois ! (PS : le 2 est nul)',
+      src: 'assets/hobbies/game_06.jpg',
+    },
+    {
+      title: 'Outer Wilds',
+      genre: 'Exploration / Science-fiction',
+      why: 'Une aventure poétique et mystérieuse dans un système solaire en boucle. Kiffant de comprendre "la fin".',
+      src: 'assets/hobbies/game_09.jpg',
+    },
+    {
+      title: 'Zero Escape (Series)',
+      genre: 'Visual novel / Puzzle',
+      why: 'Un mélange entre choix cornéliens et escape-games qui tient en haleine jusqu’à la fin.',
+      src: 'assets/hobbies/game_03.jpg',
     },
   ];
 
@@ -144,7 +162,17 @@ export class MainHobbiesComponent implements OnInit {
   public ngOnInit() {
     this.item = this._testService.getAnswer('passions');
     this.musics = [this.item.music01, this.item.music02, this.item.music03, this.item.music04, this.item.music05, this.item.music06];
-    this.games = [this.item.game01, this.item.game02, this.item.game03, this.item.game04, this.item.game05, this.item.game06];
+    this.games = [
+      this.item.game01,
+      this.item.game02,
+      this.item.game03,
+      this.item.game04,
+      this.item.game05,
+      this.item.game06,
+      this.item.game07,
+      this.item.game08,
+      this.item.game09,
+    ];
     this.movies = [this.item.movie01, this.item.movie02, this.item.movie03, this.item.movie04, this.item.movie05, this.item.movie06];
   }
 
@@ -165,6 +193,9 @@ export class MainHobbiesComponent implements OnInit {
     this.item.game04 = this.games[3];
     this.item.game05 = this.games[4];
     this.item.game06 = this.games[5];
+    this.item.game07 = this.games[6];
+    this.item.game08 = this.games[7];
+    this.item.game09 = this.games[8];
     this.item.movie01 = this.movies[0];
     this.item.movie02 = this.movies[1];
     this.item.movie03 = this.movies[2];

@@ -132,6 +132,9 @@ export class MainContactComponent implements OnInit {
     this.score += answers.passions.game04 === true ? bonusPassion : answers.passions.game04 === false ? malusPassion : 0;
     this.score += answers.passions.game05 === true ? bonusPassion : answers.passions.game05 === false ? malusPassion : 0;
     this.score += answers.passions.game06 === true ? bonusPassion : answers.passions.game06 === false ? malusPassion : 0;
+    this.score += answers.passions.game07 === true ? bonusPassion : answers.passions.game07 === false ? malusPassion : 0;
+    this.score += answers.passions.game08 === true ? bonusPassion : answers.passions.game08 === false ? malusPassion : 0;
+    this.score += answers.passions.game09 === true ? bonusPassion : answers.passions.game09 === false ? malusPassion : 0;
     this.score += answers.passions.movies; // Entre 0 et 5
     this.score += answers.passions.movie01 === true ? bonusPassion : answers.passions.movie01 === false ? malusPassion : 0;
     this.score += answers.passions.movie02 === true ? bonusPassion : answers.passions.movie02 === false ? malusPassion : 0;
