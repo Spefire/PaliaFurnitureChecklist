@@ -77,7 +77,7 @@ export class MainHobbiesComponent implements OnInit {
     {
       title: 'Dead by Daylight',
       genre: 'Survival horror PvP',
-      why: `Un super jeu d'équipe entre potes : entre frustrations et moments de fiertés !`,
+      why: `Un super jeu d'équipe entre potes : entre frustrations et moments de fiertés ! ... Et tueur aussi c'est marrant.`,
       src: 'assets/hobbies/game_08.jpg',
     },
     {
@@ -155,6 +155,24 @@ export class MainHobbiesComponent implements OnInit {
       why: 'Un mélange parfait entre frissons et une énigme le long des saisons.',
       src: 'assets/hobbies/movie_06.jpg',
     },
+    {
+      title: 'Alice in Borderland',
+      genre: 'Survival / Science-fiction',
+      why: 'Des épreuves mortelles et sadiques, où chaque énigme fait frissonner avec un lore intriguant.',
+      src: 'assets/hobbies/movie_07.jpg',
+    },
+    {
+      title: 'Death Parade',
+      genre: 'Drame psychologique',
+      why: 'Des jeux morbides qui testent l’âme humaine. Un anime qui mêle tension, émotion et réflexions sur la mort et le jugement.',
+      src: 'assets/hobbies/movie_08.jpg',
+    },
+    {
+      title: 'Card Captor Sakura',
+      genre: 'Magical Girl',
+      why: `Sakura a bercé mon enfance, et aujourd'hui j'en suis encore fan ! (Tout comme Code Lyoko...)`,
+      src: 'assets/hobbies/movie_09.jpg',
+    },
   ];
 
   constructor(private _testService: TestService) {}
@@ -173,7 +191,17 @@ export class MainHobbiesComponent implements OnInit {
       this.item.game08,
       this.item.game09,
     ];
-    this.movies = [this.item.movie01, this.item.movie02, this.item.movie03, this.item.movie04, this.item.movie05, this.item.movie06];
+    this.movies = [
+      this.item.movie01,
+      this.item.movie02,
+      this.item.movie03,
+      this.item.movie04,
+      this.item.movie05,
+      this.item.movie06,
+      this.item.movie07,
+      this.item.movie08,
+      this.item.movie09,
+    ];
   }
 
   public previous() {
@@ -202,6 +230,9 @@ export class MainHobbiesComponent implements OnInit {
     this.item.movie04 = this.movies[3];
     this.item.movie05 = this.movies[4];
     this.item.movie06 = this.movies[5];
+    this.item.movie07 = this.movies[6];
+    this.item.movie08 = this.movies[7];
+    this.item.movie09 = this.movies[8];
     this._testService.setAnswer('passions', this.item);
     this.outNext.emit();
   }

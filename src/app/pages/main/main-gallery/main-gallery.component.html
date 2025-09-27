@@ -1,7 +1,7 @@
 <section class="gallery section is-red has-illus" [class.is-max]="isTest()" appObserveSection id="galerie">
   <div class="section-container">
     <h2 class="section-title">📸 Galerie Photo</h2>
-    <p class="section-subtitle">Pour que tu vois à quoi je ressemble quand même.</p>
+    <p class="section-subtitle">Pour que tu vois à quoi je ressemble physiquement.</p>
     <div class="gallery-grid">
       <div *ngFor="let photo of photos" class="gallery-item" (click)="openPhoto(photo)">
         <img [src]="photo.src" [alt]="photo.alt" />

@@ -27,6 +27,9 @@ export interface AnswersPassions {
   movie04: boolean | null;
   movie05: boolean | null;
   movie06: boolean | null;
+  movie07: boolean | null;
+  movie08: boolean | null;
+  movie09: boolean | null;
   others: number;
 }
 

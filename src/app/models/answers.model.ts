@@ -28,6 +28,9 @@ export const neutralAnswers: TestAnswers = {
     movie04: null,
     movie05: null,
     movie06: null,
+    movie07: null,
+    movie08: null,
+    movie09: null,
     others: 1,
   },
   projets: {
@@ -87,7 +90,7 @@ export const neutralAnswers: TestAnswers = {
   },
 };
 
-// Min score (-70)
+// Min score (-73)
 export const minAnswers: TestAnswers = {
   galerie: { value: 0 },
   passions: {
@@ -115,6 +118,9 @@ export const minAnswers: TestAnswers = {
     movie04: false,
     movie05: false,
     movie06: false,
+    movie07: false,
+    movie08: false,
+    movie09: false,
     others: 0,
   },
   projets: {
@@ -174,7 +180,7 @@ export const minAnswers: TestAnswers = {
   },
 };
 
-// Max score (+122)
+// Max score (+125)
 export const maxAnswers: TestAnswers = {
   galerie: { value: 10 },
   passions: {
@@ -202,6 +208,9 @@ export const maxAnswers: TestAnswers = {
     movie04: true,
     movie05: true,
     movie06: true,
+    movie07: true,
+    movie08: true,
+    movie09: true,
     others: 5,
   },
   projets: {

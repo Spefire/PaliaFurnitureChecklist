@@ -142,6 +142,9 @@ export class MainContactComponent implements OnInit {
     this.score += answers.passions.movie04 === true ? bonusPassion : answers.passions.movie04 === false ? malusPassion : 0;
     this.score += answers.passions.movie05 === true ? bonusPassion : answers.passions.movie05 === false ? malusPassion : 0;
     this.score += answers.passions.movie06 === true ? bonusPassion : answers.passions.movie06 === false ? malusPassion : 0;
+    this.score += answers.passions.movie07 === true ? bonusPassion : answers.passions.movie07 === false ? malusPassion : 0;
+    this.score += answers.passions.movie08 === true ? bonusPassion : answers.passions.movie08 === false ? malusPassion : 0;
+    this.score += answers.passions.movie09 === true ? bonusPassion : answers.passions.movie09 === false ? malusPassion : 0;
     // Projets
     if (answers.projets.isDev) this.score += 3;
     if (answers.projets.isRP) this.score += 3;
@@ -212,7 +215,7 @@ export class MainContactComponent implements OnInit {
     return Math.round((v / 10) * 5);
   }
 
-  private _normalizeScore(score: number, min = -70, max = 122): number {
+  private _normalizeScore(score: number, min = -73, max = 125): number {
     const clamped = Math.max(min, Math.min(max, score));
     return Math.round(((clamped - min) / (max - min)) * 100);
   }

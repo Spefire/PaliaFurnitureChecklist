@@ -29,8 +29,8 @@ export class MainGalleryComponent implements OnInit {
     {
       src: 'assets/gallery/me-1.jpg',
       alt: 'Photo de moi n°2',
-      description: 'Paré pour une randonnée en montagne',
-      category: 'Voyage',
+      description: 'Un samedi à Cidre et Dragon',
+      category: 'Passion',
     },
     {
       src: 'assets/gallery/me-2.jpg',
@@ -41,8 +41,8 @@ export class MainGalleryComponent implements OnInit {
     {
       src: 'assets/gallery/me-3.jpg',
       alt: 'Photo de moi n°4',
-      description: 'Rapide séjour à Paris donc "photo Eiffel" obligée !',
-      category: 'Voyage',
+      description: 'Mon stand à la Y/CON 2024',
+      category: 'Passion',
     },
     {
       src: 'assets/gallery/me-4.jpg',
