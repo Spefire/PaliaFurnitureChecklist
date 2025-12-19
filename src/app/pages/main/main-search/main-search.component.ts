@@ -30,7 +30,7 @@ export class MainSearchComponent implements OnInit {
     {
       src: 'assets/search/key_02.png',
       title: `Clé de l'Attirance physique`,
-      description: `Je craque généralement sur les loutres, minets, un peu barbus et poilus, sveltes ou maigres... mais je peux craquer pour un profil qui ne coche pas ces cases.`,
+      description: `Je craque généralement sur les loutres, minets, un peu barbus et poilus, sveltes ou maigres... et les yeux bleus (oups).`,
       color: '#c9744e',
     },
     {
@@ -43,7 +43,7 @@ export class MainSearchComponent implements OnInit {
     {
       src: 'assets/search/key_04.png',
       title: `Clé de la Confiance et de la Communication`,
-      description: `Celle des meilleures conversations, des mots qui donnent envie de se confier. Sans communication, aucune relation n'est possible.`,
+      description: `Celle des meilleures conversations, des mots qui donnent envie de se confier. Sans confiance et communication, aucune relation n'est possible.`,
       color: '#3d8758',
     },
     {
@@ -55,7 +55,7 @@ export class MainSearchComponent implements OnInit {
     {
       src: 'assets/search/key_06.png',
       title: `Clé de la Sécurité`,
-      description: `Le fait de pouvoir être soi-même et le besoin d'espérer un avenir ensemble, surtout si on est en relation à distance.`,
+      description: `Le besoin d'espérer un avenir ensemble où on sera bien tous les deux, surtout si on commence en relation à distance.`,
       color: '#384981',
     },
   ];
@@ -67,7 +67,7 @@ export class MainSearchComponent implements OnInit {
     `Ne pas vouloir vivre sur Nantes (sur le long terme)`,
     `L'absence totale d'ambition ou de projets professionnels`,
     `L'envie de bouger / de voyager en permanence (avec moi)`,
-    `Être une star d'un microsystème gay / avoir un fan club de mecs`,
+    `Être une star d'un microsystème gay / avoir son fan club de mecs`,
     `Être matérialiste sur les vêtements / objets de luxe, acheter sans réfléchir`,
     `Fumer (désolé, je n'aime pas l'odeur sur la personne après...)`,
   ];

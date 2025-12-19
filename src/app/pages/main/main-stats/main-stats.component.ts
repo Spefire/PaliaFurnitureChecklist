@@ -107,7 +107,7 @@ export class MainStatsComponent implements OnInit {
     {
       icon: '🔒',
       title: 'Routine sécuritaire',
-      description: `J’ai du mal à me lancer dans des activités nouvelles ou hors de ma zone de confort. Je voyage peu du coup.`,
+      description: `J’ai du mal à sortir de ma zone de confort, même si j'essaie dernièrement... Mais je voyage peu du coup.`,
       color: '#cf4e3f',
     },
     {

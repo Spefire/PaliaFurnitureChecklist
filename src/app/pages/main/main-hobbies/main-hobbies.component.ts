@@ -81,6 +81,12 @@ export class MainHobbiesComponent implements OnInit {
       src: 'assets/hobbies/game_08.jpg',
     },
     {
+      title: 'Dispatch',
+      genre: 'Aventure narrative / Gestion',
+      why: 'Des personnages hyper touchants et bien écrits, avec de la gestion en 911 : pas mal pleuré mdr.',
+      src: 'assets/hobbies/game_06.jpg',
+    },
+    {
       title: 'Crime Scene Cleaner',
       genre: 'Simulation / Puzzle',
       why: 'Nettoyage hyper satisfaisant, avec une approche scénaristique sympa mdr.',
@@ -97,12 +103,6 @@ export class MainHobbiesComponent implements OnInit {
       genre: 'Puzzle coopératif',
       why: 'Idéal pour tester la communication à deux, à travers des escape-games / énigmes.',
       src: 'assets/hobbies/game_05.jpg',
-    },
-    {
-      title: 'Life Is Strange (Series)',
-      genre: 'Aventure narrative',
-      why: 'Des histoires touchantes où chaque choix change le destin. À refaire plusieurs fois ! (PS : le 2 est nul)',
-      src: 'assets/hobbies/game_06.jpg',
     },
     {
       title: 'Outer Wilds',
@@ -132,9 +132,9 @@ export class MainHobbiesComponent implements OnInit {
       src: 'assets/hobbies/movie_02.jpg',
     },
     {
-      title: 'Dan Da Dan',
-      genre: 'Anime / Surnaturel',
-      why: 'Un mélange surprenant entre démons et extra-terrestres, action, humour et moments touchants.',
+      title: 'Stranger Things',
+      genre: 'Science-fiction / Fantastique',
+      why: `Une bonne série d'horreur douce et de mystères, avec l'ambiance des années 80 bien présente !`,
       src: 'assets/hobbies/movie_03.jpg',
     },
     {
