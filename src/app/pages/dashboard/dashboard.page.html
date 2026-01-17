@@ -1,13 +1,56 @@
 <lu-main-layout footerSticky>
   <ng-container mainLayoutHeader>
-    <div class="fakeContent">Furniture checklist</div>
+    <lu-page-header
+      label="Furniture checklist"
+      description="Ceci est une checklist de meubles disponible dans Palia."
+      container
+    >
+    </lu-page-header>
   </ng-container>
 
   <lu-main-layout-block>
-    <div class="fakeContent">Contenu</div>
-  </lu-main-layout-block>
+    <lu-container class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+      <lu-filter-bar>
+        <lu-segmented-control *luFilterPillAddonBefore small [ngModel]="true" [ngModelOptions]="{ standalone: true }">
+          <lu-segmented-control-filter [label]="labelAll" [value]="true" />
+          <lu-segmented-control-filter [label]="labelMissing" [value]="false" />
+          <ng-template #labelAll>Tous <lu-numeric-badge [value]="1000" /></ng-template>
+          <ng-template #labelMissing>Manquants <lu-numeric-badge [value]="1000" /></ng-template>
+        </lu-segmented-control>
+        <lu-filter-pill label="Collections" name="collections">
+          <lu-multi-select [ngModel]="[]" [ngModelOptions]="{ standalone: true }" />
+        </lu-filter-pill>
+        <lu-form-field label="Recherche" hiddenLabel>
+          <lu-text-input
+            placeholder="Rechercher..."
+            [ngModel]="''"
+            [ngModelOptions]="{ standalone: true }"
+            hasSearchIcon
+            hasClearer
+          />
+        </lu-form-field>
+      </lu-filter-bar>
 
-  <ng-container mainLayoutFooter>
-    <div class="fakeContent">Pied de page</div>
-  </ng-container>
+      @for (collection of listCollections; track $index) {
+        <lu-box neutral>
+          <h2 class="pr-u-marginBlockEnd200">{{ collection.name }}</h2>
+          <lu-grid columns="4">
+            @for (furniture of collection.items; track $index) {
+              <lu-grid-column>
+                <div class="card mod-action pr-u-paddingBlock100 pr-u-paddingInline150">
+                  <img [src]="furniture.image" height="64" width="64" />
+                  <div>
+                    <lu-form-field label="Label" tooltip="Tooltip message" hiddenLabel>
+                      <lu-checkbox-input [ngModel]="true" checklist />
+                    </lu-form-field>
+                    <h3>{{ furniture.name }}</h3>
+                  </div>
+                </div>
+              </lu-grid-column>
+            }
+          </lu-grid>
+        </lu-box>
+      }
+    </lu-container>
+  </lu-main-layout-block>
 </lu-main-layout>
