@@ -22,11 +22,13 @@
     "allowUmdGlobalAccess": false,
     "baseUrl": "./",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "noResolve": false,
     "resolveJsonModule": true,
     "paths": {
-      "@src/*": ["./src/app/*"]
+      "@src/*": [
+        "./src/app/*"
+      ]
     },
     // Emit
     "declaration": false,
@@ -50,7 +52,10 @@
     "isolatedModules": false,
     // Language and Environment
     "experimentalDecorators": true,
-    "lib": ["ESNext", "dom"],
+    "lib": [
+      "ESNext",
+      "dom"
+    ],
     "target": "ESNext",
     "useDefineForClassFields": true,
     // Completeness

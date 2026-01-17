@@ -1,11 +1,11 @@
-import { CommonModule } from '@angular/common';
+
 import { Component } from '@angular/core';
 
 import { PageTitles } from '@src/models/pages.model';
 
 @Component({
   selector: 'legacy-page',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './legacy.page.html',
 })
 export class LegacyPage {
