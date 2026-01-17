@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { BoxComponent } from '@lucca-front/ng/box';
@@ -13,7 +13,8 @@ import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
 import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
 
-import { ICollection } from '@src/models/furniture.model';
+import { iListCollections } from '@src/data/furniture.data';
+import { Collection } from '@src/models/collection.model';
 import { PageTitles } from '@src/models/pages.model';
 
 @Component({
@@ -40,59 +41,15 @@ import { PageTitles } from '@src/models/pages.model';
   ],
   templateUrl: './dashboard.page.html',
 })
-export class DashboardPage {
+export class DashboardPage implements OnInit {
   public pages = PageTitles;
 
-  public listCollections: ICollection[] = [
-    {
-      name: 'Spooky Moon Store (2023)',
-      items: [
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-      ],
-    },
-    {
-      name: 'Spooky Moon Store (2023)',
-      items: [
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-        {
-          image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-          name: 'Spooky Pumpkin',
-        },
-      ],
-    },
-  ];
+  public listCollections: Collection[];
+
+  public ngOnInit() {
+    this.listCollections = [];
+    iListCollections.forEach(iCollection => {
+      this.listCollections.push(new Collection(iCollection));
+    });
+  }
 }
