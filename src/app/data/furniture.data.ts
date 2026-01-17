@@ -533,6 +533,154 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Log Cabin Set',
+    palette: 'lime',
+    color: 200,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Armchair.png?5a90ae',
+        name: 'Log Cabin Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Bed.png?9f9683',
+        name: 'Log Cabin Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Bookshelf.png?fa4d65',
+        name: 'Log Cabin Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Chandelier.png?b14b1d',
+        name: 'Log Cabin Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Coffee_Table.png?937898',
+        name: 'Log Cabin Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Couch.png?318891',
+        name: 'Log Cabin Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Dining_Chair.png?d7d1d4',
+        name: 'Log Cabin Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Dining_Table.png?b77c58',
+        name: 'Log Cabin Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Double_Gate.png?7461ef',
+        name: 'Log Cabin Double Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
+        name: 'Log Cabin Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Folding_Screen.png?9a5578',
+        name: 'Log Cabin Folding Screen',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Garden_Sernuk.png?5c19e9',
+        name: 'Log Cabin Garden Sernuk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Haabeko_Rug.png?473bb7',
+        name: 'Log Cabin Haabeko Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Large_Bench.png?912491',
+        name: 'Log Cabin Large Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Large_Torch.png?26dba7',
+        name: 'Log Cabin Large Torch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Log_Carrier.png?922615',
+        name: 'Log Cabin Log Carrier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Nightstand.png?1e3826',
+        name: 'Log Cabin Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Outdoor_Lamp.png?cc2ae4',
+        name: 'Log Cabin Outdoor Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Patterned_Rug.png?d5aa2e',
+        name: 'Log Cabin Patterned Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Planter.png?eba80e',
+        name: 'Log Cabin Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Short_Lamp.png?aa0032',
+        name: 'Log Cabin Short Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Sideboard.png?a97e84',
+        name: 'Log Cabin Sideboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Small_Bench.png?7e6695',
+        name: 'Log Cabin Small Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Small_Torch.png?f6e13e',
+        name: 'Log Cabin Small Torch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Standing_Lamp.png?c62fee',
+        name: 'Log Cabin Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Stool.png?e2d02c',
+        name: 'Log Cabin Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Stump_Chair.png?9194c1',
+        name: 'Log Cabin Stump Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Swing_Gate.png?5f938e',
+        name: 'Log Cabin Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Cabinet.png?53ae2a',
+        name: 'Log Cabin Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Clock.png?5efeb2',
+        name: 'Log Cabin Wall Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Decor.png?1e9f35',
+        name: 'Log Cabin Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Lamp.png?85081c',
+        name: 'Log Cabin Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Shelf.png?c8c31a',
+        name: 'Log Cabin Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Torch.png?9e96b0',
+        name: 'Log Cabin Wall Torch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Wardrobe.png?7ee687',
+        name: 'Log Cabin Wardrobe',
+      },
+    ],
+  },
+
+  {
     name: 'Set',
     palette: 'lime',
     color: 500,
@@ -543,4 +691,5 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+
 ];
