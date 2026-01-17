@@ -17,7 +17,9 @@ import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@luc
 
 import { iListCollections } from '@src/data/furniture.data';
 import { Collection } from '@src/models/collection.model';
+import { Furniture } from '@src/models/furniture.model';
 import { PageTitles } from '@src/models/pages.model';
+import { AppService } from '@src/services/app.service';
 
 @Component({
   selector: 'dashboard-page',
@@ -49,6 +51,7 @@ import { PageTitles } from '@src/models/pages.model';
 export class DashboardPage implements OnInit {
   public pages = PageTitles;
 
+  public listSelectedItems = signal<string[]>([]);
   public listCollections = signal<Collection[]>([]);
   public missingFilter = signal<boolean>(false);
   public collectionsFilter = signal<string[]>([]);
@@ -71,7 +74,19 @@ export class DashboardPage implements OnInit {
     return collections;
   });
 
+  constructor(private _appService: AppService) {}
+
   public ngOnInit() {
     this.listCollections.set(iListCollections.map(i => new Collection(i)));
+    this.listSelectedItems.set(this._appService.loadSelectedItems());
+  }
+
+  public toggleSelection(furniture: Furniture) {
+    if (this.listSelectedItems().includes(furniture.code)) {
+      this.listSelectedItems.update(items => items.filter(code => code !== furniture.code));
+    } else {
+      this.listSelectedItems.update(items => [...items, furniture.code]);
+    }
+    this._appService.saveSelectedItems(this.listSelectedItems());
   }
 }
