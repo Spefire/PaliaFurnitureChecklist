@@ -28,9 +28,7 @@
             "scripts": [],
             "stylePreprocessorOptions": {
               "includePaths": ["src/styles/", "node_modules"]
-            },
-            "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            }
           },
           "configurations": {
             "development": {
@@ -95,78 +93,6 @@
             "eslintConfig": ".eslintrc.json",
             "lintFilePatterns": ["src/**/*.ts", "src/**/*.html"]
           }
-        },
-        "server": {
-          "builder": "@angular-devkit/build-angular:server",
-          "options": {
-            "outputPath": "dist/palia-furniture-checklist/server",
-            "main": "src/server.ts",
-            "tsConfig": "tsconfig.server.json",
-            "buildOptimizer": false,
-            "optimization": false,
-            "sourceMap": true,
-            "stylePreprocessorOptions": {
-              "includePaths": ["src/styles/"]
-            },
-            "extractLicenses": false,
-            "inlineStyleLanguage": "scss",
-            "vendorChunk": true
-          },
-          "configurations": {
-            "development": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.dev.ts"
-                }
-              ]
-            },
-            "production": {
-              "buildOptimizer": true,
-              "outputHashing": "media",
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
-              "optimization": true,
-              "extractLicenses": true,
-              "vendorChunk": false
-            }
-          },
-          "defaultConfiguration": "production"
-        },
-        "serve-ssr": {
-          "builder": "@angular-devkit/build-angular:ssr-dev-server",
-          "configurations": {
-            "development": {
-              "browserTarget": "atp:build:development",
-              "serverTarget": "atp:server:development"
-            },
-            "production": {
-              "browserTarget": "atp:build:production",
-              "serverTarget": "atp:server:production"
-            }
-          },
-          "defaultConfiguration": "development"
-        },
-        "prerender": {
-          "builder": "@angular-devkit/build-angular:prerender",
-          "options": {
-            "routes": ["/", "/univers", "/jeu-de-role", "/celestia"]
-          },
-          "configurations": {
-            "production": {
-              "browserTarget": "atp:build:production",
-              "serverTarget": "atp:server:production"
-            },
-            "development": {
-              "browserTarget": "atp:build:development",
-              "serverTarget": "atp:server:development"
-            }
-          },
-          "defaultConfiguration": "production"
         }
       }
     }

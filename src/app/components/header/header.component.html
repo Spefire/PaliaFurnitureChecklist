@@ -1,0 +1,26 @@
+<div class="mobileHeader">
+  <a class="link u-displayFlex u-alignItemsCenter pr-u-gap100" routerLink="/">
+    <img
+      class="mobileHeader-image"
+      src="https://images.ctfassets.net/qyr5bjm559gz/2SFzaCQdLpEPZdQYPjbN5U/5a8f2d94d0faf75019d149ebb54c55bb/Palia_Simple_Palia_Blue_gradient.svg"
+      alt="Retour"
+    />
+  </a>
+  <div class="mobileHeader-title">
+    <h1 class="mobileHeader-title-main">{{ pages.app }}</h1>
+    <div class="mobileHeader-title-sub">{{ pages.dashboard }}</div>
+  </div>
+  <div class="mobileHeader-actions">
+    <button type="button" luButton="text" [luDropdown]="dropdown">
+      <lu-icon icon="menuDots" alt="Voir plus d'options" />
+    </button>
+    <lu-dropdown #dropdown>
+      <li class="dropdown-list-option">
+        <a routerLink="/mentions-legales" class="dropdown-list-option-action" luDropdownItem>
+          <lu-icon icon="signHelp" />
+          {{ pages.legacy }}
+        </a>
+      </li>
+    </lu-dropdown>
+  </div>
+</div>
