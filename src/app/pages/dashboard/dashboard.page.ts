@@ -13,6 +13,7 @@ import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
 import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
 
+import { ICollection } from '@src/models/furniture.model';
 import { PageTitles } from '@src/models/pages.model';
 
 @Component({
@@ -42,7 +43,7 @@ import { PageTitles } from '@src/models/pages.model';
 export class DashboardPage {
   public pages = PageTitles;
 
-  public listCollections = [
+  public listCollections: ICollection[] = [
     {
       name: 'Spooky Moon Store (2023)',
       items: [

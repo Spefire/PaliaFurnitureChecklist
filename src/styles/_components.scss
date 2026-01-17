@@ -14,6 +14,7 @@
     content: '';
     pointer-events: none;
     z-index: -1;
+    opacity: 0.4;
   }
 
   &::before {
@@ -26,5 +27,6 @@
     content: '';
     pointer-events: none;
     z-index: -1;
+    opacity: 0.4;
   }
 }
