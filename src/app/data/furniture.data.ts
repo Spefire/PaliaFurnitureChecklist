@@ -934,8 +934,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Industrial Set',
-    palette: 'palette',
-    color: 100,
+    palette: 'lagoon',
+    color: 900,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Industrial_Armchair.png?19780b',
