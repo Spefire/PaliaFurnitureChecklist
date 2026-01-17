@@ -679,6 +679,149 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Kilima Set',
+    palette: 'pumpkin',
+    color: 200,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Banner.png/300px-Kilima_Banner.png?a430cf',
+        name: 'Kilima Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Bench.png?71fc77',
+        name: 'Kilima Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Candle.png/300px-Kilima_Candle.png?1dd6f3',
+        name: 'Kilima Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Couch.png?b2e0c9',
+        name: 'Kilima Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Drinking_Horn.png/300px-Kilima_Drinking_Horn.png?2900b2',
+        name: 'Kilima Drinking Horn',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Farmer_Portrait_Ingame.png?39d8fc',
+        name: 'Kilima Farmer Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Fireplace_Tools.png/300px-Kilima_Fireplace_Tools.png?cd31a5',
+        name: 'Kilima Fireplace Tools',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Fruit_Basket.png/300px-Kilima_Fruit_Basket.png?53f86d',
+        name: 'Kilima Fruit Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Horn_Bottle.png/300px-Kilima_Horn_Bottle.png?2519a0',
+        name: 'Kilima Horn Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Chezuu_Game.png/300px-Kilima_Inn_Chezuu_Game.png?e8e1ab',
+        name: 'Kilima Inn Chezuu Game',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Couch.png/300px-Kilima_Inn_Couch.png?42b77e',
+        name: 'Kilima Inn Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Dining_Chair.png/300px-Kilima_Inn_Dining_Chair.png?cd88c8',
+        name: 'Kilima Inn Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Dining_Table.png/300px-Kilima_Inn_Dining_Table.png?72b99e',
+        name: 'Kilima Inn Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Large_Bottle.png/300px-Kilima_Inn_Large_Bottle.png?744325',
+        name: 'Kilima Inn Large Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Large_Rug.png/300px-Kilima_Inn_Large_Rug.png?134f1e',
+        name: 'Kilima Inn Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Medium_Bottle.png/300px-Kilima_Inn_Medium_Bottle.png?a57566',
+        name: 'Kilima Inn Medium Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Inn_Round_Rug.png?ee8adf',
+        name: 'Kilima Inn Round Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Round_Table.png/300px-Kilima_Inn_Round_Table.png?547f5d',
+        name: 'Kilima Inn Round Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Runner.png/300px-Kilima_Inn_Runner.png?2bf7a7',
+        name: 'Kilima Inn Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Stein.png/300px-Kilima_Inn_Stein.png?d798e3',
+        name: 'Kilima Inn Stein',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Stool.png/300px-Kilima_Inn_Stool.png?42dce9',
+        name: 'Kilima Inn Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Lantern.png/300px-Kilima_Lantern.png?d50905',
+        name: 'Kilima Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Large_Banner.png/300px-Kilima_Large_Banner.png?e55465',
+        name: 'Kilima Large Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Large_Lantern.png?125c36',
+        name: 'Kilima Large Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Quaint_Painting_Ingame.png?a6907a',
+        name: 'Kilima Quaint Painting',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Small_Lantern.png?9dbced',
+        name: 'Kilima Small Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Succulent_Planter.png/300px-Kilima_Succulent_Planter.png?f95c1b',
+        name: 'Kilima Succulent Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Tall_Painting_Ingame.png?b31a16',
+        name: 'Kilima Tall Painting',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Teacup.png?59015c',
+        name: 'Kilima Teacup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Teapot.png?11063f',
+        name: 'Kilima Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Tulip_Planter.png/300px-Kilima_Tulip_Planter.png?d62653',
+        name: 'Kilima Tulip Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Village_Painting_Ingame.png?8e6780',
+        name: 'Kilima Village Painting',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Wagon_Wheel.png?7bf69f',
+        name: 'Kilima Wagon Wheel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Wheat_Planter.png/300px-Kilima_Wheat_Planter.png?58aa0c',
+        name: 'Kilima Wheat Planter',
+      },
+    ],
+  },
 
   {
     name: 'Set',
