@@ -1,4 +1,4 @@
-# "Partenaire de Vie" website
+# "Palia (non-official) | Furniture Checklist" website
 
 ## Development server
 
