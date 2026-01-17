@@ -280,7 +280,115 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
+  {
+    name: 'Ranch Set',
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_99-Acre_Rug.png?873fc7',
+        name: 'Ranch House 99-Acre Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Armchair.png?9ba6c2',
+        name: 'Ranch House Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Bathtub.png?8ff9f6',
+        name: 'Ranch House Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Bed.png?17dd17',
+        name: 'Ranch House Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Bench.png?6e78ea',
+        name: 'Ranch House Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Bookshelf.png?92dbf8',
+        name: 'Ranch House Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Chandelier.png?76604b',
+        name: 'Ranch House Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Coffee_Table.png?2c5c59',
+        name: 'Ranch House Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Couch.png?b2bd9a',
+        name: 'Ranch House Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Dining_Chair.png?d14f66',
+        name: 'Ranch House Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Dining_Table.png?5bd020',
+        name: 'Ranch House Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Doormat.png?899a06',
+        name: 'Ranch House Doormat',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Floor_Cabinet.png?4080e0',
+        name: 'Ranch House Floor Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Flower_Pot.png?1c11e4',
+        name: 'Ranch House Flower Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Fountain.png?a63902',
+        name: 'Ranch House Fountain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Mirror.png?d4ce83',
+        name: 'Ranch House Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Nightstand.png?8c69c2',
+        name: 'Ranch House Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Pantry.png?e6b9a9',
+        name: 'Ranch House Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Rug.png?73f0c9',
+        name: 'Ranch House Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Sink.png?7c9031',
+        name: 'Ranch House Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Table_Lamp.png?2f0398',
+        name: 'Ranch House Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Veggie_Pot.png?bfe7e0',
+        name: 'Ranch House Veggie Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Wall_Cabinet.png?39a878',
+        name: 'Ranch House Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Wall_Decor.png?b9c8e3',
+        name: 'Ranch House Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Wall_Shelf.png?52446b',
+        name: 'Ranch House Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Wardrobe.png?e9f231',
+        name: 'Ranch House Wardrobe',
+      },
+    ],
+  },
   {
     name: 'Set',
     items: [
