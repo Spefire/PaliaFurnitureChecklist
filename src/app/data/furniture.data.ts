@@ -195,4 +195,100 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Moonstruck Set',
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Bathtub.png?1848ee',
+        name: 'Moonstruck Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Bed.png?f564da',
+        name: 'Moonstruck Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Bookshelf.png?99dc00',
+        name: 'Moonstruck Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Chandelier.png?31b1fb',
+        name: 'Moonstruck Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Coffee_Table.png?22b6f8',
+        name: 'Moonstruck Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Couch.png?171474',
+        name: 'Moonstruck Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Dining_Chair.png?e23e10',
+        name: 'Moonstruck Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Dining_Table.png?56540f',
+        name: 'Moonstruck Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Fungi_Planter.png?ecae62',
+        name: 'Moonstruck Fungi Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Grimoire.png?ae3812',
+        name: 'Moonstruck Grimoire',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Lantern.png?c296b4',
+        name: 'Moonstruck Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Nightstand.png?d80ede',
+        name: 'Moonstruck Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Rug.png?89844d',
+        name: 'Moonstruck Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Runner.png?fb7002',
+        name: 'Moonstruck Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Small_Rug.png?1c7b95',
+        name: 'Moonstruck Small Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Sundial.png?dc7ee3',
+        name: 'Moonstruck Sundial',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Table_Lamp.png?e74df8',
+        name: 'Moonstruck Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Wall_Decor.png?b5eb13',
+        name: 'Moonstruck Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Wall_Shelf.png?168bdd',
+        name: 'Moonstruck Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moonstruck_Wardrobe.png?b80904',
+        name: 'Moonstruck Wardrobe',
+      },
+    ],
+  },
+
+  {
+    name: 'Set',
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        name: 'Item image',
+      },
+    ],
+  },
+
 ];
