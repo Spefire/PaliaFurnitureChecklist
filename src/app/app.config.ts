@@ -3,7 +3,7 @@ import { provideHttpClient } from '@angular/common/http';
 import * as fr from '@angular/common/locales/fr';
 import { ApplicationConfig, isDevMode, LOCALE_ID } from '@angular/core';
 import { provideAnimations } from '@angular/platform-browser/animations';
-import { provideRouter, withInMemoryScrolling } from '@angular/router';
+import { provideRouter, withComponentInputBinding, withInMemoryScrolling } from '@angular/router';
 import { provideServiceWorker } from '@angular/service-worker';
 
 import { routes } from './app.routes';
@@ -15,8 +15,8 @@ export const appConfig: ApplicationConfig = {
     provideAnimations(),
     provideRouter(
       routes,
+      withComponentInputBinding(),
       withInMemoryScrolling({
-        anchorScrolling: 'enabled',
         scrollPositionRestoration: 'enabled',
       })
     ),

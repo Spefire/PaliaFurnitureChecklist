@@ -1,21 +1,17 @@
-@forward './assets/icomoon/style.css';
+//Palettes
+@forward 'styles/_palettes.scss';
 
-@forward './styles/materials/materials.scss';
+// Icons
+@use '@lucca-front/icons/src/main' as _iconsMain;
 
-@forward './styles/mixins';
-@forward './styles/utils/colors.scss';
-@forward './styles/utils/spacings.scss';
-@forward './styles/utils/displays.scss';
-@forward './styles/utils/fonts.scss';
-@forward './styles/utils/others.scss';
+// SCSS
+@use '@lucca-front/scss/src/main' as _scssMain;
+@use '@lucca-front/scss/src/components/button';
+@use '@lucca-front/scss/src/components/card';
+@use '@lucca-front/scss/src/components/title';
 
-@forward './styles/utils/global.scss';
+// Angular
+@use '@lucca-front/ng/src/main' as _ngMain;
 
-@forward './styles/components/background.scss';
-@forward './styles/components/buttons.scss';
-@forward './styles/components/criteria.scss';
-@forward './styles/components/grids.scss';
-@forward './styles/components/link.scss';
-@forward './styles/components/modal.scss';
-@forward './styles/components/section.scss';
-@forward './styles/components/page.scss';
+@forward 'styles/_components.scss';
+@forward 'styles/_utils.scss';

@@ -4,10 +4,10 @@ import { Component } from '@angular/core';
 import { PageTitles } from '@src/models/pages.model';
 
 @Component({
-  selector: 'legacy-page',
+  selector: 'dashboard-page',
   imports: [CommonModule],
-  templateUrl: './legacy.page.html',
+  templateUrl: './dashboard.page.html',
 })
-export class LegacyPage {
+export class DashboardPage {
   public pages = PageTitles;
 }
