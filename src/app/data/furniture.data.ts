@@ -185,18 +185,6 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Ravenwood_Wardrobe.png?116b86',
         name: 'Ravenwood Wardrobe',
       },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Fence_20x.png?dccb3a',
-        name: 'Ravenwood Fence 20x',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Gate.png?9e63b6',
-        name: 'Ravenwood Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Column.png?bd1d2e',
-        name: 'Ravenwood Column',
-      },
     ],
   },
   {
@@ -570,14 +558,6 @@ export const iListCollections: ICollection[] = [
         name: 'Log Cabin Dining Table',
       },
       {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Double_Gate.png?7461ef',
-        name: 'Log Cabin Double Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
-        name: 'Log Cabin Fence 20x',
-      },
-      {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Folding_Screen.png?9a5578',
         name: 'Log Cabin Folding Screen',
       },
@@ -644,10 +624,6 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Stump_Chair.png?9194c1',
         name: 'Log Cabin Stump Chair',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Swing_Gate.png?5f938e',
-        name: 'Log Cabin Swing Gate',
       },
       {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Wall_Cabinet.png?53ae2a',
@@ -819,6 +795,140 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Wheat_Planter.png/300px-Kilima_Wheat_Planter.png?58aa0c',
         name: 'Kilima Wheat Planter',
+      },
+    ],
+  },
+  {
+    name: 'Spring Flower Set',
+    palette: 'pumpkin',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Square_Concrete_Paver.png?147961',
+        name: 'Square Concrete Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wood_Plank_Paver.png?983c14',
+        name: 'Wood Plank Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandstone_Flagstone_Paver.png?28ffe9',
+        name: 'Sandstone Flagstone Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Terracotta_Paver.png?7fd0c7',
+        name: 'Terracotta Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wood_Slab_Paver.png?a9126c',
+        name: 'Wood Slab Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Round_Concrete_Paver.png?960258',
+        name: 'Round Concrete Paver',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Large_Lights.png?7b68d2',
+        name: 'Spring Fever Large Lights',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Med_Lights.png?6302c1',
+        name: 'Spring Fever Med Lights',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Pergola.png?d8d3b4',
+        name: 'Spring Fever Pergola',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Arch_Trellis.png?19a10a',
+        name: 'Spring Fever Arch Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Chiminea.png?d41d5f',
+        name: 'Spring Fever Chiminea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Curved_Lamp.png?4044dd',
+        name: 'Spring Fever Curved Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Fire_Pit.png?cb5f3f',
+        name: 'Spring Fever Fire Pit',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Flat_Trellis.png?3781b3',
+        name: 'Spring Fever Flat Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Rock_Stack.png?f7b739',
+        name: 'Spring Fever Rock Stack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Short_Lamp.png?a8edba',
+        name: 'Spring Fever Short Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Small_Lights.png?4be959',
+        name: 'Spring Fever Small Lights',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Swing.png?27a01f',
+        name: 'Spring Fever Swing',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Wheelbarrow.png?58ec04',
+        name: 'Spring Fever Wheelbarrow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Wood_Edging_20x.png?d5e195',
+        name: 'Spring Fever Wood Edging 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Rock_Edging_20x.png?1501b3',
+        name: 'Spring Fever Rock Edging 20x',
+      },
+    ],
+  },
+  {
+    name: 'Fences',
+    palette: 'pumpkin',
+    color: 50,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Double_Gate.png?7461ef',
+        name: 'Log Cabin Double Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
+        name: 'Log Cabin Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Swing_Gate.png?5f938e',
+        name: 'Log Cabin Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Double_Gate.png?e7d2bb',
+        name: 'White Picket Double Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Swing_Gate.png?404623',
+        name: 'White Picket Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Fence.png?4471f7',
+        name: 'White Picket Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Fence_20x.png?dccb3a',
+        name: 'Ravenwood Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Gate.png?9e63b6',
+        name: 'Ravenwood Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Column.png?bd1d2e',
+        name: 'Ravenwood Column',
       },
     ],
   },
