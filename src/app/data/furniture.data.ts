@@ -6,7 +6,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-        name: 'Spooky Pumpkin',
+        name: 'SpoOOOOOOOOoky Pumpkin',
       },
       {
         image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
@@ -31,11 +31,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-        name: 'Spooky Pumpkin',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
-        name: 'Spooky Pumpkin',
+        name: 'Spooky Pumpilyhdflkgbljwdgkin',
       },
       {
         image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
