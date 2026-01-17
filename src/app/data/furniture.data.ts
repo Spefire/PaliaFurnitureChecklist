@@ -398,6 +398,141 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'PalTech Set',
+    palette: 'pineapple',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Ceiling_Fan.png?c70d10',
+        name: 'PalTech Ceiling Fan',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Coffee_Table.png?1a79cf',
+        name: 'PalTech Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Desk_Fan.png?d8d0ca',
+        name: 'PalTech Desk Fan',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Desk_Lamp.png?5d9acf',
+        name: 'PalTech Desk Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Double_Wall_Shelf.png?f6a831',
+        name: 'PalTech Double Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Drink_Dispenser.png?daa78e',
+        name: 'PalTech Drink Dispenser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Flange_Pipe.png?b823f0',
+        name: 'PalTech Flange Pipe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Glove.png?d90339',
+        name: 'PalTech Glove',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Gyroscope.png?2f59fd',
+        name: 'PalTech Gyroscope',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Icebox.png?316124',
+        name: 'PalTech Icebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Kettle.png?c3ec9a',
+        name: 'PalTech Kettle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Lantern.png?1398e6',
+        name: 'PalTech Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Large_Floor_Vent.png?acf527',
+        name: 'PalTech Large Floor Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Large_Wall_Vent.png?f2f7c8',
+        name: 'PalTech Large Wall Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Long_Floor_Vent.png?4dab6d',
+        name: 'PalTech Long Floor Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Long_Pipe.png?cff5ee',
+        name: 'PalTech Long Pipe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Medium_Pipe.png?2dfff8',
+        name: 'PalTech Medium Pipe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Medium_Wall_Vent.png?52b739',
+        name: 'PalTech Medium Wall Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Microscope.png?f61410',
+        name: 'PalTech Microscope',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Picture_Frame.png?71f8b1',
+        name: 'PalTech Picture Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Radio.png?79c392',
+        name: 'PalTech Radio',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Range_Hood.png?3b2276',
+        name: 'PalTech Range Hood',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Round_End_Table.png?91e7de',
+        name: 'PalTech Round End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Round_Floor_Vent.png?f94288',
+        name: 'PalTech Round Floor Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Short_Pipe.png?6c2820',
+        name: 'PalTech Short Pipe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Sink.png?1801e7',
+        name: 'PalTech Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Small_Wall_Vent.png?5fc86c',
+        name: 'PalTech Small Wall Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Square_End_Table.png?5816e3',
+        name: 'PalTech Square End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Square_Floor_Vent.png?c9736b',
+        name: 'PalTech Square Floor Vent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Wall_Clock.png?faba4a',
+        name: 'PalTech Wall Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Wall_Lamp.png?18a7d8',
+        name: 'PalTech Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Wall_Shelf.png?5e1ab0',
+        name: 'PalTech Wall Shelf',
+      },
+    ],
+  },
+  {
     name: 'Set',
     palette: 'lime',
     color: 500,
