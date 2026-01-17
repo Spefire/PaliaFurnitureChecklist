@@ -3,6 +3,8 @@ import { ICollection } from '@src/models/collection.model';
 export const iListCollections: ICollection[] = [
   {
     name: 'Investigator Set',
+    palette: 'blueberry',
+    color: 900,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Investigator_Armchair.png?62a082',
@@ -44,6 +46,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Ravenwood Set',
+    palette: 'lavender',
+    color: 800,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Armchair.png?f99ea1',
@@ -197,6 +201,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Moonstruck Set',
+    palette: 'blueberry',
+    color: 400,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Moonstruck_Bathtub.png?1848ee',
@@ -282,6 +288,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Ranch Set',
+    palette: 'pineapple',
+    color: 400,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_99-Acre_Rug.png?873fc7',
@@ -391,6 +399,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Set',
+    palette: 'lime',
+    color: 500,
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
@@ -398,5 +408,4 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
 ];

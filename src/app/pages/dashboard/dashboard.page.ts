@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 
 import { BoxComponent } from '@lucca-front/ng/box';
 import { ContainerComponent } from '@lucca-front/ng/container';
+import { DividerComponent } from '@lucca-front/ng/divider';
 import { EmptyStateSectionComponent } from '@lucca-front/ng/empty-state';
 import { FilterBarComponent, FilterPillAddonBeforeDirective, FilterPillComponent } from '@lucca-front/ng/filter-pills';
 import { FormFieldComponent } from '@lucca-front/ng/form-field';
@@ -36,12 +37,14 @@ import { PageTitles } from '@src/models/pages.model';
     LuMultiSelectInputComponent,
     SegmentedControlComponent,
     SegmentedControlFilterComponent,
+    DividerComponent,
     CheckboxInputComponent,
     NumericBadgeComponent,
     TextInputComponent,
     BoxComponent,
   ],
   templateUrl: './dashboard.page.html',
+  styleUrl: './dashboard.page.scss',
 })
 export class DashboardPage implements OnInit {
   public pages = PageTitles;
@@ -58,7 +61,7 @@ export class DashboardPage implements OnInit {
     this.listCollections().forEach(collection => {
       if (collection.name.toLowerCase().includes(search)) collections.push(collection);
       else {
-        const newCollection = new Collection({ name: collection.name, items: [] });
+        const newCollection = new Collection({ name: collection.name, palette: collection.palette, color: collection.color, items: [] });
         collection.items.forEach(furniture => {
           if (furniture.name.toLowerCase().includes(search)) newCollection.items.push(furniture);
         });

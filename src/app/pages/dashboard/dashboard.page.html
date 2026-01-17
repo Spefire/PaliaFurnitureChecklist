@@ -44,18 +44,23 @@
 
       @if (filteredCollections().length > 0) {
         @for (collection of filteredCollections(); track $index) {
-          <lu-box neutral>
-            <h2 class="pr-u-marginBlockEnd200">{{ collection.name }}</h2>
+          <lu-box neutral class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+            <lu-divider>
+              <h2>{{ collection.name }}</h2>
+            </lu-divider>
             <lu-grid columns="4">
               @for (furniture of collection.items; track $index) {
                 <lu-grid-column>
-                  <div class="card mod-action pr-u-paddingBlock100 pr-u-paddingInline150">
-                    <img [src]="furniture.image" height="64" width="64" />
-                    <div>
-                      <lu-form-field label="Label" tooltip="Tooltip message" hiddenLabel>
-                        <lu-checkbox-input [ngModel]="true" checklist />
-                      </lu-form-field>
+                  <div
+                    class="dashboard-card card mod-action"
+                    [style.border-left-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
+                  >
+                    <div class="pr-u-displayFlex pr-u-gap200">
+                      <img [src]="furniture.image" height="72" width="72" />
                       <h3>{{ furniture.name }}</h3>
+                      <lu-form-field class="dashboard-card-checkbox" label="Crafted" hiddenLabel>
+                        <lu-checkbox-input [ngModel]="false" checklist />
+                      </lu-form-field>
                     </div>
                   </div>
                 </lu-grid-column>

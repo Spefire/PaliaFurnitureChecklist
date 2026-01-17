@@ -1,0 +1,13 @@
+.dashboard-card {
+  position: relative;
+  border-left-width: var(--pr-t-spacings-200);
+  border-left-style: solid;
+  border-radius: var(--pr-t-border-radius-small);
+}
+
+.dashboard-card-checkbox {
+  position: absolute;
+  right: var(--pr-t-spacings-100);
+  bottom: var(--pr-t-spacings-150);
+  pointer-events: none;
+}
