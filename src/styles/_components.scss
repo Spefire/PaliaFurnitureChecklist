@@ -1,1 +1,25 @@
 @use '@lucca-front/scss/src/commons/utils/media';
+
+.appLayout {
+  background-color: #839ae4;
+}
+
+.mainLayout {
+  &::after {
+    position: absolute;
+    inset: 0;
+    background-image: url(https://images.ctfassets.net/qyr5bjm559gz/96SJmn4pKiy0Gp2GVMmoI/c059e2e987bff6e9dc061210be86c825/ormuu-plush-392px-width.png?fm=webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    content: '';
+  }
+
+  &::before {
+    position: absolute;
+    inset: 0;
+    background-image: url(https://images.ctfassets.net/qyr5bjm559gz/4bYBjNzkhIetta5R5GWq0M/a4c3a99358b2557e60d680c0833a2605/jina-v2.png?fm=webp);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    content: '';
+  }
+}
