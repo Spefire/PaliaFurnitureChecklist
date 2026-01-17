@@ -890,49 +890,6 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Fences',
-    palette: 'pumpkin',
-    color: 50,
-    items: [
-      {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Double_Gate.png?7461ef',
-        name: 'Log Cabin Double Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
-        name: 'Log Cabin Fence 20x',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Swing_Gate.png?5f938e',
-        name: 'Log Cabin Swing Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/White_Picket_Double_Gate.png?e7d2bb',
-        name: 'White Picket Double Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/White_Picket_Swing_Gate.png?404623',
-        name: 'White Picket Swing Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/White_Picket_Fence.png?4471f7',
-        name: 'White Picket Fence',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Fence_20x.png?dccb3a',
-        name: 'Ravenwood Fence 20x',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Gate.png?9e63b6',
-        name: 'Ravenwood Gate',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Column.png?bd1d2e',
-        name: 'Ravenwood Column',
-      },
-    ],
-  },
-  {
     name: 'Industrial Set',
     palette: 'lagoon',
     color: 900,
@@ -1032,6 +989,317 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Industrial_Wardrobe.png?8505bb',
         name: 'Industrial Wardrobe',
+      },
+    ],
+  },
+  {
+    name: 'Homestead Set',
+    palette: 'pumpkin',
+    color: 700,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Alarm_Clock.png?c08ada',
+        name: 'Homestead Alarm Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Amphora.png?56923b',
+        name: 'Homestead Amphora',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Armchair.png?62ea95',
+        name: 'Homestead Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Banner.png?1eac61',
+        name: 'Homestead Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Barrel.png?fc6da6',
+        name: 'Homestead Barrel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Bookshelf.png?e6c7a0',
+        name: 'Homestead Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Candle_Holder.png?b2a543',
+        name: 'Homestead Candle Holder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Candles.png?38093a',
+        name: 'Homestead Candles',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Carafe.png?e944cd',
+        name: 'Homestead Carafe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Casserole_Dish.png?9cf42c',
+        name: 'Homestead Casserole Dish',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Ceiling_Lamp.png?46e7e1',
+        name: 'Homestead Ceiling Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Coffee_Table.png?574a92',
+        name: 'Homestead Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Cookware.png?4c977d',
+        name: 'Homestead Cookware',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Homestead_Cozy_Chair.png/299px-Homestead_Cozy_Chair.png?79b84c',
+        name: 'Homestead Cozy Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Desk_Lamp.png?bb301f',
+        name: 'Homestead Desk Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Dining_Chair.png?934d51',
+        name: 'Homestead Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Dining_Table.png?4445d8',
+        name: 'Homestead Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Display_Case.png?196f85',
+        name: 'Homestead Display Case',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Dress_Form.png?7791c7',
+        name: 'Homestead Dress Form',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_End_Table.png?f0587c',
+        name: 'Homestead End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Ficus_Planter.png?92b14b',
+        name: 'Homestead Ficus Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Floor_Cabinet.png?8c46cd',
+        name: 'Homestead Floor Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Flower_Planter.png?b089df',
+        name: 'Homestead Flower Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Harvest_Wreath.png?41d130',
+        name: 'Homestead Harvest Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Icebox.png?eb11ea',
+        name: 'Homestead Icebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Bench.png?a54cf1',
+        name: 'Homestead Large Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Dresser.png?6a5c70',
+        name: 'Homestead Large Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Frame.png?99bc80',
+        name: 'Homestead Large Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Jug.png?1c51d1',
+        name: 'Homestead Large Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Lamp.png?61dc64',
+        name: 'Homestead Large Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Pot.png?8210e6',
+        name: 'Homestead Large Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Large_Rug.png?65c90f',
+        name: 'Homestead Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Lute.png?b0286a',
+        name: 'Homestead Lute',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Medium_Bed.png?f4d5b8',
+        name: 'Homestead Medium Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Medium_Frame.png?d5ddf3',
+        name: 'Homestead Medium Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Medium_Jug.png?5dc599',
+        name: 'Homestead Medium Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Medium_Lamp.png?e14dcd',
+        name: 'Homestead Medium Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Medium_Rug.png?6741b6',
+        name: 'Homestead Medium Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Mirror.png?5ed003',
+        name: 'Homestead Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Nightstand.png?5f92d6',
+        name: 'Homestead Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Pantry.png?c9ebd3',
+        name: 'Homestead Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Pitcher.png?910794',
+        name: 'Homestead Pitcher',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Reed_Planter.png?67b770',
+        name: 'Homestead Reed Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Runner.png?ef857b',
+        name: 'Homestead Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Sideboard.png?882efb',
+        name: 'Homestead Sideboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Bench.png?3a47da',
+        name: 'Homestead Small Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Bottle.png?c47401',
+        name: 'Homestead Small Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Dresser.png?ace51e',
+        name: 'Homestead Small Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Frame.png?feb2c6',
+        name: 'Homestead Small Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Jug.png?8cb0b1',
+        name: 'Homestead Small Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Lamp.png?f8b419',
+        name: 'Homestead Small Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Small_Pot.png?ceb129',
+        name: 'Homestead Small Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Standing_Lamp.png?781931',
+        name: 'Homestead Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Stool.png?6e3bb1',
+        name: 'Homestead Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Tall_Bottle.png?d4f20f',
+        name: 'Homestead Tall Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Tea_Set.png?295a47',
+        name: 'Homestead Tea Set',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Thick_Bottle.png?6d4ccc',
+        name: 'Homestead Thick Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Tree_Planter.png?acc5dc',
+        name: 'Homestead Tree Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Triangular_Rug.png?4ce7fc',
+        name: 'Homestead Triangular Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wall_Cabinet.png?b62a54',
+        name: 'Homestead Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wall_Clock.png?c7c496',
+        name: 'Homestead Wall Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wall_Lamp.png?7ef472',
+        name: 'Homestead Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wall_Shelf.png?99f842',
+        name: 'Homestead Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wardrobe.png?a27fba',
+        name: 'Homestead Wardrobe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Homestead_Wastebasket.png?49722d',
+        name: 'Homestead Wastebasket',
+      },
+    ],
+  },
+
+  {
+    name: 'Fences',
+    palette: 'pumpkin',
+    color: 50,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Double_Gate.png?7461ef',
+        name: 'Log Cabin Double Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
+        name: 'Log Cabin Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Swing_Gate.png?5f938e',
+        name: 'Log Cabin Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Double_Gate.png?e7d2bb',
+        name: 'White Picket Double Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Swing_Gate.png?404623',
+        name: 'White Picket Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Picket_Fence.png?4471f7',
+        name: 'White Picket Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Fence_20x.png?dccb3a',
+        name: 'Ravenwood Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Gate.png?9e63b6',
+        name: 'Ravenwood Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ravenwood_Column.png?bd1d2e',
+        name: 'Ravenwood Column',
       },
     ],
   },
