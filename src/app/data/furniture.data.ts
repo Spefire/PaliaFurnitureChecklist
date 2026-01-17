@@ -932,6 +932,109 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Industrial Set',
+    palette: 'palette',
+    color: 100,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Armchair.png?19780b',
+        name: 'Industrial Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Bathtub.png?e557d3',
+        name: 'Industrial Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Bed.png?b30d46',
+        name: 'Industrial Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Bookshelf.png?b296f1',
+        name: 'Industrial Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Cabinet.png?bc2729',
+        name: 'Industrial Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Chandelier.png?fb910c',
+        name: 'Industrial Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Coffee_Table.png?eee0db',
+        name: 'Industrial Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Couch.png?b50f3f',
+        name: 'Industrial Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Dining_Chair.png?62470e',
+        name: 'Industrial Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Dining_Table.png?6786fd',
+        name: 'Industrial Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Dresser.png?d1b85d',
+        name: 'Industrial Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Ficus_Planter.png?15019e',
+        name: 'Industrial Ficus Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Kitchen_Pantry.png?bd87c4',
+        name: 'Industrial Kitchen Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Mirror.png?f89b6c',
+        name: 'Industrial Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Nightstand.png?89d191',
+        name: 'Industrial Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Picture_Frame.png?bda188',
+        name: 'Industrial Picture Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Rug.png?9359b1',
+        name: 'Industrial Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Runner.png?dd6967',
+        name: 'Industrial Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Sink.png?a475fe',
+        name: 'Industrial Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Small_Rug.png?f92857',
+        name: 'Industrial Small Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Wall_Decor.png?7a9363',
+        name: 'Industrial Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Wall_Lamp.png?c2696d',
+        name: 'Industrial Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Wall_Shelf.png?9d4427',
+        name: 'Industrial Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Industrial_Wardrobe.png?8505bb',
+        name: 'Industrial Wardrobe',
+      },
+    ],
+  },
 
   {
     name: 'Set',
