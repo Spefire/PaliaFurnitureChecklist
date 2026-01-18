@@ -1224,6 +1224,141 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Bellflower Set',
+    palette: 'pumpkin',
+    color: 100,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Alarm_Clock.png?16963d',
+        name: 'Bellflower Alarm Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Armchair.png?6ed699',
+        name: 'Bellflower Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Banner.png?cb6deb',
+        name: 'Bellflower Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Bathtub.png?d6e8bb',
+        name: 'Bellflower Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Bed.png?de2335',
+        name: 'Bellflower Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Bookshelf.png?4d090e',
+        name: 'Bellflower Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Chandelier.png?c3ec2e',
+        name: 'Bellflower Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Coffee_Table.png?e1022d',
+        name: 'Bellflower Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Couch.png?b05787',
+        name: 'Bellflower Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Curtains.png?923069',
+        name: 'Bellflower Curtains',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Dining_Chair.png?8e5219',
+        name: 'Bellflower Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Dining_Table.png?bb7f3a',
+        name: 'Bellflower Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Dresser.png?dbc059',
+        name: 'Bellflower Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Flower_Planter.png?13e164',
+        name: 'Bellflower Flower Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Grand_Fountain.png?cff089',
+        name: 'Bellflower Grand Fountain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Mirror.png?2fa492',
+        name: 'Bellflower Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Nightstand.png?6e0275',
+        name: 'Bellflower Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Pantry.png?886077',
+        name: 'Bellflower Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Picture_Frame_Ingame.png?4a4a33',
+        name: 'Bellflower Picture Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Reed_Planter.png?fa54c1',
+        name: 'Bellflower Reed Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Regal_Fountain.png?6212a2',
+        name: 'Bellflower Regal Fountain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Rug.png?ce07af',
+        name: 'Bellflower Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Runner_ingame.png',
+        name: 'Bellflower Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Shrub_Planter.png?c7a93f',
+        name: 'Bellflower Shrub Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Sink.png?ad61fb',
+        name: 'Bellflower Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Small_Rug.png?96953d',
+        name: 'Bellflower Small Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Standing_Lamp.png?5781f4',
+        name: 'Bellflower Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Table_Lamp.png?26a192',
+        name: 'Bellflower Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Toilet.png?7019af',
+        name: 'Bellflower Toilet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Wall_Cabinet.png?d570a6',
+        name: 'Bellflower Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Wall_Shelf_Ingame.png?a864aa',
+        name: 'Bellflower Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Wardrobe.png?4c1372',
+        name: 'Bellflower Wardrobe',
+      },
+    ],
+  },
 
   {
     name: 'Investigator Set',
@@ -1491,6 +1626,30 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Spring_Fever_Rock_Edging_20x.png?1501b3',
         name: 'Spring Fever Rock Edging 20x',
+      },
+    ],
+  },
+
+  {
+    name: 'Curtains',
+    palette: 'neutral',
+    color: 25,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Large_Drapes.png?2110e7',
+        name: 'Kilima Large Drapes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Small_Drapes.png?eb8787',
+        name: 'Kilima Small Drapes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Large_Drapes.png?5f0b9a',
+        name: 'Bellflower Large Drapes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bellflower_Small_Drapes.png?8ead25',
+        name: 'Bellflower Small Drapes',
       },
     ],
   },
