@@ -1630,6 +1630,81 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Gourmet Set',
+    palette: 'pumpkin',
+    color: 800,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Butcher_Block.png?9177b3',
+        name: 'Gourmet Butcher Block',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Cutting_Board.png?a6a421',
+        name: 'Gourmet Cutting Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Cup.png?bd3cfd',
+        name: 'Gourmet Cup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dessert_Bowl.png?f13fff',
+        name: 'Gourmet Dessert Bowl',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dessert_Bowl_Bunch.png?9e508f',
+        name: 'Gourmet Dessert Bowl Bunch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Mug.png?7fddc9',
+        name: 'Gourmet Mug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Soup_Bowl.png?ad8253',
+        name: 'Gourmet Soup Bowl',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Soup_Bowl_Bunch.png?f99671',
+        name: 'Gourmet Soup Bowl Bunch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dessert_Plate.png?134d31',
+        name: 'Gourmet Dessert Plate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dessert_Plate_Pile.png?e44371',
+        name: 'Gourmet Dessert Plate Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dinner_Plate.png?d4e846',
+        name: 'Gourmet Dinner Plate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Dinner_Plate_Pile.png?498c7e',
+        name: 'Gourmet Dinner Plate Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Fork.png?48b0e7',
+        name: 'Gourmet Fork',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Knife.png?fee601',
+        name: 'Gourmet Knife',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Spoon.png?7af34e',
+        name: 'Gourmet Spoon',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Pan_Pile.png?52004f',
+        name: 'Gourmet Pan Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gourmet_Pot_Pile.png?11583c',
+        name: 'Gourmet Pot Pile',
+      },
+    ],
+  },
+  {
     name: 'Valley Sunrise Set',
     palette: 'blueberry',
     color: 300,
