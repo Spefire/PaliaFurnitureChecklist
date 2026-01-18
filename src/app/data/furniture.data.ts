@@ -1953,7 +1953,57 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
+  {
+    name: 'Books',
+    palette: 'lavender',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Adventure_Novel.png?46e67a',
+        name: 'Adventure Novel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Architectural_Treatise.png?37bff1',
+        name: 'Architectural Treatise',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Astronomer%27s_Tome.png?833e64',
+        name: 'Astronomer\'s Tome',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bird-Spotting_Manual.png?24e3f6',
+        name: 'Bird-Spotting Manual',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Embossed_Tome.png?2cea1b',
+        name: 'Embossed Tome',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Handmade_Guide.png?5c9126',
+        name: 'Handmade Guide',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Majiri_Dictionary.png?9702c3',
+        name: 'Majiri Dictionary',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Navigator%27s_Notebook.png?79bcd7',
+        name: 'Navigator\'s Notebook',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Poetic_Anthology.png?9283b9',
+        name: 'Poetic Anthology',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Romance_Novel.png?531bff',
+        name: 'Romance Novel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Caleri%27s_Choice_Book.png?df3ff2',
+        name: 'Caleri\'s Choice Book',
+      },
+    ],
+  },
   {
     name: 'Curtains',
     palette: 'neutral',
