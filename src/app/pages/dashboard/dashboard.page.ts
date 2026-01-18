@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 
 import { ButtonComponent } from '@lucca-front/ng/button';
 import { ContainerComponent } from '@lucca-front/ng/container';
+import { LuOptionDirective } from '@lucca-front/ng/core-select';
 import { DividerComponent } from '@lucca-front/ng/divider';
 import { EmptyStateSectionComponent } from '@lucca-front/ng/empty-state';
 import { FilterBarComponent, FilterPillAddonAfterDirective, FilterPillAddonBeforeDirective, FilterPillComponent } from '@lucca-front/ng/filter-pills';
@@ -11,7 +12,7 @@ import { CheckboxInputComponent, TextInputComponent } from '@lucca-front/ng/form
 import { GridColumnComponent, GridComponent } from '@lucca-front/ng/grid';
 import { IconComponent } from '@lucca-front/ng/icon';
 import { MainLayoutBlockComponent, MainLayoutComponent } from '@lucca-front/ng/main-layout';
-import { LuMultiSelectInputComponent } from '@lucca-front/ng/multi-select';
+import { LuMultiDisplayerDirective, LuMultiSelectContentDisplayerComponent, LuMultiSelectInputComponent } from '@lucca-front/ng/multi-select';
 import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
 import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
@@ -39,6 +40,9 @@ import { AppService } from '@src/services/app.service';
     FilterPillComponent,
     FormFieldComponent,
     LuMultiSelectInputComponent,
+    LuMultiDisplayerDirective,
+    LuMultiSelectContentDisplayerComponent,
+    LuOptionDirective,
     SegmentedControlComponent,
     SegmentedControlFilterComponent,
     CheckboxInputComponent,
@@ -58,19 +62,35 @@ export class DashboardPage implements OnInit {
   public listSelectedItems = signal<string[]>([]);
   public listCollections = signal<Collection[]>([]);
   public missingFilter = signal<boolean>(false);
-  public collectionsFilter = signal<string[]>([]);
+  public collectionsFilter = signal<Collection[]>([]);
   public searchFilter = signal<string>('');
+
+  public sortedCollections = computed<Collection[]>(() => {
+    if (!this.listCollections()) return [];
+    const result = this.listCollections().slice();
+    result.sort((a, b) => a.name.localeCompare(b.name));
+    return result;
+  });
 
   public filteredCollections = computed<Collection[]>(() => {
     if (!this.listCollections()) return [];
-    const search = this.searchFilter().trim().toLowerCase();
+    const search = this.searchFilter()?.trim().toLowerCase();
+    const missing = this.missingFilter();
+    const codes = this.collectionsFilter().map(collection => collection.code);
     const collections: Collection[] = [];
     this.listCollections().forEach(collection => {
-      if (collection.name.toLowerCase().includes(search)) collections.push(collection);
-      else {
+      if (codes.length && !codes.includes(collection.code)) return;
+      if (!missing && (!search || (search && collection.name.toLowerCase().includes(search)))) {
+        collections.push(collection);
+      } else {
         const newCollection = new Collection({ name: collection.name, palette: collection.palette, color: collection.color, items: [] });
         collection.items.forEach(furniture => {
-          if (furniture.name.toLowerCase().includes(search)) newCollection.items.push(furniture);
+          if (
+            (!missing || (missing && !this.listSelectedItems().includes(furniture.code))) &&
+            (!search || (search && furniture.name.toLowerCase().includes(search)))
+          ) {
+            newCollection.items.push(furniture);
+          }
         });
         if (newCollection.items.length > 0) collections.push(newCollection);
       }
@@ -78,11 +98,32 @@ export class DashboardPage implements OnInit {
     return collections;
   });
 
+  public missedCount = computed<number>(() => {
+    if (!this.listCollections()) return 0;
+    let result = 0;
+    this.listCollections().forEach(collection => {
+      collection.items.forEach(furniture => {
+        if (!this.listSelectedItems().includes(furniture.code)) {
+          result++;
+        }
+      });
+    });
+    return result;
+  });
+
   constructor(private _appService: AppService) {}
 
   public ngOnInit() {
     this.listCollections.set(iListCollections.map(i => new Collection(i)));
     this.listSelectedItems.set(this._appService.loadSelectedItems());
+    this.listOpennedCollections.set(this.listCollections().map(i => i.code));
+  }
+
+  public collapseAll() {
+    this.listOpennedCollections.set([]);
+  }
+
+  public expandAll() {
     this.listOpennedCollections.set(this.listCollections().map(i => i.code));
   }
 

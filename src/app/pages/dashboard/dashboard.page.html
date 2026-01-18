@@ -1,11 +1,6 @@
 <lu-main-layout footerSticky>
   <ng-container mainLayoutHeader>
-    <lu-page-header
-      label="Furniture checklist"
-      description="Une checklist de meubles disponibles dans Palia."
-      container
-    >
-    </lu-page-header>
+    <lu-page-header label="Furniture checklist" container></lu-page-header>
   </ng-container>
 
   <lu-main-layout-block>
@@ -20,29 +15,54 @@
         >
           <lu-segmented-control-filter [label]="labelAll" [value]="false" />
           <lu-segmented-control-filter [label]="labelMissing" [value]="true" />
-          <ng-template #labelAll>Tous <lu-numeric-badge [value]="1000" /></ng-template>
-          <ng-template #labelMissing>Manquants <lu-numeric-badge [value]="1000" /></ng-template>
+          <ng-template #labelAll>All</ng-template>
+          <ng-template #labelMissing>Missing <lu-numeric-badge [value]="missedCount()" /></ng-template>
         </lu-segmented-control>
         <lu-filter-pill label="Collections" name="collections">
           <lu-multi-select
+            #selectRef
+            clearable
+            filterPillLabelPlural="collections selected"
+            [options]="sortedCollections()"
             [(ngModel)]="collectionsFilter"
             [ngModelOptions]="{ standalone: true }"
             (ngModelChange)="collectionsFilter.set($event)"
-          />
+            >"
+            <ng-container *luMultiDisplayer="let values; select: selectRef">
+              <lu-multi-select-content-displayer>
+                @if (values.length > 1) {
+                  {{ values.length }} collections selected
+                } @else if (values.length === 1) {
+                  {{ values.length }} collection selected
+                } @else {
+                  All collections
+                }
+              </lu-multi-select-content-displayer>
+            </ng-container>
+            <ng-container *luOption="let collection; select: selectRef">
+              <p class="pr-u-displayFlex pr-u-alignItemsCenter pr-u-gap100">
+                <span>{{ collection.name }}</span>
+                <span
+                  class="option-point"
+                  [style.background-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
+                ></span>
+              </p>
+            </ng-container>
+          </lu-multi-select>
         </lu-filter-pill>
-        <lu-form-field label="Recherche" hiddenLabel>
+        <lu-form-field label="Search" hiddenLabel>
           <lu-text-input
-            placeholder="Rechercher..."
+            placeholder="Search..."
+            hasClearer
+            hasSearchIcon
             [(ngModel)]="searchFilter"
             [ngModelOptions]="{ standalone: true }"
             (ngModelChange)="searchFilter.set($event)"
-            hasSearchIcon
-            hasClearer
           />
         </lu-form-field>
         <div class="pr-u-displayFlex pr-u-gap100" *luFilterPillAddonAfter>
-          <button type="button" size="S" luButton="text">Tout réduire</button>
-          <button type="button" size="S" luButton="outlined">Tout développer</button>
+          <button type="button" size="S" luButton="outlined" (click)="collapseAll()">Collapse all</button>
+          <button type="button" size="S" luButton="outlined" palette="product" (click)="expandAll()">Expand all</button>
         </div>
       </lu-filter-bar>
 
@@ -89,8 +109,8 @@
           <lu-empty-state-section
             hx="3"
             icon="https://cdn.lucca.fr/lucca-front/assets/empty-states/icons/iconSearch.svg"
-            heading="Aucun résultat"
-            description="Peut-être modifier les filtres de recherche ?"
+            heading="No result"
+            description="Try to modify the filters ?"
             palette="product"
           >
           </lu-empty-state-section>
