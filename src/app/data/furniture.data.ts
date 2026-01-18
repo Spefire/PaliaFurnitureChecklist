@@ -1737,6 +1737,313 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Makeshift Set',
+    palette: 'pineapple',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Alarm_Clock.png?f8eac4',
+        name: 'Makeshift Alarm Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Armchair.png?614db9',
+        name: 'Makeshift Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Bed.png?10d3e7',
+        name: 'Makeshift Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Bench.png?435095',
+        name: 'Makeshift Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Bird_Bath.png?3756a9',
+        name: 'Makeshift Bird Bath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Bookshelf.png?8f9295',
+        name: 'Makeshift Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Bucket_Planter.png?7f1a5f',
+        name: 'Makeshift Bucket Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Candle_Holder.png?d46e2f',
+        name: 'Makeshift Candle Holder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Chandelier.png?9cd80b',
+        name: 'Makeshift Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Chapaa_Hide_Rug.png?647872',
+        name: 'Makeshift Chapaa Hide Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Charcuterie.png?4a34f2',
+        name: 'Makeshift Charcuterie',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Chest.png?ef8527',
+        name: 'Makeshift Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Chopping_Block.png?984c1c',
+        name: 'Makeshift Chopping Block',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Chopping_Board.png?a9dc59',
+        name: 'Makeshift Chopping Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Clothesline.png?406514',
+        name: 'Makeshift Clothesline',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Coat_Rack.png?536c01',
+        name: 'Makeshift Coat Rack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Coffee_Table.png?efd417',
+        name: 'Makeshift Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Cookware.png?4146ce',
+        name: 'Makeshift Cookware',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Couch.png?87975d',
+        name: 'Makeshift Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Cutting_Board.png?606f50',
+        name: 'Makeshift Cutting Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Dresser.png?7728eb',
+        name: 'Makeshift Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Drum_Table.png?6422a6',
+        name: 'Makeshift Drum Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_End_Table.png?b6031b',
+        name: 'Makeshift End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Face_Mirror.png?228ee4',
+        name: 'Makeshift Face Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Failed_Planter.png?c0467d',
+        name: 'Makeshift Failed Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Ficus_Planter.png?9db12b',
+        name: 'Makeshift Ficus Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Floor_Cabinet.png?c35231',
+        name: 'Makeshift Floor Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Flower_Planter.png?59c499',
+        name: 'Makeshift Flower Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Garden_Bed.png?ccd972',
+        name: 'Makeshift Garden Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Garden_Chapaa.png?af92dc',
+        name: 'Makeshift Garden Chapaa',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Hanging_Planter.png?be2c94',
+        name: 'Makeshift Hanging Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Herb_Planter.png?69a9e3',
+        name: 'Makeshift Herb Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Indoor_Garden.png?d00742',
+        name: 'Makeshift Indoor Garden',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Ladder.png?57619f',
+        name: 'Makeshift Ladder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Cabinet.png?c82122',
+        name: 'Makeshift Large Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Lamp.png?5fcf20',
+        name: 'Makeshift Large Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Planter.png?20ea63',
+        name: 'Makeshift Large Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Shelf.png?b4c14d',
+        name: 'Makeshift Large Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Table.png?e05008',
+        name: 'Makeshift Large Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Wreath.png?fb2d03',
+        name: 'Makeshift Large Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Lawn_Chair.png?e67f02',
+        name: 'Makeshift Lawn Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Log_Carrier.png?9601bf',
+        name: 'Makeshift Log Carrier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Medium_Planter.png?a48070',
+        name: 'Makeshift Medium Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Nightstand.png?50fc5f',
+        name: 'Makeshift Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Outhouse.png?4dfeb3',
+        name: 'Makeshift Outhouse',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Pantry.png?f9f279',
+        name: 'Makeshift Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Patio_Umbrella.png?9f68cb',
+        name: 'Makeshift Patio Umbrella',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Pergola.png?a0c910',
+        name: 'Makeshift Pergola',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Picnic_Blanket.png?62b3b5',
+        name: 'Makeshift Picnic Blanket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Picnic_Table.png?e2eb89',
+        name: 'Makeshift Picnic Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Porthole_Frame.png?b88d4d',
+        name: 'Makeshift Porthole Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Rectangular_Rug.png?40a708',
+        name: 'Makeshift Rectangular Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Round_End_Table.png?5b71b5',
+        name: 'Makeshift Round End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Scenic_Frame_Default_Ingame.png?95c8c5',
+        name: 'Makeshift Scenic Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Sernuk_Hide_Rug.png?760021',
+        name: 'Makeshift Sernuk Hide Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Short_End_Table.png?c7dd03',
+        name: 'Makeshift Short End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Cabinet.png?69d35a',
+        name: 'Makeshift Small Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Frame_Ingame.png?f7b07b',
+        name: 'Makeshift Small Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Lamp.png?e550d5',
+        name: 'Makeshift Small Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Planter.png?39d052',
+        name: 'Makeshift Small Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Table.png?4a1521',
+        name: 'Makeshift Small Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Square_Rug.png?3c815f',
+        name: 'Makeshift Square Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Stool.png?fe0d30',
+        name: 'Makeshift Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Succulent_Pot.png?68c234',
+        name: 'Makeshift Succulent Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Thick_Candle.png?b9a83d',
+        name: 'Makeshift Thick Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Thin_Candle.png?84764a',
+        name: 'Makeshift Thin Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Thistle_Planter.png?fdac3a',
+        name: 'Makeshift Thistle Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Trellis.png?fab776',
+        name: 'Makeshift Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Wall_Clock.png?a6e35a',
+        name: 'Makeshift Wall Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Wall_Lamp.png?52cd2d',
+        name: 'Makeshift Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Wall_Shelf.png?ae26f4',
+        name: 'Makeshift Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Wardrobe.png?6408f8',
+        name: 'Makeshift Wardrobe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Wastebasket.png?8474d6',
+        name: 'Makeshift Wastebasket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Window_Shelf.png?b86861',
+        name: 'Makeshift Window Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Window_Shutter.png?81a6b1',
+        name: 'Makeshift Window Shutter',
+      },
+    ],
+  },
+  {
     name: 'Spring Flower Set',
     palette: 'pumpkin',
     color: 900,
@@ -2254,6 +2561,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Bellflower_Small_Drapes.png?8ead25',
         name: 'Bellflower Small Drapes',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Large_Curtain.png?30a764',
+        name: 'Makeshift Large Curtain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Small_Curtain.png?6c73dc',
+        name: 'Makeshift Small Curtain',
+      },
     ],
   },
   {
@@ -2374,6 +2689,17 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Summer_Stripe_Ocean_Tea.png?2bece9',
         name: 'Summer Stripe Ocean Tea',
+      },
+    ],
+  },
+  {
+    name: 'Buildings and stations',
+    palette: 'neutral',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Makeshift_Tent.png?92e6cc',
+        name: 'Makeshift Tent',
       },
     ],
   },
