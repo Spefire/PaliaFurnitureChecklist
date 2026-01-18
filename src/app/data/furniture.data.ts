@@ -1095,12 +1095,132 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Dragontide Set',
-    palette: 'lime',
-    color: 500,
+    palette: 'glacier',
+    color: 400,
     items: [
       {
-        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
-        name: 'Item image',
+        image: 'https://palia.wiki.gg/images/Dragontide_Abstract_Rug.png?2b960e',
+        name: 'Dragontide Abstract Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Armchair.png?3ec01a',
+        name: 'Dragontide Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Bathtub.png?3cc23d',
+        name: 'https://palia.wiki.gg/images/Dragontide_Armchair.png?3ec01a',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Bed.png?b9fdbb',
+        name: 'Dragontide Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Bookshelf.png?cdd906',
+        name: 'Dragontide Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Chandelier.png?f8dc7c',
+        name: 'Dragontide Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Coffee_Table.png?41b76f',
+        name: 'Dragontide Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Couch.png?fe504c',
+        name: 'Dragontide Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Dining_Chair.png?e20c1a',
+        name: 'Dragontide Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Dining_Table.png?a31861',
+        name: 'Dragontide Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_End_Table.png?d384ad',
+        name: 'Dragontide End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Fern_Planter.png?4c9440',
+        name: 'Dragontide Fern Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Flower_Planter.png?b4f73e',
+        name: 'Dragontide Flower Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Folding_Screen.png?b6a1fe',
+        name: 'Dragontide Folding Screen',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Hanging_Lamp.png?9e9768',
+        name: 'Dragontide Hanging Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Hedge_Planter.png?3ac989',
+        name: 'Dragontide Hedge Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Low_End_Table.png?7277e1',
+        name: 'Dragontide Low End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Mirror.png?4d16c6',
+        name: 'Dragontide Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Nightstand.png?67a776',
+        name: 'Dragontide Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Orchid_Planter.png?acd346',
+        name: 'Dragontide Orchid Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Pantry.png?a733e2',
+        name: 'Dragontide Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Round_Rug.png?7097b4',
+        name: 'Dragontide Round Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Round_Shelf.png?49a2d0',
+        name: 'Dragontide Round Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Runner.png?634db3',
+        name: 'Dragontide Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Sideboard.png?a1c56c',
+        name: 'Dragontide Sideboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Silken_Chaise.png?f54830',
+        name: 'Dragontide Silken Chaise',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Standing_Lamp.png?f3bbdb',
+        name: 'Dragontide Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Wall_Clock.png?3776c9',
+        name: 'Dragontide Wall Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Wall_Fan.png?d631ad',
+        name: 'Dragontide Wall Fan',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Wall_Lamp.png?3fd970',
+        name: 'Dragontide Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dragontide_Wardrobe.png?d62ffa',
+        name: 'Dragontide Wardrobe',
       },
     ],
   },
@@ -1441,7 +1561,7 @@ export const iListCollections: ICollection[] = [
   {
     name: 'Walls',
     palette: 'neutral',
-    color: 600,
+    color: 50,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Wall.png?6bf217',
