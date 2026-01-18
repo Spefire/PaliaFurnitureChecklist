@@ -1438,7 +1438,6 @@ export const iListCollections: ICollection[] = [
     ],
   },
 
-###
   {
     name: 'Walls',
     palette: 'neutral',
@@ -1461,7 +1460,6 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-###
 
   {
     name: 'Set',
