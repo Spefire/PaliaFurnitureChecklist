@@ -1359,6 +1359,129 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Lily Rattan Set',
+    palette: 'lime',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Armchair.png?b2bc88',
+        name: 'Lily Rattan Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Bed.png?ff66de',
+        name: 'Lily Rattan Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Bench.png?db51a7',
+        name: 'Lily Rattan Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Bookshelf.png?fa2a98',
+        name: 'Lily Rattan Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Bottle.png?b5065a',
+        name: 'Lily Rattan Bottle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Chandelier.png?1bf615',
+        name: 'Lily Rattan Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Coffee_Table.png?733794',
+        name: 'Lily Rattan Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Cotton_Vase.png?dc3167',
+        name: 'Lily Rattan Cotton Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Couch.png?886763',
+        name: 'Lily Rattan Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Dining_Chair.png?ed3994',
+        name: 'Lily Rattan Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Dining_Table.png?7564f1',
+        name: 'Lily Rattan Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Dresser.png?89bc57',
+        name: 'Lily Rattan Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_End_Table.png?e36c18',
+        name: 'Lily Rattan End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Frame.png?ca1038',
+        name: 'Lily Rattan Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Large_Jug.png?6a1b49',
+        name: 'Lily Rattan Large Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Large_Planter.png?6dd6a7',
+        name: 'Lily Rattan Large Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Large_Rug.png?6aa92a',
+        name: 'Lily Rattan Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Medium_Jug.png?aa30b0',
+        name: 'Lily Rattan Medium Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Nightstand.png?d697d7',
+        name: 'Lily Rattan Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Partition.png?3f36eb',
+        name: 'Lily Rattan Partition',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Runner.png?229b24',
+        name: 'Lily Rattan Runner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Small_Planter.png?c80212',
+        name: 'Lily Rattan Small Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Standing_Vase.png?d78a3c',
+        name: 'Lily Rattan Standing Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Table_Lamp.png?a3855c',
+        name: 'Lily Rattan Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Umbrella.png?828739',
+        name: 'Lily Rattan Umbrella',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Wall_Art.png?2feec9',
+        name: 'Lily Rattan Wall Art',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Wall_Lamp.png?fc5633',
+        name: 'Lily Rattan Wall Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Wall_Shelf.png?95424c',
+        name: 'Lily Rattan Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lily_Rattan_Wardrobe.png?f80c0e',
+        name: 'Lily Rattan Wardrobe',
+      },
+    ],
+  },
 
   {
     name: 'Investigator Set',
