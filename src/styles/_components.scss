@@ -1,4 +1,5 @@
 @use '@lucca-front/scss/src/commons/utils/media';
+@use '@lucca-front/icons/src/commons/utils/icon';
 
 .appLayout {
   background-color: #839ae4;
@@ -8,7 +9,7 @@
   &::after,
   &::before {
     position: absolute;
-    inset: 1rem;
+    inset: var(--pr-t-spacings-200);
     z-index: -1;
     opacity: 0.4;
     background-repeat: no-repeat;
@@ -23,5 +24,17 @@
 
   &::before {
     background-image: url(https://images.ctfassets.net/qyr5bjm559gz/2N0SLDozjT8CQm2ggfwM5K/6f753e8a86e52504664e36e90bac22b9/mob-ppl-of-palia-tish.png?fm=webp);
+  }
+}
+
+// --- DETAILS / SUMMARY ---
+
+details {
+  summary {
+    display: flex;
+    align-items: center;
+    gap: var(--pr-t-spacings-100);
+    list-style: none;
+    cursor: pointer;
   }
 }
