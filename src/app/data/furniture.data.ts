@@ -1808,6 +1808,136 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Valley Sunrise Set',
+    palette: 'blueberry',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bed.png?350c80',
+        name: 'Valley Sunrise Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bookshelf.png?81f74f',
+        name: 'Valley Sunrise Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Candelabra.png?b7881b',
+        name: 'Valley Sunrise Candelabra',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Chandelier.png?a4cde7',
+        name: 'Valley Sunrise Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Cloche.png?792898',
+        name: 'Valley Sunrise Cloche',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Clock.png?948d68',
+        name: 'Valley Sunrise Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Desk.png?6edcc6',
+        name: 'Valley Sunrise Desk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Dining_Table.png?e3909c',
+        name: 'Valley Sunrise Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Grain_Mill.png?c42a86',
+        name: 'Valley Sunrise Grain Mill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Hanging_Lamp.png?b89e40',
+        name: 'Valley Sunrise Hanging Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Knife_Set.png?7ef7fc',
+        name: 'Valley Sunrise Knife Set',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Lights.png?6f26ac',
+        name: 'Valley Sunrise Lights',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Oval_Table.png?e35f3b',
+        name: 'Valley Sunrise Oval Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Side_Table.png?c31196',
+        name: 'Valley Sunrise Side Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Sink.png?dfa3d2',
+        name: 'Valley Sunrise Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Vase.png?5b7ebf',
+        name: 'Valley Sunrise Vase',
+      },
+    ],
+  },
+  {
+    name: 'Pirate Set',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Grimalkin_Chest.png?4f1a24',
+        name: 'Pirate Grimalkin Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Large_Coin_Pile.png?e8f038',
+        name: 'Pirate Large Coin Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Navigator_Maps.png?d066a2',
+        name: 'Pirate Navigator Maps',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Pilfered_Frame.png?164414',
+        name: 'Pirate Pilfered Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Seafaring_Kegs.png?3a30ab',
+        name: 'Pirate Seafaring Kegs',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Ship%27s_Cannon.png?4e6190',
+        name: 'Pirate Ship\'s Cannon',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Small_Coin_Pile.png?692aac',
+        name: 'Pirate Small Coin Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Stolen_Frame.png?b1cdcb',
+        name: 'Pirate Stolen Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Tankard.png?c10197',
+        name: 'Pirate Tankard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Tattered_Cloths.png?4de1a2',
+        name: 'Pirate Tattered Cloths',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Wanted_Poster.png?6db073',
+        name: 'Pirate Wanted Poster',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate%27s_Secret_Scroll.png?46d2a1',
+        name: 'Pirate\'s Secret Scroll',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Worn_Mouse_Plush.png?964721',
+        name: 'Worn Mouse Plush',
+      },
+    ],
+  },
+  {
     name: 'Gourmet Set',
     palette: 'pumpkin',
     color: 800,
@@ -1879,77 +2009,6 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Gourmet_Pot_Pile.png?11583c',
         name: 'Gourmet Pot Pile',
-      },
-    ],
-  },
-  {
-    name: 'Valley Sunrise Set',
-    palette: 'blueberry',
-    color: 300,
-    items: [
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bed.png?350c80',
-        name: 'Valley Sunrise Bed',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bookshelf.png?81f74f',
-        name: 'Valley Sunrise Bookshelf',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Candelabra.png?b7881b',
-        name: 'Valley Sunrise Candelabra',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Chandelier.png?a4cde7',
-        name: 'Valley Sunrise Chandelier',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Cloche.png?792898',
-        name: 'Valley Sunrise Cloche',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Clock.png?948d68',
-        name: 'Valley Sunrise Clock',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Desk.png?6edcc6',
-        name: 'Valley Sunrise Desk',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Dining_Table.png?e3909c',
-        name: 'Valley Sunrise Dining Table',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Grain_Mill.png?c42a86',
-        name: 'Valley Sunrise Grain Mill',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Hanging_Lamp.png?b89e40',
-        name: 'Valley Sunrise Hanging Lamp',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Knife_Set.png?7ef7fc',
-        name: 'Valley Sunrise Knife Set',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Lights.png?6f26ac',
-        name: 'Valley Sunrise Lights',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Oval_Table.png?e35f3b',
-        name: 'Valley Sunrise Oval Table',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Side_Table.png?c31196',
-        name: 'Valley Sunrise Side Table',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Sink.png?dfa3d2',
-        name: 'Valley Sunrise Sink',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Vase.png?5b7ebf',
-        name: 'Valley Sunrise Vase',
       },
     ],
   },
