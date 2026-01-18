@@ -2013,6 +2013,101 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Killima Rummage Pile',
+    palette: 'grape',
+    color: 600,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Blanket_Storage_Basket.png?5371b4',
+        name: 'Blanket Storage Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Ladder.png?c8ac79',
+        name: 'Cozy Ladder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Rattan_Basket.png?ba1213',
+        name: 'Cozy Rattan Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Woven_Basket.png?7c3404',
+        name: 'Cozy Woven Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Firewood_Holder.png?9eada2',
+        name: 'Firewood Holder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Laundry_Basket.png?e6c2d0',
+        name: 'Laundry Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Porcelain_Pitcher.png?32b9f7',
+        name: 'Porcelain Pitcher',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sewing_Basket.png?bcb661',
+        name: 'Sewing Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tiered_Fruit_Basket.png?b64953',
+        name: 'Tiered Fruit Basket',
+      },
+    ],
+  },
+  {
+    name: 'Flotsam (Bahari Rummage Pile)',
+    palette: 'glacier',
+    color: 100,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Large_Candle.png?a82192',
+        name: 'Flotsam Large Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Small_Candle.png?ed4bd5',
+        name: 'Flotsam Small Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Sand_Art.png?f0d281',
+        name: 'Flotsam Sand Art',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Driftwood_Decor.png?d78ad5',
+        name: 'Flotsam Driftwood Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Towel_Rack.png?f7c4c8',
+        name: 'Flotsam Towel Rack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Bookshelf.png?cae465',
+        name: 'Flotsam Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Porthole_Frame.png?7c94b2',
+        name: 'Flotsam Porthole Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Hanging_Mobile.png?de5e1f',
+        name: 'Flotsam Hanging Mobile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Scallop.png?7fbfaf',
+        name: 'Flotsam Scallop',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Conch.png?a51da7',
+        name: 'Flotsam Conch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flotsam_Glass_Buoy.png?90be36',
+        name: 'Flotsam Glass Buoy',
+      },
+    ],
+  },
+
+  {
     name: 'Gourmet Set',
     palette: 'pumpkin',
     color: 800,
