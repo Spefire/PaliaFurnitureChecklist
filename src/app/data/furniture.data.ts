@@ -1482,6 +1482,81 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Camping Set',
+    palette: 'pumpkin',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Backpack.png?f6fbc4',
+        name: 'Camping Backpack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Bench.png?702077',
+        name: 'Camping Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Bookshelf.png?10eb61',
+        name: 'Camping Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Bowls.png?5faa5e',
+        name: 'Camping Bowls',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Chair.png?2757ef',
+        name: 'Camping Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Chapaa_Sculpture.png?6056cb',
+        name: 'Camping Chapaa Sculpture',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Compass.png?8926e7',
+        name: 'Camping Compass',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Cup.png?2ed93b',
+        name: 'Camping Cup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Lamp.png?1c96d4',
+        name: 'Camping Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Medium_Frame.png?801e9f',
+        name: 'Camping Medium Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Medium_Planter.png?d3176e',
+        name: 'Camping Medium Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Small_Frame.png?99f857',
+        name: 'Camping Small Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Small_Planter.png?7d2997',
+        name: 'Camping Small Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Stool.png?1c0b26',
+        name: 'Camping Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Table.png?a8f4af',
+        name: 'Camping Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Wall_Light.png?ef3e50',
+        name: 'Camping Wall Light',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Wall_Shelf.png?8c7be3',
+        name: 'Camping Wall Shelf',
+      },
+    ],
+  },
 
   {
     name: 'Investigator Set',
@@ -2146,6 +2221,18 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Swing_Gate.png?5c10d1',
         name: 'Emberborn Swing Gate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Fence_20x.png?30a793',
+        name: 'Camping Fence 20x',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Fence_Column.png?196d87',
+        name: 'Camping Fence Column',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Camping_Fence_Gate.png?64d483',
+        name: 'Camping Fence Gate',
       },
     ],
   },
