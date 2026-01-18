@@ -1,5 +1,17 @@
+.dashboard-box {
+  display: flex;
+  flex-direction: column;
+  gap: var(--pr-t-spacings-100);
+  padding: var(--pr-t-spacings-200) var(--pr-t-spacings-300);
+  border-radius: var(--pr-t-border-radius-structure);
+  background-color: var(--palettes-neutral-50);
+}
+
 .dashboard-card {
   position: relative;
+  display: flex;
+  gap: var(--pr-t-spacings-150);
+  padding: var(--pr-t-spacings-100) var(--pr-t-spacings-150) var(--pr-t-spacings-100) var(--pr-t-spacings-100);
   border-left-width: var(--pr-t-spacings-200);
   border-left-style: solid;
   border-radius: var(--pr-t-border-radius-small);
@@ -10,4 +22,10 @@
   right: var(--pr-t-spacings-100);
   bottom: var(--pr-t-spacings-150);
   pointer-events: none;
+}
+
+.dashboard-point {
+  min-height: var(--pr-t-spacings-300);
+  min-width: var(--pr-t-spacings-300);
+  border-radius: var(--pr-t-border-radius-default);
 }

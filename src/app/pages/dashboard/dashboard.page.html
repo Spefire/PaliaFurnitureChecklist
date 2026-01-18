@@ -40,37 +40,52 @@
             hasClearer
           />
         </lu-form-field>
+        <div class="pr-u-displayFlex pr-u-gap100" *luFilterPillAddonAfter>
+          <button type="button" size="S" luButton="text">Tout réduire</button>
+          <button type="button" size="S" luButton="outlined">Tout développer</button>
+        </div>
       </lu-filter-bar>
 
-      @if (filteredCollections().length > 0) {
-        @for (collection of filteredCollections(); track $index) {
-          <lu-box neutral class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
-            <lu-divider>
-              <h2>{{ collection.name }}</h2>
+      <div class="dashboard-box">
+        @if (filteredCollections().length > 0) {
+          @for (collection of filteredCollections(); track $index) {
+            @let isOpen = listOpennedCollections().includes(collection.code);
+            <lu-divider class="pr-u-margin0">
+              <button type="button" luButton="text" class="dashboard-box-action" (click)="toggleCollection(collection)">
+                <div
+                  class="dashboard-point"
+                  [style.background-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
+                ></div>
+                <span class="pr-u-h2">{{ collection.name }}</span>
+                <lu-icon [icon]="isOpen ? 'arrowChevronTop' : 'arrowChevronBottom'" size="XL" />
+              </button>
             </lu-divider>
-            <lu-grid columns="4">
-              @for (furniture of collection.items; track $index) {
-                <lu-grid-column>
-                  <div
-                    class="dashboard-card card mod-action"
-                    [style.border-left-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
-                    (click)="toggleSelection(furniture)"
-                  >
-                    <div class="pr-u-displayFlex pr-u-gap200">
+            <div [class.pr-u-displayNone]="!isOpen">
+              <lu-grid columns="6">
+                @for (furniture of collection.items; track $index) {
+                  @let isChecked = listSelectedItems().includes(furniture.code);
+                  <lu-grid-column>
+                    <div
+                      class="dashboard-card card mod-action"
+                      [style.border-left-color]="
+                        isChecked
+                          ? 'var(--palettes-' + collection.palette + '-' + collection.color + ')'
+                          : 'var(--palettes-neutral-50)'
+                      "
+                      (click)="toggleSelection(furniture)"
+                    >
                       <img [src]="furniture.image" height="72" width="72" />
-                      <h3>{{ furniture.name }}</h3>
+                      <p class="pr-u-h4">{{ furniture.name }}</p>
                       <lu-form-field class="dashboard-card-checkbox" label="Crafted" hiddenLabel>
-                        <lu-checkbox-input [ngModel]="listSelectedItems().includes(furniture.code)" checklist />
+                        <lu-checkbox-input [ngModel]="isChecked" checklist />
                       </lu-form-field>
                     </div>
-                  </div>
-                </lu-grid-column>
-              }
-            </lu-grid>
-          </lu-box>
-        }
-      } @else {
-        <lu-box neutral>
+                  </lu-grid-column>
+                }
+              </lu-grid>
+            </div>
+          }
+        } @else {
           <lu-empty-state-section
             hx="3"
             icon="https://cdn.lucca.fr/lucca-front/assets/empty-states/icons/iconSearch.svg"
@@ -79,8 +94,8 @@
             palette="product"
           >
           </lu-empty-state-section>
-        </lu-box>
-      }
+        }
+      </div>
     </lu-container>
   </lu-main-layout-block>
 </lu-main-layout>

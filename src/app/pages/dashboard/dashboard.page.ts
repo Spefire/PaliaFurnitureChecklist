@@ -1,14 +1,15 @@
 import { Component, computed, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
-import { BoxComponent } from '@lucca-front/ng/box';
+import { ButtonComponent } from '@lucca-front/ng/button';
 import { ContainerComponent } from '@lucca-front/ng/container';
 import { DividerComponent } from '@lucca-front/ng/divider';
 import { EmptyStateSectionComponent } from '@lucca-front/ng/empty-state';
-import { FilterBarComponent, FilterPillAddonBeforeDirective, FilterPillComponent } from '@lucca-front/ng/filter-pills';
+import { FilterBarComponent, FilterPillAddonAfterDirective, FilterPillAddonBeforeDirective, FilterPillComponent } from '@lucca-front/ng/filter-pills';
 import { FormFieldComponent } from '@lucca-front/ng/form-field';
 import { CheckboxInputComponent, TextInputComponent } from '@lucca-front/ng/forms';
 import { GridColumnComponent, GridComponent } from '@lucca-front/ng/grid';
+import { IconComponent } from '@lucca-front/ng/icon';
 import { MainLayoutBlockComponent, MainLayoutComponent } from '@lucca-front/ng/main-layout';
 import { LuMultiSelectInputComponent } from '@lucca-front/ng/multi-select';
 import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
@@ -33,17 +34,19 @@ import { AppService } from '@src/services/app.service';
     GridColumnComponent,
     GridComponent,
     FilterBarComponent,
+    FilterPillAddonAfterDirective,
     FilterPillAddonBeforeDirective,
     FilterPillComponent,
     FormFieldComponent,
     LuMultiSelectInputComponent,
     SegmentedControlComponent,
     SegmentedControlFilterComponent,
-    DividerComponent,
     CheckboxInputComponent,
     NumericBadgeComponent,
     TextInputComponent,
-    BoxComponent,
+    DividerComponent,
+    ButtonComponent,
+    IconComponent,
   ],
   templateUrl: './dashboard.page.html',
   styleUrl: './dashboard.page.scss',
@@ -51,6 +54,7 @@ import { AppService } from '@src/services/app.service';
 export class DashboardPage implements OnInit {
   public pages = PageTitles;
 
+  public listOpennedCollections = signal<string[]>([]);
   public listSelectedItems = signal<string[]>([]);
   public listCollections = signal<Collection[]>([]);
   public missingFilter = signal<boolean>(false);
@@ -79,6 +83,15 @@ export class DashboardPage implements OnInit {
   public ngOnInit() {
     this.listCollections.set(iListCollections.map(i => new Collection(i)));
     this.listSelectedItems.set(this._appService.loadSelectedItems());
+    this.listOpennedCollections.set(this.listCollections().map(i => i.code));
+  }
+
+  public toggleCollection(collection: Collection) {
+    if (this.listOpennedCollections().includes(collection.code)) {
+      this.listOpennedCollections.update(collections => collections.filter(code => code !== collection.code));
+    } else {
+      this.listOpennedCollections.update(collections => [...collections, collection.code]);
+    }
   }
 
   public toggleSelection(furniture: Furniture) {
