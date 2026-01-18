@@ -1753,6 +1753,61 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Summer Stripes Set',
+    palette: 'mint',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripes_Towel.png?c747e5',
+        name: 'Summer Stripes Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Waves_Towel.png?20bfd3',
+        name: 'Summer Stripe Waves Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Ocean_Towel.png?fb9d92',
+        name: 'Summer Stripe Ocean Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Floral_Towel.png?f6ec6e',
+        name: 'Summer Stripe Floral Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Bird_Towel.png?68e727',
+        name: 'Summer Stripe Bird Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Bench.png?84febd',
+        name: 'Summer Stripe Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Cooler.png?6aca71',
+        name: 'Summer Stripe Cooler',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Ice_Bucket.png?951b77',
+        name: 'Summer Stripe Ice Bucket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Juice_Bar.png?294746',
+        name: 'Summer Stripe Juice Bar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Recliner.png?ecc09d',
+        name: 'Summer Stripe Recliner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Table.png?dd9e27',
+        name: 'Summer Stripe Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Umbrella.png?c5b64d',
+        name: 'Summer Stripe Umbrella',
+      },
+    ],
+  },
+  {
     name: 'Gourmet Set',
     palette: 'pumpkin',
     color: 800,
@@ -2005,6 +2060,29 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Floor.png?ab5dff',
         name: 'Emberborn Floor',
+      },
+    ],
+  },
+  {
+    name: 'Food',
+    palette: 'pumpkin',
+    color: 800,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Citrus_Tea.png?bbe45d',
+        name: 'Summer Stripe Citrus Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Floral_Tea.png?e6c296',
+        name: 'Summer Stripe Floral Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Herbal_Tea.png?6d75a9',
+        name: 'Summer Stripe Herbal Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Ocean_Tea.png?2bece9',
+        name: 'Summer Stripe Ocean Tea',
       },
     ],
   },
