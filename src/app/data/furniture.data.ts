@@ -889,8 +889,8 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Industrial Set',
-    palette: 'lagoon',
-    color: 900,
+    palette: 'neutral',
+    color: 800,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Industrial_Armchair.png?19780b',
@@ -990,109 +990,121 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-{
-  name: 'Emberborn Set',
-  palette: 'pumpkin',
-  color: 500,
-  items: [
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Armchair.png?96fa88',
-      name: 'Emberborn Armchair',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Bathtub.png?99ed12',
-      name: 'Emberborn Bathtub',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Bed.png?7f6563',
-      name: 'Emberborn Bed',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Bookshelf.png?93b22b',
-      name: 'Emberborn Bookshelf',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Brazier.png?95e4e0',
-      name: 'Emberborn Brazier',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Coffee_Table.png?72747c',
-      name: 'Emberborn Coffee Table',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Couch.png?a9aa63',
-      name: 'Emberborn Couch',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Dining_Table.png?f74d97',
-      name: 'Emberborn Dining Table',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Dresser.png?951cd4',
-      name: 'Emberborn Dresser',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Flower_Planter.png?3e4c42',
-      name: 'Emberborn Flower Planter',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Hanging_Lamp.png?470061',
-      name: 'Emberborn Hanging Lamp',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Hanging_Planter.png?edca46',
-      name: 'Emberborn Hanging Planter',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Large_Rug.png?30f969',
-      name: 'Emberborn Large Rug',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Mirror.png?c758e0',
-      name: 'Emberborn Mirror',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Nightstand.png?7f2add',
-      name: 'Emberborn Nightstand',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Reed_Planter.png?17f7e5',
-      name: 'Emberborn Reed Planter',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Side_Table.png?1e5c0e',
-      name: 'Emberborn Side Table',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Small_Rug.png?d19775',
-      name: 'Emberborn Small Rug',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Standing_Lamp.png?20621a',
-      name: 'Emberborn Standing Lamp',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Stool.png?50f2f3',
-      name: 'Emberborn Stool',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Table_Lamp.png?df9839',
-      name: 'Emberborn Table Lamp',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Wall_Decor.png?d6d373',
-      name: 'Emberborn Wall Decor',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Wall_Shelf.png?a9e4e8',
-      name: 'Emberborn Wall Shelf',
-    },
-    {
-      image: 'https://palia.wiki.gg/images/Emberborn_Wardrobe.png?806f8d',
-      name: 'Emberborn Wardrobe',
-    },
-  ],
-},
+  {
+    name: 'Emberborn Set',
+    palette: 'pumpkin',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Armchair.png?96fa88',
+        name: 'Emberborn Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Bathtub.png?99ed12',
+        name: 'Emberborn Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Bed.png?7f6563',
+        name: 'Emberborn Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Bookshelf.png?93b22b',
+        name: 'Emberborn Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Brazier.png?95e4e0',
+        name: 'Emberborn Brazier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Coffee_Table.png?72747c',
+        name: 'Emberborn Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Couch.png?a9aa63',
+        name: 'Emberborn Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Dining_Table.png?f74d97',
+        name: 'Emberborn Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Dresser.png?951cd4',
+        name: 'Emberborn Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Flower_Planter.png?3e4c42',
+        name: 'Emberborn Flower Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Hanging_Lamp.png?470061',
+        name: 'Emberborn Hanging Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Hanging_Planter.png?edca46',
+        name: 'Emberborn Hanging Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Large_Rug.png?30f969',
+        name: 'Emberborn Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Mirror.png?c758e0',
+        name: 'Emberborn Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Nightstand.png?7f2add',
+        name: 'Emberborn Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Reed_Planter.png?17f7e5',
+        name: 'Emberborn Reed Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Side_Table.png?1e5c0e',
+        name: 'Emberborn Side Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Small_Rug.png?d19775',
+        name: 'Emberborn Small Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Standing_Lamp.png?20621a',
+        name: 'Emberborn Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Stool.png?50f2f3',
+        name: 'Emberborn Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Table_Lamp.png?df9839',
+        name: 'Emberborn Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Wall_Decor.png?d6d373',
+        name: 'Emberborn Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Wall_Shelf.png?a9e4e8',
+        name: 'Emberborn Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emberborn_Wardrobe.png?806f8d',
+        name: 'Emberborn Wardrobe',
+      },
+    ],
+  },
+  {
+    name: 'Dragontide Set',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        name: 'Item image',
+      },
+    ],
+  },
+
   {
     name: 'Investigator Set',
     palette: 'blueberry',
@@ -1429,8 +1441,8 @@ export const iListCollections: ICollection[] = [
 ###
   {
     name: 'Walls',
-    palette: 'lagoon',
-    color: 50,
+    palette: 'neutral',
+    color: 600,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Wall.png?6bf217',
@@ -1440,7 +1452,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Floors',
-    palette: 'lagoon',
+    palette: 'neutral',
     color: 50,
     items: [
       {
