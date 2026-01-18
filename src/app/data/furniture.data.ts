@@ -2432,47 +2432,47 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Cook%27s_Trays.png?993654',
-        name: 'Cook's Trays',
+        name: 'Cook\'s Trays',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Aquarium.png/300px-Fisher%27s_Aquarium.png?ba9a3b',
-        name: 'Fisher's Aquarium',
+        name: 'Fisher\'s Aquarium',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Treasure_Chest.png/300px-Fisher%27s_Treasure_Chest.png?7858ac',
-        name: 'Fisher's Treasure Chest',
+        name: 'Fisher\'s Treasure Chest',
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Bonsai.png?bfb827',
-        name: 'Forager's Bonsai',
+        name: 'Forager\'s Bonsai',
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Planter.png?23ca7d',
-        name: 'Forager's Planter',
+        name: 'Forager\'s Planter',
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Drawing_Board.png?f9fdf3',
-        name: 'Furniture Maker's Drawing Board',
+        name: 'Furniture Maker\'s Drawing Board',
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Tool_Chest.png?ae6a88',
-        name: 'Furniture Maker's Tool Chest',
+        name: 'Furniture Maker\'s Tool Chest',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Cornucopia.png/300px-Gardener%27s_Cornucopia.png?ddb718',
-        name: 'Gardener's Cornucopia',
+        name: 'Gardener\'s Cornucopia',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Growhouse.png/300px-Gardener%27s_Growhouse.png?a671f4',
-        name: 'Gardener's Growhouse',
+        name: 'Gardener\'s Growhouse',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Mannequin.png/300px-Hunter%27s_Mannequin.png?7c44c6',
-        name: 'Hunter's Mannequin',
+        name: 'Hunter\'s Mannequin',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Target.png/300px-Hunter%27s_Target.png?407ca9',
-        name: 'Hunter's Target',
+        name: 'Hunter\'s Target',
       },
       {
         image: 'https://palia.wiki.gg/images/Kilima_Koi_Pond.png?e4255f',
@@ -2480,11 +2480,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Anvil.png?6e991c',
-        name: 'Miner's Anvil',
+        name: 'Miner\'s Anvil',
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Curio_Case.png?5ed47b',
-        name: 'Miner's Curio Case',
+        name: 'Miner\'s Curio Case',
       },
       {
         image: 'https://palia.wiki.gg/images/Well.png?4cd913',
@@ -2500,11 +2500,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Fisher%27s_Plaque.png?a1c293',
-        name: 'Fisher's Plaque',
+        name: 'Fisher\'s Plaque',
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Plaque.png?89d0d3',
-        name: 'Forager's Plaque',
+        name: 'Forager\'s Plaque',
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Plaque.png?93e204',
@@ -2512,15 +2512,146 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Gardener%27s_Plaque.png?4818a7',
-        name: 'Gardener's Plaque',
+        name: 'Gardener\'s Plaque',
       },
       {
         image: 'https://palia.wiki.gg/images/Hunter%27s_Plaque.png?b5bdf4',
-        name: 'Hunter's Plaque',
+        name: 'Hunter\'s Plaque',
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Plaque.png?e53fae',
-        name: 'Miner's Plaque',
+        name: 'Miner\'s Plaque',
+      },
+    ],
+  },
+  {
+    name: 'Zeki\'s Wondrous Machine',
+    palette: 'watermelon',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Honeybunch_Plush.png?19c195',
+        name: 'Giant Honeybunch Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Green_Cylinder.png?b22e42',
+        name: 'Green Cylinder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Me_n%27_My_Honeybunch_Plush.png?df7998',
+        name: 'Me n\' My Honeybunch Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Butterball.png?c354ee',
+        name: 'Ranch House Butterball',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Cottonbean.png?155d98',
+        name: 'Ranch House Cottonbean',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Fish_Plush.png?ea0d40',
+        name: 'Ancient Fish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Kitsuu_Plush.png?d8b600',
+        name: 'Ancient Kitsuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Silverwing_Plush.png?eaee3b',
+        name: 'Ancient Silverwing Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chatty_Plush.png?4b85fc',
+        name: 'Chatty Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Frogbert_Plush.png?cc8653',
+        name: 'Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fun_Guy_Plushie.png?e4b38c',
+        name: 'Fun Guy Plushie',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Flutterfox_Plush.png?b7370f',
+        name: 'https://palia.wiki.gg/images/Sweep_the_Bahari_Board_Wall_Rack.png?bbc3ec',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winter_Flutterfox_Plush.png?fa5add',
+        name: 'Winter Flutterfox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/The_Order_Sernuk_Plush.png?22700e',
+        name: 'The Order Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sweep_the_Bahari_Board_Wall_Rack.png?bbc3ec',
+        name: 'Sweep the Bahari Board Wall Rack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sick_Style_Bahari_Board.png?cdb823',
+        name: 'Sick Style Bahari Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sage%27s_Marble_Singing_Bowl.png?e94588',
+        name: 'Sage\'s Marble Singing Bowl',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ormuu_Shack_Ormuu_Mug.png?74aaf7',
+        name: 'Ormuu Shack Ormuu Mug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lucky_Zeki.png?33bfb2',
+        name: 'Lucky Zeki',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Bookshelf.png?d16f9b',
+        name: 'Honeybunch Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Bed.png?d609b2',
+        name: 'Honeybunch Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Armchair.png?29bd9d',
+        name: 'Honeybunch Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Wooden_Bucket.png?923fd9',
+        name: 'Garden Variety Wooden Bucket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Sprout_Planter.png?309a02',
+        name: 'Garden Variety Sprout Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Shovel.png?c4d8c5',
+        name: 'Garden Variety Shovel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Pickaxe.png?b892d6',
+        name: 'Garden Variety Pickaxe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Jug.png?863d57',
+        name: 'Garden Variety Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Variety_Ceramic_Bucket.png?ee9133',
+        name: 'Garden Variety Ceramic Bucket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Ancient_Fish_Plush.png?1d5130',
+        name: 'Giant Ancient Fish Plush (Zeki\'s Prize Wheel)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Chapaa_Plush.png?abf253',
+        name: 'Giant Chapaa Plush (Zeki\'s Prize Wheel)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Maji_Plush.png?bf3d2f',
+        name: 'Giant Maji Plush (Zeki\'s Prize Wheel)',
       },
     ],
   },
