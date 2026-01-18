@@ -1629,6 +1629,77 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Valley Sunrise Set',
+    palette: 'blueberry',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bed.png?350c80',
+        name: 'Valley Sunrise Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bookshelf.png?81f74f',
+        name: 'Valley Sunrise Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Candelabra.png?b7881b',
+        name: 'Valley Sunrise Candelabra',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Chandelier.png?a4cde7',
+        name: 'Valley Sunrise Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Cloche.png?792898',
+        name: 'Valley Sunrise Cloche',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Clock.png?948d68',
+        name: 'Valley Sunrise Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Desk.png?6edcc6',
+        name: 'Valley Sunrise Desk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Dining_Table.png?e3909c',
+        name: 'Valley Sunrise Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Grain_Mill.png?c42a86',
+        name: 'Valley Sunrise Grain Mill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Hanging_Lamp.png?b89e40',
+        name: 'Valley Sunrise Hanging Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Knife_Set.png?7ef7fc',
+        name: 'Valley Sunrise Knife Set',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Lights.png?6f26ac',
+        name: 'Valley Sunrise Lights',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Oval_Table.png?e35f3b',
+        name: 'Valley Sunrise Oval Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Side_Table.png?c31196',
+        name: 'Valley Sunrise Side Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Sink.png?dfa3d2',
+        name: 'Valley Sunrise Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Valley_Sunrise_Vase.png?5b7ebf',
+        name: 'Valley Sunrise Vase',
+      },
+    ],
+  },
 
   {
     name: 'Curtains',
