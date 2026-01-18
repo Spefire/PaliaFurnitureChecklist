@@ -2413,6 +2413,117 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Guild Store Items',
+    palette: 'neutral',
+    color: 400,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Bug_Catcher%27s_Insectarium.png/300px-Bug_Catcher%27s_Insectarium.png?32695b',
+        name: 'Bug Catcher\'s Insectarium',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Bug_Catcher%27s_Lure.png/300px-Bug_Catcher%27s_Lure.png?13b9ab',
+        name: 'Bug Catcher\'s Lure',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cook%27s_Market_Stand.png?4da173',
+        name: 'Cook\'s Market Stand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cook%27s_Trays.png?993654',
+        name: 'Cook's Trays',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Aquarium.png/300px-Fisher%27s_Aquarium.png?ba9a3b',
+        name: 'Fisher's Aquarium',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Treasure_Chest.png/300px-Fisher%27s_Treasure_Chest.png?7858ac',
+        name: 'Fisher's Treasure Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Forager%27s_Bonsai.png?bfb827',
+        name: 'Forager's Bonsai',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Forager%27s_Planter.png?23ca7d',
+        name: 'Forager's Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Drawing_Board.png?f9fdf3',
+        name: 'Furniture Maker's Drawing Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Tool_Chest.png?ae6a88',
+        name: 'Furniture Maker's Tool Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Cornucopia.png/300px-Gardener%27s_Cornucopia.png?ddb718',
+        name: 'Gardener's Cornucopia',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Growhouse.png/300px-Gardener%27s_Growhouse.png?a671f4',
+        name: 'Gardener's Growhouse',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Mannequin.png/300px-Hunter%27s_Mannequin.png?7c44c6',
+        name: 'Hunter's Mannequin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Target.png/300px-Hunter%27s_Target.png?407ca9',
+        name: 'Hunter's Target',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Koi_Pond.png?e4255f',
+        name: 'Kilima Koi Pond',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Miner%27s_Anvil.png?6e991c',
+        name: 'Miner's Anvil',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Miner%27s_Curio_Case.png?5ed47b',
+        name: 'Miner's Curio Case',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Well.png?4cd913',
+        name: 'Well',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bug_Catcher%27s_Plaque.png?9f7325',
+        name: 'Bug Catcher\'s Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cook%27s_Plaque.png?56ed15',
+        name: 'Cook\'s Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fisher%27s_Plaque.png?a1c293',
+        name: 'Fisher's Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Forager%27s_Plaque.png?89d0d3',
+        name: 'Forager's Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Plaque.png?93e204',
+        name: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Drawing_Board.png?f9fdf3',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gardener%27s_Plaque.png?4818a7',
+        name: 'Gardener's Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hunter%27s_Plaque.png?b5bdf4',
+        name: 'Hunter's Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Miner%27s_Plaque.png?e53fae',
+        name: 'Miner's Plaque',
+      },
+    ],
+  },
 
   {
     name: 'Gourmet Set',
@@ -2655,6 +2766,38 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Wall.png?6bf217',
         name: 'Emberborn Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blueprint_Board_Wallpaper.png?a16d5a',
+        name: 'Blueprint Board Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Butterfly_Lights_Wallpaper.png?bd404e',
+        name: 'Butterfly Lights Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Furnace_Parts_Wallpaper.png?96ac33',
+        name: 'Furnace Parts Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mushroom_Woods_Wallpaper.png?aa2db8',
+        name: 'Mushroom Woods Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ramen_Bowl_Wallpaper.png?ba38c2',
+        name: 'Ramen Bowl Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sernuk_Run_Wallpaper.png?8719b9',
+        name: 'Sernuk Run Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tomato_Vines_Wallpaper.png?8aacdc',
+        name: 'Tomato Vines Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Under_the_Sea_Wallpaper.png?d9d2e0',
+        name: 'Under the Sea Wallpaper',
       },
     ],
   },
