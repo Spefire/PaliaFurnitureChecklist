@@ -1737,6 +1737,77 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Builder\'s Set',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/wiki/Builder%27s_Bridge_1',
+        name: 'Builder\'s Bridge 1',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_2.png?e05473',
+        name: 'Builder\'s Bridge 2',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_3.png?d165cc',
+        name: 'Builder\'s Bridge 3',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Corner.png?f23c38',
+        name: 'Builder\'s Bridge Corner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Curve.png?7063c2',
+        name: 'Builder\'s Bridge Curve',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Hand_Saw.png?3df106',
+        name: 'Builder\'s Hand Saw',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Post.png?a06cb3',
+        name: 'Builder\'s Bridge Post',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Stairs.png?633ea4',
+        name: 'Builder\'s Bridge Stairs',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Coal_Pile.png?5aee62',
+        name: 'Builder\'s Coal Pile',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+    ],
+  },
+  {
     name: 'Makeshift Set',
     palette: 'pineapple',
     color: 900,
@@ -2811,6 +2882,66 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Makeshift_Small_Curtain.png?6c73dc',
         name: 'Makeshift Small Curtain',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Little_Leaf_Large_Valance.png?aeb6e8',
+        name: 'Little Leaf Large Valance',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Little_Leaf_Small_Valance.png?552c32',
+        name: 'Little Leaf Small Valance',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Arched_Large_Curtains.png?bed012',
+        name: 'Arched Large Curtains',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Arched_Small_Curtains.png?18305b',
+        name: 'Arched Small Curtains',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Cafe_Small_Curtains.png?9ec79e',
+        name: 'Cozy Cafe Small Curtains',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Cafe_Large_Curtains.png?d7cb39',
+        name: 'Cozy Cafe Large Curtains',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Silver_Leaf_Large_Drapes.png?f5c685',
+        name: 'Silver Leaf Large Drapes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Silver_Leaf_Small_Drapes.png?f3a691',
+        name: 'Silver Leaf Small Drapes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Velvet_Luxe_Small_Curtain.png?bfa3a2',
+        name: 'Velvet Luxe Small Curtain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Velvet_Luxe_Large_Curtain.png?8388a4',
+        name: 'Velvet Luxe Large Curtain',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
     ],
   },
   {
@@ -2888,7 +3019,133 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
+  {
+    name: 'Builders Blocks',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Copper_Floor.png?a7ed25',
+        name: 'Builders Copper Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Copper_Pillar.png?8299f7',
+        name: 'Builders Copper Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Copper_Ramp.png?9d0ce9',
+        name: 'Builders Copper Ramp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Copper_Wall.png?eb635a',
+        name: 'Builders Copper Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Large_Copper_Crate.png?2c226d',
+        name: 'Builders Large Copper Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Small_Copper_Crate.png?c06a24',
+        name: 'Builders Small Copper Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Gold_Floor.png?cf4ba9',
+        name: 'Builders Gold Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Gold_Pillar.png?83356e',
+        name: 'Builders Gold Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Gold_Ramp.png?e8aed0',
+        name: 'Builders Gold Ramp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Gold_Wall.png?83dcf5',
+        name: 'Builders Gold Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Large_Gold_Crate.png?3b4d82',
+        name: 'Builders Large Gold Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Small_Gold_Crate.png?97f088',
+        name: 'Builders Small Gold Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Iron_Floor.png?480066',
+        name: 'Builders Iron Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Iron_Pillar.png?3ee591',
+        name: 'Builders Iron Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Iron_Ramp.png?d0f3c4',
+        name: 'Builders Iron Ramp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Iron_Wall.png?80cdd7',
+        name: 'Builders Iron Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Large_Iron_Crate.png?53ebcb',
+        name: 'Builders Large Iron Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Small_Iron_Crate.png?d7ef07',
+        name: 'Builders Small Iron Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Large_Stone_Crate.png?ddde77',
+        name: 'Builders Large Stone Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Small_Stone_Crate.png?619226',
+        name: 'Builders Small Stone Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/wiki/File:Builders_Stone_Floor.png',
+        name: 'Builders Stone Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Stone_Pillar.png?348a85',
+        name: 'Builders Stone Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Stone_Ramp.png?daac58',
+        name: 'Builders Stone Ramp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Stone_Wall.png?e188cf',
+        name: 'Builders Stone Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Large_Wood_Crate.png?609435',
+        name: 'Builders Large Wood Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Small_Wood_Crate.png?38efbe',
+        name: 'Builders Small Wood Crate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Wood_Floor.png?e6b71d',
+        name: 'Builders Wood Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Wood_Pillar.png?be8a07',
+        name: 'Builders Wood Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Wood_Ramp.png?3b3c56',
+        name: 'Builders Wood Ramp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Wood_Wall.png?2eba47',
+        name: 'Builders Wood Wall',
+      },
+    ],
+  },
   {
     name: 'Walls',
     palette: 'neutral',
@@ -2930,6 +3187,26 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Under_the_Sea_Wallpaper.png?d9d2e0',
         name: 'Under the Sea Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Natural_Wood_Paneling.png?5b3321',
+        name: 'Natural Wood Paneling',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blushing_Rustic_Siding.png?ad0ef6',
+        name: 'Blushing Rustic Siding',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
     ],
   },
   {
@@ -2940,6 +3217,22 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Floor.png?ab5dff',
         name: 'Emberborn Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Apothecary_Stone_Floor.png?df8e40',
+        name: 'Apothecary Stone Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Slate_Swirl_Tile_Floor.png?9a6b2f',
+        name: 'Slate Swirl Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Field_Madder_Tile_Floor.png?57d8fa',
+        name: 'Field Madder Tile Floor',
+      },
+      {
+        image: '',
+        name: '',
       },
     ],
   },
@@ -2974,6 +3267,534 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Tent.png?92e6cc',
         name: 'Makeshift Tent',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Small_Room.png?d53a2a',
+        name: 'Small Room',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Stables_Board.png?e5f879',
+        name: 'Stables Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Windmill.png?44b5ff',
+        name: 'Windmill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gazebo.png?6266df',
+        name: 'Gazebo',
+      },
+      {
+        image: '',
+        name: '',
+      },
+    ],
+  },
+  {
+    name: 'Story Quets Romance and Frendship Items',
+    palette: 'blueberry',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Ormuu_Antler_Mount.png?bbc0e6',
+        name: 'Kilima Ormuu Antler Mount',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ashura%27s_Carved_Sernuk.png?518393',
+        name: 'Ashura\'s Carved Sernuk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cursed_Statue.png?68dd75',
+        name: 'Cursed Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jar_of_Shimmerflies.png?f32bbe',
+        name: 'Jar of Shimmerflies',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismbeard%27s_Lamp.png?2d68e9',
+        name: 'Prismbeard\'s Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismbeard%27s_Map.png?5ba722',
+        name: 'Prismbeard\'s Map',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismbeard%27s_Figurehead.png?de71be',
+        name: 'Prismbeard\'s Figurehead',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-summer-09-seekfind-kite.webp',
+        name: 'Auni\'s Kite',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lute.png?9fb866',
+        name: 'Lute',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Librarian%27s_Bookshelf.png?273916',
+        name: 'Librarian\'s Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Caleri%27s_Teapot.png?2b302a',
+        name: 'Caleri\'s Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Illuminated_Manuscript.png?ab8a34',
+        name: 'Illuminated Manuscript',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Fish_Star_Chart.png?66a702',
+        name: 'Ancient Fish Star Chart',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_and_Magic_Kit.png?3960b3',
+        name: 'Maji and Magic Kit',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Telescope.png?3ca7f8',
+        name: 'Telescope',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spicerack.png?1d6088',
+        name: 'Spicerack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Galdur_Stone.png?613194',
+        name: 'Galdur Stone',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Einar%27s_Music_Box.png?b3c3d7',
+        name: 'Einar\'s Music Box',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Einar%27s_Portrait.png?153690',
+        name: 'Einar\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Replica_Hoosit.png?296377',
+        name: 'Replica Hoosit',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-cosmetic-56-deco-sundial.webp',
+        name: 'Elouisa\'s Moondial',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Commemorative_Plate.png?534ac6',
+        name: 'Commemorative Plate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winter_Acceptance_Wreath.png?306193',
+        name: 'Winter Acceptance Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fall_Acceptance_Wreath.png?9c7545',
+        name: 'Fall Acceptance Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Acceptance_Wreath.png?5fc222',
+        name: 'Summer Acceptance Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Acceptance_Wreath.png?618f6a',
+        name: 'Spring Acceptance Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Antler_Chandelier.png?40bf8c',
+        name: 'Antler Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hassian%27s_Portrait.png?393890',
+        name: 'Hassian\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ranch_House_Cherrytail.png?d7d18f',
+        name: 'Ranch House Cherrytail',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Human_Airship.png?3d7eae',
+        name: 'Ancient Human Airship',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Short_Enchanted_Candle.png?9fc1f2',
+        name: 'Short Enchanted Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tall_Enchanted_Candle.png?65c04b',
+        name: 'Tall Enchanted Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hodari%27s_Portrait.png?4121a7',
+        name: 'Hodari\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Custom_Sketch.png?966bb0',
+        name: 'Custom Sketch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jel%27s_Portrait.png?413e66',
+        name: 'Jel\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Phoenix_Statue.png?dcc5b0',
+        name: 'Phoenix Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jina%27s_Favorite_Quill.png?f827a7',
+        name: 'Jina\'s Favorite Quill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Potted_Briar_Daisies.png?c1f3e6',
+        name: 'Potted Briar Daisies',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jina%27s_Portrait.png?13d298',
+        name: 'Jina\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Scissors.png?bf9ce3',
+        name: 'Giant Scissors',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Healer%27s_Kit.png?2a71df',
+        name: 'Healer\'s Kit',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kenyatta%27s_Portrait.png?b35c65',
+        name: 'Kenyatta\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lucky_Riffroc_Shoe.png?d89586',
+        name: 'Lucky Riffroc Shoe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismbeard_Statue.png?2ed0ba',
+        name: 'Prismbeard Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nai%27o%27s_Portrait.png?e03f17',
+        name: 'Nai\'o\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mechanical_Chapaa.png?955e56',
+        name: 'Mechanical Chapaa',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lucky_Stew_Pot.png?de3592',
+        name: 'Lucky Stew Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Reth%27s_Cake_Stand.png?145668',
+        name: 'Reth\'s Cake Stand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Reth%27s_Portrait.png?ca21ee',
+        name: 'Reth\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sword_Display.png?9230ae',
+        name: 'Sword Display',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Subira%27s_Lily_Vase.png?3e17a6',
+        name: 'Subira\'s Lily Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Subira%27s_Portrait.png?66c602',
+        name: 'Subira\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grimalkin_Night_Light.png?65df02',
+        name: 'Grimalkin Night Light',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tamala%27s_Beauty_Cream.png?e17606',
+        name: 'Tamala\'s Beauty Cream',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tamala%27s_Portrait.png?88279b',
+        name: 'Tamala\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Life-Sized_Tau_Plushie.png?5a022c',
+        name: 'Life-Sized Tau Plushie',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Rock_Garden.png?f55c3d',
+        name: 'Ancient Rock Garden',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Galdur_Statue.png?63aa18',
+        name: 'Ancient Galdur Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Temple_of_the_Roots_Tree.png?4b133b',
+        name: 'Temple of the Roots Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gardener_Hub.png?929f01',
+        name: 'Gardener Hub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gardener_Remote_Override.png?10ea1a',
+        name: 'Gardener Remote Override',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fancy_Chest.png?66236a',
+        name: 'Fancy Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tish%27s_Chapaa_Bank.png?3c5c56',
+        name: 'Tish\'s Chapaa Bank',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tish%27s_Portrait.png?52df25',
+        name: 'Tish\'s Portrait',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Piksii_Grove_Ingame.png',
+        name: 'Piksii Grove',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/The_Golden_Egg.png?4f5eb0',
+        name: 'The Golden Egg',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grimalkin_Rave_Wand.png?14c65f',
+        name: 'Grimalkin Rave Wand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Zeki%27s_Ship_in_a_Bottle.png?991474',
+        name: 'Zeki\'s Ship in a Bottle',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-generic-87-deco-teapot.webp',
+        name: 'Copper Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Pottery.png?ad2b0f',
+        name: 'Ancient Pottery',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kenyatta%27s_Record_Player.png?7107c6',
+        name: 'Kenyatta\'s Record Player',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-generic-173-deco-votivecandle-02.webp',
+        name: 'Votive Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mud_Pie.png?bbb213',
+        name: 'Mud Pie',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat_Mirror.png?8e2525',
+        name: 'Aristocrat Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Caleri%27s_Quill.png?56f86d',
+        name: 'Caleri\'s Quill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismbeard_Statue.png?2ed0ba',
+        name: 'Prismbeard Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/GrillMaster_v3000.png?ef58e4',
+        name: 'GrillMaster v3000',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mermaid_Harp.png?4684db',
+        name: 'Mermaid Harp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mermaid_Lamp.png?383827',
+        name: 'Mermaid Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mermaid_Chair.png?c43af5',
+        name: 'Mermaid Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/PalTech_Drink_Dispenser.png?daa78e',
+        name: 'PalTech Drink Dispenser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Fish_Star_Chart.png?66a702',
+        name: 'Ancient Fish Star Chart',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Failed_Glider_Wall_Decor.png?c20bdb',
+        name: 'Failed Glider Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sketch_of_a_Whale.png?ef293e',
+        name: 'Sketch of a Whale',
+      },
+    ],
+  },
+  {
+    name: 'Success and Trophys Achievements',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Grow_All_Out_Couch.png?c7960a',
+        name: 'Grow All Out Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grow_All_Out_Dining_Chair.png?c4c4ae',
+        name: 'Grow All Out Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grow_All_Out_Dining_Table.png?24bec5',
+        name: 'Grow All Out Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grow_All_Out_Standing_Lamp.png?956e33',
+        name: 'Grow All Out Standing Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grow_All_Out_Stool.png?634545',
+        name: 'Grow All Out Stool',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-growable-06-furniture-gazebo-3.webp',
+        name: 'Grow All Out Gazeboo',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Village_Map.png?abf41c',
+        name: 'Kilima Village Map',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bahari_Bay_Map.png?dfca8f',
+        name: 'Bahari Bay Map',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Map.png?853488',
+        name: 'Elderwood Map',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Bug_Collector%27s_Display_Box.png/300px-Kilima_Bug_Collector%27s_Display_Box.png?65a47c',
+        name: 'Kilima Bug Collector\'s Display Box',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Star_Kilima_Bug_Collector%27s_Display_Box.png/300px-Star_Kilima_Bug_Collector%27s_Display_Box.png?430295',
+        name: 'Star Kilima Bug Collector\'s Display Box',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Fisher%27s_Mounted_Fish.png/300px-Kilima_Fisher%27s_Mounted_Fish.png?d12823',
+        name: 'Kilima Fisher\'s Mounted Fish',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Star_Kilima_Fisher%27s_Mounted_Fish.png/300px-Star_Kilima_Fisher%27s_Mounted_Fish.png?e1c280',
+        name: 'Star Kilima Fisher\'s Mounted Fish',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Forager%27s_Basket.png?757b26',
+        name: 'Kilima Forager\'s Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Hunter%27s_Mounted_Chapaa.png/300px-Kilima_Hunter%27s_Mounted_Chapaa.png?4d5eb2',
+        name: 'Kilima Hunter\'s Mounted Chapaa',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Hunter%27s_Mounted_Sernuk.png/300px-Kilima_Hunter%27s_Mounted_Sernuk.png?b2f688',
+        name: 'Kilima Hunter\'s Mounted Sernuk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bahari_Hunter%27s_Mounted_Muujin.png?a9f80c',
+        name: 'Bahari Hunter\'s Mounted Muujin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kilima_Miner%27s_Tower_of_Palium.png/300px-Kilima_Miner%27s_Tower_of_Palium.png?5e0972',
+        name: 'Kilima Miner\'s Tower of Palium',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Einar%27s_Adornment_Ingame.png?e2c70f',
+        name: 'Einar\'s Adornment',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Brighteyed_Shadowbox.png?22f9f1',
+        name: 'Brighteyed Shadowbox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Shadowbox.png?4c262c',
+        name: 'Elderwood Shadowbox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mounted_Floatfish.png?9a05f3',
+        name: 'Mounted Floatfish',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mounted_Maws.png?63827a',
+        name: 'Mounted Maws',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mounted_Shmole_Trophy.png?5f3d3c',
+        name: 'Mounted Shmole Trophy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mounted_Ogopuu_Trophy.png?ef2697',
+        name: 'Mountesd Ogopuu Trophy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Heavy_Metal_Chapaa_Trophy.png?67fad1',
+        name: 'Heavy Metal Chapaa Trophy',
+      },
+    ],
+  },
+  {
+    name: 'Environnement Found Items',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Treasure_Chest_%28Epic%29.png?2db316',
+        name: 'Ancient Treasure Chest (Epic)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Treasure_Chest_%28Rare%29.png?c607a3',
+        name: 'Ancient Treasure Chest (Rare)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Treasure_Chest_%28Uncommon%29.png?ac4aaf',
+        name: 'Ancient Treasure Chest (Uncommon)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Treasure_Chest_%28Epic%29.png?9121bb',
+        name: 'Pirate Treasure Chest (Epic)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Treasure_Chest_%28Rare%29.png?465460',
+        name: 'Pirate Treasure Chest (Rare)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pirate_Treasure_Chest_%28Uncommon%29.png?b36dd4',
+        name: 'Pirate Treasure Chest (Uncommon)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Treasure_Chest_%28Epic%29.png?2e1fec',
+        name: 'Treasure Chest (Epic)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Treasure_Chest_%28Rare%29.png?d14a72',
+        name: 'Treasure Chest (Rare)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Treasure_Chest_%28Uncommon%29.png?7a688d',
+        name: 'Treasure Chest (Uncommon)',
+      },
+    ],
+  },
+  {
+    name: 'Monthly Bulletin Board Quests',
+    palette: 'lime',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
+        name: 'Spooky Spectral Blossoms',
       },
     ],
   },
