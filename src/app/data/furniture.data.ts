@@ -1108,7 +1108,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Bathtub.png?3cc23d',
-        name: 'https://palia.wiki.gg/images/Dragontide_Armchair.png?3ec01a',
+        name: 'Dragontide Bathtub',
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Bed.png?b9fdbb',
