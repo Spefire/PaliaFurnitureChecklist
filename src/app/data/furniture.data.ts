@@ -4123,5 +4123,72 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Yardwork',
+    type: TypeCollection.MISC,
+    palette: 'kiwi',
+    color: 600,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Large_Rock_1.png?402126',
+        name: 'Yardwork Large Rock 1',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Large_Rock_2.png?d5eddd',
+        name: 'Yardwork Large Rock 2',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Small_Rock_1.png?92d3d1',
+        name: 'Yardwork Small Rock 1',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Small_Rock_2.png?e1fe62',
+        name: 'Yardwork Small Rock 2',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Small_Rock_3.png?ca7e8b',
+        name: 'Yardwork Small Rock 3',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Large_Terrace.png?516de9',
+        name: 'Yardwork Large Terrace',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Medium_Terrace.png?e2acac',
+        name: 'Yardwork Medium Terrace',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Small_Terrace.png?150b12',
+        name: 'Yardwork Small Terrace',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Leafy_Log.png?48c463',
+        name: 'Yardwork Leafy Log',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Stone_Pillar.png?92859a',
+        name: 'Yardwork Stone Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yardwork_Wooden_Pillar.png?56b186',
+        name: 'Yardwork Wooden Pillar',
+      },
+    ],
+  },
+
+
+  {
+    name: 'Set',
+    type: TypeCollection.EVENT,
+    palette: 'lagoon',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        name: 'image',
+      },
+    ],
+  },
+
 
 ];
