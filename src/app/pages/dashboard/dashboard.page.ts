@@ -10,6 +10,7 @@ import { FilterBarComponent, FilterPillAddonAfterDirective, FilterPillAddonBefor
 import { FormFieldComponent } from '@lucca-front/ng/form-field';
 import { CheckboxInputComponent, TextInputComponent } from '@lucca-front/ng/forms';
 import { GridColumnComponent, GridComponent } from '@lucca-front/ng/grid';
+import { HighlightDataComponent } from '@lucca-front/ng/highlight-data';
 import { IconComponent } from '@lucca-front/ng/icon';
 import { MainLayoutBlockComponent, MainLayoutComponent } from '@lucca-front/ng/main-layout';
 import { LuMultiDisplayerDirective, LuMultiSelectContentDisplayerComponent, LuMultiSelectInputComponent } from '@lucca-front/ng/multi-select';
@@ -17,7 +18,7 @@ import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
 import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
 
-import { iListCollections } from '@src/data/furniture.data';
+import { collectionsVersion, iListCollections } from '@src/data/furniture.data';
 import { Collection, TypeCollection } from '@src/models/collection.model';
 import { Furniture } from '@src/models/furniture.model';
 import { PageTitles } from '@src/models/pages.model';
@@ -45,6 +46,7 @@ import { AppService } from '@src/services/app.service';
     LuOptionDirective,
     SegmentedControlComponent,
     SegmentedControlFilterComponent,
+    HighlightDataComponent,
     CheckboxInputComponent,
     NumericBadgeComponent,
     TextInputComponent,
@@ -58,6 +60,7 @@ import { AppService } from '@src/services/app.service';
 export class DashboardPage implements OnInit {
   public pages = PageTitles;
   public typesCollection = TypeCollection;
+  public collectionsVersion = collectionsVersion;
 
   public listOpennedCollections = signal<string[]>([]);
   public listSelectedItems = signal<string[]>([]);
@@ -125,6 +128,21 @@ export class DashboardPage implements OnInit {
     let result = 0;
     this.listCollections().forEach(collection => {
       if (collection.type === TypeCollection.MISC) result++;
+    });
+    return result;
+  });
+
+  public finishedCount = computed<number>(() => {
+    if (!this.listCollections()) return 0;
+    let result = 0;
+    this.listCollections().forEach(collection => {
+      let hasMissing = false;
+      collection.items.forEach(furniture => {
+        if (!this.listSelectedItems().includes(furniture.code)) {
+          hasMissing = true;
+        }
+      });
+      if (!hasMissing) result++;
     });
     return result;
   });

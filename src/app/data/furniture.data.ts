@@ -1,5 +1,7 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
+export const collectionsVersion = '0.199';
+
 export const iListCollections: ICollection[] = [
   {
     name: 'Log Cabin',

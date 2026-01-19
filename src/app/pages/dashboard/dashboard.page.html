@@ -1,10 +1,49 @@
 <lu-main-layout footerSticky>
   <ng-container mainLayoutHeader>
-    <lu-page-header label="Furniture checklist" container></lu-page-header>
+    <lu-page-header
+      label="Furniture checklist"
+      description="Check your furniture from all Palia's collections."
+      container
+    ></lu-page-header>
   </ng-container>
 
   <lu-main-layout-block>
     <lu-container class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+      <lu-grid columns="3">
+        <lu-grid-column>
+          <lu-highlight-data
+            heading="Finished collections"
+            [value]="finishedCount() + ' sur ' + listCollections().length"
+            [bubble]="3"
+            illustration="medallon"
+            size="S"
+            theme="dark"
+            palette="success"
+          />
+        </lu-grid-column>
+        <lu-grid-column>
+          <lu-highlight-data
+            heading="Items missing"
+            [value]="missedCount().toString()"
+            [bubble]="1"
+            illustration="manifying-glass"
+            size="S"
+            theme="dark"
+            palette="poplee"
+          />
+        </lu-grid-column>
+        <lu-grid-column>
+          <lu-highlight-data
+            heading="Game version"
+            [value]="collectionsVersion"
+            [bubble]="3"
+            illustration="calendar"
+            size="S"
+            theme="dark"
+            palette="lucca"
+          />
+        </lu-grid-column>
+      </lu-grid>
       <lu-filter-bar>
         <lu-segmented-control
           *luFilterPillAddonBefore
