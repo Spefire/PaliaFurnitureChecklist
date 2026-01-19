@@ -3428,7 +3428,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Story Quets Romance and Frendship Items',
+    name: 'Story Quets Romance and Friendship Items',
     type: TypeCollection.MISC,
     palette: 'blueberry',
     color: 300,
@@ -3940,6 +3940,186 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
         name: 'Spooky Spectral Blossoms',
+      },
+    ],
+  },
+  {
+    name: 'Potato Pod',
+    type: TypeCollection.MISC,
+    palette: 'cucumber',
+    color: 400,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Ardbert_the_Bonsai_Pod.png?4f8b2a',
+        name: 'Ardbert the Bonsai Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ashe_the_Bonsai_Pod.png?153829',
+        name: 'Ashe the Bonsai Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Autumn_the_Bonsai_Pod.png?afb1ef',
+        name: 'Autumn the Bonsai Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ariel_the_Merpod.png?3672be',
+        name: 'Ariel the Merpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jelly_the_Merpod.png?66d379',
+        name: 'Jelly the Merpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kelpie_the_Merpod.png?999be2',
+        name: 'Kelpie the Merpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nori_the_Merpod.png?45f873',
+        name: 'Nori the Merpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Axel_the_Rockerpod.png?f04544',
+        name: 'Axel the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gene_the_Rockerpod.png?fafb97',
+        name: 'Gene the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gerard_the_Rockerpod.png?14571a',
+        name: 'Gerard the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hendrix_the_Rockerpod.png?3f773d',
+        name: 'Hendrix the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jovi_the_Rockerpod.png?393fcd',
+        name: 'Jovi the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Leif_the_Rockerpod.png?5f60c6',
+        name: 'Leif the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Momo_the_Rockerpod.png?1e6089',
+        name: 'Momo the Rockerpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bluebell_the_Mushpod.png?9e44d0',
+        name: 'Bluebell the Mushpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hopper_the_Mushpod.png?eca4ab',
+        name: 'Hopper the Mushpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Port_the_Mushpod.png?b569a4',
+        name: 'Port the Mushpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunny_the_Mushpod.png?7d1b43',
+        name: 'Sunny the Mushpod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cosmo_the_Prettypod.png?2f6d46',
+        name: 'Cosmo the Prettypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dandy_the_Prettypod.png?469605',
+        name: 'Dandy the Prettypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dorian_the_Prettypod.png?966a24',
+        name: 'Dorian the Prettypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Priscilla_the_Prettypod.png?fbcf45',
+        name: 'Priscilla the Prettypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Junior_the_Potato_Pod.png?f2ff93',
+        name: 'Junior the Potato Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mo_the_Potato_Pod.png?e81ca1',
+        name: 'Mo the Potato Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prickly_the_Potato_Pod.png?a68a69',
+        name: 'Prickly the Potato Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Shaggy_the_Potato_Pod.png?ca3a49',
+        name: 'Shaggy the Potato Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Whirly_the_Potato_Pod.png?1fcb92',
+        name: 'Whirly the Potato Pod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cappie_the_Shinypod.png?1b7130',
+        name: 'Cappie the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cyrus_the_Shinypod.png?4ce967',
+        name: 'Cyrus the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Eliot_the_Shinypod.png?17dcd2',
+        name: 'Eliot the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Goldie_the_Shinypod.png?96c8a6',
+        name: 'Goldie the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lazlo_the_Shinypod.png?2e8c8e',
+        name: 'Lazlo the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maggie_the_Shinypod.png?567dc1',
+        name: 'Maggie the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Patch_the_Shinypod.png?e2a521',
+        name: 'Patch the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prissy_the_Shinypod.png?f8be5d',
+        name: 'Prissy the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainer_the_Shinypod.png?2be5e9',
+        name: 'Rainer the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Zenni_the_Shinypod.png?6789fd',
+        name: 'Zenni the Shinypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Beatrix_the_Smartypod.png?8eb276',
+        name: 'Beatrix the Smartypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Darwin_the_Smartypod.png?208a07',
+        name: 'Darwin the Smartypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lavo_the_Smartypod.png?8a2a07',
+        name: 'Lavo the Smartypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mendella_the_Smartypod.png?cac646',
+        name: 'Mendella the Smartypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Newton_the_Smartypod.png?ecee6a',
+        name: 'Newton the Smartypod',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-potatopod-39-winter-shocker.webp',
+        name: 'Volta the Smartypod',
       },
     ],
   },
