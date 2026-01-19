@@ -1754,11 +1754,11 @@ export const iListCollections: ICollection[] = [
   {
     name: `Builder's`,
     type: TypeCollection.SET,
-    palette: 'lime',
-    color: 500,
+    palette: 'neutral',
+    color: 900,
     items: [
       {
-        image: 'https://palia.wiki.gg/wiki/Builder%27s_Bridge_1',
+        image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_1.png?4ed9fb',
         name: `Builder's Bridge 1`,
       },
       {
@@ -1792,6 +1792,54 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Coal_Pile.png?5aee62',
         name: `Builder's Coal Pile`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Jackhammer.png?686c0a',
+        name: `Builder's Jackhammer`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Lantern.png?f77c66',
+        name: `Builder's Lantern`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Mallet.png?8c66c9',
+        name: `Builder's Mallet`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Mine_Tracks_1.png?7e2318',
+        name: `Builder's Mine Tracks 1`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Mine_Tracks_2.png?a5ea94',
+        name: `Builder's Mine Tracks 2`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Minecart.png?6d0ccd',
+        name: `Builder's Minecart`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Pickaxe.png?99498b',
+        name: `Builder's Pickaxe`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Rail_Stop.png?4b2e8a',
+        name: `Builder's Rail Stop`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Rock_Pick.png?45ba3b',
+        name: `Builder's Rock Pick`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Stamp_Mill.png?81e00f',
+        name: `Builder's Stamp Mill`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Wood_Pile.png?a334a7',
+        name: `Builder's Wood Pile`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builder%27s_Wooden_Arch.png?b72e49',
+        name: `Builder's Wooden Arch`,
       },
     ],
   },
@@ -2326,8 +2374,8 @@ export const iListCollections: ICollection[] = [
   {
     name: 'Pirate',
     type: TypeCollection.SET,
-    palette: 'lime',
-    color: 500,
+    palette: 'pineapple',
+    color: 600,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Pirate_Grimalkin_Chest.png?4f1a24',
@@ -2575,7 +2623,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Plaque.png?93e204',
-        name: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Drawing_Board.png?f9fdf3',
+        name: 'Furniture Maker\'s Plaque',
       },
       {
         image: 'https://palia.wiki.gg/images/Gardener%27s_Plaque.png?4818a7',
@@ -2643,7 +2691,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Spring_Flutterfox_Plush.png?b7370f',
-        name: 'https://palia.wiki.gg/images/Sweep_the_Bahari_Board_Wall_Rack.png?bbc3ec',
+        name: 'Spring Flutterfox Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/Winter_Flutterfox_Plush.png?fa5add',
@@ -3002,8 +3050,8 @@ export const iListCollections: ICollection[] = [
   {
     name: 'Builders Blocks',
     type: TypeCollection.MISC,
-    palette: 'lime',
-    color: 500,
+    palette: 'neutral',
+    color: 300,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Builders_Copper_Floor.png?a7ed25',
@@ -3086,7 +3134,7 @@ export const iListCollections: ICollection[] = [
         name: 'Builders Small Stone Crate',
       },
       {
-        image: 'https://palia.wiki.gg/wiki/File:Builders_Stone_Floor.png',
+        image: 'https://palia.wiki.gg/images/Builders_Stone_Floor.png?e98d58',
         name: 'Builders Stone Floor',
       },
       {
@@ -3594,8 +3642,8 @@ export const iListCollections: ICollection[] = [
   {
     name: 'Success and Trophys Achievements',
     type: TypeCollection.MISC,
-    palette: 'lime',
-    color: 500,
+    palette: 'pineapple',
+    color: 400,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Grow_All_Out_Couch.png?c7960a',
@@ -3706,8 +3754,8 @@ export const iListCollections: ICollection[] = [
   {
     name: 'Environnement Found Items',
     type: TypeCollection.MISC,
-    palette: 'lime',
-    color: 500,
+    palette: 'kiwi',
+    color: 700,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Ancient_Treasure_Chest_%28Epic%29.png?2db316',
@@ -3748,21 +3796,9 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Monthly Bulletin Board Quests',
-    type: TypeCollection.MISC,
-    palette: 'lime',
-    color: 500,
-    items: [
-      {
-        image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
-        name: 'Spooky Spectral Blossoms',
-      },
-    ],
-  },
-  {
-    name: 'Winterlights (2023)',
+    name: 'Winterlights',
     type: TypeCollection.EVENT,
-    palette: 'lime',
+    palette: 'lagoon',
     color: 500,
     items: [
       {
@@ -3771,4 +3807,17 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Monthly Bulletin Board Quests',
+    type: TypeCollection.EVENT,
+    palette: 'pumpkin',
+    color: 800,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
+        name: 'Spooky Spectral Blossoms',
+      },
+    ],
+  },
+
 ];
