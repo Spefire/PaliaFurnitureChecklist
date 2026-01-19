@@ -3349,6 +3349,86 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Blushing_Rustic_Siding.png?ad0ef6',
         name: 'Blushing Rustic Siding',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Standard_Stucco_Wall.png?b53cc5',
+        name: 'Standard Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Light_Amethyst_Stucco_Wall.png?3deca6',
+        name: 'Light Amethyst Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Steel_Sapphire_Stucco_Wall.png?f7511f',
+        name: 'Steel Sapphire Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blushing_Ruby_Stucco_Wall.png?6b1e2b',
+        name: 'Blushing Ruby Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Citrine_Stucco_Wall.png?c2e620',
+        name: 'Sandy Citrine Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Smoky_Quartz_Stucco_Wall.png?f18896',
+        name: 'Smoky Quartz Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Leafy_Emerald_Stucco_Wall.png?19db7a',
+        name: 'Leafy Emerald Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Icy_Aquamarine_Stucco_Wall.png?601dfc',
+        name: 'Icy Aquamarine Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Peachy_Garnet_Stucco_Wall.png?dfebdd',
+        name: 'Peachy Garnet Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Inky_Onyx_Stucco_Wall.png?8ce3ba',
+        name: 'Inky Onyx Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Earthy_Jasper_Stucco_Wall.png?71678e',
+        name: 'Earthy Jasper Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Royal_Amethyst_Stucco_Wall.png?cbb303',
+        name: 'Royal Amethyst Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dark_Sapphire_Stucco_Wall.png?48eb3b',
+        name: 'Dark Sapphire Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunset_Citrine_Stucco_Wall.png?ef2045',
+        name: 'Sunset Citrine Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cloudy_Quartz_Stucco_Wall.png?4a4e7a',
+        name: 'Cloudy Quartz Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mossy_Emerald_Stucco_Wall.png?1b8f87',
+        name: 'Mossy Emerald Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sea_Aquamarine_Stucco_Wall.png?315ee9',
+        name: 'Sea Aquamarine Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wine_Garnet_Stucco_Wall.png?799d0c',
+        name: 'Wine Garnet Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunny_Jasper_Stucco_Wall.png?378223',
+        name: 'Sunny Jasper Stucco Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rosy_Garnet_Stucco_Wall.png?e934be',
+        name: 'Rosy Garnet Stucco Wall',
+      },
     ],
   },
   {
@@ -4044,6 +4124,50 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
         name: 'Item image',
+      },
+    ],
+  },
+  {
+    name: 'Spooky Moon',
+    type: TypeCollection.EVENT,
+    palette: 'pumpkin',
+    color: 500,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Pumpkin.png?669847',
+        name: 'Spooky Pumpkin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Jaak-O-Lantern.png?3d8175',
+        name: 'Spooky Jaak-O-Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Sernuk-O-Lantern.png?6bce99',
+        name: 'Spooky Sernuk-O-Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Heirloom_Pumpkin.png?ec09eb',
+        name: 'Spooky Heirloom Pumpkin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Vined_Pumpkin.png?8216e5',
+        name: 'Spooky Vined Pumpkin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Candles.png?dfd038',
+        name: 'Spooky Candles',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Pumpkin_Stack.png?635631',
+        name: 'Spooky Pumpkin Stack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Floating_Candle.png?b1fef2',
+        name: 'Spooky Floating Candle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Pumpkin_Wallpaper.png?341389',
+        name: 'Spooky Pumpkin Wallpaper',
       },
     ],
   },
