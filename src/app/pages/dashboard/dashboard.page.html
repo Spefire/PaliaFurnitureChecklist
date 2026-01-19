@@ -9,8 +9,9 @@
 
   <lu-main-layout-block>
     <lu-container class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+      @let responsive = { colspanAtMediaMinS: 1 };
       <lu-grid columns="3">
-        <lu-grid-column>
+        <lu-grid-column colspan="3" [responsive]="responsive">
           <lu-highlight-data
             heading="Finished collections"
             [value]="finishedCount() + ' sur ' + listCollections().length"
@@ -21,7 +22,7 @@
             palette="success"
           />
         </lu-grid-column>
-        <lu-grid-column>
+        <lu-grid-column colspan="3" [responsive]="responsive">
           <lu-highlight-data
             heading="Items missing"
             [value]="missedCount().toString()"
@@ -32,7 +33,7 @@
             palette="poplee"
           />
         </lu-grid-column>
-        <lu-grid-column>
+        <lu-grid-column colspan="3" [responsive]="responsive">
           <lu-highlight-data
             heading="Game version"
             [value]="collectionsVersion"
@@ -119,21 +120,23 @@
         @if (filteredCollections().length > 0) {
           @for (collection of filteredCollections(); track $index) {
             @let isOpen = listOpennedCollections().includes(collection.code);
-            <lu-divider class="pr-u-margin0">
+            <div class="pr-u-displayFlex pr-u-alignItemsCenter pr-u-gap200">
               <button type="button" luButton="text" class="dashboard-box-action" (click)="toggleCollection(collection)">
-                <div
+                <lu-icon [icon]="isOpen ? 'arrowChevronTop' : 'arrowChevronBottom'" size="XL" />
+                <span class="pr-u-h2 pr-u-ellipsis">{{ collection.name }}</span>
+                <span
                   class="dashboard-point"
                   [style.background-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
-                ></div>
-                <span class="pr-u-h2">{{ collection.name }}</span>
-                <lu-icon [icon]="isOpen ? 'arrowChevronTop' : 'arrowChevronBottom'" size="XL" />
+                ></span>
               </button>
-            </lu-divider>
+              <lu-divider class="pr-u-margin0 pr-u-width100%" />
+            </div>
             <div [class.pr-u-displayNone]="!isOpen">
+              @let responsive = { colspanAtMediaMinXS: 3, colspanAtMediaMinM: 2, colspanAtMediaMinXL: 1 };
               <lu-grid columns="6">
                 @for (furniture of collection.items; track furniture.code) {
                   @let isChecked = listSelectedItems().includes(furniture.code);
-                  <lu-grid-column>
+                  <lu-grid-column colspan="6" [responsive]="responsive">
                     <div
                       class="dashboard-card card mod-action"
                       [style.border-left-color]="

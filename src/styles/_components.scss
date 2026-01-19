@@ -18,12 +18,20 @@
     content: '';
   }
 
-  &::after {
-    background-image: url(https://images.ctfassets.net/qyr5bjm559gz/96SJmn4pKiy0Gp2GVMmoI/c059e2e987bff6e9dc061210be86c825/ormuu-plush-392px-width.png?fm=webp);
+  @include media.min('XS') {
+    &::after {
+      background-image: url(https://images.ctfassets.net/qyr5bjm559gz/96SJmn4pKiy0Gp2GVMmoI/c059e2e987bff6e9dc061210be86c825/ormuu-plush-392px-width.png?fm=webp);
+    }
   }
 
-  &::before {
-    background-image: url(https://images.ctfassets.net/qyr5bjm559gz/2N0SLDozjT8CQm2ggfwM5K/6f753e8a86e52504664e36e90bac22b9/mob-ppl-of-palia-tish.png?fm=webp);
+  @include media.min('S') {
+    &::before {
+      background-image: url(https://images.ctfassets.net/qyr5bjm559gz/2N0SLDozjT8CQm2ggfwM5K/6f753e8a86e52504664e36e90bac22b9/mob-ppl-of-palia-tish.png?fm=webp);
+    }
+  }
+
+  .mainLayout-content-inside-block:first-of-type {
+    margin-block-start: 0 !important;
   }
 }
 
@@ -36,5 +44,15 @@ details {
     gap: var(--pr-t-spacings-100);
     list-style: none;
     cursor: pointer;
+  }
+}
+
+// --- SEGMENTED CONTROLS ---
+
+@include media.max('XS') {
+  .segmentedControl,
+  .viewTabs {
+    --components-segmentedControl-direction: column !important;
+    --components-segmentedControl-width: 100% !important;
   }
 }
