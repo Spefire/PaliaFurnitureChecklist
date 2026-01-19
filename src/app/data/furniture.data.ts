@@ -3410,10 +3410,6 @@ export const iListCollections: ICollection[] = [
         name: 'Makeshift Tent',
       },
       {
-        image: 'https://palia.wiki.gg/images/Small_Room.png?d53a2a',
-        name: 'Small Room',
-      },
-      {
         image: 'https://palia.wiki.gg/images/Stables_Board.png?e5f879',
         name: 'Stables Board',
       },
@@ -3424,6 +3420,126 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Gazebo.png?6266df',
         name: 'Gazebo',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Small_Room.png?d53a2a',
+        name: 'Small Room',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Harvest_House.png?70c25e',
+        name: 'Harvest House',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grand_Harvest_House.png?85b082',
+        name: 'Grand Harvest House',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Medium_Room.png?368bf6',
+        name: 'Medium Room',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Large_Room.png?7dcbe3',
+        name: 'Large Room',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Narrow_Hallway_Section.png?7e412c&20230914082853',
+        name: 'Hallway Section',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fireplace_Addon.png?9af65f',
+        name: 'Fireplace Addon',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Porch.png?93091c',
+        name: 'Kilima Porch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Door.png?4f41c7',
+        name: 'Kilima Door',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Bay_Window.png?91b5c6',
+        name: 'Kilima Bay Window',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Pavilion.png?dbee80',
+        name: 'Kilima Pavilion',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Courtyard.png?9bd383',
+        name: 'Kilima Courtyard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Conservatory.png?4660b4',
+        name: 'Conservatory',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-roof-flowers-01.webp',
+        name: 'Alchemist Ivy 1',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-sideroof-flowers-01.webp',
+        name: 'Alchemist Ivy 2',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-roof-flowers-02.webp',
+        name: 'Alchemist Ivy 3',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-chimney01.webp',
+        name: 'Alchemist Chimney',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-window01.webp',
+        name: 'Alchemist Window 1',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-window02.webp',
+        name: 'Alchemist Window 2',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-window03.webp',
+        name: 'Alchemist Window 3 ',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-window04.webp',
+        name: 'Alchemist Window 4',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/house-tamalabase.webp',
+        name: 'Alchemist Base Room',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/house-tamala-fullseta.webp',
+        name: 'Alchemist Cottage A',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/house-tamala-fullsetb.webp',
+        name: 'Alchemist Cottage B',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-rooftrim01.webp',
+        name: 'Alchemist Roof Trim 1',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-rooftrim02.webp',
+        name: 'Alchemist Roof Trim 2',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-rooftrim03.webp',
+        name: 'Alchemist Roof Trim 3',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-roofconnector.webp',
+        name: 'Alchemist Roof Connector',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-dormer01.webp',
+        name: 'Alchemist Rooftop Window',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-column01.webp',
+        name: 'Alchemist Twisted Column',
       },
     ],
   },
