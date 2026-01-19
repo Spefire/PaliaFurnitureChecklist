@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.199';
+export const collectionsVersion = '0.176';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3429,6 +3429,22 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Rosy_Garnet_Stucco_Wall.png?e934be',
         name: 'Rosy Garnet Stucco Wall',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Wood_Shingle_Siding.png?b3eff1',
+        name: 'Wood Shingle Siding',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Paper_Screen_Wallpaper.png?f65d20',
+        name: 'Paper Screen Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Infinite_Ivy_Wallpaper.png?5bea9a',
+        name: 'Infinite Ivy Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mudbrick_Mortar_Wallpaper.png?f21a42',
+        name: 'Mudbrick Mortar Wallpaper',
+      },
     ],
   },
   {
@@ -3452,6 +3468,50 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Field_Madder_Tile_Floor.png?57d8fa',
         name: 'Field Madder Tile Floor',
+      },
+    ],
+  },
+  {
+    name: 'Roof',
+    type: TypeCollection.MISC,
+    palette: 'neutral',
+    color: 50,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Glazed_Grooves_Tile_Roof.png?513bf0',
+        name: 'Glazed Grooves Tile Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Burnt_Barrel_Tile_Roof.png?957a02',
+        name: 'Burnt Barrel Tile Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Steely_Sheet_Roof.png?4c03cc',
+        name: 'Steely Sheet Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Leaf_Kilima_Roof.png?7d8347',
+        name: 'Leaf Kilima Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Morel_Kilima_Roof.png?3905e2',
+        name: 'Morel Kilima Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sundrop_Kilima_Roof.png?aa21a6',
+        name: 'Sundrop Kilima Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lotus_Kilima_Roof.png?50b00e',
+        name: 'Lotus Kilima Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Iron_Kilima_Roof.png?2140a7',
+        name: 'Iron Kilima Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Clean_Slates_Roof.png?798e4a',
+        name: 'Clean Slates Roof',
       },
     ],
   },
@@ -3485,6 +3545,26 @@ export const iListCollections: ICollection[] = [
     palette: 'neutral',
     color: 900,
     items: [
+      {
+        image: 'https://palia.wiki.gg/images/Wooden_Storage_Chest.png?a932e9',
+        name: 'Wooden Storage Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Lockbox_Storage_Chest.png/300px-Lockbox_Storage_Chest.png?91beca',
+        name: 'Lockbox Storage Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Copper_Storage_Chest.png?5a6f3f',
+        name: 'Copper Storage Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Iron_Storage_Chest.png?a42e91',
+        name: 'Iron Storage Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Palium_Storage_Chest.png?606757',
+        name: 'Palium Storage Chest',
+      },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Tent.png?92e6cc',
         name: 'Makeshift Tent',
@@ -4116,14 +4196,390 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Maji Market',
+    type: TypeCollection.EVENT,
+    palette: 'glacier',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Arch.png?fd5ef2',
+        name: 'Maji Market Arch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Cart.png?47fad5',
+        name: 'Maji Market Cart',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Chapaa_Standee.png?f54416',
+        name: 'Maji Market Chapaa Standee',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Dragon_Fan.png?760641',
+        name: 'Maji Market Dragon Fan',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Folding_Screen.png?f7f315',
+        name: 'Maji Market Folding Screen',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Hourglass_Drum.png?2bbc75',
+        name: 'Maji Market Hourglass Drum',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Moon_Banner.png?e75719',
+        name: 'Maji Market Moon Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Ormuu_Standee.png?5a6ce7',
+        name: 'Maji Market Ormuu Standee',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Bloom_Lantern.png?42077b',
+        name: 'Maji Market Bloom Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Springblossom_Vase.png?af4ed4',
+        name: 'Maji Market Springblossom Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Veggie_Lantern.png?478841',
+        name: 'Maji Market Veggie Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Woven_Basket.png?568881',
+        name: 'Maji Market Woven Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Chapaa_Mug.png?8da6f4',
+        name: 'Chapaa Hut Chapaa Mug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Bahari_Board.png?dc9a5a',
+        name: 'Chapaa Hut Bahari Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Maji_Plush.png?d6bd98',
+        name: 'Chapaa Hut Maji Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Embra_Plush.png?54325e',
+        name: 'Chapaa Hut Embra Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Fun_Guy_Plush.png?79838a',
+        name: 'Chapaa Hut Fun Guy Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Inki_Plush.png?1280fb',
+        name: 'Chapaa Hut Inki Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Naanshi_Plush.png?87ab05',
+        name: 'Chapaa Hut Naanshi Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Nergaal_Plush.png?430bd6',
+        name: 'Chapaa Hut Nergaal Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Enkii_Plush.png?d7bd6a',
+        name: 'Chapaa Hut Enkii Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Neena_Plush.png?7457b6',
+        name: 'Chapaa Hut Neena Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Pillow.png?fa93f9',
+        name: 'Chapaa Hut Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Inki_Pillow.png?5b48a3',
+        name: 'Chapaa Hut Inki Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Naanshi_Pillow.png?54982c',
+        name: 'Chapaa Hut Naanshi Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Nergaal_Pillow.png?656ad7',
+        name: 'Chapaa Hut Nergaal Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Enkii_Pillow.png?1f9eae',
+        name: 'Chapaa Hut Enkii Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Neena_Pillow.png?7f178c',
+        name: 'Chapaa Hut Neena Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Mini_Maji_Plush.png?b7be83',
+        name: 'Chapaa Hut Mini Maji Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Starry_Evening_Wallpaper.png?cd2584',
+        name: 'Starry Evening Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_No_Hunt_Sign.png?81c69d',
+        name: 'Maji Market No Hunt Sign',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Decorative_Fruit.png?f8cd57',
+        name: 'New Year Decorative Fruit',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Banquet_Table.png?f38043',
+        name: 'New Year Banquet Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Banquet_Chair.png?5dbe6a',
+        name: 'New Year Banquet Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Bench.png?d445d6',
+        name: 'New Year Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Corner_Lamp_Post.png?c0ff65',
+        name: 'New Year Corner Lamp Post',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Tall_Lamp_Post.png?41aabf',
+        name: 'New Year Tall Lamp Post',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Short_Lamp_Post.png?f356c6',
+        name: 'New Year Short Lamp Post',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Lantern.png?55a6d2',
+        name: 'Maji Market Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Tall_Lantern.png?6adb5e',
+        name: 'Maji Market Tall Lantern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lucky_Coin_Wallpaper.png?6cd928',
+        name: 'Lucky Coin Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tranquil_Waves_Wallpaper.png?b70154',
+        name: 'Tranquil Waves Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Leaning_Bamboo_Wallpaper.png?42c83b',
+        name: 'Leaning Bamboo Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Vermillion_Tile_Wallpaper.png?36ed75',
+        name: 'Vermillion Tile Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Painted_Scroll_Wallpaper_%28Luna_New_Year%29.png?9eef87',
+        name: 'Painted Scroll Wallpaper (Luna New Year)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/River_Guardian_Wallpaper.png?522e3a',
+        name: 'River Guardian Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Basket.png?7d32e5',
+        name: 'Maji Market Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Human_Standee.png?a280a1',
+        name: 'Maji Market Human Standee',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Market_Fruit_Post.png?d903f9',
+        name: 'Maji Market Fruit Post',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Candy_Box.png?b2b63d',
+        name: 'New Year Candy Box',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Luna_New_Year_Poster.png?47d9f6',
+        name: 'Luna New Year Poster',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Personal_Hot_Pot.png?fa212a',
+        name: 'New Year Personal Hot Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Lucky_Wish_Tree.png?32a9c4',
+        name: 'New Year Lucky Wish Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Blue_Wall_Decor.png?92c7e8',
+        name: 'New Year Blue Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Pink_Wall_Decor.png?aa94db',
+        name: 'New Year Pink Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Orange_Wall_Decor.png?b90afe',
+        name: 'New Year Orange Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Blue_Ornament.png?67f82c',
+        name: 'New Year Blue Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Pink_Ornament.png?3df0d4',
+        name: 'New Year Pink Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Orange_Ornament.png?598183',
+        name: 'New Year Orange Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Wall_Banner.png?bc6e77',
+        name: 'New Year Wall Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Year_of_the_Naga_Plush.png?c1b420',
+        name: 'Year of the Naga Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fireworks_Wallpaper.png?c81d30',
+        name: 'Fireworks Wallpaper',
+      },
+    ],
+  },
+  {
     name: 'Winterlights',
     type: TypeCollection.EVENT,
     palette: 'lagoon',
     color: 500,
     items: [
       {
-        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
-        name: 'Item image',
+        image: 'https://palia.wiki.gg/images/Winterlights_Tree.png?4645ab',
+        name: 'Winterlights Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Tree_Topper.png?df2e47',
+        name: 'Winterlights Tree Topper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Bell_Ornament.png?f6beb2',
+        name: 'Winterlights Bell Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Candle_Ornament.png?9a9f27',
+        name: 'Winterlights Candle Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Wood_Ornament.png?bb9aae',
+        name: 'Winterlights Wood Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Ball_Ornament.png?fae239',
+        name: 'Winterlights Ball Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Snowshoes.png?402ed8',
+        name: 'Winterlights Snowshoes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Skates_Decor.png?e5d3f4',
+        name: 'Winterlights Skates Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Mitten_Decor.png?210561',
+        name: 'Winterlights Mitten Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Stockings.png?75562b',
+        name: 'Winterlights Stockings',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Trinket_Decor.png?c34d45',
+        name: 'Winterlights Trinket Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Coat_Rack.png?9817c1',
+        name: 'Winterlights Coat Rack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Antler_Mount.png?658e48',
+        name: 'Winterlights Antler Mount',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Gold_Wreath.png?424436',
+        name: 'Winterlights Gold Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Silver_Wreath.png?d465d7',
+        name: 'Winterlights Silver Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Charcuterie.png?9fec88',
+        name: 'Winterlights Charcuterie',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Gold_Plate.png?e784e7',
+        name: 'Winterlights Gold Plate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Silver_Plate.png?67f4e7',
+        name: 'Winterlights Silver Plate',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jolly_Ormuu_Rug.png?7037dc',
+        name: 'Jolly Ormuu Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Ormuu_Rug.png?f0d52e',
+        name: 'Snowy Ormuu Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jolly_Chapaa_Rug.png?a6755d',
+        name: 'Jolly Chapaa Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Chapaa_Rug.png?64093d',
+        name: 'Snowy Chapaa Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Let_It_Snowflake_Wallpaper.png?14ce49',
+        name: 'Let It Snowflake Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jolly_Holly_Wallpaper.png?6ff27d',
+        name: 'Jolly Holly Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Red_Present.png?b3dfb9',
+        name: 'Winterlights Red Present',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Green_Present.png?ca8236',
+        name: 'Winterlights Green Present',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Blue_Present.png?505076',
+        name: 'Winterlights Blue Present',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Snowbank.png?9ed647',
+        name: 'Winterlights Snowbank',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Snowdrift.png?6a4b60',
+        name: 'Winterlights Snowdrift',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Ice_Patch.png?e5681b',
+        name: 'Winterlights Ice Patch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Snow_Mound.png?16e955',
+        name: 'Winterlights Snow Mound',
       },
     ],
   },
@@ -4168,6 +4624,14 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Spooky_Pumpkin_Wallpaper.png?341389',
         name: 'Spooky Pumpkin Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Leaf_Pile.png?cd6b56',
+        name: 'Spooky Leaf Pile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spooky_Fall_Leaves.png?abe742',
+        name: 'Spooky Fall Leaves',
       },
     ],
   },
