@@ -1372,6 +1372,130 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
+    name: 'Capital Chic',
+    type: TypeCollection.SET,
+    palette: 'neutral',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Armchair.png?e60973',
+        name: 'Capital Chic Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Bathtub.png?b4427d',
+        name: 'Capital Chic Bathtub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Bed.png?26dc3f',
+        name: 'Capital Chic Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Cabinet.png?7db916',
+        name: 'Capital Chic Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Chandelier.png?1a21db',
+        name: 'Capital Chic Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Coffee_Table.png?3e6071',
+        name: 'Capital Chic Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Couch.png?29de34',
+        name: 'Capital Chic Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Dining_Chair.png?6ba915',
+        name: 'Capital Chic Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Dining_Table.png?a7b56e',
+        name: 'Capital Chic Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Doormat.png?938738',
+        name: 'Capital Chic Doormat',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Fern_Planter.png?fa1a0b',
+        name: 'Capital Chic Fern Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Field_Frame.png?11299b',
+        name: 'Capital Chic Field Frame',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Kitchenette.png?14001e',
+        name: 'Capital Chic Kitchenette',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Large_Shelf.png?594791',
+        name: 'Capital Chic Large Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Mirror.png?ecd9e2',
+        name: 'Capital Chic Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Nightstand.png?882e1d',
+        name: 'Capital Chic Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Pantry.png?e8c87f',
+        name: 'Capital Chic Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Planter.png?77515d',
+        name: 'Capital Chic Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Round_Mirror.png?abce5e',
+        name: 'Capital Chic Round Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Rug.png?19a99c',
+        name: 'Capital Chic Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Shelves.png?89df8d',
+        name: 'Capital Chic Shelves',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Sink.png?e120fc',
+        name: 'Capital Chic Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Small_Shelf.png?fbce4c',
+        name: 'Capital Chic Small Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Stylish_Rug.png?cc0b98',
+        name: 'Capital Chic Stylish Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Table_Lamp.png?9b00a0',
+        name: 'Capital Chic Table Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Wall_Cabinet.png?391478',
+        name: 'Capital Chic Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Wall_Decor.png?d57697',
+        name: 'Capital Chic Wall Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Wall_Shelf.png?d463e9',
+        name: 'Capital Chic Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Capital_Chic_Wardrobe.png?c84663',
+        name: 'Capital Chic Wardrobe',
+      },
+    ],
+  },
+  {
     name: 'Lily Rattan',
     type: TypeCollection.SET,
     palette: 'lime',
