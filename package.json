@@ -1,6 +1,6 @@
 {
   "name": "palia-furniture-checklist-website",
-  "description": "Palia (non-official) | Furniture Checklist",
+  "description": "Furniture Checklist | Palia (non-official)",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",

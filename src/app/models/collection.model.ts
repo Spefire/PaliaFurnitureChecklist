@@ -2,8 +2,15 @@ import { DecorativePalette, Palette } from '@lucca-front/ng/core';
 
 import { Furniture, IFurniture } from '@src/models/furniture.model';
 
+export enum TypeCollection {
+  EVENT,
+  SET,
+  MISC,
+}
+
 export interface ICollection {
   name: string;
+  type: TypeCollection;
   palette: Palette | DecorativePalette;
   color: 0 | 25 | 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
   items: IFurniture[];
@@ -11,6 +18,7 @@ export interface ICollection {
 
 export class Collection {
   public name: string;
+  public type: TypeCollection;
   public palette: Palette | DecorativePalette;
   public color: 0 | 25 | 50 | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900;
   public items: Furniture[];
@@ -24,6 +32,7 @@ export class Collection {
 
   constructor(obj: ICollection) {
     this.name = obj.name;
+    this.type = obj.type;
     this.palette = obj.palette;
     this.color = obj.color;
     this.items = [];

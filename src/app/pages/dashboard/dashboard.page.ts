@@ -18,7 +18,7 @@ import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
 
 import { iListCollections } from '@src/data/furniture.data';
-import { Collection } from '@src/models/collection.model';
+import { Collection, TypeCollection } from '@src/models/collection.model';
 import { Furniture } from '@src/models/furniture.model';
 import { PageTitles } from '@src/models/pages.model';
 import { AppService } from '@src/services/app.service';
@@ -57,10 +57,12 @@ import { AppService } from '@src/services/app.service';
 })
 export class DashboardPage implements OnInit {
   public pages = PageTitles;
+  public typesCollection = TypeCollection;
 
   public listOpennedCollections = signal<string[]>([]);
   public listSelectedItems = signal<string[]>([]);
   public listCollections = signal<Collection[]>([]);
+  public typeFilter = signal<TypeCollection | null>(null);
   public missingFilter = signal<boolean>(false);
   public collectionsFilter = signal<Collection[]>([]);
   public searchFilter = signal<string>('');
@@ -74,16 +76,18 @@ export class DashboardPage implements OnInit {
 
   public filteredCollections = computed<Collection[]>(() => {
     if (!this.listCollections()) return [];
-    const search = this.searchFilter()?.trim().toLowerCase();
+    const type = this.typeFilter();
     const missing = this.missingFilter();
     const codes = this.collectionsFilter().map(collection => collection.code);
+    const search = this.searchFilter()?.trim().toLowerCase();
     const collections: Collection[] = [];
     this.listCollections().forEach(collection => {
       if (codes.length && !codes.includes(collection.code)) return;
+      if (type !== null && type !== collection.type) return;
       if (!missing && (!search || (search && collection.name.toLowerCase().includes(search)))) {
         collections.push(collection);
       } else {
-        const newCollection = new Collection({ name: collection.name, palette: collection.palette, color: collection.color, items: [] });
+        const newCollection = new Collection({ name: collection.name, type: collection.type, palette: collection.palette, color: collection.color, items: [] });
         collection.items.forEach(furniture => {
           if (
             (!missing || (missing && !this.listSelectedItems().includes(furniture.code))) &&
@@ -96,6 +100,33 @@ export class DashboardPage implements OnInit {
       }
     });
     return collections;
+  });
+
+  public eventCount = computed<number>(() => {
+    if (!this.listCollections()) return 0;
+    let result = 0;
+    this.listCollections().forEach(collection => {
+      if (collection.type === TypeCollection.EVENT) result++;
+    });
+    return result;
+  });
+
+  public setCount = computed<number>(() => {
+    if (!this.listCollections()) return 0;
+    let result = 0;
+    this.listCollections().forEach(collection => {
+      if (collection.type === TypeCollection.SET) result++;
+    });
+    return result;
+  });
+
+  public miscCount = computed<number>(() => {
+    if (!this.listCollections()) return 0;
+    let result = 0;
+    this.listCollections().forEach(collection => {
+      if (collection.type === TypeCollection.MISC) result++;
+    });
+    return result;
   });
 
   public missedCount = computed<number>(() => {

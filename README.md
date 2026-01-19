@@ -1,4 +1,4 @@
-# "Palia (non-official) | Furniture Checklist" website
+# "Furniture Checklist | Palia (non-official)" website
 
 ## Development server
 

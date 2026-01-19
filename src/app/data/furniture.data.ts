@@ -1,8 +1,9 @@
-import { ICollection } from '@src/models/collection.model';
+import { ICollection, TypeCollection } from '@src/models/collection.model';
 
 export const iListCollections: ICollection[] = [
   {
-    name: 'Log Cabin Set',
+    name: 'Log Cabin',
+    type: TypeCollection.SET,
     palette: 'lime',
     color: 200,
     items: [
@@ -137,7 +138,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Kilima Set',
+    name: 'Kilima',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 200,
     items: [
@@ -280,7 +282,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Homestead Set',
+    name: 'Homestead',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 700,
     items: [
@@ -547,7 +550,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Ravenwood Set',
+    name: 'Ravenwood',
+    type: TypeCollection.SET,
     palette: 'lavender',
     color: 800,
     items: [
@@ -690,7 +694,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Moonstruck Set',
+    name: 'Moonstruck',
+    type: TypeCollection.SET,
     palette: 'blueberry',
     color: 400,
     items: [
@@ -777,7 +782,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Ranch Set',
+    name: 'Ranch',
+    type: TypeCollection.SET,
     palette: 'pineapple',
     color: 400,
     items: [
@@ -888,7 +894,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Industrial Set',
+    name: 'Industrial',
+    type: TypeCollection.SET,
     palette: 'neutral',
     color: 800,
     items: [
@@ -991,7 +998,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Emberborn Set',
+    name: 'Emberborn',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 500,
     items: [
@@ -1094,7 +1102,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Dragontide Set',
+    name: 'Dragontide',
+    type: TypeCollection.SET,
     palette: 'glacier',
     color: 400,
     items: [
@@ -1225,7 +1234,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Bellflower Set',
+    name: 'Bellflower',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 100,
     items: [
@@ -1360,7 +1370,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Lily Rattan Set',
+    name: 'Lily Rattan',
+    type: TypeCollection.SET,
     palette: 'lime',
     color: 300,
     items: [
@@ -1483,7 +1494,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Camping Set',
+    name: 'Camping',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 900,
     items: [
@@ -1557,9 +1569,9 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
   {
-    name: 'Investigator Set',
+    name: 'Investigator',
+    type: TypeCollection.SET,
     palette: 'blueberry',
     color: 900,
     items: [
@@ -1602,7 +1614,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'PalTech Set',
+    name: 'PalTech',
+    type: TypeCollection.SET,
     palette: 'pineapple',
     color: 900,
     items: [
@@ -1737,78 +1750,52 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Builder\'s Set',
+    name: `Builder's`,
+    type: TypeCollection.SET,
     palette: 'lime',
     color: 500,
     items: [
       {
         image: 'https://palia.wiki.gg/wiki/Builder%27s_Bridge_1',
-        name: 'Builder\'s Bridge 1',
+        name: `Builder's Bridge 1`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_2.png?e05473',
-        name: 'Builder\'s Bridge 2',
+        name: `Builder's Bridge 2`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_3.png?d165cc',
-        name: 'Builder\'s Bridge 3',
+        name: `Builder's Bridge 3`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Corner.png?f23c38',
-        name: 'Builder\'s Bridge Corner',
+        name: `Builder's Bridge Corner`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Curve.png?7063c2',
-        name: 'Builder\'s Bridge Curve',
+        name: `Builder's Bridge Curve`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Hand_Saw.png?3df106',
-        name: 'Builder\'s Hand Saw',
+        name: `Builder's Hand Saw`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Post.png?a06cb3',
-        name: 'Builder\'s Bridge Post',
+        name: `Builder's Bridge Post`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Bridge_Stairs.png?633ea4',
-        name: 'Builder\'s Bridge Stairs',
+        name: `Builder's Bridge Stairs`,
       },
       {
         image: 'https://palia.wiki.gg/images/Builder%27s_Coal_Pile.png?5aee62',
-        name: 'Builder\'s Coal Pile',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
+        name: `Builder's Coal Pile`,
       },
     ],
   },
   {
-    name: 'Makeshift Set',
+    name: 'Makeshift',
+    type: TypeCollection.SET,
     palette: 'pineapple',
     color: 900,
     items: [
@@ -2115,7 +2102,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Spring Flower Set',
+    name: 'Spring Flower',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 900,
     items: [
@@ -2206,7 +2194,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Summer Stripes Set',
+    name: 'Summer Stripes',
+    type: TypeCollection.SET,
     palette: 'mint',
     color: 300,
     items: [
@@ -2261,7 +2250,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Valley Sunrise Set',
+    name: 'Valley Sunrise',
+    type: TypeCollection.SET,
     palette: 'blueberry',
     color: 300,
     items: [
@@ -2332,7 +2322,8 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Pirate Set',
+    name: 'Pirate',
+    type: TypeCollection.SET,
     palette: 'lime',
     color: 500,
     items: [
@@ -2358,7 +2349,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Pirate_Ship%27s_Cannon.png?4e6190',
-        name: 'Pirate Ship\'s Cannon',
+        name: `Pirate Ship's Cannon`,
       },
       {
         image: 'https://palia.wiki.gg/images/Pirate_Small_Coin_Pile.png?692aac',
@@ -2382,7 +2373,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Pirate%27s_Secret_Scroll.png?46d2a1',
-        name: 'Pirate\'s Secret Scroll',
+        name: `Pirate's Secret Scroll`,
       },
       {
         image: 'https://palia.wiki.gg/images/Worn_Mouse_Plush.png?964721',
@@ -2392,6 +2383,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Killima Rummage Pile',
+    type: TypeCollection.MISC,
     palette: 'grape',
     color: 600,
     items: [
@@ -2435,6 +2427,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Flotsam (Bahari Rummage Pile)',
+    type: TypeCollection.MISC,
     palette: 'glacier',
     color: 100,
     items: [
@@ -2486,64 +2479,65 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Guild Store Items',
+    type: TypeCollection.MISC,
     palette: 'neutral',
     color: 400,
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Bug_Catcher%27s_Insectarium.png/300px-Bug_Catcher%27s_Insectarium.png?32695b',
-        name: 'Bug Catcher\'s Insectarium',
+        name: `Bug Catcher's Insectarium`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Bug_Catcher%27s_Lure.png/300px-Bug_Catcher%27s_Lure.png?13b9ab',
-        name: 'Bug Catcher\'s Lure',
+        name: `Bug Catcher's Lure`,
       },
       {
         image: 'https://palia.wiki.gg/images/Cook%27s_Market_Stand.png?4da173',
-        name: 'Cook\'s Market Stand',
+        name: `Cook's Market Stand`,
       },
       {
         image: 'https://palia.wiki.gg/images/Cook%27s_Trays.png?993654',
-        name: 'Cook\'s Trays',
+        name: `Cook's Trays`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Aquarium.png/300px-Fisher%27s_Aquarium.png?ba9a3b',
-        name: 'Fisher\'s Aquarium',
+        name: `Fisher's Aquarium`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Fisher%27s_Treasure_Chest.png/300px-Fisher%27s_Treasure_Chest.png?7858ac',
-        name: 'Fisher\'s Treasure Chest',
+        name: `Fisher's Treasure Chest`,
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Bonsai.png?bfb827',
-        name: 'Forager\'s Bonsai',
+        name: `Forager's Bonsai`,
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Planter.png?23ca7d',
-        name: 'Forager\'s Planter',
+        name: `Forager's Planter`,
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Drawing_Board.png?f9fdf3',
-        name: 'Furniture Maker\'s Drawing Board',
+        name: `Furniture Maker's Drawing Board`,
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Tool_Chest.png?ae6a88',
-        name: 'Furniture Maker\'s Tool Chest',
+        name: `Furniture Maker's Tool Chest`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Cornucopia.png/300px-Gardener%27s_Cornucopia.png?ddb718',
-        name: 'Gardener\'s Cornucopia',
+        name: `Gardener's Cornucopia`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Gardener%27s_Growhouse.png/300px-Gardener%27s_Growhouse.png?a671f4',
-        name: 'Gardener\'s Growhouse',
+        name: `Gardener's Growhouse`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Mannequin.png/300px-Hunter%27s_Mannequin.png?7c44c6',
-        name: 'Hunter\'s Mannequin',
+        name: `Hunter's Mannequin`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Hunter%27s_Target.png/300px-Hunter%27s_Target.png?407ca9',
-        name: 'Hunter\'s Target',
+        name: `Hunter's Target`,
       },
       {
         image: 'https://palia.wiki.gg/images/Kilima_Koi_Pond.png?e4255f',
@@ -2551,11 +2545,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Anvil.png?6e991c',
-        name: 'Miner\'s Anvil',
+        name: `Miner's Anvil`,
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Curio_Case.png?5ed47b',
-        name: 'Miner\'s Curio Case',
+        name: `Miner's Curio Case`,
       },
       {
         image: 'https://palia.wiki.gg/images/Well.png?4cd913',
@@ -2563,19 +2557,19 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Bug_Catcher%27s_Plaque.png?9f7325',
-        name: 'Bug Catcher\'s Plaque',
+        name: `Bug Catcher's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Cook%27s_Plaque.png?56ed15',
-        name: 'Cook\'s Plaque',
+        name: `Cook's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Fisher%27s_Plaque.png?a1c293',
-        name: 'Fisher\'s Plaque',
+        name: `Fisher's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Forager%27s_Plaque.png?89d0d3',
-        name: 'Forager\'s Plaque',
+        name: `Forager's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Plaque.png?93e204',
@@ -2583,20 +2577,21 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Gardener%27s_Plaque.png?4818a7',
-        name: 'Gardener\'s Plaque',
+        name: `Gardener's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Hunter%27s_Plaque.png?b5bdf4',
-        name: 'Hunter\'s Plaque',
+        name: `Hunter's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Miner%27s_Plaque.png?e53fae',
-        name: 'Miner\'s Plaque',
+        name: `Miner's Plaque`,
       },
     ],
   },
   {
-    name: 'Zeki\'s Wondrous Machine',
+    name: `Zeki's Wondrous Machine`,
+    type: TypeCollection.MISC,
     palette: 'watermelon',
     color: 300,
     items: [
@@ -2610,7 +2605,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Me_n%27_My_Honeybunch_Plush.png?df7998',
-        name: 'Me n\' My Honeybunch Plush',
+        name: `Me n' My Honeybunch Plush`,
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Butterball.png?c354ee',
@@ -2666,7 +2661,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Sage%27s_Marble_Singing_Bowl.png?e94588',
-        name: 'Sage\'s Marble Singing Bowl',
+        name: `Sage's Marble Singing Bowl`,
       },
       {
         image: 'https://palia.wiki.gg/images/Ormuu_Shack_Ormuu_Mug.png?74aaf7',
@@ -2714,21 +2709,21 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Giant_Ancient_Fish_Plush.png?1d5130',
-        name: 'Giant Ancient Fish Plush (Zeki\'s Prize Wheel)',
+        name: `Giant Ancient Fish Plush (Zeki's Prize Wheel)`,
       },
       {
         image: 'https://palia.wiki.gg/images/Giant_Chapaa_Plush.png?abf253',
-        name: 'Giant Chapaa Plush (Zeki\'s Prize Wheel)',
+        name: `Giant Chapaa Plush (Zeki's Prize Wheel)`,
       },
       {
         image: 'https://palia.wiki.gg/images/Giant_Maji_Plush.png?bf3d2f',
-        name: 'Giant Maji Plush (Zeki\'s Prize Wheel)',
+        name: `Giant Maji Plush (Zeki's Prize Wheel)`,
       },
     ],
   },
-
   {
-    name: 'Gourmet Set',
+    name: 'Gourmet',
+    type: TypeCollection.SET,
     palette: 'pumpkin',
     color: 800,
     items: [
@@ -2804,6 +2799,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Books',
+    type: TypeCollection.MISC,
     palette: 'lavender',
     color: 900,
     items: [
@@ -2817,7 +2813,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Astronomer%27s_Tome.png?833e64',
-        name: 'Astronomer\'s Tome',
+        name: `Astronomer's Tome`,
       },
       {
         image: 'https://palia.wiki.gg/images/Bird-Spotting_Manual.png?24e3f6',
@@ -2837,7 +2833,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Navigator%27s_Notebook.png?79bcd7',
-        name: 'Navigator\'s Notebook',
+        name: `Navigator's Notebook`,
       },
       {
         image: 'https://palia.wiki.gg/images/Poetic_Anthology.png?9283b9',
@@ -2849,12 +2845,13 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Caleri%27s_Choice_Book.png?df3ff2',
-        name: 'Caleri\'s Choice Book',
+        name: `Caleri's Choice Book`,
       },
     ],
   },
   {
     name: 'Curtains',
+    type: TypeCollection.MISC,
     palette: 'neutral',
     color: 25,
     items: [
@@ -2922,30 +2919,11 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Velvet_Luxe_Large_Curtain.png?8388a4',
         name: 'Velvet Luxe Large Curtain',
       },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
     ],
   },
   {
     name: 'Fences',
+    type: TypeCollection.MISC,
     palette: 'pumpkin',
     color: 50,
     items: [
@@ -3021,6 +2999,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Builders Blocks',
+    type: TypeCollection.MISC,
     palette: 'lime',
     color: 500,
     items: [
@@ -3148,6 +3127,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Walls',
+    type: TypeCollection.MISC,
     palette: 'neutral',
     color: 50,
     items: [
@@ -3195,22 +3175,11 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Blushing_Rustic_Siding.png?ad0ef6',
         name: 'Blushing Rustic Siding',
       },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
     ],
   },
   {
     name: 'Floors',
+    type: TypeCollection.MISC,
     palette: 'neutral',
     color: 50,
     items: [
@@ -3230,14 +3199,11 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Field_Madder_Tile_Floor.png?57d8fa',
         name: 'Field Madder Tile Floor',
       },
-      {
-        image: '',
-        name: '',
-      },
     ],
   },
   {
     name: 'Food',
+    type: TypeCollection.MISC,
     palette: 'pumpkin',
     color: 800,
     items: [
@@ -3261,6 +3227,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Buildings and stations',
+    type: TypeCollection.MISC,
     palette: 'neutral',
     color: 900,
     items: [
@@ -3284,14 +3251,11 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Gazebo.png?6266df',
         name: 'Gazebo',
       },
-      {
-        image: '',
-        name: '',
-      },
     ],
   },
   {
     name: 'Story Quets Romance and Frendship Items',
+    type: TypeCollection.MISC,
     palette: 'blueberry',
     color: 300,
     items: [
@@ -3301,7 +3265,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ashura%27s_Carved_Sernuk.png?518393',
-        name: 'Ashura\'s Carved Sernuk',
+        name: `Ashura's Carved Sernuk`,
       },
       {
         image: 'https://palia.wiki.gg/images/Cursed_Statue.png?68dd75',
@@ -3313,19 +3277,19 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Prismbeard%27s_Lamp.png?2d68e9',
-        name: 'Prismbeard\'s Lamp',
+        name: `Prismbeard's Lamp`,
       },
       {
         image: 'https://palia.wiki.gg/images/Prismbeard%27s_Map.png?5ba722',
-        name: 'Prismbeard\'s Map',
+        name: `Prismbeard's Map`,
       },
       {
         image: 'https://palia.wiki.gg/images/Prismbeard%27s_Figurehead.png?de71be',
-        name: 'Prismbeard\'s Figurehead',
+        name: `Prismbeard's Figurehead`,
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-summer-09-seekfind-kite.webp',
-        name: 'Auni\'s Kite',
+        name: `Auni's Kite`,
       },
       {
         image: 'https://palia.wiki.gg/images/Lute.png?9fb866',
@@ -3333,19 +3297,15 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Librarian%27s_Bookshelf.png?273916',
-        name: 'Librarian\'s Bookshelf',
+        name: `Librarian's Bookshelf`,
       },
       {
         image: 'https://palia.wiki.gg/images/Caleri%27s_Teapot.png?2b302a',
-        name: 'Caleri\'s Teapot',
+        name: `Caleri's Teapot`,
       },
       {
         image: 'https://palia.wiki.gg/images/Illuminated_Manuscript.png?ab8a34',
         name: 'Illuminated Manuscript',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Ancient_Fish_Star_Chart.png?66a702',
-        name: 'Ancient Fish Star Chart',
       },
       {
         image: 'https://palia.wiki.gg/images/Maji_and_Magic_Kit.png?3960b3',
@@ -3365,11 +3325,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Einar%27s_Music_Box.png?b3c3d7',
-        name: 'Einar\'s Music Box',
+        name: `Einar's Music Box`,
       },
       {
         image: 'https://palia.wiki.gg/images/Einar%27s_Portrait.png?153690',
-        name: 'Einar\'s Portrait',
+        name: `Einar's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Replica_Hoosit.png?296377',
@@ -3377,7 +3337,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-cosmetic-56-deco-sundial.webp',
-        name: 'Elouisa\'s Moondial',
+        name: `Elouisa's Moondial`,
       },
       {
         image: 'https://palia.wiki.gg/images/Commemorative_Plate.png?534ac6',
@@ -3405,7 +3365,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Hassian%27s_Portrait.png?393890',
-        name: 'Hassian\'s Portrait',
+        name: `Hassian's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Cherrytail.png?d7d18f',
@@ -3425,7 +3385,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Hodari%27s_Portrait.png?4121a7',
-        name: 'Hodari\'s Portrait',
+        name: `Hodari's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Custom_Sketch.png?966bb0',
@@ -3433,7 +3393,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Jel%27s_Portrait.png?413e66',
-        name: 'Jel\'s Portrait',
+        name: `Jel's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Phoenix_Statue.png?dcc5b0',
@@ -3441,7 +3401,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Jina%27s_Favorite_Quill.png?f827a7',
-        name: 'Jina\'s Favorite Quill',
+        name: `Jina's Favorite Quill`,
       },
       {
         image: 'https://palia.wiki.gg/images/Potted_Briar_Daisies.png?c1f3e6',
@@ -3449,7 +3409,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Jina%27s_Portrait.png?13d298',
-        name: 'Jina\'s Portrait',
+        name: `Jina's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Giant_Scissors.png?bf9ce3',
@@ -3457,11 +3417,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Healer%27s_Kit.png?2a71df',
-        name: 'Healer\'s Kit',
+        name: `Healer's Kit`,
       },
       {
         image: 'https://palia.wiki.gg/images/Kenyatta%27s_Portrait.png?b35c65',
-        name: 'Kenyatta\'s Portrait',
+        name: `Kenyatta's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Lucky_Riffroc_Shoe.png?d89586',
@@ -3473,7 +3433,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Nai%27o%27s_Portrait.png?e03f17',
-        name: 'Nai\'o\'s Portrait',
+        name: `Nai'o's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Mechanical_Chapaa.png?955e56',
@@ -3485,11 +3445,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Reth%27s_Cake_Stand.png?145668',
-        name: 'Reth\'s Cake Stand',
+        name: `Reth's Cake Stand`,
       },
       {
         image: 'https://palia.wiki.gg/images/Reth%27s_Portrait.png?ca21ee',
-        name: 'Reth\'s Portrait',
+        name: `Reth's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Sword_Display.png?9230ae',
@@ -3497,11 +3457,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Subira%27s_Lily_Vase.png?3e17a6',
-        name: 'Subira\'s Lily Vase',
+        name: `Subira's Lily Vase`,
       },
       {
         image: 'https://palia.wiki.gg/images/Subira%27s_Portrait.png?66c602',
-        name: 'Subira\'s Portrait',
+        name: `Subira's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Grimalkin_Night_Light.png?65df02',
@@ -3509,11 +3469,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Tamala%27s_Beauty_Cream.png?e17606',
-        name: 'Tamala\'s Beauty Cream',
+        name: `Tamala's Beauty Cream`,
       },
       {
         image: 'https://palia.wiki.gg/images/Tamala%27s_Portrait.png?88279b',
-        name: 'Tamala\'s Portrait',
+        name: `Tamala's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Life-Sized_Tau_Plushie.png?5a022c',
@@ -3545,11 +3505,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Tish%27s_Chapaa_Bank.png?3c5c56',
-        name: 'Tish\'s Chapaa Bank',
+        name: `Tish's Chapaa Bank`,
       },
       {
         image: 'https://palia.wiki.gg/images/Tish%27s_Portrait.png?52df25',
-        name: 'Tish\'s Portrait',
+        name: `Tish's Portrait`,
       },
       {
         image: 'https://palia.wiki.gg/images/Piksii_Grove_Ingame.png',
@@ -3565,7 +3525,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Zeki%27s_Ship_in_a_Bottle.png?991474',
-        name: 'Zeki\'s Ship in a Bottle',
+        name: `Zeki's Ship in a Bottle`,
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-generic-87-deco-teapot.webp',
@@ -3577,7 +3537,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Kenyatta%27s_Record_Player.png?7107c6',
-        name: 'Kenyatta\'s Record Player',
+        name: `Kenyatta's Record Player`,
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-generic-173-deco-votivecandle-02.webp',
@@ -3593,11 +3553,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Caleri%27s_Quill.png?56f86d',
-        name: 'Caleri\'s Quill',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Prismbeard_Statue.png?2ed0ba',
-        name: 'Prismbeard Statue',
+        name: `Caleri's Quill`,
       },
       {
         image: 'https://palia.wiki.gg/images/GrillMaster_v3000.png?ef58e4',
@@ -3635,6 +3591,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Success and Trophys Achievements',
+    type: TypeCollection.MISC,
     palette: 'lime',
     color: 500,
     items: [
@@ -3676,43 +3633,43 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Bug_Collector%27s_Display_Box.png/300px-Kilima_Bug_Collector%27s_Display_Box.png?65a47c',
-        name: 'Kilima Bug Collector\'s Display Box',
+        name: `Kilima Bug Collector's Display Box`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Star_Kilima_Bug_Collector%27s_Display_Box.png/300px-Star_Kilima_Bug_Collector%27s_Display_Box.png?430295',
-        name: 'Star Kilima Bug Collector\'s Display Box',
+        name: `Star Kilima Bug Collector's Display Box`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Fisher%27s_Mounted_Fish.png/300px-Kilima_Fisher%27s_Mounted_Fish.png?d12823',
-        name: 'Kilima Fisher\'s Mounted Fish',
+        name: `Kilima Fisher's Mounted Fish`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Star_Kilima_Fisher%27s_Mounted_Fish.png/300px-Star_Kilima_Fisher%27s_Mounted_Fish.png?e1c280',
-        name: 'Star Kilima Fisher\'s Mounted Fish',
+        name: `Star Kilima Fisher's Mounted Fish`,
       },
       {
         image: 'https://palia.wiki.gg/images/Kilima_Forager%27s_Basket.png?757b26',
-        name: 'Kilima Forager\'s Basket',
+        name: `Kilima Forager's Basket`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Hunter%27s_Mounted_Chapaa.png/300px-Kilima_Hunter%27s_Mounted_Chapaa.png?4d5eb2',
-        name: 'Kilima Hunter\'s Mounted Chapaa',
+        name: `Kilima Hunter's Mounted Chapaa`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Hunter%27s_Mounted_Sernuk.png/300px-Kilima_Hunter%27s_Mounted_Sernuk.png?b2f688',
-        name: 'Kilima Hunter\'s Mounted Sernuk',
+        name: `Kilima Hunter's Mounted Sernuk`,
       },
       {
         image: 'https://palia.wiki.gg/images/Bahari_Hunter%27s_Mounted_Muujin.png?a9f80c',
-        name: 'Bahari Hunter\'s Mounted Muujin',
+        name: `Bahari Hunter's Mounted Muujin`,
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Miner%27s_Tower_of_Palium.png/300px-Kilima_Miner%27s_Tower_of_Palium.png?5e0972',
-        name: 'Kilima Miner\'s Tower of Palium',
+        name: `Kilima Miner's Tower of Palium`,
       },
       {
         image: 'https://palia.wiki.gg/images/Einar%27s_Adornment_Ingame.png?e2c70f',
-        name: 'Einar\'s Adornment',
+        name: `Einar's Adornment`,
       },
       {
         image: 'https://palia.wiki.gg/images/Brighteyed_Shadowbox.png?22f9f1',
@@ -3746,6 +3703,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Environnement Found Items',
+    type: TypeCollection.MISC,
     palette: 'lime',
     color: 500,
     items: [
@@ -3789,6 +3747,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Monthly Bulletin Board Quests',
+    type: TypeCollection.MISC,
     palette: 'lime',
     color: 500,
     items: [
@@ -3798,9 +3757,9 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
   {
-    name: 'Set',
+    name: 'Winterlights (2023)',
+    type: TypeCollection.EVENT,
     palette: 'lime',
     color: 500,
     items: [
@@ -3810,5 +3769,4 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
 ];

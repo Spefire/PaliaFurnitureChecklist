@@ -9,14 +9,17 @@
         <lu-segmented-control
           *luFilterPillAddonBefore
           small
-          [(ngModel)]="missingFilter"
+          [(ngModel)]="typeFilter"
           [ngModelOptions]="{ standalone: true }"
-          (ngModelChange)="missingFilter.set($event)"
+          (ngModelChange)="typeFilter.set($event)"
         >
-          <lu-segmented-control-filter [label]="labelAll" [value]="false" />
-          <lu-segmented-control-filter [label]="labelMissing" [value]="true" />
-          <ng-template #labelAll>All</ng-template>
-          <ng-template #labelMissing>Missing <lu-numeric-badge [value]="missedCount()" /></ng-template>
+          <lu-segmented-control-filter label="All" [value]="null" />
+          <lu-segmented-control-filter [label]="labelEvent" [value]="typesCollection.EVENT" />
+          <lu-segmented-control-filter [label]="labelSet" [value]="typesCollection.SET" />
+          <lu-segmented-control-filter [label]="labelMisc" [value]="typesCollection.MISC" />
+          <ng-template #labelEvent>Events <lu-numeric-badge [value]="eventCount()" /></ng-template>
+          <ng-template #labelSet>Sets <lu-numeric-badge [value]="setCount()" /></ng-template>
+          <ng-template #labelMisc>Others <lu-numeric-badge [value]="miscCount()" /></ng-template>
         </lu-segmented-control>
         <lu-filter-pill label="Collections" name="collections">
           <lu-multi-select
@@ -60,6 +63,13 @@
             (ngModelChange)="searchFilter.set($event)"
           />
         </lu-form-field>
+        <lu-filter-pill label="Only the missings">
+          <lu-checkbox-input
+            [(ngModel)]="missingFilter"
+            [ngModelOptions]="{ standalone: true }"
+            (ngModelChange)="missingFilter.set($event)"
+          />
+        </lu-filter-pill>
         <div class="pr-u-displayFlex pr-u-gap100" *luFilterPillAddonAfter>
           <button type="button" size="S" luButton="outlined" (click)="collapseAll()">Collapse all</button>
           <button type="button" size="S" luButton="outlined" palette="product" (click)="expandAll()">Expand all</button>
@@ -82,7 +92,7 @@
             </lu-divider>
             <div [class.pr-u-displayNone]="!isOpen">
               <lu-grid columns="6">
-                @for (furniture of collection.items; track $index) {
+                @for (furniture of collection.items; track furniture.code) {
                   @let isChecked = listSelectedItems().includes(furniture.code);
                   <lu-grid-column>
                     <div
@@ -94,7 +104,7 @@
                       "
                       (click)="toggleSelection(furniture)"
                     >
-                      <img [src]="furniture.image" height="72" width="72" />
+                      <img [src]="furniture.image" height="72" width="72" loading="lazy" decoding="async" />
                       <p class="pr-u-h4">{{ furniture.name }}</p>
                       <lu-form-field class="dashboard-card-checkbox" label="Crafted" hiddenLabel>
                         <lu-checkbox-input [ngModel]="isChecked" checklist />
