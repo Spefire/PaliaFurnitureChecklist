@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.176';
+export const collectionsVersion = '0.177';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3445,6 +3445,54 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Mudbrick_Mortar_Wallpaper.png?f21a42',
         name: 'Mudbrick Mortar Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Mirthful_Mosaic_Wallpaper.png?6ccf0c',
+        name: 'Mirthful Mosaic Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Woven_Barkcloth_Wallpaper.png?b7d891',
+        name: 'Woven Barkcloth Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Field_Wallpaper.png?d85524',
+        name: 'Flowering Field Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Painted_Scroll_Wallpaper.png?9de8e4',
+        name: 'Painted Scroll Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Vibrant_Threads_Wallpaper.png?736830',
+        name: 'Vibrant Threads Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Floral_Felicity_Wallpaper.png?676faa',
+        name: 'Floral Felicity Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wading_Hibiscus_Wallpaper.png?652670',
+        name: 'Wading Hibiscus Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fanning_Leaves_Wallpaper.png?3ecabf',
+        name: 'Fanning Leaves Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Simple_Diamond_Wallpaper.png?f6f2c0',
+        name: 'Simple Diamond Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Noble_Bloom_Wallpaper.png?975dd3',
+        name: 'Noble Bloom Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Blossoms_Wallpaper.png?83c9cc',
+        name: 'Spring Blossoms Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Riveting_Twines_Wallpaper.png?6e6a0b',
+        name: 'Riveting Twines Wallpaper',
+      },
     ],
   },
   {
@@ -3700,6 +3748,82 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-house-tamala-column01.webp',
         name: 'Alchemist Twisted Column',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Campfire.png?754399',
+        name: 'Campfire',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Worktable.png?acf5ba',
+        name: 'Worktable',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Repair_Station.png?fdcd3d',
+        name: 'Repair Station',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Standard_Stove.png?13bdac',
+        name: 'Standard Stove',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prep_Station.png?d03fb0',
+        name: 'Prep Station',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mixing_Station.png?bdd9f9',
+        name: 'Mixing Station',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Standard_Oven.png?5f0ac4',
+        name: 'Standard Oven',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Worm_Farm.png?e13b69',
+        name: 'Worm Farm',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Glow_Worm_Farm.png?51cded',
+        name: 'Glow Worm Farm',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Basic_Sawmill.png?bfe392',
+        name: 'Basic Sawmill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Heavy_Sawmill.png?3981ce',
+        name: 'Heavy Sawmill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Glass_Furnace.png?4caa21',
+        name: 'Glass Furnace',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fabric_Loom.png?8c0c50',
+        name: 'Fabric Loom',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tint_Crafter.png?c1fb69',
+        name: 'Tint Crafter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Soil.png?be42e4',
+        name: 'Soil',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Seed_Collector.png?cc9f2b',
+        name: 'Seed Collector',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Preserves_Jar.png?b2aaee',
+        name: 'Preserves Jar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Basic_Smelter.png?93d8f0',
+        name: 'Basic Smelter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Heavy_Smelter.png?c572eb',
+        name: 'Heavy Smelter',
       },
     ],
   },
