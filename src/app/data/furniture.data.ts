@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.182';
+export const collectionsVersion = '0.186';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3517,6 +3517,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Mosaic_Vine_Tile_Floor.png?d5be33',
         name: 'Mosaic Vine Tile Floor',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Blue_Ivy_Wallpaper.png?473b5a',
+        name: 'Blue Ivy Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sienna_Ivy_Wallpaper.png?faf713',
+        name: 'Sienna Ivy Wallpaper',
+      },
     ],
   },
   {
@@ -3540,6 +3548,14 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Field_Madder_Tile_Floor.png?57d8fa',
         name: 'Field Madder Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Slate_Tile_Floor.png?2a81f4',
+        name: 'Slate Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mosaic_Shell_Floor.png?adb873',
+        name: 'Mosaic Shell Floor',
       },
     ],
   },
@@ -3876,6 +3892,18 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Where_Are_You_Jukebox.png?755715',
         name: 'Where Are You Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandbox_Timer.png?fe96af',
+        name: 'Sandbox Timer',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandbox_Signpost.png?db8d2c',
+        name: 'Sandbox Signpost',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandbox_Bouncy_Shroom.png?f6d779',
+        name: 'Sandbox Bouncy Shroom',
       },
     ],
   },
@@ -4437,6 +4465,34 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Lantern_Bug_Plush.png?e10505',
         name: 'Lantern Bug Plush',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Plush.png?96e939',
+        name: 'Chapaa Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Striped_Chapaa_Plush.png?89532b',
+        name: 'Striped Chapaa Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Azure_Chapaa_Plush.png?7cc6a0',
+        name: 'Azure Chapaa Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Catfish_Plush.png?76a543',
+        name: 'Catfish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Yellow_Koi_Plush.png?e03d75',
+        name: 'Yellow Koi Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Red_Koi_Plush.png?3b5955',
+        name: 'Red Koi Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Minnow_Plush.png?27c301',
+        name: 'Minnow Plush',
+      },
     ],
   },
   {
@@ -4686,6 +4742,42 @@ export const iListCollections: ICollection[] = [
         name: 'New Year Wall Banner',
       },
       {
+        image: 'https://palia.wiki.gg/images/Li%27l_Carrot.png?da8b9b',
+        name: 'Li\'l Carrot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Li%27l_Froggy.png?4313d6',
+        name: 'Li\'l Froggy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Li%27l_Sernuk.png?37edd7',
+        name: 'Li\'l Sernuk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Li%27l_Snail.png?a0c494',
+        name: 'Li\'l Snail',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Li%27l_Turnip.png?e4c20a',
+        name: 'Li\'l Turnip',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cutesy_Kitty_Plush.png?a2b569',
+        name: 'Cutesy Kitty Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Slumber_Fox_Plush.png?cfacd8',
+        name: 'Slumber Fox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Trufflet_Plush.png?8318ac',
+        name: 'Trufflet Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Li%27l_Beetle.png?aa2f14',
+        name: 'Li\'l Beetle',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Year_of_the_Naga_Plush.png?c1b420',
         name: 'Year of the Naga Plush',
       },
@@ -4824,6 +4916,34 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Winterlights_Snow_Mound.png?16e955',
         name: 'Winterlights Snow Mound',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Glass_Ornament.png?67f71c',
+        name: 'Winterlights Glass Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Stripe_Ornament.png?5d9d0a',
+        name: 'Winterlights Stripe Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Gold_Topper.png?3ea2f8',
+        name: 'Winterlights Gold Topper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Snowy_Tree.png?53e0f7',
+        name: 'Winterlights Snowy Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Tiled_Roof.png?5bb39f',
+        name: 'Snowy Tiled Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Silver_Bell.png?1a185f',
+        name: 'Winterlights Silver Bell',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Chest.png?2363f2',
+        name: 'Winterlights Chest',
       },
     ],
   },
