@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.178';
+export const collectionsVersion = '0.179';
 
 export const iListCollections: ICollection[] = [
   {
@@ -4317,6 +4317,46 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Treasure_Chest_%28Uncommon%29.png?7a688d',
         name: 'Treasure Chest (Uncommon)',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Amethyst.png?2a2079',
+        name: 'Amethyst',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aquamarine.png?61a7b2',
+        name: 'Aquamarine',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Citrine.png?c19c0c',
+        name: 'Citrine',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emerald.png?2f51a2',
+        name: 'Emerald',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garnet.png?f1acde',
+        name: 'Garnet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jasper.png?3766cf',
+        name: 'Jasper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Onyx.png?8cc83a',
+        name: 'Onyx',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Quartz.png?8037b7',
+        name: 'Quartz',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ruby.png?8bd885',
+        name: 'Ruby',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sapphire.png?fff557',
+        name: 'Sapphire',
+      },
     ],
   },
   {
@@ -5093,8 +5133,51 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Blue_Hydrangea_Flower.png?b8969a',
         name: 'Blue Hydrangea Flower',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Trillium_Flower.png?bad223',
+        name: 'Trillium Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hemitomes_Flower.png?b74c51',
+        name: 'Hemitomes Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cave_Cap_Flower.png?cae7e5',
+        name: 'Cave Cap Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Baharricenia_Flower.png?b7a7b3',
+        name: 'Baharricenia Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bluebell_Flower.png?2f2297',
+        name: 'Bluebell Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Veronica_Flower.png?6ef55a',
+        name: 'Veronica Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Forget-Me-Not_Flower.png?237ef1',
+        name: 'Forget-Me-Not Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bahari_Nettle_Flower.png?126bcb',
+        name: 'Bahari Nettle Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fiddlefrond_Flower.png?e48710',
+        name: 'Fiddlefrond Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Datura_Flower.png?8beb0c',
+        name: 'Datura Flower',
+      },
     ],
   },
+
+
+
 
 
   {
