@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.188';
+export const collectionsVersion = '0.190';
 
 export const iListCollections: ICollection[] = [
   {
@@ -4521,6 +4521,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Minnow_Plush.png?27c301',
         name: 'Minnow Plush',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Snail_Plush.png?f9eaeb',
+        name: 'Garden Snail Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainbow_Butterfly_Plush.png?3f175d',
+        name: 'Rainbow Butterfly Plush',
+      },
     ],
   },
   {
@@ -5409,6 +5417,18 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Datura_Flower.png?8beb0c',
         name: 'Datura Flower',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Pinky_Pompom_Flower.png?98c29e',
+        name: 'Pinky Pompom Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pale_Paintbrush_Flower.png?ed5092',
+        name: 'Pale Paintbrush Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nandina_Flower.png?de4969',
+        name: 'Nandina Flower',
+      },
     ],
   },
   {
@@ -5432,6 +5452,86 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Wedding_Scrolls.png?c33851',
         name: 'Wedding Scrolls',
+      },
+    ],
+  },
+  {
+    name: 'Spa Day',
+    type: TypeCollection.EVENT,
+    palette: 'mint',
+    color: 200,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Chaise_Lounge.png?9dd562',
+        name: 'Spa Day Chaise Lounge',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Ducky.png?eee008',
+        name: 'Spa Day Ducky',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Fringed_Rug.png?315f14',
+        name: 'Spa Day Fringed Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Hand_Towel.png?9ee06f',
+        name: 'Spa Day Hand Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Jade_Plant.png?71fbbe',
+        name: 'Spa Day Jade Plant',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Long_Tray.png?64870c',
+        name: 'Spa Day Long Tray',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Oval_Rug.png?d3fe39',
+        name: 'Spa Day Oval Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Potted_Aloe.png?6c0996',
+        name: 'Spa Day Potted Aloe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Potted_Moonstone.png?3762cb',
+        name: 'Spa Day Potted Moonstone',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Round_Tray.png?ce6468',
+        name: 'Spa Day Round Tray',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Scent_Tray.png?95d90e',
+        name: 'Spa Day Scent Tray',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Short_Container.png?5dd82d',
+        name: 'Spa Day Short Container',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Side_Table.png?2ae6af',
+        name: 'Spa Day Side Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Slippers.png?7f11ea',
+        name: 'Spa Day Slippers',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Snake_Plant.png?ad9142',
+        name: 'Spa Day Snake Plant',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Tall_Container.png?f592f2',
+        name: 'Spa Day Tall Container',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Tealight_Holder.png?6e32eb',
+        name: 'Spa Day Tealight Holder',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spa_Day_Towels.png?b4c045',
+        name: 'Spa Day Towels',
       },
     ],
   },
