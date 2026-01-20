@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.186';
+export const collectionsVersion = '0.188';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3525,6 +3525,18 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Sienna_Ivy_Wallpaper.png?faf713',
         name: 'Sienna Ivy Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Bamboo_Grove_Wallpaper.png?8d6e7d',
+        name: 'Bamboo Grove Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Mountain_Wallpaper.png?d45549',
+        name: 'Kilima Mountain Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Windy_Wisteria_Wallpaper.png?f2125b',
+        name: 'Windy Wisteria Wallpaper',
+      },
     ],
   },
   {
@@ -3904,6 +3916,22 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Sandbox_Bouncy_Shroom.png?f6d779',
         name: 'Sandbox Bouncy Shroom',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Checkered_Game_Board.png?857221',
+        name: 'Checkered Game Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hunters_%26_Chapaas_Board.png?bf0b36',
+        name: 'Hunters & Chapaas Board',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Red_Six-Sided_Die.png?4255b6',
+        name: 'Red Six-Sided Die',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/White_Six-Sided_Die.png?785ea7',
+        name: 'White Six-Sided Die',
       },
     ],
   },
@@ -4785,6 +4813,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Fireworks_Wallpaper.png?c81d30',
         name: 'Fireworks Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Year_of_the_Naga_Poster.png?7494d5',
+        name: 'Year of the Naga Poster',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lunar_Anemone_Flower.png?25ceab',
+        name: 'Lunar Anemone Flower',
+      },
     ],
   },
   {
@@ -5372,6 +5408,30 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Datura_Flower.png?8beb0c',
         name: 'Datura Flower',
+      },
+    ],
+  },
+  {
+    name: 'Wedding',
+    type: TypeCollection.SET,
+    palette: 'neutral',
+    color: 25,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Wedding_Arch.png?8b6868',
+        name: 'Wedding Arch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wedding_Table.png?56db40',
+        name: 'Wedding Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wedding_Stanchion.png?8579c1',
+        name: 'Wedding Stanchion',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wedding_Scrolls.png?c33851',
+        name: 'Wedding Scrolls',
       },
     ],
   },
