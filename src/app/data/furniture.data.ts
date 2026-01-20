@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.177';
+export const collectionsVersion = '0.178';
 
 export const iListCollections: ICollection[] = [
   {
@@ -5000,6 +5000,98 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Yardwork_Wooden_Pillar.png?56b186',
         name: 'Yardwork Wooden Pillar',
+      },
+    ],
+  },
+  {
+    name: 'Flowers & Plants',
+    type: TypeCollection.MISC,
+    palette: 'kiwi',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Pinecone.png?1557c7',
+        name: 'Pinecone',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Samara.png?9c87f0',
+        name: 'Samara',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Juniper_Seed.png?276cdf',
+        name: 'Juniper Seed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Acorn.png?8acb24',
+        name: 'Acorn',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Wood_Seed.png?68756c',
+        name: 'Ancient Wood Seed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flow_Pinecone.png?161283',
+        name: 'Flow Pinecone',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flow_Samara.png?ec001b',
+        name: 'Flow Samara',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flow_Juniper_Seed.png?3c770b',
+        name: 'Flow Juniper Seed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flow_Acorn.png?b24241',
+        name: 'Flow Acorn',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mixed_Hydrangea_Flower.png?d9f3a3',
+        name: 'Mixed Hydrangea Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rose_Flower.png?410ad7',
+        name: 'Rose Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Anemone_Flower.png?e1971d',
+        name: 'Anemone Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grimalkintail_Flower.png?70aee5',
+        name: 'Grimalkintail Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tulip_Flower.png?6225a2',
+        name: 'Tulip Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaatail_Flower.png?d0e897',
+        name: 'Chapaatail Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cottonball_Flower.png?f1c78f',
+        name: 'Cottonball Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lavender_Flower.png?545e16',
+        name: 'Lavender Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Forsythia_Flower.png?7bccb6',
+        name: 'Forsythia Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Tiger_Lily_Flower.png?56f110',
+        name: 'Tiger Lily Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gardenia_Flower.png?a67c25',
+        name: 'Gardenia Flower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blue_Hydrangea_Flower.png?b8969a',
+        name: 'Blue Hydrangea Flower',
       },
     ],
   },
