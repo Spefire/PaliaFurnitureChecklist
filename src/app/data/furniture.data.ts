@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.179';
+export const collectionsVersion = '0.180';
 
 export const iListCollections: ICollection[] = [
   {
@@ -4356,6 +4356,34 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Sapphire.png?fff557',
         name: 'Sapphire',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Muujin_Plush.png?58840f',
+        name: 'Muujin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Banded_Muujin_Plush.png?5b5319',
+        name: 'Banded Muujin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bluebristle_Muujin_Plush.png?f523fa',
+        name: 'Bluebristle Muujin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Garden_Ladybug_Plush.png?b15eb6',
+        name: 'Garden Ladybug Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lunar_Fairy_Moth_Plush.png?8ce24e',
+        name: 'Lunar Fairy Moth Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Proudhorned_Beetle_Plush.png?e8e700',
+        name: 'Proudhorned Beetle Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lantern_Bug_Plush.png?e10505',
+        name: 'Lantern Bug Plush',
       },
     ],
   },
