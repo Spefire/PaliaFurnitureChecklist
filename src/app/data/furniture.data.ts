@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.180';
+export const collectionsVersion = '0.182';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3493,6 +3493,30 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Riveting_Twines_Wallpaper.png?6e6a0b',
         name: 'Riveting Twines Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Ornamental_Sage_Wallpaper.png?8362dd',
+        name: 'Ornamental Sage Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ornamental_Iris_Wallpaper.png?7e2bf7',
+        name: 'Ornamental Iris Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbral_Beadboard.png?6866a0',
+        name: 'Umbral Beadboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Waves_of_Wheat_Wallpaper.png?db972b',
+        name: 'Waves of Wheat Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teak_Wood_Floor.png?41cb2c',
+        name: 'Teak Wood Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mosaic_Vine_Tile_Floor.png?d5be33',
+        name: 'Mosaic Vine Tile Floor',
+      },
     ],
   },
   {
@@ -3824,6 +3848,34 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Heavy_Smelter.png?c572eb',
         name: 'Heavy Smelter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Feather_Dance_Jukebox.png?6445c9',
+        name: 'Feather Dance Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/First_Rainy_Day_Jukebox.png?1ffd28',
+        name: 'First Rainy Day Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Goodnight_Music_Jukebox.png?340102',
+        name: 'Goodnight Music Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lost_In_Thoughts_Jukebox.png?e17c5a',
+        name: 'Lost In Thoughts Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Out_There_Things_Jukebox.png?59252e',
+        name: 'Out There Things Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Purple_Waters_Jukebox.png?f97663',
+        name: 'Purple Waters Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Where_Are_You_Jukebox.png?755715',
+        name: 'Where Are You Jukebox',
       },
     ],
   },
