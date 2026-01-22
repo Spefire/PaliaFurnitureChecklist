@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.190';
+export const collectionsVersion = '0.192';
 
 export const iListCollections: ICollection[] = [
   {
@@ -3537,6 +3537,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Windy_Wisteria_Wallpaper.png?f2125b',
         name: 'Windy Wisteria Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Essence_Wallpaper.png?3ea3e1',
+        name: 'Essence Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Stamp_Wallpaper.png?168ed0',
+        name: 'Umbraan Stamp Wallpaper',
+      },
     ],
   },
   {
@@ -3568,6 +3576,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Mosaic_Shell_Floor.png?adb873',
         name: 'Mosaic Shell Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Weave.png?5da750',
+        name: 'Umbraan Weave',
       },
     ],
   },
@@ -3612,6 +3624,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Clean_Slates_Roof.png?798e4a',
         name: 'Clean Slates Roof',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Leaves.png?1920cc',
+        name: 'Elderwood Leaves',
       },
     ],
   },
@@ -4269,6 +4285,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Sketch_of_a_Whale.png?ef293e',
         name: 'Sketch of a Whale',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Gil_522.png?14ecf0',
+        name: 'Gil 522',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainbow_Maji_Plush.png?c54da4',
+        name: 'Rainbow Maji Plush',
+      },
     ],
   },
   {
@@ -4528,6 +4552,46 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Rainbow_Butterfly_Plush.png?3f175d',
         name: 'Rainbow Butterfly Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ogopuu_Plush.png?a31a90',
+        name: 'Ogopuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Emerald_Ogopuu_Plush.png?994c83',
+        name: 'Emerald Ogopuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Waveback_Ogopuu_Plush.png?53679c',
+        name: 'Waveback Ogopuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Shmole_Plush.png?4f839c',
+        name: 'Shmole Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elder_Shmole_Plush.png?28c678',
+        name: 'Elder Shmole Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Piksii_Shmole_Plush.png?d589f7',
+        name: 'Piksii Shmole Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Grumpy_Rockhopper_Plush.png?48adb7',
+        name: 'Grumpy Rockhopper Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flame_Rockhopper_Plush.png?c4f227',
+        name: 'Flame Rockhopper Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Wisp_Rockhopper_Plush.png?4a99dc',
+        name: 'Wisp Rockhopper Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Prismfish_Plush.png?d76c60',
+        name: 'Prismfish Plush',
       },
     ],
   },
@@ -5429,6 +5493,26 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Nandina_Flower.png?de4969',
         name: 'Nandina Flower',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Cosmo.png?4bdcd1',
+        name: 'Elderwood Cosmo',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Fern.png?70a274',
+        name: 'Elderwood Fern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Lilac.png?3d18df',
+        name: 'Elderwood Lilac',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Bush.png?d1659c',
+        name: 'Ancient Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Mushroom.png?b00af9',
+        name: 'Giant Mushroom',
+      },
     ],
   },
   {
@@ -5457,7 +5541,7 @@ export const iListCollections: ICollection[] = [
   },
   {
     name: 'Spa Day',
-    type: TypeCollection.EVENT,
+    type: TypeCollection.SET,
     palette: 'mint',
     color: 200,
     items: [
@@ -5535,8 +5619,258 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
-
+  {
+    name: 'Umbraan',
+    type: TypeCollection.SET,
+    palette: 'lavender',
+    color: 600,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Nightstand.png?e82fb8',
+        name: 'Umbraan Nightstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Bed.png?1489cd',
+        name: 'Umbraan Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Chair.png?78053f',
+        name: 'Umbraan Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Couch.png?fbe68d',
+        name: 'Umbraan Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Low_Table.png?dc82ff',
+        name: 'Umbraan Low Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Bookshelf.png?eb9cc2',
+        name: 'Umbraan Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Wall_Shelf.png?b3d5fb',
+        name: 'Umbraan Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Wardrobe.png?ef9fac',
+        name: 'Umbraan Wardrobe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Dresser.png?46228e',
+        name: 'Umbraan Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Mush_Lamp.png?133ac1',
+        name: 'Umbraan Mush Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Wreath.png?2f14fd',
+        name: 'Umbraan Wreath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Log_Planter.png?a583d5',
+        name: 'Umbraan Log Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Floor_Lamp.png?e7461f',
+        name: 'Umbraan Floor Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Arch.png?d7a480',
+        name: 'Umbraan Arch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Orchid_Planter.png?60252d',
+        name: 'Umbraan Orchid Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Chandelier.png?2d3955',
+        name: 'Umbraan Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Wall_Light.png?75ff20',
+        name: 'Umbraan Wall Light',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Table.png?4111bd',
+        name: 'Umbraan Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Wall_Cabinet.png?bfcc97',
+        name: 'Umbraan Wall Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Sink.png?f93782',
+        name: 'Umbraan Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Pantry.png?f18967',
+        name: 'Umbraan Pantry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Tub.png?517ed6',
+        name: 'Umbraan Tub',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Swinging_Couch.png?811dc5',
+        name: 'Umbraan Swinging Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Trellis.png?72f873',
+        name: 'Umbraan Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Log.png?ccc201',
+        name: 'Umbraan Log',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Large_Rug.png?c61070',
+        name: 'Umbraan Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Medium_Rug.png?77ab83',
+        name: 'Umbraan Medium Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Small_Rug.png?ab70c5',
+        name: 'Umbraan Small Rug',
+      },
+    ],
+  },
+  {
+    name: 'Elderwood',
+    type: TypeCollection.SET,
+    palette: 'grape',
+    color: 100,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Armchair.png?16bce4',
+        name: 'Elderwood Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Couch.png?901834',
+        name: 'Elderwood Couch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_End_Table.png?ce154d',
+        name: 'Elderwood End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Wardrobe.png?3e5451',
+        name: 'Elderwood Wardrobe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Mossy_Rug.png?5f66cf',
+        name: 'Elderwood Mossy Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Wall_Shelf.png?814db2',
+        name: 'Elderwood Wall Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Mush_Planter.png?bcd260',
+        name: 'Elderwood Mush Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Wall_Branch.png?9d78ed',
+        name: 'Elderwood Wall Branch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Large_Lamp.png?b7af29',
+        name: 'Elderwood Large Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Mush_Light.png?32f53b',
+        name: 'Elderwood Mush Light',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Chandelier.png?4af35d',
+        name: 'Elderwood Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Small_Lamp.png?7f3e97',
+        name: 'Elderwood Small Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Small_Planter.png?a6bde9',
+        name: 'Elderwood Small Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Floor_Branch.png?133792',
+        name: 'Elderwood Floor Branch',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Backpack.png?5caf39',
+        name: 'Elderwood Backpack',
+      },
+    ],
+  },
+  {
+    name: 'Cozy Camp',
+    type: TypeCollection.SET,
+    palette: 'glacier',
+    color: 200,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Tall_Hedge.png?a50955',
+        name: 'Cozy Camp Tall Hedge',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Short_Hedge.png?4d7f10',
+        name: 'Cozy Camp Short Hedge',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Mini_Cyprus.png?ea7c6a',
+        name: 'Cozy Camp Mini Cyprus',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Messy_Bed.png?6d4056',
+        name: 'Cozy Camp Messy Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Made_Bed.png?2a2a09',
+        name: 'Cozy Camp Made Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Space_Heater.png?a0cf18',
+        name: 'Cozy Camp Space Heater',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Folding_Chair.png?62f086',
+        name: 'Cozy Camp Folding Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Lounge_Chair.png?114826',
+        name: 'Cozy Camp Lounge Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Tassel_Pillow.png?8b109f&20250624115524',
+        name: 'Cozy Camp Tassel Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Round_Pillow.png?8679af',
+        name: 'Cozy Camp Round Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Frilly_Pillow.png?9e1375',
+        name: 'Cozy Camp Frilly Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Rug.png?2aa7f2',
+        name: 'Cozy Camp Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Blanket.png?88b271',
+        name: 'Cozy Camp Blanket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cozy_Camp_Canopy.png?b0efdf',
+        name: 'Cozy Camp Canopy',
+      },
+    ],
+  },
 
 
 
