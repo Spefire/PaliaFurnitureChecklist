@@ -6710,6 +6710,10 @@ export const iListCollections: ICollection[] = [
         name: 'Spring Flutterfox Plush',
       },
       {
+        image: 'https://palia.wiki.gg/images/Summer_Flutterfox_Plush.png?7fb3dd',
+        name: 'Summer Flutterfox Plush',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Winter_Flutterfox_Plush.png?fa5add',
         name: 'Winter Flutterfox Plush',
       },
@@ -6873,12 +6877,9 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Cardigancore_Jukebox.png?fda48d',
         name: 'Cardigancore Jukebox',
       },
-      {
-        image: 'https://palia.wiki.gg/images/Palcat_Party_Large_Rug.png?f5a55b',
-        name: 'Palcat Party Large Rug',
-      },
     ],
   },
+
 
 
   {
