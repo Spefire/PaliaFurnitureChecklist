@@ -1,13 +1,74 @@
 <lu-main-layout footerSticky>
   <ng-container mainLayoutHeader>
-    <div class="fakeContent">Mentions légales</div>
+    <lu-page-header label="Legal Notice" container></lu-page-header>
   </ng-container>
 
   <lu-main-layout-block>
-    <div class="fakeContent">Contenu</div>
-  </lu-main-layout-block>
+    <lu-container class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+      <section class="card pr-u-padding200">
+        <h2>1. Website purpose</h2>
+        <p>
+          This website provides a personal checklist to help you track which furniture items you own in the game
+          <strong>Palia</strong>. Your checklist is stored locally in your browser (for example via Local Storage).
+        </p>
+      </section>
 
-  <ng-container mainLayoutFooter>
-    <div class="fakeContent">Pied de page</div>
-  </ng-container>
+      <section class="card pr-u-padding200">
+        <h2>2. Data storage & privacy</h2>
+        <ul>
+          <li><strong>No account required:</strong> the website does not require registration or login.</li>
+          <li>
+            <strong>Local-only storage:</strong> your checklist data is saved on your device in your browser storage. It
+            is not uploaded to a server by this website.
+          </li>
+          <li><strong>Clearing your browser data</strong> (cookies/site data) may remove your saved checklist.</li>
+        </ul>
+        <p><strong>Tip:</strong> If you switch device or browser, your checklist will not automatically follow you.</p>
+      </section>
+
+      <section class="card pr-u-padding200">
+        <h2>3. Cookies & analytics</h2>
+        <p>
+          This website does not intentionally set tracking cookies. If third-party services are added in the future
+          (e.g., analytics, error reporting), this page will be updated.
+        </p>
+      </section>
+
+      <section class="card pr-u-padding200">
+        <h2>4. Disclaimer</h2>
+        <p>
+          This is a fan-made project and is provided “as is”, without warranty of any kind. The author cannot be held
+          responsible for any loss of data (including local browser data) or any issue arising from the use of this
+          website.
+        </p>
+      </section>
+
+      <section class="card pr-u-padding200">
+        <h2>5. Intellectual property</h2>
+        <p>
+          <strong>Palia</strong> and related names, assets, and trademarks are the property of their respective owners.
+          This website is not affiliated with, endorsed by, or sponsored by the game’s publisher or developers.
+        </p>
+      </section>
+
+      <section class="card pr-u-padding200">
+        <h2>6. Hosting</h2>
+        <p>
+          This website is hosted by <strong>Vercel Inc.</strong><br />
+          440 N Barranca Ave #4133<br />
+          Covina, CA 91723<br />
+          United States.<br />
+          Website:
+          <a href="https://vercel.com" luLink external> https://vercel.com </a>
+        </p>
+      </section>
+
+      <div class="pr-u-displayFlex pr-u-alignItemsCenter pr-u-justifyContentCenter">
+        <a luButton="outlined" routerLink="/">
+          <lu-icon icon="arrowLeft"></lu-icon>
+          Back to the checklist
+        </a>
+      </div>
+    </lu-container>
+  </lu-main-layout-block>
 </lu-main-layout>

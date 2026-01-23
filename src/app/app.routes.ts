@@ -9,7 +9,7 @@ export const routes: Routes = [
     title: PageTitles.dashboard + ' | ' + PageTitles.app,
   },
   {
-    path: 'mentions-legales',
+    path: 'legacy',
     loadComponent: () => import('./pages/legacy/legacy.page').then(m => m.LegacyPage),
     title: PageTitles.legacy + ' | ' + PageTitles.app,
   },
