@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.192';
+export const collectionsVersion = '0.199';
 
 export const iListCollections: ICollection[] = [
   {
@@ -2597,6 +2597,30 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Tiered_Fruit_Basket.png?b64953',
         name: 'Tiered Fruit Basket',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rewards-decor-kidspool01-plushie.webp',
+        name: 'Plushie Pool',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-snow-summer-04-furniture-umbrella.webp',
+        name: 'Snowy Parasol',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-snow-community-14-glamping-canopy.webp',
+        name: 'Snowy Pavillion',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-snow-yard-cliffisland-03.webp',
+        name: 'Snowy Lawn #1',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-snow-yard-cliffisland-04.webp',
+        name: 'Snowy Lawn #2',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Lawn_3.png?c33f59',
+        name: 'Snowy Lawn 3',
+      },
     ],
   },
   {
@@ -2761,6 +2785,34 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Miner%27s_Plaque.png?e53fae',
         name: `Miner's Plaque`,
       },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Harmony_Tint.png/28px-Harmony_Tint.png?32cc1f',
+        name: 'Harmony Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Noir_Tint.png/28px-Noir_Tint.png?d7948f',
+        name: 'Noir Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Olive_Tint.png/28px-Olive_Tint.png?cad034',
+        name: 'Olive Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Slate_Tint.png/28px-Slate_Tint.png?8b6124',
+        name: 'Slate Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Violet_Tint.png/28px-Violet_Tint.png?6ccde9',
+        name: 'Violet Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Leafy_Green_Tint.png/28px-Leafy_Green_Tint.png?333c2b',
+        name: 'Leafy Green Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Paddock_Tint.png/28px-Paddock_Tint.png?32779a',
+        name: 'Paddock Tint',
+      },
     ],
   },
   {
@@ -2892,6 +2944,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Giant_Maji_Plush.png?bf3d2f',
         name: `Giant Maji Plush (Zeki's Prize Wheel)`,
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-plush-dragon-pink-notmadrinas.webp',
+        name: 'Pink Maji Plush',
       },
     ],
   },
@@ -3949,6 +4005,82 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/White_Six-Sided_Die.png?785ea7',
         name: 'White Six-Sided Die',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Rooftop.png?1aade1',
+        name: 'Estate Rooftop',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Roof_Connector.png?d6f9fd',
+        name: 'Estate Roof Connector',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Rooftop_Dormer.png?265267',
+        name: 'Estate Rooftop Dormer',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Windmill.png?617feb',
+        name: 'Estate Windmill',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Stairs.png?6739c6',
+        name: 'Estate Stairs',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Grand_Staircase.png?344df9',
+        name: 'Estate Grand Staircase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Window.png?f0b1df',
+        name: 'Estate Window',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Large_Window.png?2feee1',
+        name: 'Estate Large Window',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Railing.png?a14f86',
+        name: 'Estate Railing',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Column.png?2cdce0',
+        name: 'Estate Column',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Fancy_Trim.png?c01832',
+        name: 'Estate Fancy Trim',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Plain_Trim.png?740004',
+        name: 'Estate Plain Trim',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Estate_Base.png?88aeac',
+        name: 'Estate Base',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Alabaster_Tint.png/28px-Alabaster_Tint.png?1081ac',
+        name: 'Alabaster Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Autumn_Tint.png/28px-Autumn_Tint.png?88e761',
+        name: 'Autumn Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Berry_Tint.png/28px-Berry_Tint.png?2382f2',
+        name: 'Berry Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Calathea_Tint.png/28px-Calathea_Tint.png?a67ff2',
+        name: 'Calathea Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Classic_Tint.png/28px-Classic_Tint.png?3f6b17',
+        name: 'Classic Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Shore_Tint.png/28px-Shore_Tint.png?37a4cf',
+        name: 'Shore Tint',
+      },
     ],
   },
   {
@@ -4293,6 +4425,10 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Rainbow_Maji_Plush.png?c54da4',
         name: 'Rainbow Maji Plush',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Barn_Bell.png?eaefb4',
+        name: 'Barn Bell',
+      },
     ],
   },
   {
@@ -4592,6 +4728,62 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Prismfish_Plush.png?d76c60',
         name: 'Prismfish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maws_Fin_Plush.png?7c06ec',
+        name: 'Maws Fin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maws_Plush.png?ae1c9b',
+        name: 'Maws Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/River_Shark_Fin_Plush.png?fef5fc',
+        name: 'River Shark Fin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/River_Shark_Plush.png?cfd33b',
+        name: 'River Shark Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Toadstool_Floatfish_Plush.png?7961a4',
+        name: 'Toadstool Floatfish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Piksii_Floatfish_Plush.png?b59408',
+        name: 'Piksii Floatfish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Midnight_Floatfish_Plush.png?a78597',
+        name: 'Midnight Floatfish Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Shark_Fin_Plush.png?c715df',
+        name: 'Giant Shark Fin Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Duskwing_Butterfly_Plush.png?88989e',
+        name: 'Duskwing Butterfly Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Obsidian_Kitsuu_Plush.png?43d24d',
+        name: 'Obsidian Kitsuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Caldera_Kitsuu_Plush.png?40f02e',
+        name: 'Caldera Kitsuu Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainbow_Kitsuu_Plush.png?296ec2',
+        name: 'Rainbow Kitsuu Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-plush-mantis01-fairy.webp',
+        name: 'Fairy Mantis Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-plush-mandragora01.webp',
+        name: 'Lil Sprout',
       },
     ],
   },
@@ -5053,6 +5245,82 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Winterlights_Chest.png?2363f2',
         name: 'Winterlights Chest',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-09-pitch-icicles.webp',
+        name: 'Short Icicles',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-07-side-icicles.webp',
+        name: 'Long Icicles',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-08-corner-icicles.webp',
+        name: 'Corner Icicles',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Candy_Ornament.png?a7e8ac',
+        name: 'Winterlights Candy Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Orb_Ornament.png?b52fa7',
+        name: 'Winterlights Orb Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Brass_Ornament.png?610937',
+        name: 'Winterlights Brass Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Icy_Tree_Topper.png?bbd068',
+        name: 'Winterlights Icy Tree Topper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Ashura_Ornament.png?eebda6',
+        name: 'Winterlights Ashura Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winterlights_Reth_Ornament.png?150b41',
+        name: 'Winterlights Reth Ornament',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Log_Carrier.png?c810a9',
+        name: 'Snowy Log Carrier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Log_Dining_Chair.png?772e61',
+        name: 'Snowy Log Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Dining_Table.png?a81fe8',
+        name: 'Snowy Dining Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Small_Bench.png?d6c006',
+        name: 'Snowy Small Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Garden_Sernuk.png?10c5b1',
+        name: 'Snowy Garden Sernuk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Stump_Chair.png?772fd0',
+        name: 'Snowy Stump Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Large_Snowy_Bench.png?189907',
+        name: 'Large Snowy Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Stool.png?4520cb',
+        name: 'Snowy Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowy_Chapaa.png?5ce2ed',
+        name: 'Snowy Chapaa',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Wintery_Tint.png/28px-Wintery_Tint.png?f2197c',
+        name: 'Wintery Tint',
+      },
     ],
   },
   {
@@ -5105,17 +5373,193 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Spooky_Fall_Leaves.png?abe742',
         name: 'Spooky Fall Leaves',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-animated-halloweenbats.webp',
+        name: 'Spooky Bat Wallpaper',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-09-deco-floatingcandles-many.webp',
+        name: 'Spooky Floating Candles',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-01-deco-plainpumpkin-01c.webp',
+        name: 'Ghost Heirloom Pumpkin',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-01-deco-plainpumpkin-01d.webp',
+        name: 'Ghoul Heirloom Pumpkin',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-01-deco-plainpumpkin-01b.webp',
+        name: 'Zombie Heirloom Pumpkin',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-09-deco-giantspookypumpkin.webp',
+        name: 'Spooky Giant Pumpkin',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-15-tamalacauldron.webp',
+        name: 'Spooky Cauldron',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-11-deco-cobwebs-01.webp',
+        name: 'Spooky Crawling Cobwebs',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-12-deco-wallcobwebs-01.webp',
+        name: 'Spooky Spiral Cobwebs',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-halloween-13-deco-ceilingcobwebs-01.webp',
+        name: 'Spooky Ceiling Cobwebs',
+      },
     ],
   },
   {
-    name: 'Monthly Bulletin Board Quests',
+    name: 'Monthly Bulletin Board (No more obtainable)',
     type: TypeCollection.EVENT,
     palette: 'pumpkin',
     color: 800,
     items: [
       {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bag.png?b30a27',
+        name: 'Rancher\'s Apple Bag',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bowl.png?28e377',
+        name: 'Rancher\'s Apple Bowl',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Green_Jar.png?3230b9',
+        name: 'Rancher\'s Green Jar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Hay_Roll_Stack.png?9d9ed3',
+        name: 'Rancher\'s Hay Roll Stack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Large_Haypile.png?8e3da1',
+        name: 'Rancher\'s Large Haypile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Lopsided_Fence.png?ce7f7f',
+        name: 'Rancher\'s Lopsided Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Milk_Jug.png?a38e01',
+        name: 'Rancher\'s Milk Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Onion_Bag.png?b1bcde',
+        name: 'Rancher\'s Onion Bag',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Produce_Bag.png?b5ede6',
+        name: 'Rancher\'s Produce Bag',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Purple_Jar.png?5fdf5e',
+        name: 'Rancher\'s Purple Jar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_1.png?e55275',
+        name: 'Rancher\'s Rustic Fence 1',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_2.png?81793b',
+        name: 'Rancher\'s Rustic Fence 2',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Shelves.png?e854c9',
+        name: 'Rancher\'s Shelves',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Side_Hay_Roll.png?959a8f',
+        name: 'Rancher\'s Side Hay Roll',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Small_Haypile.png?d759ba',
+        name: 'Rancher\'s Small Haypile',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Toolstand.png?b4ceae',
+        name: 'Rancher\'s Toolstand',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Trough.png?89b645',
+        name: 'Rancher\'s Trough',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Upright_Hay_Roll.png?389d40',
+        name: 'Rancher\'s Upright Hay Roll',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Barrel.png?4efb58',
+        name: 'Rancher\'s Wooden Barrel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Cart.png?b2e4e5',
+        name: 'Rancher\'s Wooden Cart',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Crates.png?ada635',
+        name: 'Rancher\'s Wooden Crates',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
         name: 'Spooky Spectral Blossoms',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jack_O%27_Lantern_Lure.png?ef1394&20251216054551',
+        name: 'Jack O\' Lantern Lure',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pumpkin_Rockhopper.png?637a66',
+        name: 'Pumpkin Rockhopper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Floral_Fantasy_Wallpaper.png?a02eba',
+        name: 'Floral Fantasy Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lilac_Stripes_Wallpaper.png?aac7ed',
+        name: 'Lilac Stripes Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fantasy_Cottage_Floor.png?81bee0',
+        name: 'Fantasy Cottage Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pearlescent_Petals_Floor.png?a58bf1',
+        name: 'Pearlescent Petals Floor',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-10-stringlights-long.webp',
+        name: 'String Lights Long',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-12-stringlights-corner.webp',
+        name: 'String Lights Corner',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-11-stringlights-short.webp',
+        name: 'String Lights Short',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-ushaped-02.webp',
+        name: 'Woodland Deco Wallpaper',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-ushaped-01.webp',
+        name: 'Desert Deco Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Eclectic_Flooring.png/28px-Eclectic_Flooring.png?228c39',
+        name: 'Eclectic Flooring',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Maji%27s_Mark_Flooring.png/28px-Maji%27s_Mark_Flooring.png?7a811e',
+        name: 'Maji\'s Mark Flooring',
       },
     ],
   },
@@ -5513,6 +5957,114 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Giant_Mushroom.png?b00af9',
         name: 'Giant Mushroom',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Clay_Pot.png?7f1ad6',
+        name: 'Greenhome Clay Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Basket.png?cfc968',
+        name: 'Greenhome Basket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Wall_Pot.png?7546a6',
+        name: 'Greenhome Wall Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Stone_Urn.png?9bbaa4',
+        name: 'Greenhome Stone Urn',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Wood_Pot.png?6bdb80',
+        name: 'Greenhome Wood Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Terracotta_Pot.png?69fbd5',
+        name: 'Greenhome Terracotta Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Burlap_Sack.png?929223',
+        name: 'Greenhome Burlap Sack',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Metal_Pot.png?aa3261',
+        name: 'Greenhome Metal Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Greenhome_Flower_Box.png?4f016f',
+        name: 'Greenhome Flower Box',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Orange_Bush.png?f31936',
+        name: 'Flowering Orange Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Pink_Bush.png?ae791b',
+        name: 'Flowering Pink Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Black_Bush.png?d359e0',
+        name: 'Flowering Black Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Blue_Bush.png?e0fb18',
+        name: 'Flowering Blue Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Yellow_Bush.png?546ca8',
+        name: 'Flowering Yellow Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Red_Bush.png?3de009',
+        name: 'Flowering Red Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Flowering_Purple_Bush.png?7fabae',
+        name: 'Flowering Purple Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Coastal_Bush.png?3a79ef',
+        name: 'Coastal Bush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cypress_Tree.png?84bf48',
+        name: 'Cypress Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fern.png?5a11ec',
+        name: 'Fern',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Cotton.png?d1d852',
+        name: 'Planterlife Cotton',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Tomato.png?505e58',
+        name: 'Planterlife Tomato',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Blueberry.png?a06807',
+        name: 'Planterlife Blueberry',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Apple.png?5c000f',
+        name: 'Planterlife Apple',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Peppers.png?57f56f',
+        name: 'Planterlife Peppers',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Nappa_Cabbage.png?cf1904',
+        name: 'Planterlife Nappa Cabbage',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Beans.png?4d1eb5',
+        name: 'Planterlife Beans',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Planterlife_Dirt_Pile.png?ec4e11',
+        name: 'Planterlife Dirt Pile',
+      },
     ],
   },
   {
@@ -5737,6 +6289,94 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Umbraan_Small_Rug.png?ab70c5',
         name: 'Umbraan Small Rug',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Curved_Umbraan_Fence.png?c7ad6e',
+        name: 'Curved Umbraan Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Decorative_Umbraan_Fence.png?606ba1',
+        name: 'Decorative Umbraan Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Single_Umbraan_Fence.png?43ada9',
+        name: 'Single Umbraan Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Double_Umbraan_Fence.png?684c0c',
+        name: 'Double Umbraan Fence',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Shed.png?29f9f9',
+        name: 'Umbraan Shed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Archway.png?6d57b7',
+        name: 'Umbraan Archway',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Large_Umbraan_Jug.png?4fb63f',
+        name: 'Large Umbraan Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Large_Umbraan_Pot.png?435d5b',
+        name: 'Large Umbraan Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Medium_Umbraan_Jug.png?6e3f2b',
+        name: 'Medium Umbraan Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Small_Umbraan_Jug.png?9a2bd5',
+        name: 'Small Umbraan Jug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Pitcher.png?91c165',
+        name: 'Umbraan Pitcher',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Stack_o%27_Sacks.png?a4a9b5',
+        name: 'Stack o\' Sacks',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Petite_Stack_o%27_Sacks.png?dff68b',
+        name: 'Petite Stack o\' Sacks',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Gem_Chimes.png?db7a76',
+        name: 'Umbraan Gem Chimes',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Blossom_Lightpost.png?427230',
+        name: 'Umbraan Blossom Lightpost',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Bloom_Lightpost.png?2e932f',
+        name: 'Umbraan Bloom Lightpost',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Blossom_Lamp.png?f31096',
+        name: 'Umbraan Blossom Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Bridge.png?8910b0',
+        name: 'Umbraan Bridge',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Sidewalk.png?e76c40',
+        name: 'Umbraan Sidewalk',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Platform.png?108622',
+        name: 'Umbraan Platform',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Petite_Umbraan_Platform.png?f7f841',
+        name: 'Petite Umbraan Platform',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Umbraan_Gazebo.png?62da17',
+        name: 'Umbraan Gazebo',
+      },
     ],
   },
   {
@@ -5871,8 +6511,94 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
-
+  {
+    name: 'Log-In Rewards/Twitch Drops/Collabs/Comunity Events (No more obtainable)',
+    type: TypeCollection.EVENT,
+    palette: 'neutral',
+    color: 700,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Giga_Frogbert_Plush.png?c23a6e',
+        name: 'Giga Frogbert Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-cosmetic-53-deco-frog-plushie4x.webp',
+        name: 'Giant Frogbert Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-cosmetic-53-deco-frog-plushie3x.webp',
+        name: 'Bigger Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Big_Frogbert_Plush.png?655dea',
+        name: 'Big Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Frogbert_Plush.png?cc8653',
+        name: 'Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/1st_Anniversary_Plush.png?d0cfee',
+        name: '1st Anniversary Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/2nd_Anniversary_Plush.png?47947d',
+        name: '2nd Anniversary Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/King_Hoppington_XIV.png?869971',
+        name: 'King Hoppington XIV',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Painted_Froggy_Bucket.png?59a1e0',
+        name: 'Painted Froggy Bucket',
+      },
+      {
+        image: 'https://madrinas.com/cdn/shop/files/Palia-FunGuy-Web-Thumbnail-GIF-COMP_1280x.gif?v=1760464552',
+        name: 'Madrinas Fun Guy Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Snowman_Plush.png?b18a3a',
+        name: 'Snowman Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Snowman_Big_Plush.png/28px-Snowman_Big_Plush.png?a135db',
+        name: 'Snowman Big Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-plush-snowman01-3x.webp',
+        name: 'Snowman Bigger Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Snowman_Giant_Plush.png/28px-Snowman_Giant_Plush.png?95f448',
+        name: 'Snowman Giant Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Snowman_Giga_Plush.png/28px-Snowman_Giga_Plush.png?bddb7f',
+        name: 'Snowman Giga Plush',
+      },
+    ],
+  },
+  {
+    name: 'Lunar Paths',
+    type: TypeCollection.MISC,
+    palette: 'lagoon',
+    color: 700,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Kitsuu_Palette.png/28px-Kitsuu_Palette.png?c450dd',
+        name: 'Kitsuu Palette',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cardigancore_Jukebox.png?fda48d',
+        name: 'Cardigancore Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Palcat_Party_Large_Rug.png?f5a55b',
+        name: 'Palcat Party Large Rug',
+      },
+    ],
+  },
 
   {
     name: 'Set',
