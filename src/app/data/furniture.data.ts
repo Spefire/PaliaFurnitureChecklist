@@ -3362,6 +3362,74 @@ export const iListCollections: ICollection[] = [
     color: 50,
     items: [
       {
+        image: 'https://palia.wiki.gg/images/Ormuu%27s_Horn_Wallpaper.png?f3b402',
+        name: 'Ormuu\'s Horn Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Starry_Sea_Wallpaper.png?bb9477',
+        name: 'Starry Sea Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nautical_Beadboard.png?67cb42',
+        name: 'Nautical Beadboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Starry_Night_Wallpaper.png?8e05cc',
+        name: 'Starry Night Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Marble_Wainscotting.png?dceba4',
+        name: 'Marble Wainscotting',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Pastoral_Beadboard.png?b7c104',
+        name: 'Pastoral Beadboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Moss_Listello_Tile_Wall.png?d164c4',
+        name: 'Moss Listello Tile Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Stained_Wood_Paneling.png?2ed45c',
+        name: 'Stained Wood Paneling',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gypsum_Flagstone_Wall.png?69d73f',
+        name: 'Gypsum Flagstone Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Waves_of_Water_Wallpaper.png?7f548c',
+        name: 'Waves of Water Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Waves_of_Water_Windows.png?491eda',
+        name: 'Waves of Water Windows',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Cooling_Rustic_Siding.png?6cfe17',
+        name: 'Cooling Rustic Siding',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Country_Comforts_Wallpaper.png?116a8c',
+        name: 'Country Comforts Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/A_Little_Jaded_Tile_Wall.png/300px-A_Little_Jaded_Tile_Wall.png?99f8d9',
+        name: 'A Little Jaded Tile Wall',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/I%27m_Rather_Cross_Wallpaper.png?15841d',
+        name: 'I\'m Rather Cross Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Zeki%27s_General_Store_Wallpaper.png?6a5953',
+        name: 'Zeki\'s General Store Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bahari_Estate_Wallpaper.png?df7b1a',
+        name: 'Bahari Estate Wallpaper',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Emberborn_Wall.png?6bf217',
         name: 'Emberborn Wall',
       },
@@ -3636,6 +3704,90 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Umbraan_Weave.png?5da750',
         name: 'Umbraan Weave',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Copper_Brick_Floor.png?4f62a7',
+        name: 'Copper Brick Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Copper_Manor_Tile_Floor.png?d61d52',
+        name: 'Copper Manor Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Foggy_Majiri_Tile_Floor.png?730325',
+        name: 'Foggy Majiri Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ochre_Cubed_Tile_Floor.png?6cf9eb',
+        name: 'Ochre Cubed Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rose_Madder_Tile_Floor.png?f13a77',
+        name: 'Rose Madder Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Mosaic_Vine_Tile_Floor.png?d5be33',
+        name: 'Mosaic Vine Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teak_Wood_Floor.png?41cb2c',
+        name: 'Teak Wood Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hexagonal_Mixed_Floor.png?1b956b',
+        name: 'Hexagonal Mixed Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Golden_Ripple_Tile_Floor.png?4a706e',
+        name: 'Golden Ripple Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandstone_Swirl_Tile_Floor.png?601624',
+        name: 'Sandstone Swirl Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Brass_Furnace_Tile_Floor.png?a54463',
+        name: 'Brass Furnace Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunny_Majiri_Tile_Floor.png?5be8ec',
+        name: 'Sunny Majiri Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Brass_Brick_Floor.png?d5be37',
+        name: 'Brass Brick Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sienna_Cubed_Tile_Floor.png?329c64',
+        name: 'Sienna Cubed Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blue_Madder_Tile_Floor.png?19d59a',
+        name: 'Blue Madder Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gold_Manor_Tile_Floor.png?973c11',
+        name: 'Gold Manor Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Library_Parquet_Floor.png?373654',
+        name: 'Library Parquet Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Reclaimed_Wood_Floor.png?105cda',
+        name: 'Reclaimed Wood Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/City_Hall_Tile_Floor.png?10f68f',
+        name: 'City Hall Tile Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Horizontal_Wood_Floor.png?4fe53e',
+        name: 'Horizontal Wood Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Basketweave_Wood_Floor.png?d09b70',
+        name: 'Basketweave Wood Floor',
       },
     ],
   },
