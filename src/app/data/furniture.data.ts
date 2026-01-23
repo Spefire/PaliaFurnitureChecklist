@@ -4626,6 +4626,18 @@ export const iListCollections: ICollection[] = [
         name: 'Sapphire',
       },
       {
+        image: 'https://palia.wiki.gg/images/Sernuk_Plush.png?6be6cc',
+        name: 'Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elder_Sernuk_Plush.png?913631',
+        name: 'Elder Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Proudhorned_Sernuk_Plush.png?7d27f3',
+        name: 'Proudhorned Sernuk Plush',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Muujin_Plush.png?58840f',
         name: 'Muujin Plush',
       },
@@ -6518,6 +6530,122 @@ export const iListCollections: ICollection[] = [
     color: 700,
     items: [
       {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Inki_Plush.png?1280fb',
+        name: 'Chapaa Hut Inki Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Founder%27s_Windmill_Decor.png?4c7090',
+        name: 'Kilima Founder\'s Windmill Decor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Hut_Neena_Plush.png?7457b6',
+        name: 'Chapaa Hut Neena Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/New_Year_Lucky_Wish_Tree.png?32a9c4',
+        name: 'New Year Lucky Wish Tree',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pal_Mat.png?8af88b',
+        name: 'Sandy Palcat Pal Mat',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pattern_Rug.png?48d6c0',
+        name: 'Sandy Palcat Pattern Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spring_Flutterfox_Plush.png?b7370f',
+        name: 'Spring Flutterfox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Winter_Flutterfox_Plush.png?fa5add',
+        name: 'Winter Flutterfox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Leafy_Flutterfox_Plush.png?e36e03',
+        name: 'Leafy Flutterfox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Fall_Flutterfox_Plush.png?e96a7e',
+        name: 'Fall Flutterfox Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Palcat_Party_Large_Rug.png?f5a55b',
+        name: 'Palcat Party Large Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Palcat_Party_Wallpaper.png?bdde5d',
+        name: 'Palcat Party Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Palcat_Party_Small_Rug.png?556e85',
+        name: 'Palcat Party Small Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nox_the_Palcat_Plush.png?913e29',
+        name: 'Nox the Palcat Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pattern_Rug.png?48d6c0',
+        name: 'Sandy Palcat Pattern Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pal_Mat.png?8af88b',
+        name: 'Sandy Palcat Pal Mat',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Wallpaper.png?35f99b',
+        name: 'Sandy Palcat Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandi_the_Palcat_Plush.png?13f812',
+        name: 'Sandi the Palcat Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Stackable_Muujin_Pillow.png?ed9898',
+        name: 'Stackable Muujin Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Stackable_Palcat_Pillow.png?cabfa3',
+        name: 'Stackable Palcat Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Finding_Friends_Chapaa_Plush.png?b7c28b',
+        name: 'Finding Friends Chapaa Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Finding_Friends_Chapaa_Fountain.png?55fb96',
+        name: 'Finding Friends Chapaa Fountain',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elderwood_Fun_Guy.png?4e5240',
+        name: 'Elderwood Fun Guy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Big_Elderwood_Fun_Guy.png?602d55',
+        name: 'Big Elderwood Fun Guy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bigger_Elderwood_Fun_Guy.png?ab745c',
+        name: 'Bigger Elderwood Fun Guy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Elderwood_Fun_Guy.png?657b36',
+        name: 'Giant Elderwood Fun Guy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giga_Elderwood_Fun_Guy.png?3ed330',
+        name: 'Giga Elderwood Fun Guy',
+      },
+      {
+        image: 'https://madrinas.com/cdn/shop/files/Palia-Boxset-InGameRedeemableItem-Thumbnail-min_1280x.jpg?v=1744142943',
+        name: 'Stackable Chapaa Pillow',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Nibbles_the_Drake.png?b6fb18',
+        name: 'Nibbles the Drake',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Giga_Frogbert_Plush.png?c23a6e',
         name: 'Giga Frogbert Plush',
       },
@@ -6599,6 +6727,7 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+
 
   {
     name: 'Set',
