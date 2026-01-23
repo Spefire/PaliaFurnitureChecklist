@@ -2771,7 +2771,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Furniture_Maker%27s_Plaque.png?93e204',
-        name: 'Furniture Maker\'s Plaque',
+        name: `Furniture Maker's Plaque`,
       },
       {
         image: 'https://palia.wiki.gg/images/Gardener%27s_Plaque.png?4818a7',
@@ -3363,7 +3363,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/Ormuu%27s_Horn_Wallpaper.png?f3b402',
-        name: 'Ormuu\'s Horn Wallpaper',
+        name: `Ormuu's Horn Wallpaper`,
       },
       {
         image: 'https://palia.wiki.gg/images/Starry_Sea_Wallpaper.png?bb9477',
@@ -3419,11 +3419,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/I%27m_Rather_Cross_Wallpaper.png?15841d',
-        name: 'I\'m Rather Cross Wallpaper',
+        name: `I'm Rather Cross Wallpaper`,
       },
       {
         image: 'https://palia.wiki.gg/images/Zeki%27s_General_Store_Wallpaper.png?6a5953',
-        name: 'Zeki\'s General Store Wallpaper',
+        name: `Zeki's General Store Wallpaper`,
       },
       {
         image: 'https://palia.wiki.gg/images/Bahari_Estate_Wallpaper.png?df7b1a',
@@ -5199,23 +5199,23 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Carrot.png?da8b9b',
-        name: 'Li\'l Carrot',
+        name: `Li'l Carrot`,
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Froggy.png?4313d6',
-        name: 'Li\'l Froggy',
+        name: `Li'l Froggy`,
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Sernuk.png?37edd7',
-        name: 'Li\'l Sernuk',
+        name: `Li'l Sernuk`,
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Snail.png?a0c494',
-        name: 'Li\'l Snail',
+        name: `Li'l Snail`,
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Turnip.png?e4c20a',
-        name: 'Li\'l Turnip',
+        name: `Li'l Turnip`,
       },
       {
         image: 'https://palia.wiki.gg/images/Cutesy_Kitty_Plush.png?a2b569',
@@ -5231,7 +5231,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Li%27l_Beetle.png?aa2f14',
-        name: 'Li\'l Beetle',
+        name: `Li'l Beetle`,
       },
       {
         image: 'https://palia.wiki.gg/images/Year_of_the_Naga_Plush.png?c1b420',
@@ -5587,87 +5587,87 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bag.png?b30a27',
-        name: 'Rancher\'s Apple Bag',
+        name: `Rancher's Apple Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bowl.png?28e377',
-        name: 'Rancher\'s Apple Bowl',
+        name: `Rancher's Apple Bowl`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Green_Jar.png?3230b9',
-        name: 'Rancher\'s Green Jar',
+        name: `Rancher's Green Jar`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Hay_Roll_Stack.png?9d9ed3',
-        name: 'Rancher\'s Hay Roll Stack',
+        name: `Rancher's Hay Roll Stack`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Large_Haypile.png?8e3da1',
-        name: 'Rancher\'s Large Haypile',
+        name: `Rancher's Large Haypile`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Lopsided_Fence.png?ce7f7f',
-        name: 'Rancher\'s Lopsided Fence',
+        name: `Rancher's Lopsided Fence`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Milk_Jug.png?a38e01',
-        name: 'Rancher\'s Milk Jug',
+        name: `Rancher's Milk Jug`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Onion_Bag.png?b1bcde',
-        name: 'Rancher\'s Onion Bag',
+        name: `Rancher's Onion Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Produce_Bag.png?b5ede6',
-        name: 'Rancher\'s Produce Bag',
+        name: `Rancher's Produce Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Purple_Jar.png?5fdf5e',
-        name: 'Rancher\'s Purple Jar',
+        name: `Rancher's Purple Jar`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_1.png?e55275',
-        name: 'Rancher\'s Rustic Fence 1',
+        name: `Rancher's Rustic Fence 1`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_2.png?81793b',
-        name: 'Rancher\'s Rustic Fence 2',
+        name: `Rancher's Rustic Fence 2`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Shelves.png?e854c9',
-        name: 'Rancher\'s Shelves',
+        name: `Rancher's Shelves`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Side_Hay_Roll.png?959a8f',
-        name: 'Rancher\'s Side Hay Roll',
+        name: `Rancher's Side Hay Roll`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Small_Haypile.png?d759ba',
-        name: 'Rancher\'s Small Haypile',
+        name: `Rancher's Small Haypile`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Toolstand.png?b4ceae',
-        name: 'Rancher\'s Toolstand',
+        name: `Rancher's Toolstand`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Trough.png?89b645',
-        name: 'Rancher\'s Trough',
+        name: `Rancher's Trough`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Upright_Hay_Roll.png?389d40',
-        name: 'Rancher\'s Upright Hay Roll',
+        name: `Rancher's Upright Hay Roll`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Barrel.png?4efb58',
-        name: 'Rancher\'s Wooden Barrel',
+        name: `Rancher's Wooden Barrel`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Cart.png?b2e4e5',
-        name: 'Rancher\'s Wooden Cart',
+        name: `Rancher's Wooden Cart`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Crates.png?ada635',
-        name: 'Rancher\'s Wooden Crates',
+        name: `Rancher's Wooden Crates`,
       },
       {
         image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
@@ -5675,7 +5675,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Jack_O%27_Lantern_Lure.png?ef1394&20251216054551',
-        name: 'Jack O\' Lantern Lure',
+        name: `Jack O' Lantern Lure`,
       },
       {
         image: 'https://palia.wiki.gg/images/Pumpkin_Rockhopper.png?637a66',
@@ -5723,7 +5723,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Maji%27s_Mark_Flooring.png/28px-Maji%27s_Mark_Flooring.png?7a811e',
-        name: 'Maji\'s Mark Flooring',
+        name: `Maji's Mark Flooring`,
       },
     ],
   },
@@ -6499,11 +6499,11 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Stack_o%27_Sacks.png?a4a9b5',
-        name: 'Stack o\' Sacks',
+        name: `Stack o' Sacks`,
       },
       {
         image: 'https://palia.wiki.gg/images/Petite_Stack_o%27_Sacks.png?dff68b',
-        name: 'Petite Stack o\' Sacks',
+        name: `Petite Stack o' Sacks`,
       },
       {
         image: 'https://palia.wiki.gg/images/Umbraan_Gem_Chimes.png?db7a76',
@@ -6687,7 +6687,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Kilima_Founder%27s_Windmill_Decor.png?4c7090',
-        name: 'Kilima Founder\'s Windmill Decor',
+        name: `Kilima Founder's Windmill Decor`,
       },
       {
         image: 'https://palia.wiki.gg/images/Chapaa_Hut_Neena_Plush.png?7457b6',
@@ -6696,14 +6696,6 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/New_Year_Lucky_Wish_Tree.png?32a9c4',
         name: 'New Year Lucky Wish Tree',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pal_Mat.png?8af88b',
-        name: 'Sandy Palcat Pal Mat',
-      },
-      {
-        image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pattern_Rug.png?48d6c0',
-        name: 'Sandy Palcat Pattern Rug',
       },
       {
         image: 'https://palia.wiki.gg/images/Spring_Flutterfox_Plush.png?b7370f',
@@ -6880,8 +6872,6 @@ export const iListCollections: ICollection[] = [
     ],
   },
 
-
-
   {
     name: 'Set',
     type: TypeCollection.EVENT,
@@ -6894,6 +6884,4 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
-
-
 ];
