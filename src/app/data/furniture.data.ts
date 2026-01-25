@@ -3,8 +3,8 @@ import { ICollection, TypeCollection } from '@src/models/collection.model';
 export const collectionsVersion = '0.199';
 
 export enum TagFurniture {
-  BEDROOM = 'Bedroom',
-  LIVING_ROOM = 'Living room',
+  NO_MORE_AVAILABLE = 'No more availabl',
+  PREMIUM = 'Premium',
 }
 
 export const iListCollections: ICollection[] = [
@@ -6909,10 +6909,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/1st_Anniversary_Plush.png?d0cfee',
+        tags: [TagFurniture.NO_MORE_AVAILABLE]
         name: '1st Anniversary Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/2nd_Anniversary_Plush.png?47947d',
+        tags: [TagFurniture.NO_MORE_AVAILABLE]
         name: '2nd Anniversary Plush',
       },
       {
@@ -6957,6 +6959,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Kitsuu_Palette.png/28px-Kitsuu_Palette.png?c450dd',
+        tags: [TagFurniture.PREMIUM]
         name: 'Kitsuu Palette',
       },
       {
@@ -6974,6 +6977,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        tags: [TagFurniture.PREMIUM]
         name: 'image',
       },
     ],
