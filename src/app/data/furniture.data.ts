@@ -5031,7 +5031,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Maji Market',
+    name: 'Maji Market (Not available NOW)',
     type: TypeCollection.EVENT,
     palette: 'glacier',
     color: 300,
@@ -5166,27 +5166,32 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Banquet_Table.png?f38043',
-
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Banquet Table',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Banquet_Chair.png?5dbe6a',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Banquet Chair',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Bench.png?d445d6',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Bench',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Corner_Lamp_Post.png?c0ff65',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Corner Lamp Post',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Tall_Lamp_Post.png?41aabf',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Tall Lamp Post',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Short_Lamp_Post.png?f356c6',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Short Lamp Post',
       },
       {
@@ -5235,6 +5240,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Candy_Box.png?b2b63d',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Candy Box',
       },
       {
@@ -5243,34 +5249,42 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Personal_Hot_Pot.png?fa212a',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Personal Hot Pot',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Lucky_Wish_Tree.png?32a9c4',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Lucky Wish Tree',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Blue_Wall_Decor.png?92c7e8',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Blue Wall Decor',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Pink_Wall_Decor.png?aa94db',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Pink Wall Decor',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Orange_Wall_Decor.png?b90afe',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Orange Wall Decor',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Blue_Ornament.png?67f82c',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Blue Ornament',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Pink_Ornament.png?3df0d4',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Pink Ornament',
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Orange_Ornament.png?598183',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Orange Ornament',
       },
       {
@@ -5319,6 +5333,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Fireworks_Wallpaper.png?c81d30',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Fireworks Wallpaper',
       },
       {
@@ -5327,12 +5342,13 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lunar_Anemone_Flower.png?25ceab',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Lunar Anemone Flower',
       },
     ],
   },
   {
-    name: 'Winterlights',
+    name: 'Winterlights (Not available NOW)',
     type: TypeCollection.EVENT,
     palette: 'lagoon',
     color: 500,
@@ -5569,7 +5585,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Spooky Moon',
+    name: 'Spooky Moon (Not available NOW)',
     type: TypeCollection.EVENT,
     palette: 'pumpkin',
     color: 500,
@@ -5661,101 +5677,124 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Monthly Bulletin Board (No more obtainable)',
+    name: 'Monthly Bulletin Board',
     type: TypeCollection.EVENT,
     palette: 'pumpkin',
     color: 800,
     items: [
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bag.png?b30a27',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Apple Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Apple_Bowl.png?28e377',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Apple Bowl`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Green_Jar.png?3230b9',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Green Jar`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Hay_Roll_Stack.png?9d9ed3',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Hay Roll Stack`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Large_Haypile.png?8e3da1',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Large Haypile`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Lopsided_Fence.png?ce7f7f',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Lopsided Fence`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Milk_Jug.png?a38e01',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Milk Jug`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Onion_Bag.png?b1bcde',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Onion Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Produce_Bag.png?b5ede6',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Produce Bag`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Purple_Jar.png?5fdf5e',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Purple Jar`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_1.png?e55275',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Rustic Fence 1`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Rustic_Fence_2.png?81793b',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Rustic Fence 2`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Shelves.png?e854c9',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Shelves`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Side_Hay_Roll.png?959a8f',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Side Hay Roll`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Small_Haypile.png?d759ba',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Small Haypile`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Toolstand.png?b4ceae',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Toolstand`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Trough.png?89b645',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Trough`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Upright_Hay_Roll.png?389d40',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Upright Hay Roll`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Barrel.png?4efb58',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Wooden Barrel`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Cart.png?b2e4e5',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Wooden Cart`,
       },
       {
         image: 'https://palia.wiki.gg/images/Rancher%27s_Wooden_Crates.png?ada635',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Rancher's Wooden Crates`,
       },
       {
         image: 'https://palia.wiki.gg/images/Spooky_Spectral_Blossoms.png?5f3bdb',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Spooky Spectral Blossoms',
       },
       {
         image: 'https://palia.wiki.gg/images/Jack_O%27_Lantern_Lure.png?ef1394&20251216054551',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Jack O' Lantern Lure`,
       },
       {
@@ -5764,30 +5803,37 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Floral_Fantasy_Wallpaper.png?a02eba',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Floral Fantasy Wallpaper',
       },
       {
         image: 'https://palia.wiki.gg/images/Lilac_Stripes_Wallpaper.png?aac7ed',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Lilac Stripes Wallpaper',
       },
       {
         image: 'https://palia.wiki.gg/images/Fantasy_Cottage_Floor.png?81bee0',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Fantasy Cottage Floor',
       },
       {
         image: 'https://palia.wiki.gg/images/Pearlescent_Petals_Floor.png?a58bf1',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Pearlescent Petals Floor',
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-10-stringlights-long.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'String Lights Long',
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-12-stringlights-corner.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'String Lights Corner',
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-winterpopupstore-11-stringlights-short.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'String Lights Short',
       },
       {
@@ -6765,7 +6811,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Log-In Rewards/Twitch Drops/Collabs/Comunity Events (No more obtainable)',
+    name: 'Log-In Rewards/Twitch Drops/Collabs/Comunity Events',
     type: TypeCollection.EVENT,
     palette: 'neutral',
     color: 700,
@@ -6862,10 +6908,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Stackable_Muujin_Pillow.png?ed9898',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Stackable Muujin Pillow',
       },
       {
         image: 'https://palia.wiki.gg/images/Stackable_Palcat_Pillow.png?cabfa3',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Stackable Palcat Pillow',
       },
       {
@@ -6902,6 +6950,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Nibbles_the_Drake.png?b6fb18',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Nibbles the Drake',
       },
       {
@@ -6922,6 +6971,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Frogbert_Plush.png?cc8653',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Frogbert Plush',
       },
       {
@@ -6936,10 +6986,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/King_Hoppington_XIV.png?869971',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'King Hoppington XIV',
       },
       {
         image: 'https://palia.wiki.gg/images/Painted_Froggy_Bucket.png?59a1e0',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Painted Froggy Bucket',
       },
       {
@@ -6948,22 +7000,27 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Snowman_Plush.png?b18a3a',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Snowman Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Snowman_Big_Plush.png/28px-Snowman_Big_Plush.png?a135db',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Snowman Big Plush',
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-plush-snowman01-3x.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Snowman Bigger Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Snowman_Giant_Plush.png/28px-Snowman_Giant_Plush.png?95f448',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Snowman Giant Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Snowman_Giga_Plush.png/28px-Snowman_Giga_Plush.png?bddb7f',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Snowman Giga Plush',
       },
     ],
