@@ -2,8 +2,8 @@ import { ICollection, TypeCollection } from '@src/models/collection.model';
 
 export const collectionsVersion = '0.199';
 
-export enum TagFurniture {
-  NO_MORE_AVAILABLE = 'No more availabl',
+export enum Tag {
+  NO_MORE_AVAILABLE = 'No more available',
   PREMIUM = 'Premium',
 }
 
@@ -20,7 +20,6 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Bed.png?9f9683',
-        tags: [TagFurniture.BEDROOM],
         name: 'Log Cabin Bed',
       },
       {
@@ -33,7 +32,6 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Coffee_Table.png?937898',
-        tags: [TagFurniture.LIVING_ROOM],
         name: 'Log Cabin Coffee Table',
       },
       {
@@ -46,7 +44,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Log_Cabin_Dining_Table.png?b77c58',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Log Cabin Dining Table',
       },
       {
@@ -203,7 +201,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Dining_Table.png/300px-Kilima_Inn_Dining_Table.png?72b99e',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Kilima Inn Dining Table',
       },
       {
@@ -224,7 +222,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Kilima_Inn_Round_Table.png/300px-Kilima_Inn_Round_Table.png?547f5d',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Kilima Inn Round Table',
       },
       {
@@ -345,7 +343,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Homestead_Coffee_Table.png?574a92',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Homestead Coffee Table',
       },
       {
@@ -366,7 +364,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Homestead_Dining_Table.png?4445d8',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Homestead Dining Table',
       },
       {
@@ -379,7 +377,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Homestead_End_Table.png?f0587c',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Homestead End Table',
       },
       {
@@ -436,7 +434,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Homestead_Medium_Bed.png?f4d5b8',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Homestead Medium Bed',
       },
       {
@@ -589,7 +587,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Console_Table.png?b712d8',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ravenwood Console Table',
       },
       {
@@ -602,7 +600,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Dining_Table.png?d4473d',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ravenwood Dining Table',
       },
       {
@@ -631,7 +629,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Large_End_Table.png?912e5e',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ravenwood Large End Table',
       },
       {
@@ -660,12 +658,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Silk_Bed.png?6f9ff2',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Ravenwood Silk Bed',
       },
       {
         image: 'https://palia.wiki.gg/images/Ravenwood_Small_End_Table.png?88ba76',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ravenwood Small End Table',
       },
       {
@@ -726,7 +724,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Moonstruck_Bed.png?f564da',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Moonstruck Bed',
       },
       {
@@ -739,7 +737,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Moonstruck_Coffee_Table.png?22b6f8',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Moonstruck Coffee Table',
       },
       {
@@ -752,7 +750,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Moonstruck_Dining_Table.png?56540f',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Moonstruck Dining Table',
       },
       {
@@ -789,7 +787,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Moonstruck_Table_Lamp.png?e74df8',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Moonstruck Table Lamp',
       },
       {
@@ -826,7 +824,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Bed.png?17dd17',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Ranch House Bed',
       },
       {
@@ -843,7 +841,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Coffee_Table.png?2c5c59',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ranch House Coffee Table',
       },
       {
@@ -856,7 +854,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Dining_Table.png?5bd020',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ranch House Dining Table',
       },
       {
@@ -897,7 +895,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Ranch_House_Table_Lamp.png?2f0398',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Ranch House Table Lamp',
       },
       {
@@ -938,7 +936,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Industrial_Bed.png?b30d46',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Industrial Bed',
       },
       {
@@ -955,7 +953,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Industrial_Coffee_Table.png?eee0db',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Industrial Coffee Table',
       },
       {
@@ -968,7 +966,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Industrial_Dining_Table.png?6786fd',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Industrial Dining Table',
       },
       {
@@ -1045,7 +1043,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Bed.png?7f6563',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Emberborn Bed',
       },
       {
@@ -1058,7 +1056,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Coffee_Table.png?72747c',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Emberborn Coffee Table',
       },
       {
@@ -1067,7 +1065,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Dining_Table.png?f74d97',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Emberborn Dining Table',
       },
       {
@@ -1104,7 +1102,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Side_Table.png?1e5c0e',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Emberborn Side Table',
       },
       {
@@ -1121,7 +1119,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Emberborn_Table_Lamp.png?df9839',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Emberborn Table Lamp',
       },
       {
@@ -1158,7 +1156,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Bed.png?b9fdbb',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Dragontide Bed',
       },
       {
@@ -1171,7 +1169,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Coffee_Table.png?41b76f',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Dragontide Coffee Table',
       },
       {
@@ -1184,12 +1182,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Dining_Table.png?a31861',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Dragontide Dining Table',
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_End_Table.png?d384ad',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Dragontide End Table',
       },
       {
@@ -1214,7 +1212,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Dragontide_Low_End_Table.png?7277e1',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Dragontide Low End Table',
       },
       {
@@ -1299,7 +1297,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Bellflower_Bed.png?de2335',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Bellflower Bed',
       },
       {
@@ -1312,7 +1310,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Bellflower_Coffee_Table.png?e1022d',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Bellflower Coffee Table',
       },
       {
@@ -1329,7 +1327,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Bellflower_Dining_Table.png?bb7f3a',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Bellflower Dining Table',
       },
       {
@@ -1394,7 +1392,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Bellflower_Table_Lamp.png?26a192',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Bellflower Table Lamp',
       },
       {
@@ -1431,7 +1429,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Capital_Chic_Bed.png?26dc3f',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Capital Chic Bed',
       },
       {
@@ -1444,7 +1442,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Capital_Chic_Coffee_Table.png?3e6071',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Capital Chic Coffee Table',
       },
       {
@@ -1457,7 +1455,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Capital_Chic_Dining_Table.png?a7b56e',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Capital Chic Dining Table',
       },
       {
@@ -1522,7 +1520,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Capital_Chic_Table_Lamp.png?9b00a0',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Capital Chic Table Lamp',
       },
       {
@@ -1555,7 +1553,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lily_Rattan_Bed.png?ff66de',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Lily Rattan Bed',
       },
       {
@@ -1576,7 +1574,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lily_Rattan_Coffee_Table.png?733794',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Lily Rattan Coffee Table',
       },
       {
@@ -1593,7 +1591,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lily_Rattan_Dining_Table.png?7564f1',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Lily Rattan Dining Table',
       },
       {
@@ -1602,7 +1600,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lily_Rattan_End_Table.png?e36c18',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Lily Rattan End Table',
       },
       {
@@ -1647,7 +1645,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Lily_Rattan_Table_Lamp.png?a3855c',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Lily Rattan Table Lamp',
       },
       {
@@ -1736,7 +1734,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Camping_Table.png?a8f4af',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Camping Table',
       },
       {
@@ -1765,7 +1763,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Investigator_Bed.png?bb11c0',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Investigator Bed',
       },
       {
@@ -1778,7 +1776,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Investigator_End_Table.png?fa8da1',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Investigator End Table',
       },
       {
@@ -1807,7 +1805,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/PalTech_Coffee_Table.png?1a79cf',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'PalTech Coffee Table',
       },
       {
@@ -1892,7 +1890,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/PalTech_Round_End_Table.png?91e7de',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'PalTech Round End Table',
       },
       {
@@ -1913,7 +1911,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/PalTech_Square_End_Table.png?5816e3',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'PalTech Square End Table',
       },
       {
@@ -2042,7 +2040,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Bed.png?10d3e7',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Makeshift Bed',
       },
       {
@@ -2099,7 +2097,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Coffee_Table.png?efd417',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Coffee Table',
       },
       {
@@ -2120,12 +2118,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Drum_Table.png?6422a6',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Drum Table',
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_End_Table.png?b6031b',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift End Table',
       },
       {
@@ -2150,7 +2148,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Garden_Bed.png?ccd972',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Makeshift Garden Bed',
       },
       {
@@ -2191,7 +2189,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Large_Table.png?e05008',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Large Table',
       },
       {
@@ -2236,7 +2234,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Picnic_Table.png?e2eb89',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Picnic Table',
       },
       {
@@ -2249,7 +2247,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Round_End_Table.png?5b71b5',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Round End Table',
       },
       {
@@ -2262,7 +2260,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Short_End_Table.png?c7dd03',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Short End Table',
       },
       {
@@ -2283,7 +2281,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Makeshift_Small_Table.png?4a1521',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Makeshift Small Table',
       },
       {
@@ -2484,7 +2482,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Summer_Stripe_Table.png?dd9e27',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Summer Stripe Table',
       },
       {
@@ -2501,7 +2499,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/Valley_Sunrise_Bed.png?350c80',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Valley Sunrise Bed',
       },
       {
@@ -2530,7 +2528,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Valley_Sunrise_Dining_Table.png?e3909c',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Valley Sunrise Dining Table',
       },
       {
@@ -2551,12 +2549,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Valley_Sunrise_Oval_Table.png?e35f3b',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Valley Sunrise Oval Table',
       },
       {
         image: 'https://palia.wiki.gg/images/Valley_Sunrise_Side_Table.png?c31196',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Valley Sunrise Side Table',
       },
       {
@@ -2977,7 +2975,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Honeybunch_Bed.png?d609b2',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Honeybunch Bed',
       },
       {
@@ -4674,7 +4672,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Grow_All_Out_Dining_Table.png?24bec5',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Grow All Out Dining Table',
       },
       {
@@ -5163,7 +5161,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Banquet_Table.png?f38043',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'New Year Banquet Table',
       },
       {
@@ -5532,7 +5530,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Snowy_Dining_Table.png?a81fe8',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Snowy Dining Table',
       },
       {
@@ -6321,7 +6319,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Wedding_Table.png?56db40',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Wedding Table',
       },
       {
@@ -6390,7 +6388,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Spa_Day_Side_Table.png?2ae6af',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Spa Day Side Table',
       },
       {
@@ -6427,7 +6425,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Umbraan_Bed.png?1489cd',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Umbraan Bed',
       },
       {
@@ -6440,7 +6438,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Umbraan_Low_Table.png?dc82ff',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Umbraan Low Table',
       },
       {
@@ -6493,7 +6491,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Umbraan_Table.png?4111bd',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Umbraan Table',
       },
       {
@@ -6642,7 +6640,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Elderwood_End_Table.png?ce154d',
-        tags: [TagFurniture.LIVING_ROOM],
+
         name: 'Elderwood End Table',
       },
       {
@@ -6715,12 +6713,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Cozy_Camp_Messy_Bed.png?6d4056',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Cozy Camp Messy Bed',
       },
       {
         image: 'https://palia.wiki.gg/images/Cozy_Camp_Made_Bed.png?2a2a09',
-        tags: [TagFurniture.BEDROOM],
+
         name: 'Cozy Camp Made Bed',
       },
       {
@@ -6909,12 +6907,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/1st_Anniversary_Plush.png?d0cfee',
-        tags: [TagFurniture.NO_MORE_AVAILABLE]
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: '1st Anniversary Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/2nd_Anniversary_Plush.png?47947d',
-        tags: [TagFurniture.NO_MORE_AVAILABLE]
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: '2nd Anniversary Plush',
       },
       {
@@ -6959,7 +6957,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Kitsuu_Palette.png/28px-Kitsuu_Palette.png?c450dd',
-        tags: [TagFurniture.PREMIUM]
+        tags: [Tag.PREMIUM],
         name: 'Kitsuu Palette',
       },
       {
@@ -6977,7 +6975,7 @@ export const iListCollections: ICollection[] = [
     items: [
       {
         image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
-        tags: [TagFurniture.PREMIUM]
+        tags: [Tag.PREMIUM],
         name: 'image',
       },
     ],

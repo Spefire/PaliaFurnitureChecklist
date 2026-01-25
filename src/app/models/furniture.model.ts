@@ -1,14 +1,14 @@
-import { TagFurniture } from '@src/data/furniture.data';
+import { Tag } from '@src/data/furniture.data';
 
 export interface IFurniture {
   name: string;
-  tags?: TagFurniture[];
+  tags?: Tag[];
   image: string;
 }
 
 export class Furniture {
   public name: string;
-  public tags?: TagFurniture[];
+  public tags?: Tag[];
   public image: string;
 
   public get code(): string {

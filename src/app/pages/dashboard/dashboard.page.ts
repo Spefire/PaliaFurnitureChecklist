@@ -19,7 +19,7 @@ import { PageHeaderComponent } from '@lucca-front/ng/page-header';
 import { SegmentedControlComponent, SegmentedControlFilterComponent } from '@lucca-front/ng/segmented-control';
 import { TagComponent } from '@lucca-front/ng/tag';
 
-import { collectionsVersion, iListCollections, TagFurniture } from '@src/data/furniture.data';
+import { collectionsVersion, iListCollections, Tag } from '@src/data/furniture.data';
 import { Collection, TypeCollection } from '@src/models/collection.model';
 import { Furniture } from '@src/models/furniture.model';
 import { PageTitles } from '@src/models/pages.model';
@@ -70,13 +70,13 @@ export class DashboardPage implements OnInit {
   public listOpennedCollections = signal<string[]>([]);
   public listSelectedItems = signal<string[]>([]);
   public listCollections = signal<Collection[]>([]);
-  public listTags = signal<TagFurniture[]>([]);
+  public listTags = signal<Tag[]>([]);
 
   // Filters
   public typeFilter = signal<TypeCollection | null>(null);
   public missingFilter = signal<boolean>(false);
   public collectionsFilter = signal<Collection[]>([]);
-  public tagsFilter = signal<TagFurniture[]>([]);
+  public tagsFilter = signal<Tag[]>([]);
   public searchFilter = signal<string>('');
 
   public sortedCollections = computed<Collection[]>(() => {
@@ -86,7 +86,7 @@ export class DashboardPage implements OnInit {
     return result;
   });
 
-  public sortedTags = computed<TagFurniture[]>(() => {
+  public sortedTags = computed<Tag[]>(() => {
     if (!this.listTags()) return [];
     const result = this.listTags().slice();
     result.sort((a, b) => a.localeCompare(b));
@@ -184,7 +184,7 @@ export class DashboardPage implements OnInit {
 
   public ngOnInit() {
     this.listCollections.set(iListCollections.map(i => new Collection(i)));
-    this.listTags.set(Object.values(TagFurniture));
+    this.listTags.set(Object.values(Tag));
     this.listSelectedItems.set(this._appService.loadSelectedItems());
     this.listOpennedCollections.set(this.listCollections().map(i => i.code));
   }
