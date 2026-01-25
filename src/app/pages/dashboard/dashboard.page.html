@@ -63,7 +63,7 @@
         </lu-segmented-control>
         <lu-filter-pill label="Collections" name="collections">
           <lu-multi-select
-            #selectRef
+            #selectCollectionRef
             clearable
             filterPillLabelPlural="collections selected"
             [options]="sortedCollections()"
@@ -71,7 +71,7 @@
             [ngModelOptions]="{ standalone: true }"
             (ngModelChange)="collectionsFilter.set($event)"
             >"
-            <ng-container *luMultiDisplayer="let values; select: selectRef">
+            <ng-container *luMultiDisplayer="let values; select: selectCollectionRef">
               <lu-multi-select-content-displayer>
                 @if (values.length > 1) {
                   {{ values.length }} collections selected
@@ -82,7 +82,7 @@
                 }
               </lu-multi-select-content-displayer>
             </ng-container>
-            <ng-container *luOption="let collection; select: selectRef">
+            <ng-container *luOption="let collection; select: selectCollectionRef">
               <p class="pr-u-displayFlex pr-u-alignItemsCenter pr-u-gap100">
                 <span>{{ collection.name }}</span>
                 <span
@@ -90,6 +90,32 @@
                   [style.background-color]="'var(--palettes-' + collection.palette + '-' + collection.color + ')'"
                 ></span>
               </p>
+            </ng-container>
+          </lu-multi-select>
+        </lu-filter-pill>
+        <lu-filter-pill label="Tags" name="tags">
+          <lu-multi-select
+            #selectTagRef
+            clearable
+            filterPillLabelPlural="tags selected"
+            [options]="sortedTags()"
+            [(ngModel)]="tagsFilter"
+            [ngModelOptions]="{ standalone: true }"
+            (ngModelChange)="tagsFilter.set($event)"
+            >"
+            <ng-container *luMultiDisplayer="let values; select: selectTagRef">
+              <lu-multi-select-content-displayer>
+                @if (values.length > 1) {
+                  {{ values.length }} tags selected
+                } @else if (values.length === 1) {
+                  {{ values.length }} tag selected
+                } @else {
+                  All tags
+                }
+              </lu-multi-select-content-displayer>
+            </ng-container>
+            <ng-container *luOption="let tag; select: selectTagRef">
+              <span>{{ tag }}</span>
             </ng-container>
           </lu-multi-select>
         </lu-filter-pill>
@@ -147,7 +173,16 @@
                       (click)="toggleSelection(furniture)"
                     >
                       <img [src]="furniture.image" height="72" width="72" loading="lazy" decoding="async" />
-                      <p class="pr-u-h4">{{ furniture.name }}</p>
+                      @if (showTags()) {
+                        <div>
+                          <p class="pr-u-h4">{{ furniture.name }}</p>
+                          @for (tag of furniture.tags; track tag) {
+                            <lu-tag [label]="tag" [palette]="collection.palette" size="S" />
+                          }
+                        </div>
+                      } @else {
+                        <p class="pr-u-h4">{{ furniture.name }}</p>
+                      }
                       <lu-form-field class="dashboard-card-checkbox" label="Crafted" hiddenLabel>
                         <lu-checkbox-input [ngModel]="isChecked" checklist />
                       </lu-form-field>

@@ -3,9 +3,9 @@ import { DecorativePalette, Palette } from '@lucca-front/ng/core';
 import { Furniture, IFurniture } from '@src/models/furniture.model';
 
 export enum TypeCollection {
-  EVENT,
-  SET,
-  MISC,
+  EVENT = 'Event',
+  SET = 'Set',
+  MISC = 'Other',
 }
 
 export interface ICollection {
