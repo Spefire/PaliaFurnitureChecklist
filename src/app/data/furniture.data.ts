@@ -5,6 +5,11 @@ export const collectionsVersion = '0.199';
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
   PREMIUM = 'Premium',
+  COLORABLE = "Colorable",
+  WATER = "Water Connected",
+  WALL = "Wall item",
+  LIGHT = "Light",
+  INTERRACTIVE = "Interractive",
 }
 
 export const iListCollections: ICollection[] = [
@@ -6771,6 +6776,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Kilima_Founder%27s_Windmill_Decor.png?4c7090',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Kilima Founder's Windmill Decor`,
       },
       {
@@ -6779,6 +6785,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/New_Year_Lucky_Wish_Tree.png?32a9c4',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'New Year Lucky Wish Tree',
       },
       {
@@ -6787,6 +6794,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Summer_Flutterfox_Plush.png?7fb3dd',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Summer Flutterfox Plush',
       },
       {
@@ -6795,10 +6803,12 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Leafy_Flutterfox_Plush.png?e36e03',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Leafy Flutterfox Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/Fall_Flutterfox_Plush.png?e96a7e',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Fall Flutterfox Plush',
       },
       {
@@ -6807,38 +6817,47 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Palcat_Party_Wallpaper.png?bdde5d',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Palcat Party Wallpaper',
       },
       {
         image: 'https://palia.wiki.gg/images/Palcat_Party_Small_Rug.png?556e85',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Palcat Party Small Rug',
       },
       {
         image: 'https://palia.wiki.gg/images/Nox_the_Palcat_Plush.png?913e29',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Nox the Palcat Plush',
       },
       {
         image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pattern_Rug.png?48d6c0',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Sandy Palcat Pattern Rug',
       },
       {
         image: 'https://palia.wiki.gg/images/Sandy_Palcat_Pal_Mat.png?8af88b',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Sandy Palcat Pal Mat',
       },
       {
         image: 'https://palia.wiki.gg/images/Sandy_Palcat_Wallpaper.png?35f99b',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Sandy Palcat Wallpaper',
       },
       {
         image: 'https://palia.wiki.gg/images/Sandi_the_Palcat_Plush.png?13f812',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Sandi the Palcat Plush',
       },
       {
         image: 'https://www.paliatracker.com/_next/image?url=%2Fitems%2Fdecor%2Fdecor-rewards-winter-release-palcatplushie-02.webp&w=96&q=75',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Palcat Plushie 2',
       },
       {
         image: 'https://www.paliatracker.com/_next/image?url=%2Fitems%2Fdecor%2Fdecor-rewards-winter-release-palcatplushie-04.webp&w=96&q=75',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Palcat Plushie 4',
       },
       {
