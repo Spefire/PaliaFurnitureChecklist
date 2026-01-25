@@ -9,6 +9,21 @@
 
   <lu-main-layout-block>
     <lu-container class="pr-u-displayFlex pr-u-flexDirectionColumn pr-u-gap200">
+      <lu-callout-disclosure heading="Some news !" icon="signInfo">
+        <p>
+          Tags are currently being implemented.<br />
+          Feel free to share any feedback or suggestions
+          <a
+            href="https://www.reddit.com/r/Palia/comments/1qkuqok/all_furniture_items_decor_checklist_website/"
+            luLink
+            external
+          >
+            here on Reddit
+          </a>
+          !
+        </p>
+      </lu-callout-disclosure>
+
       @let responsive = { colspanAtMediaMinS: 1 };
       <lu-grid columns="3">
         <lu-grid-column colspan="3" [responsive]="responsive">

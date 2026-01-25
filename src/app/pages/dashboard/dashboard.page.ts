@@ -2,6 +2,7 @@ import { Component, computed, OnInit, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { ButtonComponent } from '@lucca-front/ng/button';
+import { CalloutDisclosureComponent } from '@lucca-front/ng/callout';
 import { ContainerComponent } from '@lucca-front/ng/container';
 import { LuOptionDirective } from '@lucca-front/ng/core-select';
 import { DividerComponent } from '@lucca-front/ng/divider';
@@ -12,6 +13,7 @@ import { CheckboxInputComponent, TextInputComponent } from '@lucca-front/ng/form
 import { GridColumnComponent, GridComponent } from '@lucca-front/ng/grid';
 import { HighlightDataComponent } from '@lucca-front/ng/highlight-data';
 import { IconComponent } from '@lucca-front/ng/icon';
+import { LinkComponent } from '@lucca-front/ng/link';
 import { MainLayoutBlockComponent, MainLayoutComponent } from '@lucca-front/ng/main-layout';
 import { LuMultiDisplayerDirective, LuMultiSelectContentDisplayerComponent, LuMultiSelectInputComponent } from '@lucca-front/ng/multi-select';
 import { NumericBadgeComponent } from '@lucca-front/ng/numeric-badge';
@@ -48,6 +50,7 @@ import { AppService } from '@src/services/app.service';
     SegmentedControlComponent,
     SegmentedControlFilterComponent,
     HighlightDataComponent,
+    CalloutDisclosureComponent,
     CheckboxInputComponent,
     NumericBadgeComponent,
     TextInputComponent,
@@ -55,6 +58,7 @@ import { AppService } from '@src/services/app.service';
     TagComponent,
     ButtonComponent,
     IconComponent,
+    LinkComponent,
   ],
   templateUrl: './dashboard.page.html',
   styleUrl: './dashboard.page.scss',
