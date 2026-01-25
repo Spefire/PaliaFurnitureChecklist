@@ -6750,6 +6750,14 @@ export const iListCollections: ICollection[] = [
         name: 'Sandi the Palcat Plush',
       },
       {
+        image: 'https://www.paliatracker.com/_next/image?url=%2Fitems%2Fdecor%2Fdecor-rewards-winter-release-palcatplushie-02.webp&w=96&q=75',
+        name: 'Palcat Plushie 2',
+      },
+      {
+        image: 'https://www.paliatracker.com/_next/image?url=%2Fitems%2Fdecor%2Fdecor-rewards-winter-release-palcatplushie-04.webp&w=96&q=75',
+        name: 'Palcat Plushie 4',
+      },
+      {
         image: 'https://palia.wiki.gg/images/Stackable_Muujin_Pillow.png?ed9898',
         name: 'Stackable Muujin Pillow',
       },
