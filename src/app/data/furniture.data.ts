@@ -4311,6 +4311,10 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/thumb/Shore_Tint.png/28px-Shore_Tint.png?37a4cf',
         name: 'Shore Tint',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/building-watertower.webp',
+        name: 'Water Tower',
+      },
     ],
   },
   {
