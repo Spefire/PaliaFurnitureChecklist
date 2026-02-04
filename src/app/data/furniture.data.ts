@@ -5345,6 +5345,54 @@ export const iListCollections: ICollection[] = [
         tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Lunar Anemone Flower',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-generic-deco-shoji-screen-a.webp',
+        name: 'LNY Shoji Screen',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-generic-119-deco-gardening-basket-1.webp',
+        name: 'LNY Harvest Basket',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-generic-120-deco-gardening-basket-2.webp',
+        name: 'LNY Market Basket',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-clutter-18-deco-teabox.webp',
+        name: 'LNY Tea Tin',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-clutter-04-deco-woodbox-03.webp',
+        name: 'LNY Treasure Box',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-majimarket-64-poster-04.webp',
+        name: 'Year of the Riffroc Poster',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-plush-riffroc01-base.webp',
+        name: 'Golden Riffroc Plush',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-lny2026-1.webp',
+        name: 'Year of the Riffroc Wallpaper - Red ',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-lny2026-3.webp',
+        name: 'Year of the Riffroc Wallpaper - Blue',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/wallpaper-lny2026-2.webp',
+        name: 'Year of the Riffroc Wallpaper - Orange',
+      },
+      {
+        image: 'assets/celebration_tint.webp',
+        name: 'Celebration Tint',
+      },
+      {
+        image: 'goldenrifroc_tint.webp',
+        name: 'Riffroc Tint ',
+      },
     ],
   },
   {
@@ -7050,7 +7098,7 @@ export const iListCollections: ICollection[] = [
     color: 500,
     items: [
       {
-        image: 'assets/celebration_tint.webp',
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
         tags: [Tag.PREMIUM],
         name: 'image',
       },
