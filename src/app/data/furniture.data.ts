@@ -5,11 +5,11 @@ export const collectionsVersion = '0.199';
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
   PREMIUM = 'Premium',
-  COLORABLE = "Colorable",
-  WATER = "Water Connected",
-  WALL = "Wall item",
-  LIGHT = "Light",
-  INTERRACTIVE = "Interractive",
+  COLORABLE = 'Colorable',
+  WATER = 'Water Connected',
+  WALL = 'Wall item',
+  LIGHT = 'Light',
+  INTERRACTIVE = 'Interractive',
 }
 
 export const iListCollections: ICollection[] = [
@@ -7050,7 +7050,7 @@ export const iListCollections: ICollection[] = [
     color: 500,
     items: [
       {
-        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        image: 'assets/celebration_tint.webp',
         tags: [Tag.PREMIUM],
         name: 'image',
       },
