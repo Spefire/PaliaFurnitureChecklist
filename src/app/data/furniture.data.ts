@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.204';
+export const collectionsVersion = '0.205';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
@@ -2432,11 +2432,11 @@ export const iListCollections: ICollection[] = [
         name: 'Spring Fever Wheelbarrow',
       },
       {
-        image: 'https://palia.wiki.gg/images/Spring_Fever_Wood_Edging_20x.png?d5e195',
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Wood_Edging.png?d5e195',
         name: 'Spring Fever Wood Edging 20x',
       },
       {
-        image: 'https://palia.wiki.gg/images/Spring_Fever_Rock_Edging_20x.png?1501b3',
+        image: 'https://palia.wiki.gg/images/Spring_Fever_Rock_Edging.png?1501b3',
         name: 'Spring Fever Rock Edging 20x',
       },
     ],
@@ -3160,7 +3160,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Curtains',
+    name: 'Curtains & Banners',
     type: TypeCollection.MISC,
     palette: 'neutral',
     color: 25,
@@ -3229,6 +3229,26 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Velvet_Luxe_Large_Curtain.png?8388a4',
         name: 'Velvet Luxe Large Curtain',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Shimmerfly_Banner.png?2417b6',
+        name: 'Shimmerfly Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Riffroc_Banner.png?7e87c2',
+        name: 'Riffroc Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Phoenix_Banner.png?da4af9',
+        name: 'Phoenix Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Maji_Banner.png?50a1da',
+        name: 'Maji Banner',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chapaa_Banner.png?81e067',
+        name: 'Chapaa Banner',
+      },
     ],
   },
   {
@@ -3242,7 +3262,7 @@ export const iListCollections: ICollection[] = [
         name: 'Log Cabin Double Gate',
       },
       {
-        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence_20x.png?7a4330',
+        image: 'https://palia.wiki.gg/images/Log_Cabin_Fence.png?7a4330',
         name: 'Log Cabin Fence 20x',
       },
       {
@@ -3262,7 +3282,7 @@ export const iListCollections: ICollection[] = [
         name: 'White Picket Fence',
       },
       {
-        image: 'https://palia.wiki.gg/images/Ravenwood_Fence_20x.png?dccb3a',
+        image: 'https://palia.wiki.gg/images/Ravenwood_Fence.png?c707bb',
         name: 'Ravenwood Fence 20x',
       },
       {
@@ -3278,7 +3298,7 @@ export const iListCollections: ICollection[] = [
         name: 'Emberborn Double Gate',
       },
       {
-        image: 'https://palia.wiki.gg/images/Emberborn_Fence_20x.png?d6d39d',
+        image: 'https://palia.wiki.gg/images/Emberborn_Fence.png?d6d39d',
         name: 'Emberborn Fence 20x',
       },
       {
@@ -3294,7 +3314,7 @@ export const iListCollections: ICollection[] = [
         name: 'Emberborn Swing Gate',
       },
       {
-        image: 'https://palia.wiki.gg/images/Camping_Fence_20x.png?30a793',
+        image: 'https://palia.wiki.gg/images/Camping_Fence.png?481780',
         name: 'Camping Fence 20x',
       },
       {
@@ -4414,6 +4434,26 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Highland_Jukebox.png?52b94f',
         name: 'Highland Jukebox',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Trans_Pride_Tint.png?e9959a',
+        name: 'Trans Pride Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lesbian_Pride_Tint.png?2023c9',
+        name: 'Lesbian Pride Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bi_Pride_Tint.png?f8567a',
+        name: 'Bi Pride Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gay_Pride_Tint.png?4563c4',
+        name: 'Gay Pride Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ace_Pride_Tint.png?aa9c98',
+        name: 'Ace Pride Tint',
+      },
     ],
   },
   {
@@ -4779,18 +4819,6 @@ export const iListCollections: ICollection[] = [
         image: 'https://static.paliapedia.com/images/items/128/decor-narrative-ulfe-friendship-drawing-framed.webp',
         tags: [Tag.WALL],
         name: 'Ulfe Sketch',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
-      },
-      {
-        image: '',
-        name: '',
       },
     ],
   },
@@ -5318,6 +5346,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/King_Crab_Plush.png?1bac65',
         name: 'King Crab Plush',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Shimmerfly_Plush.png?12297e',
+        name: 'Shimmerfly Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Princess_Ladybug_Plush.png?20d545',
+        name: 'Princess Ladybug Plush',
+      },
     ],
   },
   {
@@ -5681,7 +5717,7 @@ export const iListCollections: ICollection[] = [
         name: 'Celebration Tint',
       },
       {
-        image: 'goldenrifroc_tint.webp',
+        image: 'https://palia.wiki.gg/images/Riffroc_Tint.png?ffcaad',
         tags: [Tag.TINT],
         name: 'Riffroc Tint',
       },
@@ -6229,6 +6265,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Heartdrop_Mic.png?f619bf',
         name: 'Heartdrop Mic',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/bug-shimmerfly.webp',
+        name: 'Shimmerfly Garden',
       },
     ],
   },
@@ -7450,11 +7490,6 @@ export const iListCollections: ICollection[] = [
     color: 700,
     items: [
       {
-        image: 'https://palia.wiki.gg/images/thumb/Kitsuu_Palette.png/28px-Kitsuu_Palette.png?c450dd',
-        tags: [Tag.PREMIUM],
-        name: 'Kitsuu Palette',
-      },
-      {
         image: 'https://palia.wiki.gg/images/Cardigancore_Jukebox.png?fda48d',
         name: 'Cardigancore Jukebox',
       },
@@ -7567,6 +7602,43 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Giga_Maws_Plush.png?db0fd1',
         name: 'Giga Maws Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        name: 'Belafontine s Rosebush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Watchful_Chapaa_Statue.png/28px-Watchful_Chapaa_Statue.png?b9af54',
+        name: 'Watchful Chapaa Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Dark_Wisteria_Trellis.png/28px-Dark_Wisteria_Trellis.png?8bfbea',
+        name: 'Dark Wisteria Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Tall_Glass.png/28px-Tall_Glass.png?b14823',
+        name: 'Tall Glass',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Light_Wisteria_Trellis.png/28px-Light_Wisteria_Trellis.png?316738',
+        name: 'Light Wisteria Trellis',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Unknown.png/28px-Unknown.png?a723ca',
+        name: 'Enfield s Rosebush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Proud_Chapaa_Statue.png/28px-Proud_Chapaa_Statue.png?5b6f77',
+        name: 'Proud Chapaa Statue',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Painting_of_Two_Beauties.png/28px-Painting_of_Two_Beauties.png?efe4e8',
+        name: 'Painting of Two Beauties',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Royal_Frogbert.png?37d3ad',
+        tags: [Tag.PREMIUM],
+        name: 'Royal Frogbert',
       },
     ],
   },
@@ -7933,7 +8005,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'SHOP IN GAME',
+    name: '$ SHOP IN GAME $',
     type: TypeCollection.MISC,
     palette: 'watermelon',
     color: 900,
