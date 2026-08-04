@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.203';
+export const collectionsVersion = '0.204';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
@@ -3433,6 +3433,22 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Builders_Wood_Wall.png?2eba47',
         name: 'Builders Wood Wall',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Magma_Block_%28L%29.png?aecfee',
+        name: 'Builders Magma Block (L)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Magma_Block_%28S%29.png?a26bec',
+        name: 'Builders Magma Block (S)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Magma_Floor.png?4821bf',
+        name: 'Builders Magma Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Builders_Magma_Wall.png?80756e',
+        name: 'Builders Magma Wall',
+      },
     ],
   },
   {
@@ -5289,6 +5305,18 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Apple_Jam_Plush.png?a28bc4',
         name: 'Apple Jam Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Amethyst_Tint.png?b42805',
+        name: 'Amethyst Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Blue_Crab_Plush.png?6ad7ab',
+        name: 'Blue Crab Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/King_Crab_Plush.png?1bac65',
+        name: 'King Crab Plush',
       },
     ],
   },
@@ -7516,6 +7544,30 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Champion%27s_Trophy.png?a6def0',
         name: 'Champion s Trophy',
       },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Shark_Wallpaper.png/300px-Shark_Wallpaper.png?5100d7',
+        name: 'Shark Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summertime_Fruity_Nojito.png?693328',
+        name: 'Summertime Fruity Nojito',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Chomped_Frogbert_Plush.png?91e61f',
+        name: 'Chomped Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highland_Shark.png?dbcd5c',
+        name: 'Highland Shark',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giga_River_Shark_Plush.png?c546a3',
+        name: 'Giga River Shark Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giga_Maws_Plush.png?db0fd1',
+        name: 'Giga Maws Plush',
+      },
     ],
   },
   {
@@ -7890,6 +7942,78 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Dawnspur_Plush.png?576841',
         tags: [Tag.PREMIUM],
         name: 'Dawnspur Plush',
+      },
+    ],
+  },
+  {
+    name: 'Summer Pop-Up',
+    type: TypeCollection.EVENT,
+    palette: 'lagoon',
+    color: 200,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Changing_Room.png?eadf5d',
+        name: 'Summer Fun Changing Room',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Wallpaper.png?2d4c32',
+        name: 'Sandy Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Floor.png?f8050c',
+        name: 'Sandy Floor',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Sailboat_Mini.png?ccf9d5',
+        name: 'Summer Fun Sailboat Mini',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Beach_Ball.png?e90f56',
+        name: 'Summer Fun Beach Ball',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Sand_Castle.png?9b70a3',
+        name: 'Summer Fun Sand Castle',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Coconut_Drink.png?984f98',
+        name: 'Summer Fun Coconut Drink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Surfboard.png?ec0c83',
+        name: 'Summer Fun Surfboard',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Herbal_Tea.png?6d75a9',
+        name: 'Summer Stripe Herbal Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Floral_Tea.png?e6c296',
+        name: 'Summer Stripe Floral Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Citrus_Tea.png?bbe45d',
+        name: 'Summer Stripe Citrus Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Stripe_Ocean_Tea.png?2bece9',
+        name: 'Summer Stripe Ocean Tea',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summertime_Fruity_Nojito.png?693328',
+        name: 'Summertime Fruity Nojito',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sandy_Tint.png?5d8e7c',
+        name: 'Sandy Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunset_Tint.png?613a2e',
+        name: 'Sunset Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Summer_Fun_Pirate_Ship.png?96ea91',
+        name: 'Summer Fun Pirate Ship',
       },
     ],
   },
