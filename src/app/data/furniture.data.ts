@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.201';
+export const collectionsVersion = '0.202';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
@@ -4317,6 +4317,62 @@ export const iListCollections: ICollection[] = [
         image: 'https://static.paliapedia.com/images/items/128/building-watertower.webp',
         name: 'Water Tower',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Jadium_Storage_Chest.png?21e9ae',
+        name: 'Jadium Storage Chest',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_House.png?3cb1b9',
+        name: 'Ancient House',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Bay_Window.png?dcb517',
+        name: 'Ancient Bay Window',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Balcony.png?fa21da',
+        name: 'Ancient Balcony',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Awning.png?133c83',
+        name: 'Ancient Awning',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Roof_Connector.png?abaabd',
+        name: 'Ancient Roof Connector',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Wing_Decoration.png?34ff25',
+        name: 'Ancient Wing Decoration',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Steps.png?72e292',
+        name: 'Ancient Steps',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Dormer.png?3a8b39',
+        name: 'Ancient Dormer',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Window.png?e9e4ce',
+        name: 'Ancient Window',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Railing.png?c78f9a',
+        name: 'Ancient Railing',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Pillar.png?7928f3',
+        name: 'Ancient Pillar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Staircase.png?c30606',
+        name: 'Ancient Staircase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Ancient_Column.png?c4e43a',
+        name: 'Ancient Column',
+      },
     ],
   },
   {
@@ -4808,6 +4864,34 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Heavy_Metal_Chapaa_Trophy.png?67fad1',
         name: 'Heavy Metal Chapaa Trophy',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rococo-41-deco-framedmap-highlands.webp',
+        name: 'Highland Map',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jaakcat_Mounted_Trophy.png?c7acc7',
+        name: 'Jaakcat Mounted Trophy',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rewards-skill-22-mountedfish-e.webp',
+        name: 'Mounted Sturgeon',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rewards-skill-23-mountedfish-f.webp',
+        name: 'Mounted Manta',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rewards-skill-20-bugdisplay-g.webp',
+        name: 'Highlands Shadowbox',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-rewards-skill-21-bugdisplay-h.webp',
+        name: 'Royal Shadowbox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jaakcat_Stew.png?c00e18',
+        name: 'Jaakcat Stew (can NOT be placed now)',
+      },
     ],
   },
   {
@@ -5078,6 +5162,28 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Bahari_Bee_Plush.png?571cce',
         tags: [Tag.PLUSH],
         name: 'Bahari Bee Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jadium_Tint.png?698e1a',
+        tags: [Tag.TINT],
+        name: 'Jadium Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Enfield_Phthalo_Tint.png?1d34d8',
+        tags: [Tag.TINT],
+        name: 'Enfield Phthalo Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Jaakcat_Plush.png?4becd8',
+        name: 'Jaakcat Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Midnight_Jaakcat_Plush.png?67bdfa',
+        name: 'Midnight Jaakcat Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Hollow_Jaakcat_Plush.png?b6f88c',
+        name: 'Hollow Jaakcat Plush',
       },
     ],
   },
@@ -5973,6 +6079,16 @@ export const iListCollections: ICollection[] = [
         tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Honeybee Lure',
       },
+      {
+        image: 'https://palia.wiki.gg/images/Royal_Ruby_Tint.png?7a1c02',
+        tags: [Tag.NO_MORE_AVAILABLE],
+        name: 'Royal Ruby Tin',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highland_Fields_Tint.png?3412db',
+        tags: [Tag.NO_MORE_AVAILABLE],
+        name: 'Highland Fields Tint',
+      },
     ],
   },
   {
@@ -6152,6 +6268,46 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://static.paliapedia.com/images/items/128/decor-potatopod-39-winter-shocker.webp',
         name: 'Volta the Smartypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/George_the_Fancypod.png?42fa98',
+        name: 'George the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Elizabeth_the_Fancypod.png?6e272b',
+        name: 'Elizabeth the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Darcy_the_Fancypod.png?5cbb95',
+        name: 'Darcy the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Lacey_the_Fancypod.png?494103',
+        name: 'Lacey the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dorian_the_Fancypod.png?830faa',
+        name: 'Dorian the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rebecca_the_Fancypod.png?390855',
+        name: 'Rebecca the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Charlotte_the_Fancypod.png?98e34b',
+        name: 'Charlotte the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Basil_the_Fancypod.png?868595',
+        name: 'Basil the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Victor_the_Fancypod.png?40e966',
+        name: 'Victor the Fancypod',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Danvers_the_Fancypod.png?96efef',
+        name: 'Danvers the Fancypod',
       },
     ],
   },
@@ -7331,6 +7487,269 @@ export const iListCollections: ICollection[] = [
       },
     ],
   },
+  {
+    name: 'Aristocrat',
+    type: TypeCollection.SET,
+    palette: 'mint',
+    color: 400,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Armchair.png?5726cc',
+        name: 'Aristocrat s Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Armoire.png?4c327b',
+        name: 'Aristocrat s Armoire',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Bath.png?380d81',
+        name: 'Aristocrat s Bath',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Bed.png?1b13f7',
+        name: 'Aristocrat s Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Bench.png?68b5aa',
+        name: 'Aristocrat s Bench',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Big_Artwork.png?3b8efd',
+        name: 'Aristocrat s Big Artwork',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Chaise.png?474e35',
+        name: 'Aristocrat s Chaise',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Canopy.png?f853db',
+        name: 'Aristocrat s Canopy',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Candelabra.png?128b5b',
+        name: 'Aristocrat s Candelabra',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Cabinet.png?178ea6',
+        name: 'Aristocrat s Cabinet',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Bureau.png?bb30ce',
+        name: 'Aristocrat s Bureau',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Bookshelf.png?9fa510',
+        name: 'Aristocrat s Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Birdcage.png?a178b0',
+        name: 'Aristocrat s Birdcage',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Chandelier.png?93d811',
+        name: 'Aristocrat s Chandelier',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Clock.png?d02177',
+        name: 'Aristocrat s Clock',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Coffee_Table.png?4f72bb',
+        name: 'Aristocrat s Coffee Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Dining_Chair.png?354068',
+        name: 'Aristocrat s Dining Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Drink_Cart.png?c23450',
+        name: 'Aristocrat s Drink Cart',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_End_Table.png?be89bd',
+        name: 'Aristocrat s End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Fan.png?7570b9',
+        name: 'Aristocrat s Fan',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Floor_Lamp.png?1cc79b',
+        name: 'Aristocrats Floor Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Floor_Mirror.png?34ffcb',
+        name: 'Aristocrat s Floor Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Flower_Vase.png?4b347b',
+        name: 'Aristocrat s Flower Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Hand_Towel.png?5c4faf',
+        name: 'Aristocrat s Hand Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Medium_Art.png?93da74',
+        name: 'Aristocrat s Medium Art',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Mini_Artwork.png?f92d01',
+        name: 'Aristocrat s Mini Artwork',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Rug.png?96e4bf',
+        name: 'Aristocrat s Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Sconce.png?370508',
+        name: 'Aristocrat s Sconce',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Screen.png?857d4b',
+        name: 'Aristocrat s Screen',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Secretary.png?21a6de',
+        name: 'Aristocrat s Secretary',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Shelf.png?d62651',
+        name: 'Aristocrat s Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Sink.png?79e73f',
+        name: 'Aristocrat s Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Sofa.png?9fc7f5',
+        name: 'Aristocrat s Sofa',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Statuette.png?29f970',
+        name: 'Aristocrat s Statuette',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Table.png?aa1355',
+        name: 'Aristocrat s Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Throne.png?fb7008',
+        name: 'Aristocrat s Throne',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Vanity.png?7ca568',
+        name: 'Aristocrat s Vanity',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Vanity_Stool.png?c62e9b',
+        name: 'Aristocrat s Vanity Stool',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Vase.png?a8e220',
+        name: 'Aristocrat s Vase',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Aristocrat%27s_Wall_Mirror.png?5c0f41',
+        name: 'Aristocrat s Wall Mirror',
+      },
+    ],
+  },
+  {
+    name: 'Teatime',
+    type: TypeCollection.SET,
+    palette: 'watermelon',
+    color: 100,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Pink_Cup.png?23d36a',
+        name: 'Teatime Pink Cup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Pink_Teapot.png?3af064',
+        name: 'Teatime Pink Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Serving_Tray.png?6d5995',
+        name: 'Teatime Serving Tray',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Tea_Set.png?9a855e',
+        name: 'Teatime Tea Set',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Blue_Cup.png?3062f5',
+        name: 'Teatime Blue Cup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Blue_Teapot.png?71dae5',
+        name: 'Teatime Blue Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Table.png?29edf2',
+        name: 'Teatime Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Chair.png?db70e8',
+        name: 'Teatime Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Tea_Tray.png?b6ab7f',
+        name: 'Teatime Tea Tray',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Brewing_Pot.png?eaabf6',
+        name: 'Teatime Brewing Pot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Pitcher.png?988e75',
+        name: 'Teatime Pitcher',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Silver_Glass.png?de8c2a',
+        name: 'Teatime Silver Glass',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teacup_with_Saucer.png?76fc4b',
+        name: 'Teacup with Saucer',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Teeny_Teacup.png?5a4877',
+        name: 'Teatime Teeny Teacup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Decanter.png?204598',
+        name: 'Teatime Decanter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Glass_Teacup.png?a120c6',
+        name: 'Teatime Glass Teacup',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Glass_Teapot.png?fd3ba0',
+        name: 'Teatime Glass Teapot',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Teatime_Flower_Pot.png?2e0bf0',
+        name: 'Teatime Flower Pot',
+      },
+    ],
+  },
+  {
+    name: 'SHOP IN GAME',
+    type: TypeCollection.MISC,
+    palette: 'watermelon',
+    color: 900,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Dawnspur_Plush.png?576841',
+        tags: [Tag.PREMIUM],
+        name: 'Dawnspur Plush',
+      },
+    ],
+  },
+
+
 
   {
     name: 'Set',
