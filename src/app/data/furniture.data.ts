@@ -1,15 +1,16 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.199';
+export const collectionsVersion = '0.200';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
-  PREMIUM = 'Premium',
+  PREMIUM = '$ Premium $',
   COLORABLE = 'Colorable',
   WATER = 'Water Connected',
   WALL = 'Wall item',
   LIGHT = 'Light',
   INTERRACTIVE = 'Interractive',
+  TINT = 'Tint',
 }
 
 export const iListCollections: ICollection[] = [
@@ -5032,6 +5033,10 @@ export const iListCollections: ICollection[] = [
         image: 'https://static.paliapedia.com/images/items/128/decor-plush-mandragora01.webp',
         name: 'Lil Sprout',
       },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/building-watertower.webp',
+        name: 'Water Tower',
+      },
     ],
   },
   {
@@ -5391,11 +5396,13 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'assets/celebration_tint.webp',
+        tags: [Tag.TINT],
         name: 'Celebration Tint',
       },
       {
         image: 'goldenrifroc_tint.webp',
-        name: 'Riffroc Tint ',
+        tags: [Tag.TINT],
+        name: 'Riffroc Tint',
       },
     ],
   },
@@ -7091,6 +7098,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Cardigancore_Jukebox.png?fda48d',
         name: 'Cardigancore Jukebox',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Double_Decked.png?dc9a5a',
+        name: 'Double Decked',
       },
     ],
   },
