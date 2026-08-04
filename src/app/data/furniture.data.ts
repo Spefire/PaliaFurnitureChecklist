@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.202';
+export const collectionsVersion = '0.203';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
@@ -3749,6 +3749,10 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Umbraan_Stamp_Wallpaper.png?168ed0',
         name: 'Umbraan Stamp Wallpaper',
       },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Aristocratic_Wallpaper.png/300px-Aristocratic_Wallpaper.png?98d9bd',
+        name: 'Aristocratic Wallpaper',
+      },
     ],
   },
   {
@@ -3869,6 +3873,10 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Basketweave_Wood_Floor.png?d09b70',
         name: 'Basketweave Wood Floor',
       },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Aristocratic_Floor.png/300px-Aristocratic_Floor.png?4c1f96',
+        name: 'Aristocratic Floor',
+      },
     ],
   },
   {
@@ -3920,7 +3928,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Food',
+    name: 'Food (displayable)',
     type: TypeCollection.MISC,
     palette: 'pumpkin',
     color: 800,
@@ -3940,6 +3948,19 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Summer_Stripe_Ocean_Tea.png?2bece9',
         name: 'Summer Stripe Ocean Tea',
+      },
+
+      {
+        image: 'https://palia.wiki.gg/images/Crab_Boil.png?d1df3b',
+        name: 'Crab Boil',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Legs.png?99d308',
+        name: 'Rockhopper Legs',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highlands_Bratwurst.png?16a672',
+        name: 'Highlands Bratwurst',
       },
     ],
   },
@@ -4372,6 +4393,10 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Ancient_Column.png?c4e43a',
         name: 'Ancient Column',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highland_Jukebox.png?52b94f',
+        name: 'Highland Jukebox',
       },
     ],
   },
@@ -4895,7 +4920,7 @@ export const iListCollections: ICollection[] = [
     ],
   },
   {
-    name: 'Environnement Found Items',
+    name: 'Environnement Found Items & Game Events',
     type: TypeCollection.MISC,
     palette: 'kiwi',
     color: 700,
@@ -5184,6 +5209,86 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Hollow_Jaakcat_Plush.png?b6f88c',
         name: 'Hollow Jaakcat Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Crewmate_Crab.png?5b27be',
+        name: 'Crewmate Crab',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gunner_Crab.png?cd9373',
+        name: 'Gunner Crab',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Captain_Crab.png?5b52c9',
+        name: 'Captain Crab',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Squire.png?e75798',
+        name: 'Rockhopper Squire',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Knight.png?c34ba2',
+        name: 'Rockhopper Knight',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Lord.png?ffba67',
+        name: 'Rockhopper Lord',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Squire_%28Stunned%29.png?ca0faa',
+        name: 'Rockhopper Squire (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Knight_%28Stunned%29.png?fffbc9',
+        name: 'Rockhopper Knight (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rockhopper_Lord_%28Stunned%29.png?673741',
+        name: 'Rockhopper Lord (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Crewmate_Crab_%28Stunned%29.png?700d77',
+        name: 'Crewmate Crab (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Gunner_Crab_%28Stunned%29.png?7d263a',
+        name: 'Gunner Crab (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Captain_Crab_%28Stunned%29.png?990b61',
+        name: 'Captain Crab (Stunned)',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Crabjorn_Snips_Replica.png?b6a248',
+        name: 'Crabjorn Snips Replica',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Team_Crab_Tint.png?13c166',
+        name: 'Team Crab Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Team_Frog_Tint.png?4e2611',
+        name: 'Team Frog Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Sunstone.png?a3e16d',
+        name: 'Sunstone',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highlands_Sernuk_Plush.png?90d2d5',
+        name: 'Highlands Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Golden_Sernuk_Plush.png?554482',
+        name: 'Golden Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Royal_Sernuk_Plush.png?38e729',
+        name: 'Royal Sernuk Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Apple_Jam_Plush.png?a28bc4',
+        name: 'Apple Jam Plush',
       },
     ],
   },
@@ -6088,6 +6193,14 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Highland_Fields_Tint.png?3412db',
         tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Highland Fields Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Heartdrop_Guitar.png?d81670',
+        name: 'Heartdrop Guitar',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Heartdrop_Mic.png?f619bf',
+        name: 'Heartdrop Mic',
       },
     ],
   },
@@ -7370,6 +7483,38 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/thumb/Frogbert_Flare.png/28px-Frogbert_Flare.png?881626',
         tags: [Tag.PREMIUM],
         name: 'Frogbert Flare',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Prismatic_Pride_Wallpaper.png/300px-Prismatic_Pride_Wallpaper.png?2ebada',
+        name: 'Prismatic Pride Wallpaper',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giga_Rainbow_Frogbert.png?418d01',
+        name: 'Giga Rainbow Frogbert',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainbow_Jam_Plush.png?a7be53',
+        name: 'Rainbow Jam Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Spectator%27s_Binoculars.png?dca5a7',
+        name: 'Spectator s Binoculars',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Champion%27s_Ball.png?297c78',
+        name: 'Champion s Ball',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Highlands_Bratwurst.png?16a672',
+        name: 'Highlands Bratwurst',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bluebonnet_Tint.png?ef15e2',
+        name: 'Bluebonnet Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Champion%27s_Trophy.png?a6def0',
+        name: 'Champion s Trophy',
       },
     ],
   },
