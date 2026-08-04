@@ -1,6 +1,6 @@
 import { ICollection, TypeCollection } from '@src/models/collection.model';
 
-export const collectionsVersion = '0.200';
+export const collectionsVersion = '0.201';
 
 export enum Tag {
   NO_MORE_AVAILABLE = 'No more available',
@@ -11,6 +11,7 @@ export enum Tag {
   LIGHT = 'Light',
   INTERRACTIVE = 'Interractive',
   TINT = 'Tint',
+  PLUSH = 'Plush',
 }
 
 export const iListCollections: ICollection[] = [
@@ -4664,6 +4665,36 @@ export const iListCollections: ICollection[] = [
         image: 'https://palia.wiki.gg/images/Barn_Bell.png?eaefb4',
         name: 'Barn Bell',
       },
+      {
+        image: 'https://palia.wiki.gg/images/S%27mores.png?ca1c68',
+        name: 'S mores (NOT PLACABLE NOW)',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/questgear-lantern.webp',
+        tags: [Tag.LIGHT],
+        name: 'Flow Lantern',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-cosmetic-60-deco-orrery.webp',
+        name: 'Umbraan Orrery',
+      },
+      {
+        image: 'https://static.paliapedia.com/images/items/128/decor-narrative-ulfe-friendship-drawing-framed.webp',
+        tags: [Tag.WALL],
+        name: 'Ulfe Sketch',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
+      {
+        image: '',
+        name: '',
+      },
     ],
   },
   {
@@ -5034,8 +5065,19 @@ export const iListCollections: ICollection[] = [
         name: 'Lil Sprout',
       },
       {
-        image: 'https://static.paliapedia.com/images/items/128/building-watertower.webp',
-        name: 'Water Tower',
+        image: 'https://palia.wiki.gg/images/Rainbow_Frogbert_Plush.png?b3187b',
+        tags: [Tag.PLUSH],
+        name: 'Rainbow Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Golden_Bee_Plush.png?64c8dd',
+        tags: [Tag.PLUSH],
+        name: 'Golden Bee Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bahari_Bee_Plush.png?571cce',
+        tags: [Tag.PLUSH],
+        name: 'Bahari Bee Plush',
       },
     ],
   },
@@ -5858,6 +5900,7 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://palia.wiki.gg/images/Pumpkin_Rockhopper.png?637a66',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Pumpkin Rockhopper',
       },
       {
@@ -5897,19 +5940,38 @@ export const iListCollections: ICollection[] = [
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/wallpaper-ushaped-02.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Woodland Deco Wallpaper',
       },
       {
         image: 'https://static.paliapedia.com/images/items/128/wallpaper-ushaped-01.webp',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Desert Deco Wallpaper',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Eclectic_Flooring.png/28px-Eclectic_Flooring.png?228c39',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: 'Eclectic Flooring',
       },
       {
         image: 'https://palia.wiki.gg/images/thumb/Maji%27s_Mark_Flooring.png/28px-Maji%27s_Mark_Flooring.png?7a811e',
+        tags: [Tag.NO_MORE_AVAILABLE],
         name: `Maji's Mark Flooring`,
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Amaranth_Tint.png?cc2d77',
+        tags: [Tag.NO_MORE_AVAILABLE],
+        name: 'Amaranth Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Dahlia_Tint.png?83dd90',
+        tags: [Tag.NO_MORE_AVAILABLE],
+        name: 'Dahlia Tint',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybee_Lure.png?fcb36a',
+        tags: [Tag.NO_MORE_AVAILABLE],
+        name: 'Honeybee Lure',
       },
     ],
   },
@@ -7102,6 +7164,170 @@ export const iListCollections: ICollection[] = [
       {
         image: 'https://palia.wiki.gg/images/Double_Decked.png?dc9a5a',
         name: 'Double Decked',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Alchemist_Fireplace.png?84bd72',
+        name: 'Alchemist Fireplace',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/King_Hoppington_Replica.png?317151',
+        name: 'King Hoppington Replica',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Frogbert_Plush.png?cc8653',
+        name: 'Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Big_Frogbert_Plush.png?655dea',
+        name: 'Big Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Bigger_Frogbert_Plush.png?fa808a',
+        name: 'Bigger Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giant_Frogbert_Plush.png?d15518',
+        name: 'Giant Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Painted_Froggy_Bucket.png?1ab51d',
+        name: 'Painted Froggy Bucket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Alchemist_Conservatory.png?25faf3',
+        name: 'Alchemist Conservatory',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Giga_Frogbert_Plush.png?c23a6e',
+        name: 'Giga Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Kilima_Froggy_Bucket.png?773e48',
+        name: 'Kilima Froggy Bucket',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Rainbow_Frogbert_Plush.png?b3187b',
+        tags: [Tag.PREMIUM],
+        name: 'Rainbow Frogbert Plush',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/thumb/Frogbert_Flare.png/28px-Frogbert_Flare.png?881626',
+        tags: [Tag.PREMIUM],
+        name: 'Frogbert Flare',
+      },
+    ],
+  },
+  {
+    name: 'Honeybunch',
+    type: TypeCollection.SET,
+    palette: 'pineapple',
+    color: 300,
+    items: [
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Armchair.png?516e2d',
+        tags: [Tag.INTERRACTIVE],
+        name: 'Honeybunch Armchair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Bed.png?4cfe67',
+        tags: [Tag.INTERRACTIVE],
+        name: 'Honeybunch Bed',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Bee_Plaque.png?2dd959',
+        tags: [Tag.WALL],
+        name: 'Honeybunch Bee Plaque',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Bookshelf.png?e62503',
+        name: 'Honeybunch Bookshelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Chair.png?6a9cbb',
+        tags: [Tag.INTERRACTIVE],
+        name: 'Honeybunch Chair',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Dresser.png?1caaf2',
+        name: 'Honeybunch Dresser',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_End_Table.png?c9ea1b',
+        name: 'Honeybunch End Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Hand_Towel.png?3b280f',
+        tags: [Tag.WALL],
+        name: 'Honeybunch Hand Towel',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Hexaframe.png?f8d0b7',
+        tags: [Tag.WALL],
+        name: 'Honeybunch Hexaframe',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Hivelight.png?1f7c25',
+        tags: [Tag.LIGHT],
+        name: 'Honeybunch Hivelight',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Lamp.png?45456d',
+        tags: [Tag.LIGHT],
+        name: 'Honeybunch Lamp',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Mirror.png?746b3f',
+        tags: [Tag.WALL],
+        name: 'Honeybunch Mirror',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Planter.png?c6147b',
+        name: 'Honeybunch Planter',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Rug.png?33c17e',
+        name: 'Honeybunch Rug',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Sconce.png?b169a5',
+        tags: [Tag.LIGHT],
+        name: 'Honeybunch Sconce',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Screen.png?afa84a',
+        name: 'Honeybunch Screen',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Settee.png?bd54e7',
+        tags: [Tag.INTERRACTIVE],
+        name: 'Honeybunch Settee',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Shelf.png?36d33d',
+        tags: [Tag.WALL],
+        name: 'Honeybunch Shelf',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Shower.png?b27c3a',
+        tags: [Tag.WATER],
+        name: 'Honeybunch Shower',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Sink.png?6ab64e',
+        tags: [Tag.WATER],
+        name: 'Honeybunch Sink',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Table.png?2c2cff',
+        name: 'Honeybunch Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Tea_Table.png?9f05b8',
+        name: 'Honeybunch Tea Table',
+      },
+      {
+        image: 'https://palia.wiki.gg/images/Honeybunch_Toilet.png?7da82b',
+        name: 'Honeybunch Toilet',
       },
     ],
   },
